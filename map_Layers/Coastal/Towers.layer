@@ -1,0 +1,59 @@
+SCR_DestructibleBuildingEntity : "{0EE7AF83D1711461}PrefabLibrary/Structures/Agriculture/WaterTower_01.et" {
+ coords 6985.719 0.001 1560.476
+}
+SCR_DestructibleBuildingEntity : "{1A4A64AD1C9A15BA}PrefabLibrary/Structures/Airport/ControlTower_01.et" {
+ coords 6614.061 0.758 1462.809
+}
+SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
+ coords 6997.178 0 1635.933
+}
+SCR_DestructibleBuildingEntity : "{5CF33ABAD1662F89}PrefabLibrary/Infrastructure/PhoneBooth_E_01.et" {
+ coords 6887.748 0 1529.033
+}
+$grp StaticModelEntity : "{61EBFF9FAC0429DE}PrefabLibrary/Infrastructure/Towers/TransmissionTower_01.et" {
+ {
+  coords 7190.644 12.831 1337.493
+ }
+ {
+  coords 5303.452 32.459 1933.556
+ }
+ {
+  coords 4938.029 2.977 3111.922
+ }
+ {
+  coords 5402.671 14.578 4349.463
+ }
+ {
+  coords 5710.4 10.392 6328.252
+ }
+ {
+  coords 4797.228 9.291 7807.302
+ }
+ {
+  coords 3545.104 6.661 4818.1
+ }
+}
+SCR_DestructibleBuildingEntity : "{777E7553D60DF9A2}PrefabLibrary/Structures/Agriculture/SilageStorage_E_01.et" {
+ coords 6996.819 -0 1602.335
+ angleY 87.902
+}
+$grp SCR_JunctionPowerPole : "{7A7C4DFEC7961297}PrefabLibrary/Infrastructure/Powerline/PowerLine_03_pole_junction.et" {
+ {
+  coords 6695.054 -0 1457.525
+ }
+ {
+  coords 6696.374 0 1498.854
+ }
+}
+SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/Structures/Airport/Hangar_01.et" {
+ coords 6661.168 0.632 1471.636
+ angleY 179.927
+}
+$grp StaticModelEntity : "{9EB95C9341F36945}PrefabLibrary/Structures/Airport/AntennaAirport_01/AntennaAirport_01.et" {
+ {
+  coords 6719.979 6.656 1423.791
+ }
+ {
+  coords 6454.075 5.355 1426.807
+ }
+}
