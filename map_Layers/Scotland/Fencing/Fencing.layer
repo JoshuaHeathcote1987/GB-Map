@@ -4,7 +4,7 @@ $grp SplineShapeEntity {
   angleY -82.668
   Points {
    ShapePoint "{65DF12D719553369}" {
-    Position 0.512 -0 -0.194
+    Position 0.512 0 -0.194
    }
    ShapePoint "{65DF12D719552A60}" {
     Position -8.587 0.025 -3.705
@@ -22,10 +22,10 @@ $grp SplineShapeEntity {
     Position -34.473 0.125 -9.405
    }
    ShapePoint "{65DF12D72458355C}" {
-    Position -64.297 -0 4.63
+    Position -64.297 0 4.63
    }
    ShapePoint "{65DF2AFA391481F7}" {
-    Position -77.622 -0 29.521
+    Position -77.622 0 29.521
    }
    ShapePoint "{65DF2AFAC7FE6013}" {
     Position -44.096 0.224 54.257
@@ -68,35 +68,35 @@ $grp SplineShapeEntity {
        angleY 207.081
       }
       {
-       coords -56.262 -0 -0.801
+       coords -56.262 0 -0.801
        angleY 210.353
       }
       {
-       coords -59.709 -0 1.215
+       coords -59.709 0 1.215
        angleY 215.22
       }
       {
-       coords -68.817 -0 8.974
+       coords -68.817 0 8.974
        angleY 227.587
       }
       {
-       coords -71.511 -0 11.921
+       coords -71.511 0 11.921
        angleY 231.693
       }
       {
-       coords -73.988 -0 15.053
+       coords -73.988 0 15.053
        angleY 237.711
       }
       {
-       coords -76.125 -0 18.426
+       coords -76.125 0 18.426
        angleY 246.726
       }
       {
-       coords -77.708 -0 22.093
+       coords -77.708 0 22.093
        angleY 261.337
       }
       {
-       coords -73.635 -0 34.668
+       coords -73.635 0 34.668
        angleY 319.475
       }
       {
@@ -150,7 +150,7 @@ $grp SplineShapeEntity {
        angleY 165.827
       }
       {
-       coords -78.316 -0 26.04
+       coords -78.316 0 26.04
        angleY 276.657
       }
       {
@@ -168,7 +168,7 @@ $grp SplineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/Walls/Brick/BrickWall_01_8m.et" {
       {
-       coords 0.533 -0 -0.186
+       coords 0.533 0 -0.186
        angleY 158.793
       }
       {
@@ -180,11 +180,11 @@ $grp SplineShapeEntity {
        angleY 197.033
       }
       {
-       coords -62.973 -0 3.515
+       coords -62.973 0 3.515
        angleY 223.063
       }
       {
-       coords -78.094 -0 28.028
+       coords -78.094 0 28.028
        angleY 303.925
       }
       {
@@ -237,7 +237,7 @@ $grp SplineShapeEntity {
   coords 5521.713 18.505 5353.02
   Points {
    ShapePoint "{65DF2AFAD999A1FE}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65DF2AFAD999DE99}" {
     Position 42.638 -0.036 17.603
@@ -295,7 +295,7 @@ $grp SplineShapeEntity {
       angleY 337.567
      }
      SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/Walls/Brick/BrickWall_01_8m.et" {
-      coords -0.021 -0 -0.009
+      coords -0.021 0 -0.009
       angleY 337.567
      }
     }
