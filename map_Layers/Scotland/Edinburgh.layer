@@ -1,3 +1,300 @@
-SCR_DestructibleBuildingEntity : "{1A4A64AD1C9A15BA}PrefabLibrary/Structures/Airport/ControlTower_01.et" {
- coords 5203.527 -0 5536.833
+$grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
+ {
+  coords 5399.868 24.27 5275.188
+  angleY 86.569
+ }
+ {
+  coords 5399.106 24.445 5260.801
+  angleY 105.558
+ }
+ {
+  coords 5393.725 24.353 5252.279
+  angleY -70.162
+ }
+ {
+  coords 5389.692 24.094 5236.51
+  angleY 134.421
+ }
+ {
+  coords 5373.058 45.593 5227.877
+  angleX -0.166
+  angleY 162.093
+  angleZ -176.829
+ }
+ {
+  coords 5351.874 46.306 5223.404
+  angleX -1.392
+  angleY -174.933
+  angleZ -177.145
+ }
+ {
+  coords 5333.634 24.869 5225.6
+  angleX -0.873
+  angleY -161.722
+  angleZ -2.373
+ }
+ {
+  coords 5317.045 44.748 5233.252
+  angleX 0.074
+  angleY 35.24
+  angleZ -177.253
+ }
+ {
+  coords 5302.39 24.528 5247.054
+  angleX 0.623
+  angleY -127.296
+  angleZ -2.45
+ }
+ {
+  coords 5294.568 24.392 5261.938
+  angleX 1.486
+  angleY -105.567
+  angleZ -2.046
+ }
+ {
+  coords 5292.882 45.578 5275.746
+  angleX -1.177
+  angleY 87.202
+  angleZ 178.471
+ }
+ {
+  coords 5297.098 45.508 5297.333
+  angleX 0.265
+  angleY -63.109
+  angleZ -178.089
+ }
+ {
+  coords 5308.009 45.73 5315.368
+  angleX 0.306
+  angleY 133.881
+  angleZ 178.801
+ }
+ {
+  coords 5322.07 45.425 5326.538
+  angleX 0.017
+  angleY -30.238
+  angleZ 178.64
+ }
+ {
+  coords 5339.772 24.721 5332.907
+  angleX 0.668
+  angleY -2.253
+  angleZ -1.221
+ }
+ {
+  coords 5357.823 24.463 5331.338
+  angleX -0.906
+  angleY -170.328
+  angleZ 1.056
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structures/Landmarks/Castle_01_Pillar.et" {
+ {
+  coords 5385.431 52.243 5305.016
+  angleY -119.222
+ }
+ {
+  coords 5390.927 52.37 5294.248
+  angleY -119.222
+ }
+ {
+  coords 5382.212 51.037 5305.521
+  angleY 62.121
+ }
+ {
+  coords 5387.664 51.215 5294.766
+  angleY 62.121
+ }
+ {
+  coords 5397.396 46.677 5263.456
+  angleY 97.596
+ }
+ {
+  coords 5390.454 46.617 5243.509
+  angleY 124.614
+ }
+ {
+  coords 5376.237 46.574 5230.46
+  angleY 156.411
+ }
+ {
+  coords 5356.441 46.661 5225.373
+  angleY 175.357
+ }
+ {
+  coords 5335.965 46.58 5225.905
+  angleY -163.412
+ }
+ {
+  coords 5318.634 46.624 5235.123
+  angleY -145.372
+ }
+ {
+  coords 5303.949 46.726 5249.795
+  angleY -121.783
+ }
+ {
+  coords 5297.851 46.687 5268.958
+  angleY -99.42
+ }
+ {
+  coords 5297.502 46.711 5289.092
+  angleY -78.486
+ }
+ {
+  coords 5306.63 46.669 5307.398
+  angleY -55.902
+ }
+ {
+  coords 5320.157 46.653 5322.422
+  angleY -32.224
+ }
+ {
+  coords 5338.697 46.514 5329.321
+  angleY -7.735
+ }
+ {
+  coords 5359.008 46.631 5327.671
+  angleY 17.065
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{4B7F9020CE1AE2CF}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Corner.et" {
+ {
+  coords 5379.131 -1.348 5316.677
+  angleY -86.798
+ }
+ {
+  coords 5362.461 -1.472 5328.755
+  angleY -118.809
+ }
+ {
+  coords 5341.539 -1.53 5331.444
+  angleY -137.576
+ }
+ {
+  coords 5321.814 -1.491 5325.704
+  angleY -167.277
+ }
+ {
+  coords 5306.539 -1.511 5311.011
+  angleY 169.639
+ }
+ {
+  coords 5296.436 -1.542 5292.728
+  angleY 146.677
+ }
+ {
+  coords 5295.614 -1.482 5271.435
+  angleY 128.695
+ }
+ {
+  coords 5301.031 -1.647 5251.388
+  angleY 102.444
+ }
+ {
+  coords 5315 -1.572 5235.644
+  angleY 80.735
+ }
+ {
+  coords 5332.604 -1.497 5224.978
+  angleY 57.006
+ }
+ {
+  coords 5353.614 -1.38 5223.277
+  angleY 41.423
+ }
+ {
+  coords 5374.364 -1.657 5227.647
+  angleY 14.081
+ }
+ {
+  coords 5390.833 -1.443 5240.634
+  angleY -15.75
+ }
+ {
+  coords 5398.83 -1.652 5259.949
+  angleY -39.714
+ }
+ {
+  coords 5397.238 -1.518 5280.788
+  angleY -67.355
+ }
+ {
+  coords 5394.599 -2.479 5283.406
+  angleY 117.461
+ }
+ {
+  coords 5374.951 -2.684 5318.652
+  angleY 90.069
+ }
+}
+SCR_DestructibleBuildingEntity : "{C38D26DC8D2A213E}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Skewed.et" {
+ coords 5385.649 0.867 5304.877
+ angleY -117.393
+}
+$grp SCR_DestructibleBuildingEntity : "{CD9542CDCCDDFFC4}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01.et" {
+ {
+  coords 5355.649 0 5222.923
+  angleY -13.487
+ }
+ {
+  coords 5376.453 0.001 5227.937
+  angleY -41.059
+ }
+ {
+  coords 5315.698 0 5234.226
+  angleY 29.486
+ }
+ {
+  coords 5334.334 0.005 5223.714
+  angleY 1.914
+ }
+ {
+  coords 5294.877 0 5269.658
+  angleY 72.963
+ }
+ {
+  coords 5301.173 -0.001 5249.204
+  angleY 45.391
+ }
+ {
+  coords 5305.135 0 5309.782
+  angleY 117.829
+ }
+ {
+  coords 5295.168 0.077 5290.843
+  angleY 90.257
+ }
+ {
+  coords 5392.049 0.001 5241.958
+  angleY -69.157
+ }
+ {
+  coords 5399.64 0.024 5261.968
+  angleY -96.729
+ }
+ {
+  coords 5339.727 0.002 5332.157
+  angleY 160.779
+ }
+ {
+  coords 5319.528 -0.001 5325.086
+  angleY 133.206
+ }
+ {
+  coords 5378.844 0.109 5318.592
+  angleY -147.535
+ }
+ {
+  coords 5360.773 0.012 5330.058
+  angleY -175.107
+ }
+}
+SCR_DestructibleBuildingEntity : "{D1187FAE9036166F}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Skewed_02.et" {
+ coords 5397.178 0.217 5282.646
+ angleY -118
+}
+SCR_IndestructibleEnvironmentalEntity : "{F4DF7DEDAB805624}PrefabLibrary/Rocks/Granite/GraniteRock_03/GraniteRock_03.et" {
+ coords 5370.676 40.844 5324.598
+ angleY 24.616
 }
