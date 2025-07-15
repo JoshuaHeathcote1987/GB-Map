@@ -1,3 +1,166 @@
+$grp SplineShapeEntity {
+ {
+  coords 7017.747 6.003 1772.221
+  Points {
+   ShapePoint "{65DE214CFD984DC0}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65DE214CFD98934F}" {
+    Position -33.451 -1.372 522.974
+   }
+   ShapePoint "{65DE214CC4F41E71}" {
+    Position -366.681 1.526 1011.416
+   }
+   ShapePoint "{65DE214CC708E695}" {
+    Position -419.922 -2.909 1716.105
+   }
+   ShapePoint "{65DE214CCCE136C6}" {
+    Position -796.901 -1.659 2282.092
+   }
+   ShapePoint "{65DE214CD67D0008}" {
+    Position -875.107 -0.19 2939.374
+   }
+   ShapePoint "{65DE214CDE9A90B4}" {
+    Position -903.518 -1.65 3196.379
+   }
+   ShapePoint "{65DE214CDFE0CC04}" {
+    Position -961.704 2.372 3391.142
+   }
+   ShapePoint "{65DE214CA1D04DF0}" {
+    Position -1096.058 -0.746 3546.357
+   }
+   ShapePoint "{65DE214CA63FB600}" {
+    Position -1249.369 0.982 3621.186
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position -33.451 -1.372 522.974
+       }
+       ShapePoint "{65DE214CBE8B6AEB}" {
+        Position -366.681 1.526 1011.416
+       }
+       ShapePoint "{65DE214CBE8B6A51}" {
+        Position -419.922 -2.909 1716.105
+       }
+       ShapePoint "{65DE214CBE8B6B8A}" {
+        Position -796.901 -1.659 2282.092
+       }
+       ShapePoint "{65DE214CBE8B6BCF}" {
+        Position -875.107 -0.19 2939.374
+       }
+       ShapePoint "{65DE214CBE8B6B06}" {
+        Position -903.518 -1.65 3196.379
+       }
+       ShapePoint "{65DE214CBE8B6B7D}" {
+        Position -961.704 2.372 3391.142
+       }
+       ShapePoint "{65DE214CBE8B68B1}" {
+        Position -1096.058 -0.746 3546.357
+       }
+       ShapePoint "{65DE214CBE8B68EA}" {
+        Position -1249.369 0.982 3621.187
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7000.874 5.459 1777.736
+  Points {
+   ShapePoint "{65DE214CFD984DC0}" {
+    Position 0 0 0
+   }
+   ShapePoint "{65DE214CFD98934F}" {
+    Position -34.489 -1.397 515.423
+   }
+   ShapePoint "{65DE214CC4F41E71}" {
+    Position -366.681 1.526 1011.416
+   }
+   ShapePoint "{65DE214CC708E695}" {
+    Position -421.273 -2.909 1709.062
+   }
+   ShapePoint "{65DE214CCCE136C6}" {
+    Position -799.868 -1.647 2284.312
+   }
+   ShapePoint "{65DE214CD67D0008}" {
+    Position -872.168 -0.209 2936.264
+   }
+   ShapePoint "{65DE214CDE9A90B4}" {
+    Position -900.414 -1.677 3188.335
+   }
+   ShapePoint "{65DE214CDFE0CC04}" {
+    Position -962.373 2.366 3388.59
+   }
+   ShapePoint "{65DE214CA1D04DF0}" {
+    Position -1093.718 -0.303 3534.951
+   }
+   ShapePoint "{65DE214CA63FB600}" {
+    Position -1227.574 0.521 3599.105
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position -34.489 -1.396 515.424
+       }
+       ShapePoint "{65DE214CBE8B6AEB}" {
+        Position -366.681 1.526 1011.416
+       }
+       ShapePoint "{65DE214CBE8B6A51}" {
+        Position -421.273 -2.909 1709.062
+       }
+       ShapePoint "{65DE214CBE8B6B8A}" {
+        Position -799.868 -1.646 2284.312
+       }
+       ShapePoint "{65DE214CBE8B6BCF}" {
+        Position -872.168 -0.209 2936.264
+       }
+       ShapePoint "{65DE214CBE8B6B06}" {
+        Position -900.414 -1.677 3188.335
+       }
+       ShapePoint "{65DE214CBE8B6B7D}" {
+        Position -962.373 2.366 3388.59
+       }
+       ShapePoint "{65DE214CBE8B68B1}" {
+        Position -1093.718 -0.303 3534.951
+       }
+       ShapePoint "{65DE214CBE8B68EA}" {
+        Position -1227.574 0.521 3599.105
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+}
 Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- coords 6909.686 5.471 1585.038
+ coords 7017.708 6.682 1779.714
+}
+Vehicle UH1H1 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 7000.885 5.406 1789.083
 }
