@@ -1,3 +1,7 @@
+SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_red.et" {
+ coords 5607.109 -0.133 5378.492
+ angleY -18.288
+}
 SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Houses/House_Village_E_1L02t.et" {
  coords 5501.457 -0.286 5387.918
  angleY 158.093
@@ -63,11 +67,15 @@ SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Hou
  angleY 176.109
 }
 Tree : "{8F91FCAFE65FCDA6}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_3s.et" {
- coords 5561.063 -0 5360.473
+ coords 5561.063 0 5360.473
 }
 SCR_DestructibleBuildingEntity : "{BB7AA78F9AA6A2C6}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_GraveFence_E_02.et" {
  coords 5546.209 0.151 5356.38
  angleY -111.211
+}
+SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01_white.et" {
+ coords 5492.104 0 5304.989
+ angleY 90.334
 }
 SCR_DestructibleBuildingEntity : "{CB01B5B68D9EF4C4}PrefabLibrary/Structures/Houses/Villa_E_2I01.et" {
  coords 5544.448 -0.001 5392.666
@@ -149,11 +157,11 @@ $grp SCR_DestructibleBuildingEntity : "{D9BE883AF3A6B42A}PrefabsEditable/Auto/St
   angleY -110.603
  }
  {
-  coords 5562.079 -0 5332.48
+  coords 5562.079 0 5332.48
   angleY -110.603
  }
  {
-  coords 5547.778 -0 5352.439
+  coords 5547.778 0 5352.439
   angleY -110.603
  }
  {
