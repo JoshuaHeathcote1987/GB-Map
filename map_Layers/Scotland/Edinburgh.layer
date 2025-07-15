@@ -1,3 +1,53 @@
+$grp SCR_IndestructibleEnvironmentalEntity : "{0D20C7931CB82F34}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01_Fucus.et" {
+ {
+  coords 5471.452 -0.512 5473.625
+  angleX -1.315
+  angleY 0.583
+  angleZ -87.377
+  scale 1.38
+ }
+ {
+  coords 5441.238 -2.909 5467.065
+  angleX -2.668
+  angleY 88.609
+  angleZ -91.222
+  scale 1.38
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{11433114A765C14F}PrefabLibrary/Rocks/Granite/GraniteRock_02/GraniteRock_02.et" {
+ {
+  coords 5465.682 11.451 5468.999
+  angleY -152.914
+ }
+ {
+  coords 5439.134 12.36 5463.559
+  angleY 126.292
+ }
+ {
+  coords 5524.945 9.668 5475.524
+  angleY 57.779
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Rocks/Granite/GraniteStone_03.et" {
+ {
+  coords 5396.999 -1.926 5359.235
+  angleX 5.595
+  angleY 174.441
+  angleZ -4.428
+  scale 3.09
+ }
+ {
+  coords 5361.688 -0.737 5372.563
+  angleX -4.918
+  angleY 79.443
+  angleZ -5.17
+  scale 3.09
+ }
+}
+SCR_DestructibleBuildingEntity : "{270493CAE0CF24E4}PrefabLibrary/Structures/Landmarks/Castle_01_Tower.et" {
+ coords 5375.011 -0.787 5273.802
+ angleY -27.887
+}
 $grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
  {
   coords 5399.868 24.27 5275.188
@@ -87,6 +137,47 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/Ro
   angleY -170.328
   angleZ 1.056
  }
+ {
+  coords 5394.6 11.81 5370.567
+  angleX -1.203
+  angleY -90.729
+  angleZ -0.7
+ }
+ {
+  coords 5370.961 12.673 5382.278
+  angleX 0.063
+  angleY -28.32
+  angleZ -1.39
+ }
+ {
+  coords 5387.317 12.166 5384.634
+  angleX 1.064
+  angleY 18.923
+  angleZ -0.897
+ }
+ {
+  coords 5444.72 16.673 5289.062
+  angleX -1.383
+  angleY -114.314
+  angleZ -1.764
+ }
+ {
+  coords 5445.645 17.213 5272.917
+  angleX 0.78
+  angleY 114.97
+  angleZ 1.153
+ }
+ {
+  coords 5432.332 16.884 5262.756
+  angleX 0.283
+  angleY -19.191
+  angleZ -1.363
+ }
+ {
+  coords 5508.368 -2.257 5475.389
+  angleY -4.358
+  angleZ -3.174
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structures/Landmarks/Castle_01_Pillar.et" {
  {
@@ -156,6 +247,63 @@ $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structure
  {
   coords 5359.008 46.631 5327.671
   angleY 17.065
+ }
+}
+SCR_DestructibleBuildingEntity : "{348E1AD076AB297B}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_01.et" {
+ coords 5353.141 0 5309.36
+ angleY 63.264
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
+ {
+  coords 5526.427 -1.452 5477.266
+  angleX 82.671
+  angleY -168.809
+  angleZ -8.56
+  scale 0.909
+ }
+ {
+  coords 5523.784 -0.838 5471.812
+  angleX 82.671
+  angleY -168.809
+  angleZ -8.56
+  scale 0.909
+ }
+ {
+  coords 5526.846 -0 5480.879
+  angleX 82.671
+  angleY -168.809
+  angleZ -164.497
+  scale 0.909
+ }
+ {
+  coords 5452.585 -0.999 5467.687
+  angleX 82.671
+  angleY -168.809
+  angleZ 113.582
+  scale 0.909
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{46D02BBCD83033CC}PrefabLibrary/Rocks/Granite/Granite_BeachCluster_01/Granite_BeachCluster_01.et" {
+ {
+  coords 5360.165 0.237 5366.047
+  angleX 1.962
+  angleY -95.241
+  angleZ 25.087
+  scale 1.139
+ }
+ {
+  coords 5396.122 0.377 5384.92
+  angleX 1.962
+  angleY -95.241
+  angleZ 4.697
+  scale 1.139
+ }
+ {
+  coords 5372.483 0.156 5389.395
+  angleX 1.962
+  angleY -95.241
+  angleZ 0.865
+  scale 1.139
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{4B7F9020CE1AE2CF}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Corner.et" {
@@ -228,6 +376,53 @@ $grp SCR_DestructibleBuildingEntity : "{4B7F9020CE1AE2CF}PrefabLibrary/Structure
   angleY 90.069
  }
 }
+SCR_IndestructibleEnvironmentalEntity : "{549864A8B1ED43D3}PrefabLibrary/Rocks/Granite/Granite_Boulder_02/Granite_Boulder_02.et" {
+ coords 5454.019 -1.806 5467.513
+ angleX -7.975
+ angleY -138.833
+ angleZ -3.488
+ scale 0.92
+}
+SCR_IndestructibleEnvironmentalEntity : "{576B724EEC3AD703}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_01/GraniteSurfaceStone_01.et" {
+ coords 5429.907 13.32 5465.151
+ angleX -61.508
+ angleZ -3.743
+ scale 1.094
+}
+SCR_DestructibleBuildingEntity : "{58DA2E30CA6FA655}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_02.et" {
+ coords 5362.944 0.006 5313.997
+ angleX 0.369
+ angleY 60.722
+ angleZ 0.394
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{7D1705F41BA14E61}PrefabLibrary/Rocks/Granite/GraniteRock_01/GraniteRock_01.et" {
+ {
+  coords 5447.571 12.401 5465.08
+  angleY 160.043
+ }
+ {
+  coords 5520.181 12.103 5474.646
+  angleY 52.978
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{AE8CA342C9C3EC27}PrefabLibrary/Rocks/Granite/GraniteCliff_01/GraniteCliff_01.et" {
+ coords 5476.511 17.969 5472.235
+ angleX 0.149
+ angleY -4.862
+ angleZ -178.248
+}
+SCR_DestructibleBuildingEntity : "{BB6EED4B5022395D}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_Small_02.et" {
+ coords 5367.779 1.764 5299.72
+ angleX -0.021
+ angleY 152.387
+ angleZ 0.384
+}
+SCR_IndestructibleEnvironmentalEntity : "{C2D897A275076309}PrefabLibrary/Rocks/Granite/GraniteCliff_02/GraniteCliff_02.et" {
+ coords 5490.631 17.285 5475.932
+ angleX -0.058
+ angleY 169.71
+ angleZ 179.264
+}
 SCR_DestructibleBuildingEntity : "{C38D26DC8D2A213E}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Skewed.et" {
  coords 5385.649 0.867 5304.877
  angleY -117.393
@@ -294,7 +489,28 @@ SCR_DestructibleBuildingEntity : "{D1187FAE9036166F}PrefabLibrary/Structures/Lan
  coords 5397.178 0.217 5282.646
  angleY -118
 }
-SCR_IndestructibleEnvironmentalEntity : "{F4DF7DEDAB805624}PrefabLibrary/Rocks/Granite/GraniteRock_03/GraniteRock_03.et" {
- coords 5370.676 40.844 5324.598
- angleY 24.616
+SCR_DestructibleBuildingEntity : "{D73AD9ABECE6B673}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_Small_01.et" {
+ coords 5360.495 1.8 5316.313
+ angleY 151.502
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{F4DF7DEDAB805624}PrefabLibrary/Rocks/Granite/GraniteRock_03/GraniteRock_03.et" {
+ {
+  coords 5370.676 40.844 5324.598
+  angleY 24.616
+ }
+ {
+  coords 5456.428 11.98 5467.817
+  angleY 156.869
+ }
+ {
+  coords 5415.621 12.006 5460.956
+  angleY 164.555
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{FE383DD7E1E92563}PrefabLibrary/Rocks/Granite/GraniteStone_02.et" {
+ coords 5361.532 0.208 5369.785
+ angleX 0.423
+ angleY -59.438
+ angleZ 4.097
+ scale 2.493
 }
