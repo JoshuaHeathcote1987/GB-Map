@@ -220,7 +220,7 @@ $grp PolylineShapeEntity {
   coords 7371.963 3.835 1599.793
   Points {
    ShapePoint "{65DEF20B3472EE48}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65DEF20B3474C8A8}" {
     Position 53.757 -0.521 2.522
@@ -2089,7 +2089,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{65DEF20FF385DE48}" {
-    Position -5.247 -0 86.05
+    Position -5.247 0 86.05
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -2540,7 +2540,6 @@ $grp SplineShapeEntity {
        angleX 2.275
        angleY -172.117
        angleZ 1.368
-       scale 1
       }
      }
      $grp Tree : "{913BFDAA2CE68926}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_stump_01.et" {
@@ -3181,7 +3180,6 @@ $grp SplineShapeEntity {
        angleX 1.384
        angleY 109.35
        angleZ -0.484
-       scale 1
       }
       {
        coords 20.3 0 69.265
@@ -3416,7 +3414,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{65DEF20FCB646353}" {
-    Position 57.168 -0 -7.029
+    Position 57.168 0 -7.029
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -4338,7 +4336,6 @@ $grp SplineShapeEntity {
        angleX -1.622
        angleY 22.632
        angleZ 1.876
-       scale 1
       }
       {
        coords 58.942 0 -77.307
@@ -7573,7 +7570,7 @@ GenericEntity : "{08EC3F22FA0347F3}PrefabLibrary/Props/Industrial/CargoContainer
  angleY 53.397
 }
 SCR_DestructibleBuildingEntity : "{090D0648AA1ED6CB}PrefabLibrary/Props/Cultural/Grave_E_01_FrameSquare.et" {
- coords 7138.417 -0 1410.8
+ coords 7138.417 0 1410.8
 }
 $grp GenericEntity : "{0B141EBFAA428804}PrefabLibrary/Props/Garbage/TrashBin_02/TrashBin_02_patched.et" {
  {
@@ -7659,7 +7656,7 @@ GenericEntity : "{0F959018CEF117DB}PrefabLibrary/Props/Civilian/BasketWicker_01_
 }
 $grp SCR_DestructibleBuildingEntity : "{131174C7783DF918}PrefabLibrary/Props/Cultural/GraveStone_E_01_C.et" {
  {
-  coords 7121.656 -0 1490.143
+  coords 7121.656 0 1490.143
  }
  {
   coords 7126.435 0 1467.96
@@ -8171,7 +8168,7 @@ $grp SCR_DestructibleBuildingEntity : "{70CD78BCB2DCFE20}PrefabLibrary/Props/Cul
   angleY -76.026
  }
  {
-  coords 7103.864 -0 1479.942
+  coords 7103.864 0 1479.942
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{777E1C3BF5898638}PrefabLibrary/Structures/Houses/House_Village_E_1I04sr/House_Village_E_1I04sr_red.et" {
@@ -8309,7 +8306,7 @@ StaticModelEntity : "{8BE4E6A48F509A4E}PrefabLibrary/Props/Cultural/PlagueColumn
  coords 7120.667 0 1456.755
 }
 SCR_DestructibleBuildingEntity : "{8C72A5F00F23120F}PrefabLibrary/Props/Cultural/Fountain_01.et" {
- coords 7132.459 -0 1455.221
+ coords 7132.459 0 1455.221
 }
 $grp GenericEntity : "{8D927215B1C21C9B}PrefabLibrary/Props/Infrastructure/FireExtinguisherBox_01.et" {
  {
@@ -8494,7 +8491,7 @@ SCR_DestructibleBuildingEntity : "{9A11BC58DEF42A97}PrefabLibrary/Structures/Hou
 }
 $grp SCR_DestructibleBuildingEntity : "{9AD90CDEC81CE15D}PrefabLibrary/Props/Cultural/GraveStone_E_01_A.et" {
  {
-  coords 7111.073 -0 1490.14
+  coords 7111.073 0 1490.14
  }
  {
   coords 7115.852 0 1467.957
@@ -8702,7 +8699,7 @@ $grp StaticModelEntity : "{ECA847D743B79543}PrefabLibrary/Props/Airport/LightRun
  }
 }
 SCR_DestructibleBuildingEntity : "{ECE10687A4EB6CA5}PrefabLibrary/Structures/Cultural/ChurchSmall_E_01/ChurchSmall_E_01_weathered.et" {
- coords 5460.444 -0 3235.718
+ coords 5460.444 0 3235.718
 }
 GenericEntity : "{EE990EFCF9DCB2B2}PrefabLibrary/Props/Garbage/MetalContainer_01/MetalContainer_01_blue.et" {
  coords 7322.177 4.281 1622.085
@@ -8719,7 +8716,7 @@ $grp GenericEntity : "{F5589597452FE918}PrefabLibrary/Infrastructure/Stairs/Conc
 }
 $grp SCR_DestructibleBuildingEntity : "{F68D383E74D86E73}PrefabLibrary/Props/Cultural/GraveStone_E_01_B.et" {
  {
-  coords 7104.395 -0 1489.906
+  coords 7104.395 0 1489.906
  }
  {
   coords 7109.173 0 1467.723
@@ -8738,7 +8735,7 @@ $grp GenericEntity : "{F7C5E866921AF328}PrefabLibrary/Props/Construction/Concret
  }
 }
 SCR_DestructibleBuildingEntity : "{FA6DD871B6278529}PrefabLibrary/Props/Cultural/Grave_E_01_Frame.et" {
- coords 7129.861 -0 1411.223
+ coords 7129.861 0 1411.223
 }
 GenericEntity : "{FA7D049A734AD1B5}PrefabLibrary/Vegetation/Debris/BranchTrash_con_01.et" {
  coords 6784.424 5.097 1451.587
@@ -8751,5 +8748,5 @@ GenericEntity : "{FE9023F4FBB40195}PrefabLibrary/Props/Garbage/MetalContainer_01
  coords 7325.025 4.281 1625.198
 }
 SCR_DestructibleBuildingEntity : "{FFA5D2DA06D4AE82}PrefabLibrary/Structures/Cultural/ChurchSmall_E_01/ChurchSmall_E_01.et" {
- coords 5817.146 -0 3236.701
+ coords 5817.146 0 3236.701
 }
