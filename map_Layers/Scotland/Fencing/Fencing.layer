@@ -1,0 +1,84 @@
+SplineShapeEntity {
+ coords 5563.957 18.469 5370.245
+ Points {
+  ShapePoint "{65DF12D719553369}" {
+   Position 0 0 0
+  }
+  ShapePoint "{65DF12D719552A60}" {
+   Position -10.809 0 -3.934
+  }
+  ShapePoint "{65DF12D72511199F}" {
+   Position -19.153 0 -7.046
+  }
+  ShapePoint "{65DF12D7248DE367}" {
+   Position -34.742 0.031 -13.009
+  }
+  ShapePoint "{65DF12D72458355C}" {
+   Position -44.392 0.063 -16.999
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{AF108FF4DEAF3FFF}PrefabLibrary/Generators/Walls/Brick/WG_BrickWall_01.et" {
+   Flags 1048579
+   {
+    SCR_DestructibleEntity : "{40EA2C27A26EF15A}PrefabLibrary/Walls/Brick/BrickWall_01_Pole.et" {
+     coords -43.124 0.054 -16.463
+     angleY 157.082
+    }
+    $grp SCR_DestructibleEntity : "{4FE3FD617F94EABC}PrefabLibrary/Walls/Brick/BrickWall_01_2m.et" {
+     {
+      coords -7.494 0 -2.727
+      angleY 160
+     }
+     {
+      coords -16.871 0 -6.187
+      angleY 159.37
+     }
+     {
+      coords -24.536 0 -9.089
+      angleY 159.22
+     }
+     {
+      coords -26.404 0.007 -9.798
+      angleY 159.099
+     }
+     {
+      coords -28.271 0.031 -10.511
+      angleY 159.062
+     }
+     {
+      coords -30.137 0.031 -11.225
+      angleY 158.908
+     }
+     {
+      coords -32.001 0.031 -11.944
+      angleY 158.753
+     }
+     {
+      coords -41.271 0.04 -15.68
+      angleY 157.082
+     }
+    }
+    SCR_DestructibleEntity : "{A675F37CFBFDE046}PrefabLibrary/Walls/Brick/BrickWall_01_4m_D.et" {
+     coords -18.741 0 -6.891
+     angleY 159.23
+    }
+    $grp SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/Walls/Brick/BrickWall_01_8m.et" {
+     {
+      coords 0.022 0 0.008
+      angleY 160
+     }
+     {
+      coords -9.371 0 -3.41
+      angleY 159.683
+     }
+     {
+      coords -33.863 0.031 -12.667
+      angleY 157.869
+     }
+    }
+   }
+  }
+ }
+}

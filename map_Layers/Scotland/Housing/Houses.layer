@@ -2,9 +2,31 @@ SCR_DestructibleBuildingEntity : "{13D9C4416ED532D2}PrefabLibrary/Structures/Hou
  coords 5501.457 -0.286 5387.918
  angleY 158.093
 }
+SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/Structures/Cultural/Church_01.et" {
+ coords 5529.064 0 5327.755
+ angleY -23.089
+}
 SCR_DestructibleBuildingEntity : "{3714AD1861F44210}PrefabLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02.et" {
  coords 5527.706 0 5455.086
  angleY -171.276
+}
+$grp SCR_DestructibleBuildingEntity : "{45EE339FC3CE3AB8}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Tombstones/E_GraveStone_E_01_A.et" {
+ {
+  coords 5546.401 0.147 5330.577
+  angleY -109.515
+ }
+ {
+  coords 5550.336 0.131 5342.353
+  angleY -109.515
+ }
+ {
+  coords 5557.236 0.131 5347.033
+  angleY 70.207
+ }
+ {
+  coords 5539.886 0.131 5349.133
+  angleY -109.515
+ }
 }
 SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
  coords 5468.532 -0.25 5427.531
@@ -18,13 +40,126 @@ SCR_DestructibleBuildingEntity : "{5ECE42250DAB009E}PrefabLibrary/Structures/Hou
  coords 5497.541 -0.032 5429.993
  angleY -2.801
 }
+$grp SCR_DestructibleBuildingEntity : "{6E00504562990EF3}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_Grave_E_01_Frame_V1.et" {
+ {
+  coords 5547.383 0 5330.955
+  angleY -110.21
+ }
+ {
+  coords 5551.318 0 5342.73
+  angleY -110.21
+ }
+ {
+  coords 5556.256 0 5346.651
+  angleY 69.511
+ }
+ {
+  coords 5540.868 0 5349.511
+  angleY -110.21
+ }
+}
 SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
  coords 5492.87 -0.372 5455.018
  angleY 176.109
 }
+Tree : "{8F91FCAFE65FCDA6}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_3s.et" {
+ coords 5561.063 -0 5360.473
+}
+SCR_DestructibleBuildingEntity : "{BB7AA78F9AA6A2C6}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_GraveFence_E_02.et" {
+ coords 5546.209 0.151 5356.38
+ angleY -111.211
+}
 SCR_DestructibleBuildingEntity : "{CB01B5B68D9EF4C4}PrefabLibrary/Structures/Houses/Villa_E_2I01.et" {
  coords 5544.448 -0.001 5392.666
  angleY 160.173
+}
+$grp SCR_DestructibleBuildingEntity : "{CC264B8673EF22FD}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Tombstones/E_GraveStone_E_01_C.et" {
+ {
+  coords 5542.714 0.069 5341.651
+  angleY -111.254
+ }
+ {
+  coords 5542.333 0.094 5342.706
+  angleY -111.254
+ }
+ {
+  coords 5559.631 -0.021 5336.049
+  angleY -111.254
+ }
+ {
+  coords 5560.011 -0.028 5334.994
+  angleY -111.254
+ }
+ {
+  coords 5545.33 -0.021 5356.008
+  angleY -111.254
+ }
+ {
+  coords 5545.71 -0.028 5354.953
+  angleY -111.254
+ }
+ {
+  coords 5561.692 0.156 5350.659
+  angleY -111.254
+ }
+ {
+  coords 5562.072 0.149 5349.604
+  angleY -111.254
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D1C13682E4590A12}Prefabs/Structures/Cultural/Cemeteries/Graves/Grave_E_01_Covered_V1.et" {
+ {
+  coords 5546.753 0 5332.862
+  angleY -110.21
+ }
+ {
+  coords 5550.689 0 5344.638
+  angleY -110.21
+ }
+ {
+  coords 5556.895 0 5344.746
+  angleY 69.511
+ }
+ {
+  coords 5540.238 0 5351.418
+  angleY -110.21
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D901AD6D20BF55F1}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_Grave_E_01_CoveredDouble_V1.et" {
+ {
+  coords 5543.4 -0.043 5342.492
+  angleY 68.84
+ }
+ {
+  coords 5560.697 -0.124 5335.835
+  angleY 68.84
+ }
+ {
+  coords 5546.396 -0.124 5355.794
+  angleY 68.84
+ }
+ {
+  coords 5562.758 -0.083 5350.445
+  angleY 68.84
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D9BE883AF3A6B42A}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_Grave_E_01_Covered_V1.et" {
+ {
+  coords 5544.781 0.019 5339.137
+  angleY -110.603
+ }
+ {
+  coords 5562.079 -0 5332.48
+  angleY -110.603
+ }
+ {
+  coords 5547.778 -0 5352.439
+  angleY -110.603
+ }
+ {
+  coords 5564.14 -0.125 5347.09
+  angleY -110.603
+ }
 }
 SCR_DestructibleBuildingEntity : "{FD91510268A541A7}PrefabLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01_panels.et" {
  coords 5582.527 1.368 5465.614

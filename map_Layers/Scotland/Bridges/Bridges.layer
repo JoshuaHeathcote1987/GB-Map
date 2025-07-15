@@ -1,0 +1,34 @@
+$grp GenericEntity : "{532E2709E33FA192}Prefabs/Structures/BuildingParts/Bridges/BridgeRailingConcrete_01_pole.et" {
+ {
+  coords 5227.084 5.448 5552.481
+  angleY -2.921
+ }
+ {
+  coords 5217.78 5.549 5551.85
+  angleY -1.852
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{93575223CBE0E68D}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Pillar_narrow.et" {
+ {
+  coords 5221.119 -2.846 5580.903
+  angleY -91.406
+ }
+ {
+  coords 5219.727 -2.841 5605.788
+  angleY -93.189
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D97095FEEDBD5613}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow_Long_PillarSmall.et" {
+ {
+  coords 5221.155 5.433 5577.912
+  angleY 87.096
+ }
+ {
+  coords 5219.912 5.441 5603.41
+  angleY 87.096
+ }
+ {
+  coords 5218.579 5.448 5629.333
+  angleY 87.096
+ }
+}
