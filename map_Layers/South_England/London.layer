@@ -7642,7 +7642,7 @@ $grp SplineShapeEntity {
   coords 6916.844 5.095 1425.794
   Points {
    ShapePoint "{65E0C8B459859D76}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -8630,14 +8630,14 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{65E0C8B42F9F8D00}" {
-    Position -50.132 -0 -18.184
+    Position -50.132 0 -18.184
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{65E0C8B42F3739B0}" {
-    Position -26.249 -0 -5.167
+    Position -26.249 0 -5.167
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -8807,7 +8807,6 @@ $grp SplineShapeEntity {
        angleX 2.616
        angleY 40.255
        angleZ 0.73
-       scale 1
       }
       {
        coords -16.301 -0.421 -22.113
@@ -9206,7 +9205,7 @@ $grp SplineShapeEntity {
       }
      }
      Tree : "{AC43B039B67361F6}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
-      coords -62.031 -0 -33.754
+      coords -62.031 0 -33.754
       angleX -1.601
       angleY 99.759
       angleZ -1.998
@@ -11152,22 +11151,6 @@ SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structures/Hou
 GenericEntity : "{3BD68C63FD211654}PrefabLibrary/Props/Military/M151A2_wreck.et" {
  coords 6788.82 5.156 1454.601
 }
-$grp Tree : "{407A7B6D0444D05B}PrefabLibrary/Vegetation/Plants/b_urtica_dioica_0s.et" {
- {
-  coords 6966.146 0 1527.005
-  angleX 0.929
-  angleY 92.694
-  angleZ -2.067
-  scale 1.259
- }
- {
-  coords 6966.411 0 1528.604
-  angleX -2.595
-  angleY 154.472
-  angleZ 0.724
-  scale 0.976
- }
-}
 $grp GenericEntity : "{40FBD8EA6551D8A9}PrefabLibrary/Props/Construction/CableReelWooden_01.et" {
  {
   coords 7265.953 4.282 1619.568
@@ -11470,7 +11453,7 @@ $grp SCR_DestructibleBuildingEntity : "{70CD78BCB2DCFE20}PrefabLibrary/Props/Cul
 }
 $grp SCR_DestructibleBuildingEntity : "{7415AC9E85BD9D5E}PrefabLibrary/Structures/Industrial/PortableCabin_E_01/PortableCabin_E_01_yellow.et" {
  {
-  coords 6986.296 -0 1432.88
+  coords 6986.296 0 1432.88
  }
  {
   coords 6980.784 0 1432.984
