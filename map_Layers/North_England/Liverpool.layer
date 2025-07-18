@@ -392,7 +392,7 @@ $grp PolylineShapeEntity {
   coords 5760.626 6.188 3173.25
   Points {
    ShapePoint "{65E2DAA4D4F59835}" {
-    Position -0.427 -0 -0.302
+    Position -0.427 0 -0.302
    }
    ShapePoint "{65E2DAA4D4F5F6A9}" {
     Position -73.45 -0.989 -0.567
@@ -405,7 +405,7 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
       {
-       coords -0.218 -0 -0.301
+       coords -0.218 0 -0.301
        angleY -180.208
       }
       {
@@ -485,7 +485,7 @@ $grp PolylineShapeEntity {
   coords 5610.735 5.798 3247.08
   Points {
    ShapePoint "{65E2DAA376732256}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65E2DAA376736C1E}" {
     Position -1.305 -0.663 -135.746
@@ -723,7 +723,7 @@ $grp PolylineShapeEntity {
   coords 5622.886 4.558 3173.732
   Points {
    ShapePoint "{65E2DAA309800161}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65E2DAA3098064FF}" {
     Position 57.102 0.645 -0.739
@@ -736,7 +736,7 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
       {
-       coords -0.209 -0 0.003
+       coords -0.209 0 0.003
        angleY 0.741
       }
       {
@@ -902,7 +902,7 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
       {
-       coords -0 0.001 0.209
+       coords 0 0.001 0.209
        angleY 89.954
       }
       {
@@ -4044,7 +4044,7 @@ StaticModelEntity : "{5404B431E847D04F}PrefabLibrary/Structures/Cultural/Calvary
  coords 5805.959 0 3238.578
 }
 SCR_DestructibleBuildingEntity : "{58DA2E30CA6FA655}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_02.et" {
- coords 5790.537 -0 3335.336
+ coords 5790.537 0 3335.336
 }
 SCR_DestructibleBuildingEntity : "{5B43DD9C01A72C40}PrefabLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_green.et" {
  coords 5408.356 0.001 3322.426
