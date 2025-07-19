@@ -3322,7 +3322,6 @@ $grp PolylineShapeEntity {
        angleX 1.423
        angleY -144.859
        angleZ -0.078
-       scale 1
       }
       {
        coords -35.804 0.077 -107.751
@@ -4495,7 +4494,6 @@ $grp PolylineShapeEntity {
        angleX 1.881
        angleY 29.203
        angleZ 2.503
-       scale 1
       }
       {
        coords -50.061 0.223 -280.44
@@ -6105,7 +6103,6 @@ $grp PolylineShapeEntity {
        angleX 0.572
        angleY -140.574
        angleZ -1.023
-       scale 1
       }
       {
        coords 13.727 -0.434 -239.409
@@ -7106,7 +7103,6 @@ $grp PolylineShapeEntity {
        angleX -1.474
        angleY -152.945
        angleZ -0.821
-       scale 1
       }
       {
        coords 8.838 -0.214 -67.265
@@ -8812,7 +8808,6 @@ $grp PolylineShapeEntity {
        angleX 0.35
        angleY -156.813
        angleZ -1.897
-       scale 1
       }
       {
        coords 78.866 1.573 -109.491
@@ -11867,7 +11862,10 @@ $grp SplineShapeEntity {
     Position -15.023 -0.026 113.966
    }
    ShapePoint "{65E616A179DF7299}" {
-    Position -19.583 0.993 156.469
+    Position -21.696 0.525 161.957
+   }
+   ShapePoint "{65E6F25A3F35A3A3}" {
+    Position -19.099 1.432 195.014
    }
    ShapePoint "{65E616A17ACDE3CF}" {
     Position -27.513 0.716 243.53
@@ -11905,24 +11903,27 @@ $grp SplineShapeEntity {
         Position -15.023 -0.026 113.966
        }
        ShapePoint "{65E616A150C52372}" {
-        Position -19.583 0.993 156.468
+        Position -21.696 0.525 161.957
        }
        ShapePoint "{65E616A150C520B1}" {
-        Position -27.513 0.716 243.53
+        Position -19.099 1.432 195.014
        }
        ShapePoint "{65E616A150C520F4}" {
-        Position -22.229 -1.46 294.925
+        Position -27.513 0.716 243.53
        }
        ShapePoint "{65E616A150C5202B}" {
-        Position -26.474 0.65 353.929
+        Position -22.229 -1.46 294.925
        }
        ShapePoint "{65E616A150C52064}" {
-        Position -52.06 1.399 392.281
+        Position -26.474 0.65 353.929
        }
        ShapePoint "{65E616A150C521DA}" {
-        Position -113.08 -2.302 493.166
+        Position -52.06 1.399 392.281
        }
        ShapePoint "{65E616A150C521E4}" {
+        Position -113.08 -2.302 493.166
+       }
+       ShapePoint "{65E6F25A3F356F6D}" {
         Position -97.854 0.353 553.88
        }
       }

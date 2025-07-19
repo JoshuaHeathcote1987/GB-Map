@@ -1,0 +1,687 @@
+PolylineShapeEntity {
+ coords 3289.613 6.687 3130.534
+ Points {
+  ShapePoint "{65E705297C508357}" {
+   Position -42.445 -0.334 79
+  }
+  ShapePoint "{65E7052979E5219D}" {
+   Position -55.103 -0.306 79.074
+  }
+  ShapePoint "{65E705297488CB26}" {
+   Position -54.825 0.071 -0.114
+  }
+  ShapePoint "{65E705296BBB494D}" {
+   Position 0 0 0
+  }
+  ShapePoint "{65E705296BBB926B}" {
+   Position -0.171 -0.333 78.81
+  }
+  ShapePoint "{65E7052970182DBB}" {
+   Position -30.988 -0.351 78.85
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{191C938B76395B29}PrefabLibrary/Generators/Walls/Metal/WG_MetalWall_01.et" {
+   Flags 1048579
+   {
+    $grp SCR_DestructibleEntity : "{0C7021381E5A81C9}PrefabLibrary/Walls/Metal/MetalWall_01_3m.et" {
+     {
+      coords -51.4 -0.307 79.052
+      angleY -179.667
+     }
+     {
+      coords -54.805 0.281 4.131
+      angleY -269.734
+     }
+     {
+      coords -0.201 -0.312 74.992
+      angleY -89.547
+     }
+     {
+      coords -24.104 -0.381 78.671
+      angleY -178.51
+     }
+    }
+    SCR_DestructibleEntity : "{0C8EB9A7C3BAFC35}PrefabLibrary/Walls/Metal/MetalWall_01_3m_End.et" {
+     coords -28.275 -0.357 78.78
+     angleY -178.51
+    }
+    $grp SCR_DestructibleEntity : "{459ADC9A4891BAA6}PrefabLibrary/Walls/Metal/MetalWall_01_D.et" {
+     {
+      coords -54.499 -0.437 70.115
+      angleY -269.734
+     }
+     {
+      coords -54.777 0.281 10.105
+      angleY -269.734
+     }
+     {
+      coords -0.557 -0.125 29.988
+      angleY -89.547
+     }
+     {
+      coords -9.129 -0.399 78.282
+      angleY -178.51
+     }
+    }
+    $grp SCR_DestructibleEntity : "{9D269652A8367F1C}PrefabLibrary/Walls/Metal/MetalWall_01_9m.et" {
+     {
+      coords -42.394 -0.334 79
+      angleY -179.667
+     }
+     {
+      coords -54.457 -0.303 79.121
+      angleY -269.734
+     }
+     {
+      coords -54.527 -0.437 64.141
+      angleY -269.734
+     }
+     {
+      coords -54.568 -0.276 55.135
+      angleY -269.734
+     }
+     {
+      coords -54.61 0.281 46.129
+      angleY -269.734
+     }
+     {
+      coords -54.652 0.281 37.123
+      angleY -269.734
+     }
+     {
+      coords -54.694 0.281 28.117
+      angleY -269.734
+     }
+     {
+      coords -54.736 0.281 19.111
+      angleY -269.734
+     }
+     {
+      coords -54.87 0.182 1.075
+      angleY 1.122
+     }
+     {
+      coords -45.866 0.209 0.899
+      angleY 1.122
+     }
+     {
+      coords -36.862 0.094 0.722
+      angleY 1.122
+     }
+     {
+      coords -27.857 0.068 0.546
+      angleY 1.122
+     }
+     {
+      coords -18.853 0.088 0.369
+      angleY 1.122
+     }
+     {
+      coords -9.849 -0.501 0.193
+      angleY 1.122
+     }
+     {
+      coords -0.794 0 -0.035
+      angleY -89.547
+     }
+     {
+      coords -0.723 -0.031 8.97
+      angleY -89.547
+     }
+     {
+      coords -0.651 -0.07 17.976
+      angleY -89.547
+     }
+     {
+      coords -0.486 -0.156 38.968
+      angleY -89.547
+     }
+     {
+      coords -0.414 -0.195 47.974
+      angleY -89.547
+     }
+     {
+      coords -0.343 -0.242 56.98
+      angleY -89.547
+     }
+     {
+      coords -0.272 -0.281 65.986
+      angleY -89.547
+     }
+     {
+      coords -0.126 -0.322 78.048
+      angleY -178.51
+     }
+     {
+      coords -15.101 -0.392 78.437
+      angleY -178.51
+     }
+    }
+    $grp SCR_DestructibleEntity : "{D30897E192F2B1C2}PrefabLibrary/Walls/Metal/MetalWall_01_3m_D.et" {
+     {
+      coords -0.58 -0.117 26.982
+      angleY -89.547
+     }
+     {
+      coords -0.509 -0.156 35.962
+      angleY -89.547
+     }
+    }
+   }
+  }
+ }
+}
+SplineShapeEntity {
+ coords 3708.558 5.062 4227.829
+ Points {
+  ShapePoint "{65E7052BB4AFE1A6}" {
+   Position -9.872 -0.156 0.917
+  }
+  ShapePoint "{65E705287B389A9C}" {
+   Position -113.549 -0.75 -3.807
+  }
+  ShapePoint "{65E7052BB4AE20B1}" {
+   Position -270.884 -1.156 -71.343
+  }
+  ShapePoint "{65E7052BB8527995}" {
+   Position -559.931 1.381 -211.057
+  }
+  ShapePoint "{65E7052BBFAFC250}" {
+   Position -880.954 1.165 -412.502
+  }
+  ShapePoint "{65E7052BBF03F0C6}" {
+   Position -1042.429 0.131 -559.224
+  }
+  ShapePoint "{65E7052B80AEE7F2}" {
+   Position -1078.496 -0.779 -738.989
+  }
+  ShapePoint "{65E7052B87A4CDBA}" {
+   Position -970.917 1.132 -1019.08
+  }
+  ShapePoint "{65E7052B87583DDA}" {
+   Position -690.308 1.656 -1123.393
+  }
+  ShapePoint "{65E7052B8A1BF139}" {
+   Position -572.728 1.063 -1030.833
+  }
+  ShapePoint "{65E7052B8C658336}" {
+   Position -482.846 1.094 -1009.988
+  }
+ }
+ {
+  RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "556C6556FAB8EA7A"
+     SplinePoints {
+      ShapePoint "{556C6556BF2A9CBB}" {
+       Position -9.872 -0.156 0.917
+      }
+      ShapePoint "{556C6556BF2A9DE7}" {
+       Position -113.549 -0.75 -3.807
+      }
+      ShapePoint "{65E70528676CF6A2}" {
+       Position -270.884 -1.156 -71.343
+      }
+      ShapePoint "{65E70528676CF60F}" {
+       Position -559.931 1.381 -211.057
+      }
+      ShapePoint "{65E70528676CF678}" {
+       Position -880.954 1.165 -412.502
+      }
+      ShapePoint "{65E70528676CF7B2}" {
+       Position -1042.429 0.131 -559.224
+      }
+      ShapePoint "{65E70528676CF7F3}" {
+       Position -1078.496 -0.779 -738.989
+      }
+      ShapePoint "{65E70528676CF722}" {
+       Position -970.917 1.132 -1019.08
+      }
+      ShapePoint "{65E70528676CF760}" {
+       Position -690.308 1.656 -1123.393
+      }
+      ShapePoint "{65E70528676CF4A0}" {
+       Position -572.728 1.063 -1030.834
+      }
+      ShapePoint "{65E705287B386125}" {
+       Position -482.846 1.094 -1009.988
+      }
+     }
+     IsClosedSpline 0
+     Width 12
+    }
+   }
+  }
+ }
+}
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 3253.127 -0.015 3209.025
+}
+$grp GenericEntity : "{0B141EBFAA428804}PrefabLibrary/Props/Garbage/TrashBin_02/TrashBin_02_patched.et" {
+ {
+  coords 3255.925 5.99 3307.665
+  angleX 5.83
+  angleY -130.806
+  angleZ 6.71
+ }
+ {
+  coords 3257.033 6.129 3306.773
+  angleX 5.17
+  angleY -125.383
+  angleZ 7.231
+ }
+ {
+  coords 3257.124 5.971 3307.784
+  angleX 8.647
+  angleY -166.712
+  angleZ 2.033
+ }
+ {
+  coords 3279.988 6.877 3303.723
+  angleY -40.936
+ }
+ {
+  coords 3278.946 6.877 3303.287
+  angleY -72.534
+ }
+ {
+  coords 3335.842 6.114 3306.789
+  angleX 9.458
+  angleY -165.756
+  angleZ 2.389
+ }
+ {
+  coords 3335.757 6.25 3304.954
+  angleY -14.491
+ }
+ {
+  coords 3335.064 6.25 3305.666
+  angleY 17.853
+ }
+ {
+  coords 3404.951 6.108 3325.175
+  angleX -7.397
+  angleY 139.052
+  angleZ 6.374
+ }
+ {
+  coords 3403.158 6.103 3325.145
+  angleX 9.036
+  angleY 22.298
+  angleZ 3.685
+ }
+ {
+  coords 3406.479 6.113 3325.201
+  angleX 9.284
+  angleY -17.987
+  angleZ -2.998
+ }
+ {
+  coords 3404.091 5.97 3324.373
+  angleX 6.512
+  angleY 48.382
+  angleZ 7.275
+ }
+ {
+  coords 3475.787 6.25 3338.713
+  angleY -78.741
+ }
+ {
+  coords 3474.596 6.25 3339.117
+  angleY -179.357
+ }
+ {
+  coords 3475.492 6.25 3339.468
+  angleY 33.158
+ }
+ {
+  coords 3525.94 6.25 3305.265
+  angleY 118.359
+ }
+ {
+  coords 3524.343 6.25 3305.453
+  angleY 110.273
+ }
+ {
+  coords 3526.267 6.117 3306.708
+  angleX 4.523
+  angleY -114.957
+  angleZ 9.618
+ }
+ {
+  coords 3571.325 6.25 3243.799
+  angleY 12.92
+ }
+ {
+  coords 3573.223 6.25 3243.868
+  angleY -51.67
+ }
+ {
+  coords 3571.041 6.25 3246.353
+  angleY 98.232
+ }
+}
+SCR_DestructibleBuildingEntity : "{0C818BB5D185C49F}Prefabs/Structures/Infrastructure/Waterworks/WaterTreatmentPlant_01/WaterTreatmentPlant_01_base.et" {
+ coords 3448.198 6.075 3342.853
+}
+GenericEntity : "{0D87F5CFBA0A9579}PrefabLibrary/Props/Construction/BrickPile_01_Medium.et" {
+ coords 3626.339 5.875 3324.347
+}
+$grp GenericEntity : "{1736B81121CCABC2}PrefabLibrary/Props/Industrial/PalletJack_01.et" {
+ {
+  coords 3227.195 6.031 3364.483
+  angleY 46.358
+ }
+ {
+  coords 3508.844 6.25 3182.699
+ }
+}
+GenericEntity : "{17D680E889BAAB59}PrefabLibrary/Props/Civilian/DogHouse_01.et" {
+ coords 3452.047 6.25 3228.848
+}
+SCR_DestructibleBuildingEntity : "{3714AD1861F44210}PrefabLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02.et" {
+ coords 3416.29 -0.373 3232.552
+ angleY 180
+}
+GenericEntity : "{38B7F8CF2361E4AD}PrefabLibrary/Props/Construction/CableReelMetal_01.et" {
+ coords 3630.572 5.875 3323.799
+ angleY -16.392
+}
+GenericEntity : "{39CFEF5150FEA35A}PrefabLibrary/Props/Civilian/ChairOld_01.et" {
+ coords 3396.595 6.626 3207.253
+ angleY 37.169
+}
+GenericEntity : "{3F9704577368E96E}Prefabs/Targets/BTR_Front.et" {
+ coords 3250.802 6.781 3134.788
+ angleX 0
+ angleY 0
+ angleZ 0
+}
+GenericEntity : "{40FBD8EA6551D8A9}PrefabLibrary/Props/Construction/CableReelWooden_01.et" {
+ coords 3562.718 6.25 3281.217
+ angleY 159.296
+}
+GenericEntity : "{43890921C37778E9}PrefabLibrary/Props/Industrial/MarsBoxContainer_01.et" {
+ coords 3226.389 6.031 3361.339
+ angleY 87.679
+}
+GenericEntity : "{468B5060A2C0779B}PrefabLibrary/Props/Construction/PlankPile_01_Medium.et" {
+ coords 3562.366 6.25 3183.795
+}
+GenericEntity : "{5A0347E24528923C}PrefabLibrary/Props/Civilian/PlaygroundClimber_01.et" {
+ coords 3324.785 5.904 3345.793
+}
+StaticModelEntity : "{5CB07170CFCC3BEC}Prefabs/Structures/Industrial/Houses/ConcretePlant_E_01/Dst/ConcretePlant_E_01_Ruin_base.et" {
+ coords 3423.45 5.875 3353.333
+}
+$grp SCR_DestructibleBuildingEntity : "{5CF33ABAD1662F89}PrefabLibrary/Infrastructure/PhoneBooth_E_01.et" {
+ {
+  coords 3236.789 0 3211.538
+ }
+ {
+  coords 3381.367 0 3208.678
+ }
+ {
+  coords 3559.299 -0 3208.585
+ }
+ {
+  coords 3469.443 0 3325.919
+ }
+}
+GenericEntity : "{66FF9BE6539065D2}PrefabLibrary/Props/Construction/ConcreteMixer_01.et" {
+ coords 3558.897 5.934 3275.527
+ angleZ -1.79
+}
+GenericEntity : "{741BCB6AFF1C3464}Prefabs/Targets/Tank_Flank.et" {
+ coords 3246.452 6.781 3141.021
+ angleX 0
+ angleY 0
+}
+GenericEntity : "{74C3AC9E2334D17E}Prefabs/Targets/BTR_Flank.et" {
+ coords 3240.126 6.811 3136.089
+ angleX 0
+ angleY 0
+ angleZ 0
+}
+SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
+ coords 3439.315 0 3232.534
+ angleY 0
+}
+$grp GenericEntity : "{7990C717E09292FA}PrefabLibrary/Props/Civilian/FlowerpotPelargonia_01_Red.et" {
+ {
+  coords 3437.973 6.162 3209.406
+ }
+ {
+  coords 3426.466 6.156 3209.498
+ }
+ {
+  coords 3450.126 6.159 3209.159
+ }
+}
+SCR_DestructibleBuildingEntity : "{7F1927B928D12CB9}PrefabLibrary/Structures/Commercial/ShopHouse_E_2I01.et" {
+ coords 3396.179 -0.517 3234.044
+ angleY 180
+}
+$grp GenericEntity : "{95EDE12D3AB91805}PrefabLibrary/Props/Civilian/Cart_01.et" {
+ {
+  coords 3480.912 6.25 3206.661
+  angleY 57.181
+ }
+ {
+  coords 3451.225 6.25 3234.023
+  angleY 50.951
+ }
+}
+GenericEntity : "{9D9556C2E5BC7910}PrefabLibrary/Props/Civilian/TableSaw_01.et" {
+ coords 3484.044 6.25 3207.248
+ angleY 57.622
+}
+SCR_DestructibleBuildingEntity : "{A5E49CC9C7C6E1E3}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/DieselPowerPlant_01_Base.et" {
+ coords 3394.965 -0.189 3338.199
+}
+$grp GenericEntity : "{A7BBEF1B337479E0}PrefabLibrary/Props/Civilian/MessageBoard_02.et" {
+ {
+  coords 3472.74 6.25 3206.08
+ }
+ {
+  coords 3501.125 6.25 3298.011
+ }
+}
+GenericEntity : "{A7C844EE85DBB3F5}PrefabLibrary/Props/Civilian/WateringCan_01.et" {
+ coords 3500.416 6.25 3248.301
+ angleY 113.745
+}
+$grp GenericEntity : "{A9ABB5DF9160A75B}PrefabLibrary/Props/Industrial/VehicleGarbage_01_pile_small.et" {
+ {
+  coords 3226.709 6.031 3358.314
+  angleY -141.091
+ }
+ {
+  coords 3506.256 6.25 3182.8
+  angleY -23.555
+ }
+}
+$grp SCR_DestructibleEntity : "{AA4CE99BD493879D}PrefabLibrary/Props/Commercial/MarketStand_01_Umbrella.et" {
+ {
+  coords 3365.172 6.237 3208.929
+ }
+ {
+  coords 3302.677 6.365 3207.915
+ }
+}
+GenericEntity : "{AAB8E353C9CD4EDB}PrefabLibrary/Props/Civilian/PlaygroundSphere_01.et" {
+ coords 3331.571 5.933 3356.3
+}
+SCR_DestructibleBuildingEntity : "{AE673711F9CA395B}PrefabLibrary/Props/Civilian/Well_01.et" {
+ coords 3493.14 -0 3252.494
+ angleX -1.761
+ angleY 123.831
+ angleZ 0.733
+}
+GenericEntity : "{B292AEB29FA68532}PrefabLibrary/Props/Construction/MetalContainer_01.et" {
+ coords 3559.297 5.947 3284.409
+ angleX -0.95
+ angleY -32.041
+ angleZ -1.517
+}
+$grp GenericEntity : "{B3286DBA01D17D24}PrefabLibrary/Props/Commercial/BoxWooden_01.et" {
+ {
+  coords 3503.596 6.25 3242.188
+ }
+ {
+  coords 3503.573 6.25 3241.229
+ }
+ {
+  coords 3502.201 6.25 3242.079
+  angleY 55.863
+ }
+ {
+  coords 3422.564 6.19 3209.278
+  angleX -2.684
+ }
+ {
+  coords 3447.273 6.123 3210.153
+  angleX -0.895
+ }
+ {
+  coords 3305.052 6.295 3207.253
+  angleZ 2.684
+ }
+}
+$grp GenericEntity : "{B50434DBAD3214D0}PrefabLibrary/Props/Commercial/BeerKegMetal_01_big.et" {
+ {
+  coords 3447.772 6.176 3209.181
+  angleX 2.543
+  angleY -135.278
+  angleZ 2.516
+ }
+ {
+  coords 3307.306 6.25 3207.625
+  angleY -54.56
+ }
+}
+$grp GenericEntity : "{B890D78FDADD4847}PrefabLibrary/Props/Civilian/PlaygroundSlide_01.et" {
+ {
+  coords 3489.617 6.25 3347.522
+ }
+ {
+  coords 3331.6 5.875 3348.616
+ }
+}
+GenericEntity : "{CBEFDBFB8FB0F6CE}PrefabLibrary/Props/Civilian/MessageBoard_01.et" {
+ coords 3561.834 6.224 3250.621
+}
+$grp GenericEntity : "{CC5B202C60579C1F}PrefabLibrary/Props/Civilian/BasketWicker_01.et" {
+ {
+  coords 3399.375 6.626 3207.267
+  angleY 0
+  scale 0.95
+ }
+ {
+  coords 3398.265 6.626 3206.776
+  angleY 0
+  scale 1.011
+ }
+ {
+  coords 3400.446 6.626 3206.958
+  angleY 0
+  scale 1.034
+ }
+}
+GenericEntity : "{CF482D1FBE0E8B14}PrefabLibrary/Props/Construction/SandPile_01.et" {
+ coords 3560.453 5.984 3191.543
+ angleX 7.49
+ angleY 49.898
+ angleZ -6.264
+ scale 0.947
+}
+GenericEntity : "{D35F2E1ACDB77391}PrefabLibrary/Props/Construction/Wheelbarrow_01.et" {
+ coords 3559.627 5.901 3186.255
+ angleX -0.596
+ angleY -41.759
+ angleZ -0.668
+}
+GenericEntity : "{DE8B50C7F745F770}PrefabLibrary/Props/Civilian/PlaygroundSwing_01.et" {
+ coords 3341.891 6.138 3353.137
+}
+$grp SCR_DestructibleEntity : "{E116180B5DCD5EFF}PrefabLibrary/Props/Civilian/PicnicTable_01.et" {
+ {
+  coords 3484.028 6.25 3305.584
+ }
+ {
+  coords 3475.038 6.25 3346.221
+ }
+ {
+  coords 3475.115 5.94 3351.651
+ }
+ {
+  coords 3480.836 6.25 3348.84
+ }
+ {
+  coords 3324.66 5.875 3351.977
+  angleY 44.822
+ }
+}
+$grp GenericEntity : "{E681FC9543B34B51}PrefabLibrary/Props/Commercial/CardboardBoxStack_01.et" {
+ {
+  coords 3418.987 6.178 3209.543
+  angleX -2.23
+  angleY -33.813
+  angleZ 1.493
+ }
+ {
+  coords 3444.81 6.129 3209.93
+  angleX 3.226
+  angleY -154.378
+  angleZ 1.546
+ }
+ {
+  coords 3305.677 6.293 3209.21
+  angleX -1.825
+  angleY 129.216
+  angleZ 0.821
+ }
+}
+GenericEntity : "{F7C5E866921AF328}PrefabLibrary/Props/Construction/ConcretePipe_01_Long_Pile.et" {
+ coords 3626.959 5.875 3318.195
+}
+$grp GenericEntity : "{FA7D049A734AD1B5}PrefabLibrary/Vegetation/Debris/BranchTrash_con_01.et" {
+ {
+  coords 3494.006 6.066 3329.655
+  angleY 129.159
+  scale 0.938
+ }
+ {
+  coords 3501.162 6.214 3252.931
+  angleX -1.689
+  angleY 19.367
+  angleZ -0.593
+  scale 0.719
+ }
+ {
+  coords 3496.991 6.11 3208.182
+  angleX -0.498
+  angleY 84.675
+  angleZ -5.333
+  scale 1.047
+ }
+ {
+  coords 3387.018 6.1 3176.694
+  angleY 89.19
+  scale 1.093
+ }
+ {
+  coords 3361.436 6.194 3187.95
+  angleY 122.633
+  scale 0.87
+ }
+ {
+  coords 3230.331 6.211 3303.987
+  angleY -21.358
+  scale 0.804
+ }
+}
