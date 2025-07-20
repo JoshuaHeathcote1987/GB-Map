@@ -1,0 +1,355 @@
+SplineShapeEntity {
+ coords 5796.946 7.358 1262.51
+ Points {
+  ShapePoint "{65E89D82434C1E81}" {
+   Position 5.177 0.101 -7.831
+  }
+  ShapePoint "{65E89D82434C2926}" {
+   Position 22.348 -1.371 19.078
+  }
+  ShapePoint "{65E89D82404AFB46}" {
+   Position 30.612 0.435 55.798
+  }
+  ShapePoint "{65E89D823A03A8FE}" {
+   Position 48.598 -2.644 123.382
+  }
+  ShapePoint "{65E89D823B738289}" {
+   Position 93.806 -1.741 146.129
+  }
+  ShapePoint "{65E8D6CFE10C8659}" {
+   Position 210.072 3.268 171.075
+  }
+  ShapePoint "{65E8D6CFE686532A}" {
+   Position 334.72 2.915 182.958
+  }
+  ShapePoint "{65E8D6CFE73427DB}" {
+   Position 454.633 3.252 58.302
+  }
+  ShapePoint "{65E8D6CFE4514E36}" {
+   Position 477.812 -1.772 -63.385
+  }
+  ShapePoint "{65E8D6CFE4279061}" {
+   Position 546.08 -1.405 -133.758
+  }
+ }
+ {
+  RoadGeneratorEntity : "{31086BE1AF790FC5}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_Narrow.et" {
+   coords 0 0 0
+   FalloffStartWidth 1.5
+   RoadFalloffWidth 12.6
+   {
+    RoadEntity {
+     ID "556C6554AF23997E"
+     SplinePoints {
+      ShapePoint "{556C6554868CB1B0}" {
+       Position 5.177 0.101 -7.831
+      }
+      ShapePoint "{556C6554868CB0CE}" {
+       Position 22.348 -1.371 19.078
+      }
+      ShapePoint "{65E89D8154CD552A}" {
+       Position 30.612 0.435 55.798
+      }
+      ShapePoint "{65E89D8154CD548D}" {
+       Position 48.598 -2.644 123.382
+      }
+      ShapePoint "{65E89D8154CD54C5}" {
+       Position 93.806 -1.741 146.129
+      }
+      ShapePoint "{65E8D6CFE10C0E49}" {
+       Position 210.072 3.268 171.075
+      }
+      ShapePoint "{65E8D6CFE687EF4D}" {
+       Position 334.72 2.915 182.958
+      }
+      ShapePoint "{65E8D6CFE735C7CA}" {
+       Position 454.633 3.252 58.302
+      }
+      ShapePoint "{65E8D6CFE45114C3}" {
+       Position 477.812 -1.772 -63.386
+      }
+      ShapePoint "{65E8D6CFE4275547}" {
+       Position 546.08 -1.405 -133.758
+      }
+     }
+     IsClosedSpline 0
+     Width 8
+    }
+   }
+  }
+ }
+}
+$grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Roads/StoneVergePost_01_D_V2.et" {
+ {
+  coords 5927.945 13.344 1309.31
+  angleX -1.008
+  angleY 123.895
+  angleZ -2.152
+  scale 5.161
+ }
+ {
+  coords 5929.489 16.32 1311.419
+  angleX -1.008
+  angleY 123.895
+  angleZ 87.688
+  scale 5.161
+ }
+ {
+  coords 5926.446 13.342 1290.313
+  angleX -2.5
+  angleY 65.019
+  angleZ -0.173
+  scale 5.161
+ }
+ {
+  coords 5925.136 13.464 1293.261
+  angleX -2.5
+  angleY 65.019
+  angleZ -0.173
+  scale 5.161
+ }
+ {
+  coords 5925.558 16.4 1292.666
+  angleX -2.5
+  angleY 65.019
+  angleZ 89.668
+  scale 5.161
+ }
+ {
+  coords 5925.759 12.946 1305.542
+  angleX -1.637
+  angleY 108.368
+  angleZ -1.805
+  scale 5.161
+ }
+ {
+  coords 5924.942 13.49 1297.927
+  angleX -2.092
+  angleY 91.405
+  angleZ -1.249
+  scale 5.161
+ }
+ {
+  coords 5925.074 13.553 1301.152
+  angleX -2.092
+  angleY 91.405
+  angleZ -1.249
+  scale 5.161
+ }
+ {
+  coords 5929.79 13.357 1311.961
+  angleX -1.008
+  angleY 123.895
+  angleZ -2.152
+  scale 5.161
+ }
+ {
+  coords 5935.922 12.576 1294.415
+  angleX -2.304
+  angleY 79.552
+  angleZ -0.793
+  scale 6.76
+ }
+ {
+  coords 5934.101 12.733 1315.332
+  angleX -0.292
+  angleY 147.388
+  angleZ -5.954
+  scale 5.161
+ }
+ {
+  coords 5951.259 12.073 1295.512
+  angleX 2.08
+  angleY -88.066
+  angleZ 1.268
+  scale 6.76
+ }
+ {
+  coords 5936.267 17.401 1293.615
+  angleX -2.304
+  angleY 79.552
+  angleZ 89.048
+  scale 6.76
+ }
+ {
+  coords 5936.592 12.499 1290.47
+  angleX -2.304
+  angleY 79.552
+  angleZ -0.793
+  scale 6.76
+ }
+ {
+  coords 5946.643 15.882 1317.152
+  angleX 3.182
+  angleY -177.645
+  angleZ 84.797
+  scale 5.161
+ }
+ {
+  coords 5947.102 12.897 1316.969
+  angleX 3.182
+  angleY -177.645
+  angleZ -5.043
+  scale 5.161
+ }
+ {
+  coords 5936.923 18.55 1303.05
+  angleX -2.092
+  angleY 91.405
+  angleZ 88.591
+  scale 6.76
+ }
+ {
+  coords 5936.615 13.672 1299.867
+  angleX -2.092
+  angleY 91.405
+  angleZ -1.249
+  scale 6.76
+ }
+ {
+  coords 5936.766 13.719 1303.866
+  angleX -2.092
+  angleY 91.405
+  angleZ -1.249
+  scale 6.76
+ }
+ {
+  coords 5931.359 12.934 1313.637
+  angleX -0.292
+  angleY 147.388
+  angleZ -5.954
+  scale 5.161
+ }
+ {
+  coords 5933.757 15.732 1315.091
+  angleX -0.292
+  angleY 147.388
+  angleZ 83.886
+  scale 5.161
+ }
+ {
+  coords 5943.881 13.041 1317.16
+  angleX 3.182
+  angleY -177.645
+  angleZ -5.043
+  scale 5.161
+ }
+ {
+  coords 5942.843 12.073 1298.479
+  angleX -2.092
+  angleY 91.405
+  angleZ 88.591
+  scale 6.76
+ }
+ {
+  coords 5951.464 16.864 1296.529
+  angleX 2.08
+  angleY -88.066
+  angleZ 91.109
+  scale 6.76
+ }
+ {
+  coords 5951.433 11.847 1299.504
+  angleX 2.08
+  angleY -88.066
+  angleZ 1.268
+  scale 6.76
+ }
+ {
+  coords 5925.169 16.503 1300.487
+  angleX -2.092
+  angleY 91.405
+  angleZ 88.591
+  scale 5.161
+ }
+}
+DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
+ coords 5937.724 1.113 1300.045
+ angleX -5.658
+ angleY -90.469
+ angleZ 93.153
+ scale 1.5
+}
+$grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Sings/StoneVergeStone_01.et" {
+ {
+  coords 5957.906 12.348 1292.192
+  angleX -3.622
+  angleY -14.255
+  angleZ -93.574
+  scale 5.576
+ }
+ {
+  coords 5943.917 12.325 1288.132
+  angleX 1.758
+  angleY 61.81
+  angleZ 90.265
+  scale 5.576
+ }
+ {
+  coords 5955 11.858 1313.768
+  angleX 1.777
+  angleY 51.473
+  angleZ -0.879
+  scale 5.576
+ }
+ {
+  coords 5960.114 12.277 1301.377
+  angleX 1.963
+  angleY 85.822
+  angleZ 0.276
+  scale 5.576
+ }
+ {
+  coords 5951.496 12.426 1284.771
+  angleX 1.777
+  angleY 51.473
+  angleZ -0.879
+  scale 5.576
+ }
+ {
+  coords 5936.318 12.404 1280.281
+  angleX 1.088
+  angleY 21.067
+  angleZ -1.658
+  scale 5.576
+ }
+ {
+  coords 5957.762 12.452 1285.628
+  angleX 87.044
+  angleY 34.219
+  angleZ 14.045
+  scale 5.576
+ }
+}
+DecalEntity : "{32D707B931FD52FE}Prefabs/Decals/Blood/BloodStain_Wall_01.et" {
+ coords 5937.802 3.228 1299.848
+ angleX -1.819
+ angleY -85.316
+ angleZ -85.933
+ scale 0.8
+}
+DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.et" {
+ coords 5943.112 0.765 1298.42
+ angleX -89.019
+ angleY 158.658
+ angleZ -169.279
+ scale 2
+}
+DecalEntity : "{71979372AFE909E5}Prefabs/Decals/Blood/BloodStain_Large_01.et" {
+ coords 5942.878 0.783 1298.684
+ angleX -82.507
+ angleY 0.064
+ angleZ -2.45
+ scale 1.095
+}
+SCR_DestructibleBuildingEntity : "{CA2EAC61647D889E}PrefabLibrary/Structures/Services/MountainHotel_01/MountainHotel_01.et" {
+ coords 5858.178 1.25 1428.755
+ angleY -24.513
+}
+SCR_IndestructibleEnvironmentalEntity : "{E3972F6F29774671}PrefabLibrary/Rocks/Granite/GraniteSurfaceStone_04.et" {
+ coords 5951.781 9.432 1304.599
+ angleX -0.709
+ angleY 22.458
+ angleZ -0.68
+ scale 0.907
+}
