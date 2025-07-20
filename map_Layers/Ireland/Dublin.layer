@@ -2206,7 +2206,7 @@ $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/Infrastructure/Pavemen
  }
 }
 SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/Structures/Cultural/Church_01.et" {
- coords 3523.139 0 3242.948
+ coords 3523.139 0.318 3242.948
  angleY -90
 }
 SCR_DestructibleBuildingEntity : "{1F6EA391B993A869}PrefabLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_grey.et" {
@@ -2428,12 +2428,23 @@ $grp GenericEntity : "{B24E825895AD7443}PrefabLibrary/Infrastructure/Lamps/LampS
  }
  {
   coords 3382.128 0 3272.207
+  {
+   GameEntity {
+    ID "5A42D80F6BF048CC"
+    {
+     LightEntity {
+      ID "5A42D21E6C98C5BF"
+      angleY 90
+     }
+    }
+   }
+  }
  }
  {
   coords 3468.105 0 3272.183
  }
  {
-  coords 3384.229 0 3419.406
+  coords 3375.517 0.677 3419.406
  }
  {
   coords 3302.567 0 3420.876
