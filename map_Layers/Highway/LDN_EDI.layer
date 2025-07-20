@@ -628,19 +628,19 @@ $grp SplineShapeEntity {
     Position 37.9 1.247 -2.059
    }
    ShapePoint "{65E7262D64799C9A}" {
-    Position 59.282 0.294 -13.641
+    Position 59.282 -0.206 -13.641
    }
    ShapePoint "{65E7262E907C1DA8}" {
     Position 72.73 0.157 -33.353
    }
    ShapePoint "{65E7262E9C5A49A8}" {
-    Position 74.207 1.053 -50.529
+    Position 74.207 0.653 -50.529
    }
    ShapePoint "{65E7262E84924745}" {
-    Position 71.009 2.384 -69.585
+    Position 71.009 1.147 -69.585
    }
    ShapePoint "{65E7262D64799C9A}" {
-    Position 59.841 1.8 -90.018
+    Position 59.841 0.194 -90.018
    }
    ShapePoint "{65E7262E907C1DA8}" {
     Position 38.873 -0.043 -102.52
@@ -663,19 +663,19 @@ $grp SplineShapeEntity {
         Position 37.9 1.247 -2.059
        }
        ShapePoint "{65E7262D2037553F}" {
-        Position 59.282 0.294 -13.641
+        Position 59.282 -0.206 -13.641
        }
        ShapePoint "{65E7262D20375562}" {
         Position 72.73 0.157 -33.353
        }
        ShapePoint "{65E7262D20375AA5}" {
-        Position 74.207 1.053 -50.529
+        Position 74.207 0.653 -50.529
        }
        ShapePoint "{65E7262DD1154FEA}" {
-        Position 71.009 2.384 -69.585
+        Position 71.009 1.147 -69.585
        }
        ShapePoint "{65E7262DD1154F56}" {
-        Position 59.841 1.8 -90.018
+        Position 59.841 0.194 -90.018
        }
        ShapePoint "{65E7262DD1154C8A}" {
         Position 38.873 -0.043 -102.52
@@ -780,6 +780,15 @@ $grp SplineShapeEntity {
  {
   coords 5833.208 6.123 3244.698
   Points {
+   ShapePoint "{65E8D9DE17ADD016}" {
+    Position -7.204 -0.029 2.358
+   }
+   ShapePoint "{65E8D9DE164F2B68}" {
+    Position 5.689 0.002 0.6
+   }
+   ShapePoint "{65E8D9DE14371473}" {
+    Position 20.59 0.155 -3.075
+   }
    ShapePoint "{65E74A58FC2B8CB9}" {
     Position 65.348 3.512 -26.79
    }
@@ -831,45 +840,54 @@ $grp SplineShapeEntity {
       ID "556C6554AF23997E"
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
-        Position 65.348 3.512 -26.79
+        Position -7.204 -0.029 2.358
        }
        ShapePoint "{556C6554868CB0CE}" {
-        Position 92.293 10.25 -73.904
+        Position 5.689 0.002 0.6
        }
        ShapePoint "{65E74A58D41AEE99}" {
-        Position 115.945 45.095 -163.729
+        Position 20.59 0.155 -3.075
        }
        ShapePoint "{65E74A58D41AEEC4}" {
-        Position 143.472 40.983 -260.704
+        Position 65.348 3.512 -26.79
        }
        ShapePoint "{65E74A58D41AEE3D}" {
-        Position 162.05 42.401 -327.304
+        Position 92.293 10.25 -73.904
        }
        ShapePoint "{65E74A58D41AEE6C}" {
-        Position 230.016 38.002 -386.354
+        Position 115.945 45.095 -163.729
        }
        ShapePoint "{65E74A58D41AEFA7}" {
-        Position 291.392 43.451 -364.448
+        Position 143.472 40.983 -260.704
        }
        ShapePoint "{65E74A58D41AEF12}" {
-        Position 318.718 39.482 -296.694
+        Position 162.05 42.401 -327.304
        }
        ShapePoint "{65E74A58D41AEF51}" {
-        Position 330.031 27.005 -225.157
+        Position 230.016 38.002 -386.354
        }
        ShapePoint "{65E74A58D41AEC8A}" {
-        Position 346.172 9.929 -161.961
+        Position 291.392 43.451 -364.448
        }
        ShapePoint "{65E74A58D41AECC8}" {
-        Position 492.531 -0.986 68.764
+        Position 318.718 39.482 -296.694
        }
        ShapePoint "{65E74A58D41AEC0F}" {
-        Position 584.553 -2.812 266.61
+        Position 330.031 27.005 -225.157
        }
        ShapePoint "{65E74A58D41AEC42}" {
-        Position 585.625 -2.811 433.312
+        Position 346.172 9.929 -161.961
        }
        ShapePoint "{65E74A58D41AED86}" {
+        Position 492.531 -0.986 68.764
+       }
+       ShapePoint "{65E8D9DE1434F014}" {
+        Position 584.553 -2.812 266.61
+       }
+       ShapePoint "{65E8D9DE164C971A}" {
+        Position 585.625 -2.811 433.312
+       }
+       ShapePoint "{65E8D9DE17ADB192}" {
         Position 564.182 -3.353 524.021
        }
       }
@@ -1001,13 +1019,13 @@ $grp SplineShapeEntity {
     Position -22.919 9.6 -21.274
    }
    ShapePoint "{65E74A5E739DB21D}" {
-    Position -36.543 5.068 -34.346
+    Position -36.543 7.068 -34.346
    }
    ShapePoint "{65E74A5E77E56D1F}" {
-    Position -56.798 0 -62.761
+    Position -56.798 0.8 -62.761
    }
    ShapePoint "{65E74A5E77262A40}" {
-    Position -72.494 -0.211 -94.342
+    Position -72.494 0.289 -94.342
    }
   }
   {
@@ -1026,13 +1044,13 @@ $grp SplineShapeEntity {
         Position -22.919 9.6 -21.274
        }
        ShapePoint "{65E74A5E79A0611F}" {
-        Position -36.543 5.068 -34.346
+        Position -36.543 7.068 -34.346
        }
        ShapePoint "{65E74A5E79A066FE}" {
-        Position -56.798 0 -62.761
+        Position -56.798 0.8 -62.761
        }
        ShapePoint "{65E74A5E4F3B0166}" {
-        Position -72.494 -0.211 -94.342
+        Position -72.494 0.289 -94.342
        }
       }
       IsClosedSpline 0
@@ -1128,7 +1146,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{32E1B4D5E24832D1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_start2.et" {
-      coords 0.011 -0 0.01
+      coords 0.011 0 0.01
       angleY 226.385
      }
      $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
@@ -1175,7 +1193,7 @@ $grp SplineShapeEntity {
   coords 6393.566 3.469 3433.942
   Points {
    ShapePoint "{65E812DA23CF2BF8}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65E812DA23CF5E8C}" {
     Position 7.68 -0.06 17.152
@@ -1340,7 +1358,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{32E1B4D5E24832D1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_start2.et" {
-      coords 0.014 -0 -0.006
+      coords 0.014 0 -0.006
       angleY 294.736
      }
      $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
@@ -1658,7 +1676,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{32E1B4D5E24832D1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_start2.et" {
-      coords 0.014 -0 -0.006
+      coords 0.014 0 -0.006
       angleY 294.407
      }
      $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
@@ -1830,7 +1848,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{32E1B4D5E24832D1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_start2.et" {
-      coords -0.014 -0 0.005
+      coords -0.014 0 0.005
       angleY 110.569
      }
      $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
@@ -2080,7 +2098,7 @@ $grp SplineShapeEntity {
   coords 5955.037 51.805 3076.758
   Points {
    ShapePoint "{65E812DAFBE3E088}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65E812DAFBE2375C}" {
     Position -5.908 -5.288 23.378
@@ -2177,7 +2195,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{32E1B4D5E24832D1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_start2.et" {
-      coords 0.014 -0 0.004
+      coords 0.014 0 0.004
       angleY 255.549
      }
      $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
@@ -2292,7 +2310,7 @@ $grp SplineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{32E1B4D5E24832D1}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_start2.et" {
-      coords -0.015 -0 -0.002
+      coords -0.015 0 -0.002
       angleY 81.545
      }
      $grp SCR_DestructibleEntity : "{4A1FAB7E3F610EA9}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_4m_V1.et" {
@@ -2325,13 +2343,13 @@ $grp SplineShapeEntity {
  }
 }
 Tree : "{0940EEB7D2D8F592}PrefabLibrary/Vegetation/Vegetables/CapsicumCrop_01.et" {
- coords 6542.037 -0 3550.481
+ coords 6542.037 0 3550.481
  angleY 293.717
  scale 1.016
 }
 $grp StaticModelEntity : "{0F507793FF034E1D}PrefabLibrary/Props/Military/Dragonsteeth_01/Dragonsteeth_01_new.et" {
  {
-  coords 6509.384 -0 3608.724
+  coords 6509.384 0 3608.724
   angleX 5.079
   angleY -147.382
   angleZ -6.258
@@ -2370,14 +2388,14 @@ $grp Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_
   scale 0.822
  }
  {
-  coords 6470.13 -0 3581.695
+  coords 6470.13 0 3581.695
   angleX 0.542
   angleY 214.965
   angleZ 2.219
   scale 1.133
  }
  {
-  coords 6451.716 -0 3561.758
+  coords 6451.716 0 3561.758
   angleX -1.999
   angleY 199.507
   angleZ 2.474
@@ -2391,21 +2409,21 @@ $grp Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_
   scale 0.888
  }
  {
-  coords 6545.889 -0 3660.233
+  coords 6545.889 0 3660.233
   angleX 2.188
   angleY 61.844
   angleZ 0.09
   scale 0.917
  }
  {
-  coords 6550.442 -0 3677.488
+  coords 6550.442 0 3677.488
   angleX -2.539
   angleY 164.349
   angleZ 1.807
   scale 0.977
  }
  {
-  coords 6600.021 -0 3666.227
+  coords 6600.021 0 3666.227
   angleX 0.998
   angleY 12.25
   angleZ 0.833
@@ -2419,7 +2437,7 @@ $grp Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_
   scale 1.046
  }
  {
-  coords 6486.882 -0 3546.895
+  coords 6486.882 0 3546.895
   angleX -1.716
   angleY 183.532
   angleZ -0.266
@@ -2454,14 +2472,14 @@ $grp Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_
   scale 1.013
  }
  {
-  coords 6438.166 -0 3602.665
+  coords 6438.166 0 3602.665
   angleX 0.402
   angleY 73.918
   angleZ 2.981
   scale 1.069
  }
  {
-  coords 6433.136 -0 3647.094
+  coords 6433.136 0 3647.094
   angleX 1.3
   angleY 116.371
   angleZ 1.358
@@ -2503,14 +2521,14 @@ GenericEntity : "{2BCCA31989E825C8}PrefabLibrary/Props/Military/BTR70_wreck.et" 
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{38CC50480D29CCFD}PrefabLibrary/Rocks/Granite/Granite_Boulder_01/Granite_Boulder_01.et" {
  {
-  coords 6518.465 -0 3584.883
+  coords 6518.465 0 3584.883
   angleX -160.312
   angleY 22.512
   angleZ -83.933
   scale 0.911
  }
  {
-  coords 6520.25 -0 3576.641
+  coords 6520.25 0 3576.641
   angleX 104.522
   angleY 25.039
   angleZ 11.058
@@ -2524,7 +2542,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{38CC50480D29CCFD}PrefabLibrary/Ro
   scale 0.938
  }
  {
-  coords 6505.264 -0 3601.968
+  coords 6505.264 0 3601.968
   angleX 111.652
   angleY 256.44
   angleZ 146.062
@@ -2538,7 +2556,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{38CC50480D29CCFD}PrefabLibrary/Ro
   scale 1.083
  }
  {
-  coords 6565.39 -0 3611.307
+  coords 6565.39 0 3611.307
   angleX 139.217
   angleY 23.402
   angleZ 16.936
@@ -2581,7 +2599,7 @@ $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0
 }
 $grp Tree : "{61D918F6575A3231}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et" {
  {
-  coords 6495.174 -0 3608.175
+  coords 6495.174 0 3608.175
   angleX 1.173
   angleY 229.72
   angleZ -0.476
@@ -2595,7 +2613,7 @@ $grp Tree : "{61D918F6575A3231}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_
   scale 1.096
  }
  {
-  coords 6559.421 -0 3599.97
+  coords 6559.421 0 3599.97
   angleX 2.139
   angleY 17.403
   angleZ 0.909
@@ -2616,7 +2634,7 @@ $grp Tree : "{61D918F6575A3231}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_
   scale 0.921
  }
  {
-  coords 6435.775 -0 3625.181
+  coords 6435.775 0 3625.181
   angleX 1.651
   angleY 310.505
   angleZ 0.383
@@ -2647,7 +2665,7 @@ $grp StaticModelEntity : "{8EB28E35393A2F2A}PrefabLibrary/Props/Military/CzechHe
   angleZ 0.521
  }
  {
-  coords 5978.683 -0 2961.923
+  coords 5978.683 0 2961.923
   angleX -1.787
   angleY 3.265
   angleZ -0.102
@@ -2660,7 +2678,7 @@ $grp StaticModelEntity : "{8EB28E35393A2F2A}PrefabLibrary/Props/Military/CzechHe
  }
 }
 Tree : "{A5265EF79AAF3EAD}PrefabLibrary/Vegetation/Vegetables/TomatoCrop_01.et" {
- coords 6542.128 -0 3555.971
+ coords 6542.128 0 3555.971
  angleY 247.716
  scale 0.876
 }
@@ -2689,7 +2707,7 @@ $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/Vegetation/Trees/t_betula_pendula_2
   scale 1.16
  }
  {
-  coords 6438.02 -0 3580.784
+  coords 6438.02 0 3580.784
   angleX -0.106
   angleY 180.104
   angleZ -3.959
@@ -2727,7 +2745,7 @@ SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/Structures/Mil
 }
 $grp Tree : "{F1DB9A8115310093}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1f.et" {
  {
-  coords 6498.34 -0 3554.29
+  coords 6498.34 0 3554.29
   angleX -1.451
   angleY 299.398
   angleZ -2.29

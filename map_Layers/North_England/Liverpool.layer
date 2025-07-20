@@ -12060,6 +12060,12 @@ $grp SplineShapeEntity {
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{01D619B3D01903F9}PrefabLibrary/Structures/Military/GuardHouse_03_white.et" {
+ coords 3475.817 0.291 3816.749
+ angleX -0.414
+ angleY 120.164
+ angleZ 0.712
+}
 SCR_DestructibleBuildingEntity : "{06804C659EF7C47D}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_01/TransformerStation_E_01.et" {
  coords 5799.928 0.752 3261.309
 }
@@ -12079,6 +12085,10 @@ $grp SCR_DestructibleBuildingEntity : "{188D55350F562E81}Prefabs/Structures/Indu
  {
   coords 5433.475 0 3297.237
  }
+}
+SCR_DestructibleBuildingEntity : "{1982A8DD680C416B}PrefabLibrary/Structures/Military/GuardTower_01.et" {
+ coords 3504.386 0 3798.226
+ angleY -52.501
 }
 $grp SCR_DestructibleBuildingEntity : "{1F6EA391B993A869}PrefabLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_grey.et" {
  {
@@ -19073,8 +19083,13 @@ $grp SCR_DestructibleBuildingEntity : "{80A5B37A1472B084}Prefabs/Structures/Indu
   angleY -174.463
  }
 }
-StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {
- coords 3789.984 5 4254.455
+$grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {
+ {
+  coords 3789.984 5 4254.455
+ }
+ {
+  coords 3507.183 4.209 3808.092
+ }
 }
 SCR_DestructibleBuildingEntity : "{8C2E9411E2F50460}Prefabs/Structures/Infrastructure/Power/DieselPowerPlant_01/DieselPowerPlant_01.et" {
  coords 5562.896 0 3187.063
@@ -19087,6 +19102,84 @@ $grp SCR_DestructibleBuildingEntity : "{AC16E15E979F9072}PrefabLibrary/Structure
  {
   coords 5676.27 -0.113 2981.97
   angleY 11.276
+ }
+}
+$grp GenericEntity : "{B24E825895AD7443}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_02_doubleAngled/LampStreet_E_02_doubleAngled.et" {
+ {
+  coords 3706.549 -0.516 4217.259
+  angleY 43.631
+ }
+ {
+  coords 3664.673 0 4220.396
+  angleY 46.015
+ }
+ {
+  coords 3607.956 0 4205.839
+  angleY 4.504
+ }
+ {
+  coords 3570.179 -0 4170.261
+  angleY -12.506
+ }
+ {
+  coords 3542.216 -1.164 4126.898
+  angleY -24.587
+ }
+ {
+  coords 3545.199 -0.697 4061.04
+  angleY -55.757
+ }
+ {
+  coords 3564.055 0 3995.593
+  angleY -53.097
+ }
+ {
+  coords 3559.95 0 3909.857
+  angleY -17.525
+ }
+ {
+  coords 3496.594 0 3742.242
+  angleY -43.239
+ }
+ {
+  coords 3531.419 0 3653.116
+  angleY -79.241
+ }
+ {
+  coords 3563.562 0 3572.473
+  angleY -52.69
+ }
+ {
+  coords 3564.047 0 3466.483
+  angleY -38.68
+ }
+ {
+  coords 3561.063 -0 3386.699
+  angleY -38.456
+ }
+ {
+  coords 3564.083 0.405 4221.824
+  angleY -154.788
+ }
+ {
+  coords 3461.426 0.248 4176.122
+  angleY -147.879
+ }
+ {
+  coords 3343.403 -0.036 4121.834
+  angleY -173.645
+ }
+ {
+  coords 3226.984 0.001 4066.139
+  angleY -158.867
+ }
+ {
+  coords 3108.465 0 4003.928
+  angleY -163.409
+ }
+ {
+  coords 2992.157 0 3934.966
+  angleY -164.122
  }
 }
 SCR_DestructibleBuildingEntity : "{BB6EED4B5022395D}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_Small_02.et" {
