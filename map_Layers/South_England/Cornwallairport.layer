@@ -1,3 +1,45 @@
+$grp GenericEntity {
+ {
+  components {
+   MeshObject "{65EB326808EF1DBD}" {
+    Object "{240D853DBB045D05}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01.xob"
+   }
+  }
+  coords 5966.083 0.698 745.945
+ }
+ {
+  components {
+   MeshObject "{65EB32680900A31A}" {
+    Object "{240D853DBB045D05}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01.xob"
+   }
+  }
+  coords 5966.266 0.702 745.937
+ }
+ {
+  components {
+   MeshObject "{65EB32680FE5787A}" {
+    Object "{93805DF1EFA4F212}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01_Empty.xob"
+   }
+  }
+  coords 5966.149 0.697 745.826
+ }
+ {
+  components {
+   MeshObject "{65EB326803D88D12}" {
+    Object "{F10444EECECD8CA3}Assets/Props/Civilian/BeerBottle_01/BeerBottle_01_Group.xob"
+   }
+  }
+  coords 5966.62 0.705 746.116
+ }
+ {
+  components {
+   MeshObject "{65EB3268FED467FC}" {
+    Object "{260EBD6E216F8F94}Assets/Props/Civilian/CarrierFood_01/Dst/CarrierFood_01_dst_02.xob"
+   }
+  }
+  coords 5966.805 0.708 745.532
+ }
+}
 $grp PolylineShapeEntity {
  {
   coords 4757.213 7.521 867.801
@@ -31316,6 +31358,9 @@ SCR_DestructibleBuildingEntity : "{1A4A64AD1C9A15BA}PrefabLibrary/Structures/Air
  coords 4722.318 -0.001 901.32
  angleY 136.035
 }
+GenericEntity : "{1E20A8400CBEF3A9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSwing_01.et" {
+ coords 5961.319 0.802 736.027
+}
 SCR_DestructibleBuildingEntity : "{22BF82936E1BBC4D}PrefabLibrary/Structures/Services/FireStation_E_01.et" {
  coords 4814.698 -0.001 978.158
  angleY -44.76
@@ -31328,12 +31373,35 @@ GenericEntity : "{3FEC7020D6289114}Prefabs/Structures/Military/Training/TargetVe
  coords 6115.264 11.132 1314.281
  angleY -99.667
 }
+GenericEntity : "{4473E53938AD9C57}PrefabLibrary/Props/Civilian/Recreation/LifeGuardTower_01_darkgreen.et" {
+ coords 5979.466 0.538 766.205
+ angleY 132.84
+}
+GenericEntity : "{45CC07DD54662B1F}PrefabLibrary/Props/Civilian/Recreation/BlanketBeach_01/BlanketBeach_01_red.et" {
+ coords 5966.638 0.647 737.284
+ angleX 1.786
+ angleZ 4.466
+}
 SCR_DestructibleBuildingEntity : "{4A862A8A65503FFC}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_V2.et" {
  coords 6413.513 3.517 901.735
 }
 SCR_DestructibleBuildingEntity : "{4B59AC03277A4A15}PrefabLibrary/Structures/Services/Office_E_01.et" {
  coords 4746.904 -0.001 880.057
  angleY -133.607
+}
+$grp GenericEntity : "{4D15B58E8889BE61}Prefabs/Structures/Recreation/Beach/ChangingCabin_01/ChangingCabin_01.et" {
+ {
+  coords 5954.192 0.69 747.851
+  angleY 97.861
+ }
+ {
+  coords 5954.587 0.665 749.668
+  angleY 99.096
+ }
+ {
+  coords 5954.734 0.636 752.208
+  angleY 93.287
+ }
 }
 SCR_DestructibleBuildingEntity : "{53ED57F93F1DCE1F}PrefabLibrary/Structures/Industrial/Warehouse_01.et" {
  coords 4934.054 0 1086.9
@@ -31354,6 +31422,18 @@ SCR_DestructibleBuildingEntity : "{5B8C6AAA8EE60A3A}PrefabLibrary/Infrastructure
 GenericEntity : "{5F8C3710427B5BBA}PrefabLibrary/Decals/Runway/Runway_Num0.et" {
  coords 4880.294 8.4 1125.656
  angleY -132.897
+}
+GenericEntity : "{630333773491A8F5}PrefabLibrary/Props/Naval/LifeBuoy_01.et" {
+ coords 5979.117 0.461 764.839
+ angleX 4.454
+ angleZ 5.345
+}
+GenericEntity : "{6FB18A7B32767402}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_02.et" {
+ coords 5962.029 0.779 727.863
+}
+GenericEntity : "{777E723C6902DB47}Prefabs/Structures/Civilian/SportGrounds/GoalPost_01.et" {
+ coords 5971.682 0.16 754.863
+ angleY 14.806
 }
 $grp GenericEntity : "{79C0B37F51C2765D}PrefabLibrary/Infrastructure/Sings/SignAircraft.et" {
  {
@@ -31921,6 +32001,21 @@ $grp SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/Structure
   angleY 138.07
  }
 }
+$grp GenericEntity : "{8EEDF2BD10AEA09A}PrefabLibrary/Props/Civilian/Recreation/BlanketBeach_01/BlanketBeach_01_green.et" {
+ {
+  coords 5966.232 0.687 745.75
+ }
+ {
+  coords 5966.658 0.455 729.209
+  angleX 1.786
+  angleZ 4.466
+ }
+}
+GenericEntity : "{8F74DFEE26724E9A}PrefabLibrary/Props/Civilian/Recreation/BlanketBeach_01/BlanketBeach_01_brown.et" {
+ coords 5970.173 0.456 741.011
+ angleX 1.786
+ angleZ 4.466
+}
 StaticModelEntity : "{91283BF99092C930}PrefabLibrary/Infrastructure/Towers/TransmitterTower_01_medium.et" {
  coords 5033.312 11.932 1039.108
  angleY -18.742
@@ -31994,6 +32089,12 @@ $grp SCR_PowerPole : "{917EE12404F00B3B}PrefabLibrary/Infrastructure/Powerline/T
    }
   }
  }
+}
+SCR_DestructibleBuildingEntity : "{9562159FDE627B33}Prefabs/Structures/Recreation/Houses/Cottage_E_01/Cottage_E_01.et" {
+ coords 5958.041 -0.352 773.279
+ angleX -0.627
+ angleY 103.602
+ angleZ -0.152
 }
 SCR_DestructibleBuildingEntity : "{9B4EE2EF2E6F986D}PrefabLibrary/Structures/Industrial/FactoryHall_E_01.et" {
  coords 4873.209 8.313 1025.224
@@ -32153,6 +32254,10 @@ SCR_DestructibleBuildingEntity : "{ABF506279E60CA67}Prefabs/Structures/Military/
  coords 4678.47 -0.001 1000.162
  angleY 137.049
 }
+GenericEntity : "{AF349C6A58068CAF}Prefabs/Structures/Recreation/Beach/LatrineBeach_01/LatrineBeach_01_bluewhite.et" {
+ coords 5955.387 0.843 764.591
+ angleY 98.764
+}
 SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/Structures/Industrial/Workshop_02.et" {
  coords 4802.635 0 966.188
  angleY -133.495
@@ -32174,6 +32279,9 @@ GenericEntity : "{D6444F09F25A43FF}PrefabLibrary/Decals/Runway/Runway_Num2.et" {
 SCR_DestructibleBuildingEntity : "{D7E0BAFDFA07C757}PrefabLibrary/Structures/Military/Barracks_01/Barracks_01_yellow.et" {
  coords 4840.835 0.605 994.563
  angleY -42.901
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ coords 5967.104 0.687 742.675
 }
 SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/Structures/Military/GuardHouse_01.et" {
  coords 4768.135 0 888.641
