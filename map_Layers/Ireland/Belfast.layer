@@ -7824,19 +7824,19 @@ $grp GenericEntity : "{1F7CF6F3117A2333}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ -1.515
  }
  {
-  coords 5593.738 -0 3261
+  coords 5593.738 0 3261
   angleX -1.348
   angleY 83.312
   angleZ 1.229
  }
  {
-  coords 5666.063 -0 3258.898
+  coords 5666.063 0 3258.898
   angleX -1.453
   angleY 138.652
   angleZ 1.498
  }
  {
-  coords 5732.091 -0 3256.66
+  coords 5732.091 0 3256.66
   angleX -0.155
   angleY 301.32
   angleZ -0.247
@@ -7848,7 +7848,7 @@ $grp GenericEntity : "{1F7CF6F3117A2333}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ -0.75
  }
  {
-  coords 5757.717 -0 3184.216
+  coords 5757.717 0 3184.216
   angleX -1.711
   angleY 1.857
   angleZ 0.293
@@ -7866,7 +7866,7 @@ $grp GenericEntity : "{1F7CF6F3117A2333}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ 0.101
  }
  {
-  coords 5708.242 -0 3005.803
+  coords 5708.242 0 3005.803
   angleX 0.924
   angleY 147.496
   angleZ -0.097
@@ -7878,7 +7878,7 @@ $grp GenericEntity : "{1F7CF6F3117A2333}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ -0.741
  }
  {
-  coords 5623.235 -0 3125.363
+  coords 5623.235 0 3125.363
   angleX -1.035
   angleY 135.575
   angleZ -0.154
@@ -9195,6 +9195,17 @@ $grp SCR_DestructibleEntity : "{5B0183621AC7C87D}PrefabLibrary/Props/Infrastruct
   angleY 180
  }
 }
+$grp GenericEntity : "{5BD9F0EFF6275A9D}PrefabLibrary/Props/Military/BarrelMetal_01_military.et" {
+ {
+  coords 3488.145 5 3824.912
+ }
+ {
+  coords 3489.694 5 3824.901
+ }
+ {
+  coords 3488.482 4.949 3823.536
+ }
+}
 StaticModelEntity : "{5CB07170CFCC3BEC}Prefabs/Structures/Industrial/Houses/ConcretePlant_E_01/Dst/ConcretePlant_E_01_Ruin_base.et" {
  coords 3423.45 5.875 3353.333
 }
@@ -9221,7 +9232,7 @@ $grp SCR_DestructibleBuildingEntity : "{5CF33ABAD1662F89}PrefabLibrary/Infrastru
   coords 5693.781 0 3216.993
  }
  {
-  coords 5584.028 -0 3177.967
+  coords 5584.028 0 3177.967
   angleY -91.127
  }
  {
@@ -9915,7 +9926,7 @@ GenericEntity : "{D35F2E1ACDB77391}PrefabLibrary/Props/Construction/Wheelbarrow_
 }
 $grp SCR_DestructibleBuildingEntity : "{D51C4FC8188FF14E}PrefabLibrary/Infrastructure/Naval/PierShed_01.et" {
  {
-  coords 3619.251 -0 3260.141
+  coords 3619.251 0 3260.141
  }
  {
   coords 3619.251 0.139 3282.626
@@ -9923,7 +9934,7 @@ $grp SCR_DestructibleBuildingEntity : "{D51C4FC8188FF14E}PrefabLibrary/Infrastru
 }
 $grp GenericEntity : "{DB6A6F1554219C14}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_03_single/LampStreet_E_03_single.et" {
  {
-  coords 5480.303 -0 3171.199
+  coords 5480.303 0 3171.199
   angleX 3.722
   angleZ 1.121
  }
