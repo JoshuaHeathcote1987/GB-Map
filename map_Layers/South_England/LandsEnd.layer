@@ -34337,6 +34337,10 @@ $grp SplineShapeEntity {
   }
  }
 }
+StaticModelEntity : "{01AE5FD77A9A4C21}Prefabs/Structures/Military/Camps/TentSmallUS_01/TentSmallUS_01.et" {
+ coords 6042.077 8.571 1303.479
+ angleY -54.16
+}
 GenericEntity : "{025B64D88EC05D15}PrefabLibrary/Infrastructure/Sings/SignDeadEnd.et" {
  coords 4092.447 7.126 266.883
  angleX 0.215
@@ -34348,6 +34352,12 @@ GenericEntity : "{03E32618F2D24F97}PrefabLibrary/Infrastructure/Sings/SignBendDo
  angleX 0.491
  angleY -138.859
  angleZ -1.721
+}
+GenericEntity : "{048776EA924F3842}PrefabLibrary/Props/Civilian/Recreation/TentBig_01_orange.et" {
+ coords 4071.28 5.433 304.24
+ angleX -0.533
+ angleY -143.232
+ angleZ 5.177
 }
 SCR_IndestructibleEnvironmentalEntity : "{0B35862C9D0D48E3}PrefabLibrary/Rocks/Granite/Granite_Cluster_05.et" {
  coords 3556.925 -2.024 106.088
@@ -34388,15 +34398,46 @@ GenericEntity : "{2D4C67672AA9DFAB}PrefabLibrary/Props/Naval/NetHanger_01_long.e
  angleY 77.994
  angleZ -1.571
 }
+$grp GenericEntity : "{2EA3514964A15E6D}PrefabLibrary/Props/Civilian/Recreation/TentBig_02_orange.et" {
+ {
+  coords 4088.425 6.982 303.855
+  angleX -0.973
+  angleY -88.35
+  angleZ 2.656
+ }
+ {
+  coords 4073.987 5.912 330.545
+  angleX 6.686
+  angleY 132.96
+  angleZ -0.702
+ }
+}
 GenericEntity : "{334CFE68AE6F498F}PrefabLibrary/Props/Naval/FishingNet_03.et" {
  coords 3543.287 3.444 99.575
  angleX 1.999
  angleY 28.921
  angleZ 0.082
 }
+GenericEntity : "{386560726FEB327F}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Large_Base.et" {
+ coords 6048.767 8.383 1291.392
+}
 SCR_DestructibleBuildingEntity : "{38D34A365D9AC751}PrefabLibrary/Structures/Naval/CottagePier_01.et" {
  coords 3569.969 2.478 88.31
  angleY 72.308
+}
+$grp StaticModelEntity : "{3A6623EADBD13358}Prefabs/Structures/Military/Camps/TentSmallUS_01/TentSmallUS_01_Base.et" {
+ {
+  coords 6047.244 9.072 1301.667
+  angleY 89.308
+ }
+ {
+  coords 6047.019 9.189 1304.464
+  angleY -98.024
+ }
+ {
+  coords 6046.226 9.157 1306.897
+  angleY 63.782
+ }
 }
 $grp SCR_DestructibleEntity : "{3CADD9B93EAD5A89}PrefabLibrary/Walls/Stone/StoneWall_01_4m_A.et" {
  {
@@ -34422,6 +34463,16 @@ GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWa
 }
 GenericEntity : "{4D797B18EB473B0B}PrefabLibrary/Props/Military/FlagPole_01_empty.et" {
  coords 3892.848 8.781 197.318
+}
+$grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+ {
+  coords 6052.714 0 1300.19
+  angleY 74.967
+ }
+ {
+  coords 6052.868 -0.015 1283.824
+  angleY -88.929
+ }
 }
 $grp GenericEntity : "{613F6B641DAE930D}PrefabLibrary/Props/Infrastructure/ConeTraffic_01_stack.et" {
  {
@@ -34659,6 +34710,12 @@ $grp GenericEntity : "{A8D5D8B551A3A61D}PrefabLibrary/Props/Naval/FishingBuoy_01
 SCR_DestructibleBuildingEntity : "{AFD0F05F3FD48D6C}PrefabLibrary/Structures/Houses/Cottage_E_01.et" {
  coords 3896.512 -0.686 189.33
 }
+GenericEntity : "{B53350B377FE1864}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Small_A_Base.et" {
+ coords 6047.323 8.503 1297.938
+}
+GenericEntity : "{BA870412788ACBFC}Prefabs/Structures/Military/Flags/Windsock_01/Windsock_01_base.et" {
+ coords 4810.706 8.312 1019.05
+}
 GenericEntity : "{BD375DA874832CA0}PrefabLibrary/Props/Naval/LobsterTrapWooden_01.et" {
  coords 3541.975 3.23 97.587
  angleX -1.921
@@ -34674,6 +34731,9 @@ $grp GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCh
   coords 4421.881 5.735 560.133
   angleY -99.129
  }
+}
+GenericEntity : "{C2789448B0BD05F8}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Medium_A_Base.et" {
+ coords 6042.13 8.107 1284.576
 }
 GenericEntity : "{D1636948C847A38E}PrefabLibrary/Props/Naval/LobsterTrapWooden_02.et" {
  coords 3540.594 3.413 99.74
@@ -34732,6 +34792,11 @@ $grp GenericEntity : "{F857D65788E3BA3A}PrefabLibrary/Props/Naval/BoatWreck_01.e
   angleY 56.309
   angleZ 12.176
  }
+}
+StaticModelEntity : "{F8E70CBC00C9E30E}Prefabs/Structures/Military/Fortifications/BlastCover_E_01/BlastCover_E_01_8x5.et" {
+ coords 6056.271 5.985 1292.432
+ angleY -94.944
+ angleZ -1.483
 }
 SCR_DestructibleEntity : "{FE177766BB8158CD}PrefabLibrary/Walls/Stone/StoneWall_01_8m_End.et" {
  coords 4438.013 -0.045 564.732
