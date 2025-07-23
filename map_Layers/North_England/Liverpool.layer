@@ -14348,7 +14348,6 @@ $grp PolylineShapeEntity {
       }
       {
        coords -8.354 0.522 346.708
-       angleX 0
        angleY 13.843
        angleZ -0.274
        scale 1.043
@@ -16421,7 +16420,7 @@ $grp PolylineShapeEntity {
        scale 0.744
       }
       {
-       coords -5.622 -0 378.707
+       coords -5.622 0 378.707
        angleX 1.176
        angleY 61.196
        angleZ 0.909
@@ -18303,7 +18302,6 @@ $grp PolylineShapeEntity {
        angleX -2.36
        angleY 59.284
        angleZ 1.517
-       scale 1
       }
       {
        coords -125.389 0.892 659.627
@@ -19243,7 +19241,6 @@ $grp PolylineShapeEntity {
        angleX -1.74
        angleY -5.977
        angleZ -1.623
-       scale 1
       }
       {
        coords -110.316 0.196 580.34
@@ -19264,7 +19261,6 @@ $grp PolylineShapeEntity {
        angleX 0.54
        angleY 50.55
        angleZ 0.838
-       scale 1
       }
       {
        coords -106.224 0.048 583.882
@@ -23669,7 +23665,6 @@ $grp PolylineShapeEntity {
        angleX -0.848
        angleY -119.744
        angleZ 0.924
-       scale 1
       }
       {
        coords -10.769 0.688 154.334
@@ -25346,7 +25341,6 @@ $grp PolylineShapeEntity {
        coords -108.511 -4.288 361.605
        angleX 0.471
        angleY 153.714
-       angleZ -0
        scale 1.045
       }
       {
@@ -26740,7 +26734,6 @@ $grp PolylineShapeEntity {
        angleX 0.936
        angleY 149.869
        angleZ 1.254
-       scale 1
       }
       {
        coords 19.831 -2.991 25.808
@@ -27188,7 +27181,6 @@ $grp PolylineShapeEntity {
        angleX -1.205
        angleY 36.465
        angleZ 0.106
-       scale 1
       }
       {
        coords -5.859 -2.843 108.816
@@ -27936,7 +27928,7 @@ Tree : "{159BD386C0F6F3AD}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3w.e
 }
 $grp Tree : "{16D3707EA3F8DD41}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_3s.et" {
  {
-  coords 5594.202 -0 3128.759
+  coords 5594.202 0 3128.759
   angleX 1.687
   angleY 228.863
   angleZ 0.141
@@ -28020,7 +28012,7 @@ GenericEntity : "{27B78E8BB9F3EEEF}PrefabLibrary/Props/Forest/WoodPile_02_B.et" 
 }
 $grp Tree : "{2A7C3319DE914965}PrefabLibrary/Vegetation/Trees/t_salix_fragilis_3s.et" {
  {
-  coords 5686.978 -0 3134.932
+  coords 5686.978 0 3134.932
   angleY 206.187
   scale 0.832
  }
@@ -29696,7 +29688,7 @@ $grp SCR_DestructibleBuildingEntity : "{3A2352AB1D94454A}PrefabLibrary/Structure
  }
  {
   coords 5672.924 0.361 3067.403
-  angleY -3.132
+  angleY -0.648
   {
    Building {
     ID "59BCCD9AD4145C0C"
@@ -30798,7 +30790,7 @@ $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structure
  }
 }
 Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1s.et" {
- coords 5733.469 -0 3028.766
+ coords 5733.469 0 3028.766
  angleX -1.007
  angleY 47.627
  angleZ -2.092
@@ -32487,7 +32479,7 @@ SCR_DestructibleBuildingEntity : "{5F2672105DA102DB}PrefabLibrary/Structures/Ser
  angleY 4.293
 }
 Tree : "{61D918F6575A3231}PrefabLibrary/Vegetation/Trees/t_alnus_glutinosa_2s.et" {
- coords 5727.592 -0 3045.335
+ coords 5727.592 0 3045.335
  angleX 1.983
  angleY 300.244
  angleZ 1.452
@@ -35035,19 +35027,19 @@ $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers
 }
 $grp Tree : "{8520122192ED3D6C}PrefabLibrary/Vegetation/Trees/t_prunus_domestica_2s.et" {
  {
-  coords 5711.711 -0 3123.905
+  coords 5711.711 0 3123.905
   angleX -0.207
   angleY 103.725
   scale 1.025
  }
  {
-  coords 5673.112 -0 3119.971
+  coords 5673.112 0 3119.971
   angleX 2.404
   angleY 19.875
   scale 1.158
  }
  {
-  coords 5642.586 -0 3116.129
+  coords 5642.586 0 3116.129
   angleX 1.145
   angleY 275.007
   scale 0.855
@@ -35083,7 +35075,7 @@ $grp SCR_DestructibleBuildingEntity : "{AC16E15E979F9072}PrefabLibrary/Structure
  }
 }
 Tree : "{AC43B039B67361F6}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3s.et" {
- coords 5647.874 -0 3025.486
+ coords 5647.874 0 3025.486
  angleX 2.9
  angleY 147.639
  angleZ -1.665
@@ -35191,7 +35183,7 @@ Tree : "{B2CF1BEA5DA54CAB}PrefabLibrary/Vegetation/Trees/t_betula_pendula_3sw.et
  scale 1.168
 }
 Tree : "{B6FEA2C769DA6395}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_2s.et" {
- coords 5663.723 -0 3207.117
+ coords 5663.723 0 3207.117
  angleX 1.892
  angleY 255.319
  angleZ -0.54
@@ -35204,7 +35196,7 @@ SCR_DestructibleBuildingEntity : "{BBCD6B1D9FE29715}PrefabLibrary/Structures/Ind
  coords 5421.078 0 3279.5
 }
 Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
- coords 5743.003 -0 3132.585
+ coords 5743.003 0 3132.585
  angleX 0.027
  angleY 118.59
  angleZ 1.628
