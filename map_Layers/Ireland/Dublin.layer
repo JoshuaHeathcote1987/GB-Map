@@ -2153,6 +2153,12 @@ $grp SCR_DestructibleBuildingEntity : "{11BFDE0724119A52}PrefabLibrary/Structure
   coords 3348.869 0 3294.061
  }
 }
+GenericEntity : "{17D680E889BAAB59}PrefabLibrary/Props/Civilian/DogHouse_01.et" {
+ coords 3769.04 5.392 4294.428
+ angleX -6.485
+ angleY -14.071
+ angleZ -0.216
+}
 SCR_DestructibleBuildingEntity : "{1982A8DD680C416B}PrefabLibrary/Structures/Military/GuardTower_01.et" {
  coords 3245.282 0 3198.369
 }
@@ -2289,6 +2295,68 @@ $grp SCR_DestructibleBuildingEntity : "{7F1927B928D12CB9}PrefabLibrary/Structure
  }
  {
   coords 3447.96 0 3200.658
+ }
+}
+$grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/Infrastructure/Lamps/LampStreet_E_01_4m/LampStreet_E_01_4m.et" {
+ {
+  coords 3869.961 -0 4027.497
+  angleX -0.846
+  angleY 97.946
+  angleZ -1.173
+ }
+ {
+  coords 3874.359 0 4060.005
+  angleX -0.552
+  angleY -83.29
+  angleZ -1.693
+ }
+ {
+  coords 3878.223 -0 4094.126
+  angleX -1.445
+  angleY 6.82
+  angleZ -0.96
+ }
+ {
+  coords 3897.258 -0.001 4122.946
+  angleX 1.974
+  angleY -82.226
+  angleZ -0.227
+ }
+ {
+  coords 3902.814 -0 4160.374
+  angleX 0.141
+  angleY 8.856
+  angleZ 1.258
+ }
+ {
+  coords 3907.468 0.001 4192.326
+  angleX -1.269
+  angleY 140.717
+  angleZ 1.965
+ }
+ {
+  coords 3816.174 0 4132.549
+  angleX -1.303
+  angleY 3.944
+  angleZ -0.888
+ }
+ {
+  coords 3848.792 0 4129.197
+  angleX 0.79
+  angleY 247.453
+  angleZ 0.3
+ }
+ {
+  coords 3820.706 -0 4168.789
+  angleX 1.212
+  angleY 265.767
+  angleZ 0.465
+ }
+ {
+  coords 3825.37 0 4205.769
+  angleX -1.107
+  angleY 230.247
+  angleZ 1.537
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{9C2DEB01D3F52BD6}PrefabLibrary/Structures/Industrial/Warehouse_01_Office.et" {
