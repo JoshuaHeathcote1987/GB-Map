@@ -22,7 +22,7 @@ PolylineShapeEntity {
  coords 5237.368 13.822 899.348
  Points {
   ShapePoint "{65EB0A61431B5AA1}" {
-   Position 0 -0 0
+   Position 0 0 0
   }
   ShapePoint "{65EB0A61431B6F26}" {
    Position 7.633 -0.072 6.457
@@ -105,7 +105,7 @@ PolylineShapeEntity {
      }
     }
     SCR_DestructibleEntity : "{979B717B2D7DE4F3}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_Start.et" {
-     coords 0 -0 0
+     coords 0 0 0
      angleY -40.231
     }
     SCR_DestructibleEntity : "{B62582848252DF2B}PrefabLibrary/Infrastructure/Roads/CrashBarrier_01_End.et" {
@@ -121,7 +121,7 @@ $grp SplineShapeEntity {
   coords 5759.144 11.174 1546.284
   Points {
    ShapePoint "{65EB0A622F450986}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -1992,7 +1992,6 @@ $grp SplineShapeEntity {
        angleX -0.307
        angleY 178.643
        angleZ 2.448
-       scale 1
       }
       {
        coords -187.255 -6.797 -44.375
@@ -2020,7 +2019,6 @@ $grp SplineShapeEntity {
        angleX -0.644
        angleY 59.295
        angleZ 2.82
-       scale 1
       }
       {
        coords -222.028 -4.613 -79.911
@@ -3282,7 +3280,6 @@ $grp SplineShapeEntity {
        angleX 2.832
        angleY -74.457
        angleZ -1.41
-       scale 1
       }
       {
        coords -150.277 -5.442 -41.445
@@ -3702,7 +3699,6 @@ $grp SplineShapeEntity {
        angleX -0.417
        angleY -0.824
        angleZ -2.123
-       scale 1
       }
       {
        coords -25.702 -1.289 -82.965
@@ -6756,7 +6752,6 @@ $grp SplineShapeEntity {
        angleX -0.099
        angleY 113.437
        angleZ -1.163
-       scale 1
       }
       {
        coords -203.427 -8.461 -22.274
@@ -7744,7 +7739,6 @@ $grp SplineShapeEntity {
        angleX 3.897
        angleY 24.874
        angleZ 0.702
-       scale 1
       }
       {
        coords -229.713 -5.391 -126.502
@@ -13710,7 +13704,6 @@ $grp SplineShapeEntity {
        angleX 1.818
        angleY -96.397
        angleZ -1.415
-       scale 1
       }
       {
        coords -216.111 -7.732 -64.636
@@ -18668,7 +18661,7 @@ $grp SplineShapeEntity {
   coords 5241.987 13.809 901.768
   Points {
    ShapePoint "{65EB0A611395FDE6}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -19397,7 +19390,7 @@ $grp SplineShapeEntity {
        scale 0.7
       }
       {
-       coords 7.484 -0.19 -0
+       coords 7.484 -0.19 0
        angleX 358.573
        angleY -90.882
        angleZ 0.911
@@ -19596,7 +19589,7 @@ $grp SplineShapeEntity {
   coords 5788.005 10.874 1478.848
   Points {
    ShapePoint "{65EB0A603A63CF86}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -23758,7 +23751,6 @@ $grp SplineShapeEntity {
        angleX 0.476
        angleY 43.832
        angleZ 0.282
-       scale 1
       }
       {
        coords 47.211 -5.322 57.042
@@ -24537,7 +24529,7 @@ $grp SplineShapeEntity {
   coords 5814.898 6.067 1285.129
   Points {
    ShapePoint "{65EB0A647DECA04C}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65EB0A647DECF603}" {
     Position 4.683 0.944 13.497
@@ -28274,7 +28266,6 @@ $grp SplineShapeEntity {
        coords 108.511 -9.909 -40.289
        angleX -1.225
        angleY -166.184
-       angleZ -0
        scale 0.925
       }
       {
@@ -29759,8 +29750,8 @@ $grp SplineShapeEntity {
     Position 16.244 0.036 9.663
     Data {
      SplinePointData SplinePointData {
-      InTangent 25.4 -0 7.141
-      OutTangent 25.4 -0 7.141
+      InTangent 25.4 0 7.141
+      OutTangent 25.4 0 7.141
      }
     }
    }
@@ -29798,8 +29789,8 @@ $grp SplineShapeEntity {
     Position -9.76 0 -18.814
     Data {
      SplinePointData SplinePointData {
-      InTangent 2.172 -0 21.312
-      OutTangent 2.172 -0 21.312
+      InTangent 2.172 0 21.312
+      OutTangent 2.172 0 21.312
      }
     }
    }
@@ -29892,7 +29883,7 @@ $grp SplineShapeEntity {
        angleY 272.55
       }
       {
-       coords -9.923 -0 -20.156
+       coords -9.923 0 -20.156
        angleY 283.434
       }
      }
@@ -30550,7 +30541,7 @@ GenericEntity : "{31B5A3C26644F4A5}PrefabLibrary/Props/Military/T62_wreck_turret
  angleZ -7.574
 }
 GenericEntity : "{647C8407E399D6BB}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleStraight.et" {
- coords 5322.56 -0 933.987
+ coords 5322.56 0 933.987
  angleY -29.23
 }
 GenericEntity : "{6BE5C753730DBFED}Prefabs/Props/Wrecks/M923A1_wreck_static.et" {
