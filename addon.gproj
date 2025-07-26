@@ -3,6 +3,20 @@ GameProject {
  GUID "65DB60EB79218144"
  TITLE "UnitedKingdom"
  Dependencies {
-  "58D0FB3206B6F859"
+  "58D0FB3206B6F859" "62EB4D903D542287" "65A0D62E25824BCB" "5CB9694D8FFE5E2E"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }
