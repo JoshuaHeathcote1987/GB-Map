@@ -1,0 +1,88 @@
+GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
+ coords 6671.694 45.597 6130.375
+}
+$grp SCR_DestructibleBuildingEntity : "{A6CCEBBD4B24A35F}Prefabs/Structures/Agriculture/WaterTowers/WaterTower_01/WaterTower_01.et" {
+ {
+  coords 6639.279 39.959 6091.125
+  angleZ -178.78
+  scale 3.661
+ }
+ {
+  coords 6637.914 40.12 6155.908
+  angleZ 179.806
+  scale 3.661
+ }
+ {
+  coords 6696.355 40.013 6154.111
+  angleZ 179.806
+  scale 3.661
+ }
+ {
+  coords 6697.064 39.968 6090.227
+  angleZ 179.806
+  scale 3.661
+ }
+ {
+  coords 6637.763 39.892 6135.965
+  angleZ 179.806
+  scale 2.599
+ }
+ {
+  coords 6637.671 41.045 6112.165
+  angleZ 179.806
+  scale 2.599
+ }
+ {
+  coords 6698.093 41.009 6111.132
+  angleZ 179.806
+  scale 2.599
+ }
+ {
+  coords 6698.051 42.01 6135.353
+  angleZ 179.806
+  scale 2.599
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CF86E4F10D9173E9}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow_Long_Base.et" {
+ {
+  coords 6630.198 44.09 6146.854
+  scale 2.758
+ }
+ {
+  coords 6629.876 44.146 6122.354
+  scale 2.758
+ }
+ {
+  coords 6630.143 44.288 6097.63
+  scale 2.758
+ }
+}
+$grp SCR_DestructibleEntity : "{D7D4B9C12ADA4FA0}PrefabLibrary/Walls/Metal/TinWall_01_6m_Pole.et" {
+ {
+  coords 6682.156 -4.174 6090.597
+  angleY 1.11
+  angleZ -91.276
+  scale 23.786
+ }
+ {
+  coords 6698.636 -4.708 6108.165
+  angleX 1.275
+  angleY 89.266
+  angleZ -90.041
+  scale 23.786
+ }
+ {
+  coords 6653.429 -6.812 6154.708
+  angleX -0.015
+  angleY -178.196
+  angleZ -88.724
+  scale 23.786
+ }
+ {
+  coords 6637.9 -4.335 6138.563
+  angleX -1.276
+  angleY -89.605
+  angleZ -89.984
+  scale 23.786
+ }
+}
