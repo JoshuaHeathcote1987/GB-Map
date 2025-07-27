@@ -48341,6 +48341,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{0E9A4FF62219106F}Prefabs/Rocks/Gr
   coords 4920.117 42.973 2157.131
  }
 }
+GenericEntity : "{134A3D8667A6DD14}Prefabs/Structures/BuildingParts/Mural/Murals_8x5_NEPTUN_V1.et" {
+ coords 6862.799 22.202 1383.609
+ angleY 88.252
+ scale 2.13
+}
 SCR_DestructibleBuildingEntity : "{18B2439FBF6CADFD}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
  coords 5048.033 0.45 1829.729
  angleY -76.936
@@ -49265,6 +49270,13 @@ $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Wall
 SCR_DestructibleBuildingEntity : "{363A616E6C64BB7F}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01.et" {
  coords 6715.51 -0.005 1393.56
  angleY -68.975
+}
+GenericEntity : "{3A11F5367AB523AB}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Vole_V1.et" {
+ coords 6881.943 26.044 1462.744
+ angleX 0.06
+ angleY 177.458
+ angleZ -20.299
+ scale 5.644
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{3CB20A890FB1B6F5}Prefabs/Rocks/Granite/GraniteSurfaceStone_02.et" {
  {
@@ -52280,6 +52292,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{3CB20A890FB1B6F5}Prefabs/Rocks/Gr
   angleZ 1.637
  }
 }
+GenericEntity : "{3E49A2FF5FFE1CA8}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Peace_V1.et" {
+ coords 6872.356 29.636 1462.276
+ angleY 177.48
+ scale 8.978
+}
 $grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
  {
   coords 5005.382 67.164 2235.527
@@ -53106,6 +53123,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{5F799252A82209D2}Prefabs/Rocks/Gr
   coords 4738.673 18.722 2132.05
  }
 }
+GenericEntity : "{6169B31FE8D1C2A5}Prefabs/Structures/BuildingParts/Mural/Murals_5x5_round_Sputnik_V1.et" {
+ coords 6800.058 6.354 1498.287
+ angleY -89.871
+ scale 0.43
+}
 SCR_IndestructibleEnvironmentalEntity : "{6FDC70C8E32A8254}Prefabs/Rocks/Granite/GraniteStone_02.et" {
  coords 4790.232 -0 2324.188
 }
@@ -53568,6 +53590,11 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellan
   scale 0.717
  }
 }
+GenericEntity : "{A46242F569F68E38}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Anarchy_V1.et" {
+ coords 6875.702 14.554 1462.431
+ angleY 177.268
+ scale 17.94
+}
 SCR_DestructibleBuildingEntity : "{A94133D363E53FBC}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v1.et" {
  coords 6818.033 -0.003 1387.845
  angleY -164.872
@@ -53999,6 +54026,13 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Gr
   angleX 57.594
   angleY 170.784
  }
+}
+GenericEntity : "{B961EFD1A1CDBCE3}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Do_toho_V1.et" {
+ coords 6862.804 14.158 1383.64
+ angleX 0.884
+ angleY 88.365
+ angleZ -34.576
+ scale 3.47
 }
 SCR_DestructibleBuildingEntity : "{CAE4F4DCDDEEA290}Prefabs/Buildings/Civilian/Apartments/Apartment_8-Storey/Apartment_8-Storey_v4.et" {
  coords 6851.236 0 1383.452
@@ -54465,6 +54499,11 @@ $grp SCR_DestructibleBuildingEntity : "{DECF116069DCCC2B}Prefabs/Structures/Cult
   coords 6768.619 -16.374 1460.008
   angleY -162.372
  }
+}
+GenericEntity : "{E8A1CB0658F0DAE0}Prefabs/Structures/BuildingParts/Mural/Murals_5x5_round_Sputnik_V3.et" {
+ coords 6800.051 7.035 1500.429
+ angleY -89.804
+ scale 0.43
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{F09A0FB3D74B7C23}Prefabs/Rocks/Granite/GraniteCliff_02_Fucus.et" {
  {
