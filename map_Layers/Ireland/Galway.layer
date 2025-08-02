@@ -1405,6 +1405,9 @@ $grp SplineShapeEntity {
    ShapePoint "{65E8D9DB2BD2FEC6}" {
     Position 0 0 0
    }
+   ShapePoint "{65F56B9543F0DC4D}" {
+    Position 47.157 -1.01 -1.619
+   }
    ShapePoint "{65E8D9DB2BD2CBFC}" {
     Position 258.933 1.427 -0.057
    }
@@ -1420,6 +1423,9 @@ $grp SplineShapeEntity {
         Position 0 0 0
        }
        ShapePoint "{556C6554868CB0CE}" {
+        Position 47.157 -1.01 -1.619
+       }
+       ShapePoint "{65F56B9543F06913}" {
         Position 258.933 1.427 -0.057
        }
       }
@@ -2288,20 +2294,23 @@ $grp SCR_DestructibleBuildingEntity : "{3B877DB7AE5EA3BC}PrefabLibrary/Structure
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{3D5CA6C32E6AFE17}PrefabsEditable/Auto/Rocks/Granite/E_GraniteCliff_02.et" {
  {
-  coords 3472.845 55.517 3050.075
+  coords 3477.117 51.947 3038.32
   angleX 15.927
   angleY -19.975
+  scale 2.1
  }
  {
-  coords 3497.683 67.316 3057.045
+  coords 3497.309 52.193 3025.594
   angleX 25.678
   angleY 0.681
   angleZ -35.297
+  scale 3
  }
  {
-  coords 3454.764 22.728 3053.819
-  angleX -5.583
+  coords 3454.918 15.553 3053.135
+  angleX 15.913
   angleY -12.707
+  scale 2.2
  }
 }
 $grp Tree : "{407A7B6D0444D05B}PrefabLibrary/Vegetation/Plants/b_urtica_dioica_0s.et" {
