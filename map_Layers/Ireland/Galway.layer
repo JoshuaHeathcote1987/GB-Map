@@ -1642,21 +1642,6 @@ $grp SplineShapeEntity {
    RoadGeneratorEntity : "{ABC15429070F8391}PrefabLibrary/Generators/Roads/Cobblestone/RG_Road_Cobblestone_01.et" {
     coords 0 0 0
     RoadWidth 6.2
-    {
-     RoadEntity {
-      ID "56F07CB2CD0F496C"
-      SplinePoints {
-       ShapePoint "{56F07CB28583E030}" {
-        Position -43.799 0.594 0.061
-       }
-       ShapePoint "{56F07CB28583FED6}" {
-        Position 5 0 0
-       }
-      }
-      IsClosedSpline 0
-      Width 6.2
-     }
-    }
    }
   }
  }
@@ -1961,21 +1946,6 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{ABC15429070F8391}PrefabLibrary/Generators/Roads/Cobblestone/RG_Road_Cobblestone_01.et" {
     coords 0 0 0
-    {
-     RoadEntity {
-      ID "56F07CB2CD0F496C"
-      SplinePoints {
-       ShapePoint "{56F07CB28583E030}" {
-        Position -1.29 0 0.081
-       }
-       ShapePoint "{56F07CB28583FED6}" {
-        Position 36.552 0 0.171
-       }
-      }
-      IsClosedSpline 0
-      Width 8
-     }
-    }
    }
   }
  }
