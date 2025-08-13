@@ -49104,11 +49104,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{0E9A4FF62219106F}Prefabs/Rocks/Gr
   coords 4920.117 42.973 2157.131
  }
 }
-GenericEntity : "{134A3D8667A6DD14}Prefabs/Structures/BuildingParts/Mural/Murals_8x5_NEPTUN_V1.et" {
- coords 6862.799 22.202 1383.609
- angleY 88.252
- scale 2.13
-}
 SCR_DestructibleBuildingEntity : "{18B2439FBF6CADFD}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
  coords 5048.033 0.45 1829.729
  angleY -76.936
@@ -54357,19 +54352,14 @@ GenericEntity : "{A46242F569F68E38}Prefabs/Structures/BuildingParts/Graffiti/Gra
  scale 17.94
 }
 SCR_DestructibleBuildingEntity : "{A94133D363E53FBC}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v1.et" {
- coords 6808.757 -0.003 1378.149
- angleY 104.464
+ coords 6808.126 -0.361 1372.599
+ angleY 96.487
  {
   Building {
    ID "5E8CF0A6F38A7169"
    coords -0.302 0 -0.025
   }
  }
-}
-SCR_DestructibleBuildingEntity : "{AAB10C30EE97D12D}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_03/FuelTank_03_grey.et" {
- coords 6979.468 -27.328 1414.759
- angleY -167.42
- scale 3.43
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{B06A2E966157FE64}Prefabs/Rocks/Granite/GraniteCliff_01_Fucus.et" {
  {
@@ -54950,13 +54940,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Gr
   angleZ 103.285
  }
 }
-GenericEntity : "{B961EFD1A1CDBCE3}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Do_toho_V1.et" {
- coords 6862.804 14.158 1383.64
- angleX 0.884
- angleY 88.365
- angleZ -34.576
- scale 3.47
-}
 SCR_DestructibleBuildingEntity : "{BB6EED4B5022395D}PrefabLibrary/Structures/Landmarks/Castle_01_InnerWall_Small_02.et" {
  coords 7705.024 0.001 1160.222
  angleY -148.932
@@ -54964,10 +54947,6 @@ SCR_DestructibleBuildingEntity : "{BB6EED4B5022395D}PrefabLibrary/Structures/Lan
 SCR_DestructibleBuildingEntity : "{C38D26DC8D2A213E}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Skewed.et" {
  coords 7758.347 0 1189.272
  angleY -91.502
-}
-SCR_DestructibleBuildingEntity : "{CAE4F4DCDDEEA290}Prefabs/Buildings/Civilian/Apartments/Apartment_8-Storey/Apartment_8-Storey_v4.et" {
- coords 6851.236 0 1383.452
- angleY 178.608
 }
 $grp GameEntity : "{CCCB15D4FF3C2D35}Prefabs/Structures/BuildingParts/Ladders/Ladder_SiloSawmill_712_B.et" {
  {
@@ -55469,40 +55448,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{F09A0FB3D74B7C23}Prefabs/Rocks/Gr
  }
  {
   coords 4905.983 40.971 2154.849
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{F78C674F187E0DA5}Prefabs/Structures/Infrastructure/Naval/Cranes/HarborCrane_01_turret_multicolour.et" {
- {
-  coords 6970.47 -22.378 1424.033
-  angleY -51.203
- }
- {
-  coords 6972.045 -21.408 1406.613
-  angleY -133.818
- }
- {
-  coords 6987.684 -22.581 1408.331
-  angleY 137.838
- }
- {
-  coords 6988.472 -23.442 1425.229
-  angleY 33.252
- }
- {
-  coords 6990.813 -21.874 1414.177
-  angleY 98.405
- }
- {
-  coords 6979.828 -20.701 1402.917
-  angleY -173.251
- }
- {
-  coords 6967.546 -21.67 1415.37
-  angleY -90.636
- }
- {
-  coords 6980.691 -22.735 1427.728
-  angleY -6.181
  }
 }
 SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et" {

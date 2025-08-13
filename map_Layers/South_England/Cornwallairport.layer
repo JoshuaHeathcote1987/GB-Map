@@ -59137,16 +59137,16 @@ $grp SplineShapeEntity {
     Position 48.864 2.869 104.038
    }
    ShapePoint "{660AFA3C69DD07E7}" {
-    Position 44.253 1.76 145.341
+    Position 53.068 0.774 151.084
    }
    ShapePoint "{660AFA3C699C3A9E}" {
-    Position 14.421 0.141 166.471
+    Position 79.514 0.222 164.505
    }
    ShapePoint "{660AFA3C694B662F}" {
-    Position -7.456 0.91 161.023
+    Position 63.914 -0.711 184.074
    }
    ShapePoint "{660AFA3C6FB79438}" {
-    Position -12.307 -1.684 179.902
+    Position 71.276 -1.666 210.35
    }
   }
   {
@@ -59169,16 +59169,16 @@ $grp SplineShapeEntity {
         Position 48.864 2.869 104.038
        }
        ShapePoint "{660AFA3C5ACF0E6F}" {
-        Position 44.253 1.76 145.341
+        Position 53.068 0.774 151.084
        }
        ShapePoint "{660AFA3C5ACF0DDA}" {
-        Position 14.421 0.141 166.471
+        Position 79.514 0.222 164.505
        }
        ShapePoint "{660AFA3C5ACF0D0B}" {
-        Position -7.456 0.91 161.023
+        Position 63.914 -0.711 184.074
        }
        ShapePoint "{660AFA3C5ACF0D6E}" {
-        Position -12.307 -1.684 179.902
+        Position 71.276 -1.666 210.35
        }
       }
       IsClosedSpline 0
@@ -169392,18 +169392,10 @@ $grp Tree : "{425761285F36BF16}PrefabLibrary/Vegetation/Trees/t_betula_pendula_1
   scale 1.09
  }
 }
-$grp GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
- {
-  coords 6961.614 5.242 1023.832
-  angleX -1.44
-  angleZ -0.01
- }
- {
-  coords 6939.551 6.039 1187.53
-  angleX 0.492
-  angleY 70.617
-  angleZ -0.091
- }
+GenericEntity : "{43E505BF759653CA}PrefabLibrary/Infrastructure/Sings/SignGiveWay.et" {
+ coords 6961.614 5.242 1023.832
+ angleX -1.44
+ angleZ -0.01
 }
 DecalEntity : "{4B5349B7A56A8E42}PrefabLibrary/Decals/Asphalt/Decal_Asphalt_Patch_BlobCluster_03.et" {
  coords 7605.748 0 1116.776

@@ -1070,7 +1070,7 @@ $grp SplineShapeEntity {
   coords 6110.833 11.461 1448.608
   Points {
    ShapePoint "{65F6AC971B0F3156}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{65F6AC971B0F98D7}" {
     Position 6.362 -0.471 -2.739
@@ -1437,14 +1437,6 @@ SCR_DestructibleBuildingEntity : "{40BE566C8F18D8B3}Prefabs/Structures/Cultural/
  coords 6244.031 6.245 1419.991
  angleY -15.803
 }
-SCR_DestructibleEntity : "{45849C84A20B71C1}Prefabs/Props/Commercial/SignPub_01_base.et" {
- coords 6281.893 7.883 1422.124
- angleY -76.751
-}
-SCR_DestructibleEntity : "{479B9FFED0E47362}Prefabs/Props/Commercial/SignPub_01_V3.et" {
- coords 6288.086 7.831 1421.592
- angleY 96.223
-}
 SCR_DestructibleBuildingEntity : "{63352C2865C9C735}PrefabLibrary/Structures/Houses/House_Village_E_1I04s.et" {
  coords 6235.062 0.25 1463.334
  angleY -8.969
@@ -1460,11 +1452,6 @@ SCR_DestructibleBuildingEntity : "{965AFAD159CB0C8A}Prefabs/Structures/Commercia
 SCR_DestructibleBuildingEntity : "{B06DD2FE1295B5FE}Prefabs/Structures/Cultural/Churches/Church_01/BuildingAddons/Church_01_addon_01_white.et" {
  coords 6251.188 0.611 1394.067
  angleY 167.919
-}
-SCR_DestructibleEntity : "{B3B2276014D9454C}Prefabs/Props/Commercial/SignPub_01_Eden_FoodMarket_V1.et" {
- coords 6296.416 8.269 1426.241
- angleX 7.424
- angleY -2.949
 }
 SCR_DestructibleBuildingEntity : "{BB32FDB0A276A95D}PrefabLibrary/Structures/Houses/House_Village_E_1I01.et" {
  coords 6270.853 0.508 1440.486
@@ -1545,8 +1532,4 @@ $grp SCR_DestructibleBuildingEntity : "{ECE10687A4EB6CA5}PrefabLibrary/Structure
   coords 6259.739 0.283 1403.129
   angleY 77.615
  }
-}
-GenericEntity : "{EF9AC1132797202D}Prefabs/Structures/BuildingParts/Signs/SignWall3D_01/SignWall3D_Pub_01.et" {
- coords 6277.162 13.045 1429.843
- angleY -79.877
 }
