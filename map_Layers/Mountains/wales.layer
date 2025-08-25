@@ -49856,14 +49856,14 @@ SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structures/Lan
 }
 $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m_grass.et" {
  {
-  coords 6729.854 1.227 1428.992
+  coords 6729.854 1.206 1428.992
  }
  {
-  coords 6743.971 1.172 1428.38
+  coords 6743.971 1.206 1428.38
   angleY 7.78
  }
  {
-  coords 6751.474 1.221 1426.93
+  coords 6751.474 1.206 1426.93
   angleY 15.07
  }
  {
@@ -49871,53 +49871,53 @@ $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Wall
   angleY 16.653
  }
  {
-  coords 6723.091 1.304 1428.99
+  coords 6723.091 1.206 1428.99
  }
  {
-  coords 6716.51 1.287 1429.045
+  coords 6716.51 1.206 1429.045
  }
  {
-  coords 6708.942 1.235 1429.175
+  coords 6708.942 1.206 1429.175
   angleY 2.228
  }
  {
-  coords 6702.354 1.218 1429.305
+  coords 6702.354 1.206 1429.216
   angleY -0.813
  }
  {
-  coords 6694.603 1.218 1429.038
+  coords 6694.603 1.206 1428.886
   angleY -4.094
  }
  {
-  coords 6688.038 1.201 1428.563
+  coords 6688.038 1.206 1428.428
   angleY -4.094
  }
  {
-  coords 6680.493 1.183 1427.745
+  coords 6680.493 1.206 1427.597
   angleY -8.443
  }
  {
-  coords 6673.976 1.166 1426.833
-  angleY -8.443
+  coords 6673.975 1.206 1426.912
+  angleY -4.076
  }
  {
-  coords 6667.967 1.157 1425.932
-  angleY -8.443
+  coords 6667.967 1.206 1426.639
+  angleY -1.456
  }
  {
   coords 6774.295 1.414 1420.889
   angleY 15.07
  }
  {
-  coords 6781.882 1.456 1419.477
+  coords 6781.882 1.414 1419.477
   angleY 5.976
  }
  {
-  coords 6789.887 1.49 1418.604
+  coords 6789.887 1.414 1418.604
   angleY 5.976
  }
  {
-  coords 6797.764 1.494 1417.954
+  coords 6797.764 1.414 1417.954
   angleY 2.593
  }
  {
@@ -49981,52 +49981,45 @@ $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Wall
   angleY 173.344
  }
  {
-  coords 6782.653 1.525 1444.117
+  coords 6782.653 1.414 1444.117
   angleY -174.887
  }
  {
-  coords 6788.22 1.608 1443.573
+  coords 6788.22 1.414 1443.573
   angleY -174.887
  }
  {
-  coords 6796.28 1.531 1442.879
+  coords 6796.28 1.414 1442.879
   angleY -174.887
  }
  {
-  coords 6804.166 1.559 1441.925
+  coords 6804.166 1.414 1441.925
   angleY -171.636
  }
  {
-  coords 6817.702 1.565 1439.916
+  coords 6817.702 1.414 1439.916
   angleY -171.636
  }
  {
-  coords 6809.694 1.642 1441.066
+  coords 6809.694 1.414 1441.066
   angleY -171.636
  }
  {
-  coords 6805.441 1.42 1417.378
+  coords 6805.441 1.414 1417.378
   angleY 5.976
  }
  {
-  coords 6813.313 1.392 1416.822
+  coords 6813.313 1.414 1416.822
   angleY 2.593
  }
  {
-  coords 6821.158 1.4 1416.259
+  coords 6821.158 1.414 1416.259
   angleY 5.976
  }
  {
   coords 6829.032 1.372 1415.595
   angleY 2.593
  }
-}
-GenericEntity : "{3A11F5367AB523AB}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Vole_V1.et" {
- coords 6881.943 26.044 1462.744
- angleX 0.06
- angleY 177.458
- angleZ -20.299
- scale 5.644
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{3CB20A890FB1B6F5}Prefabs/Rocks/Granite/GraniteSurfaceStone_02.et" {
  {
@@ -53042,11 +53035,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{3CB20A890FB1B6F5}Prefabs/Rocks/Gr
   angleZ 1.637
  }
 }
-GenericEntity : "{3E49A2FF5FFE1CA8}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Peace_V1.et" {
- coords 6872.356 29.636 1462.276
- angleY 177.48
- scale 8.978
-}
 $grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
  {
   coords 5005.382 67.164 2235.527
@@ -54345,11 +54333,6 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/Vegetation/Bushes/b_corylus_avellan
   angleZ 0.788
   scale 0.717
  }
-}
-GenericEntity : "{A46242F569F68E38}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Anarchy_V1.et" {
- coords 6875.702 14.554 1462.431
- angleY 177.268
- scale 17.94
 }
 SCR_DestructibleBuildingEntity : "{A94133D363E53FBC}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v1.et" {
  coords 6808.126 -0.361 1372.599
