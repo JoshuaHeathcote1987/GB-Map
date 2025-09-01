@@ -73910,7 +73910,7 @@ GenericEntity : "{1C6119DEB28F7897}Prefabs/Structures/BuildingParts/Signs/Commer
 }
 $grp GenericEntity : "{1E3693459113E8D2}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_CurlUp.et" {
  {
-  coords 5100.885 20.682 945.169
+  coords 5100.875 20.532 945.204
   angleY -13.984
  }
  {
@@ -74007,7 +74007,7 @@ GenericEntity : "{263A7B8F1432752D}Prefabs/Structures/BuildingParts/Signs/Commer
  angleY -1.755
 }
 SCR_DestructibleBuildingEntity : "{2D0A93C80A6A5C5D}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_02/PierWooden_02_bridge.et" {
- coords 6993.706 5.409 1465.954
+ coords 6994.266 5.32 1465.342
  scale 0.85
 }
 SCR_DestructibleEntity : "{304210E6B5E633F9}Prefabs/Props/Commercial/SignPub_01_base_BritProps_Soup.et" {
@@ -74040,33 +74040,8 @@ $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Wall
   scale 3.175
  }
  {
-  coords 6954.447 -7.33 1449.233
+  coords 6968.047 -7.322 1413.667
   angleY -159.111
-  scale 3.175
- }
- {
-  coords 6949.782 -7.376 1437.063
-  angleY -159.111
-  scale 3.175
- }
- {
-  coords 6973.348 -7.368 1427.955
-  angleY -159.111
-  scale 3.175
- }
- {
-  coords 6978.016 -7.322 1440.124
-  angleY -159.111
-  scale 3.175
- }
- {
-  coords 6980.577 -4.082 1401.529
-  angleY -94.271
-  scale 3.175
- }
- {
-  coords 6993.575 -4.036 1402.481
-  angleY -94.271
   scale 3.175
  }
  {
@@ -74183,7 +74158,7 @@ $grp SCR_DestructibleEntity : "{39CCFD71288599EC}Prefabs/Props/Commercial/SignPu
 }
 $grp GenericEntity : "{3E7EB2BFD667F698}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_WHSmythe.et" {
  {
-  coords 5077.839 20.759 939.33
+  coords 5077.833 20.478 939.355
   angleY -13.055
  }
  {
@@ -74325,8 +74300,8 @@ $grp SCR_DestructibleBuildingEntity : "{5F2672105DA102DB}PrefabLibrary/Structure
   angleY 175.459
  }
  {
-  coords 6978.447 -0.143 1437.826
-  angleY -159.818
+  coords 6975.823 2.665 1419.381
+  angleY 9.308
  }
 }
 $grp GenericEntity : "{613F68B39D0A4A64}Prefabs/Props/Commercial/CoolingBoxShop_01.et" {
@@ -75003,12 +74978,24 @@ $grp SCR_DestructibleBuildingEntity : "{D217E566992B77F4}Prefabs/Structures/Serv
   angleY 175.922
  }
  {
-  coords 6954.421 1.263 1446.926
-  angleY -159.354
+  coords 6964.15 1.051 1384.229
+  angleY 47.673
+  {
+   Building {
+    ID "59DC7BF37AA1A539"
+    {
+     GenericEntity {
+      ID "59AC83AB9BB3E60D"
+      coords 0 0 0
+      angleY 8.543
+     }
+    }
+   }
+  }
  }
  {
-  coords 6991.476 3.635 1401.523
-  angleY -94.514
+  coords 7000.134 3.741 1404.422
+  angleY -82.51
  }
 }
 SCR_DestructibleBuildingEntity : "{D288E1E16D11D57B}PrefabLibrary/Structures/Houses/House_Town_E_2I03.et" {
@@ -75042,7 +75029,7 @@ $grp SCR_DestructibleEntity : "{D4101A467FE8E7EE}PrefabLibrary/Walls/Brick/Brick
  }
 }
 GenericEntity : "{E06CCC4E1E454E21}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_Pharmacy.et" {
- coords 5089.209 20.659 942.223
+ coords 5089.201 20.48 942.255
  angleY -14.494
 }
 GenericEntity : "{E214337C6E1931C5}Prefabs/Props/Commercial/CounterShop_01.et" {
@@ -75106,7 +75093,7 @@ GenericEntity : "{E8A1CB0658F0DAE0}Prefabs/Structures/BuildingParts/Mural/Murals
  angleZ -7.157
 }
 GenericEntity : "{EA86E65143C656F5}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_SeaBreeze.et" {
- coords 6955.845 7.528 1562.943
+ coords 6955.793 7.528 1562.94
  angleY -93.224
  scale 0.66
 }
