@@ -1,3 +1,26 @@
+$grp GenericEntity {
+ {
+  coords 5346.33 19.377 7413.466
+  angleX -1.249
+  angleY -96.786
+  angleZ 0.077
+  scale 2.892
+ }
+ {
+  coords 5351.083 -16.374 7369.537
+  angleX -1.249
+  angleY -96.786
+  angleZ 0.077
+  scale 2.892
+ }
+ {
+  coords 5356.391 -16.275 7370.224
+  angleX -1.249
+  angleY -96.786
+  angleZ 0.077
+  scale 2.892
+ }
+}
 ParticleEffectEntity {
  coords 5364.404 71.272 7353.929
  angleX -1.249
@@ -488,29 +511,6 @@ $grp SCR_DestructibleBuildingEntity : "{A6CCEBBD4B24A35F}Prefabs/Structures/Agri
   angleY -96.786
   angleZ 179.883
   scale 2.599
- }
-}
-$grp GenericEntity : "{B038DE455B02D756}Prefabs/Props/Industrial/Groud.et" {
- {
-  coords 5346.33 19.377 7413.466
-  angleX -1.249
-  angleY -96.786
-  angleZ 0.077
-  scale 2.892
- }
- {
-  coords 5351.083 -16.374 7369.537
-  angleX -1.249
-  angleY -96.786
-  angleZ 0.077
-  scale 2.892
- }
- {
-  coords 5356.391 -16.275 7370.224
-  angleX -1.249
-  angleY -96.786
-  angleZ 0.077
-  scale 2.892
  }
 }
 GenericEntity : "{BD070A277B113E90}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage_US_covered.et" {
