@@ -18,6 +18,28 @@ SCR_DestructibleBuildingEntity : "{222BA50DBE764628}Prefabs/Buildings/Civilian/A
  coords 5214.609 -0.601 5265.374
  angleY -85.373
 }
+$grp GenericEntity : "{2F571A1E096644E9}Prefabs/Structures/BuildingParts/Entry/Entry_Roof_01_3x6.et" {
+ {
+  coords 5235.917 22.143 5386.947
+  angleY 135.705
+ }
+ {
+  coords 5199.404 22.007 5364.968
+  angleY 34.484
+ }
+ {
+  coords 5233.049 22.099 5313.029
+  angleY 18.919
+ }
+ {
+  coords 5174.235 21.944 5327.993
+  angleY 23.672
+ }
+ {
+  coords 5160.57 21.985 5285.897
+  angleY 3.924
+ }
+}
 $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structures/Landmarks/Castle_01_Pillar.et" {
  {
   coords 5386.737 55.998 5297.124
@@ -90,7 +112,7 @@ $grp SCR_DestructibleBuildingEntity : "{7E18A9FD18A333E2}Prefabs/Buildings/Civil
   angleY -108.263
  }
  {
-  coords 5496.908 -0.161 5377.632
+  coords 5500.013 -0.147 5378.208
   angleY 67.867
  }
 }
