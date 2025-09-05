@@ -1,3 +1,17 @@
+$grp GenericEntity {
+ {
+  coords 6697.33 35.743 6147.854
+  scale 2.892
+ }
+ {
+  coords 6653.193 -0.048 6149.105
+  scale 2.892
+ }
+ {
+  coords 6653.249 -0.065 6143.751
+  scale 2.892
+ }
+}
 ParticleEffectEntity {
  coords 6636.005 87.306 6135.813
  EffectPath "{0EDE755E5A808E81}Particles/Logistics/Fire/Ammunition_Fire/Ammunition_Fire_small.ptc"
@@ -326,20 +340,6 @@ $grp SCR_DestructibleBuildingEntity : "{A6CCEBBD4B24A35F}Prefabs/Structures/Agri
   coords 6698.051 42.01 6135.353
   angleZ 179.806
   scale 2.599
- }
-}
-$grp GenericEntity : "{B038DE455B02D756}Prefabs/Props/Industrial/Groud.et" {
- {
-  coords 6697.33 35.743 6147.854
-  scale 2.892
- }
- {
-  coords 6653.193 -0.048 6149.105
-  scale 2.892
- }
- {
-  coords 6653.249 -0.065 6143.751
-  scale 2.892
  }
 }
 GenericEntity : "{BD070A277B113E90}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V2_storage_US_covered.et" {
