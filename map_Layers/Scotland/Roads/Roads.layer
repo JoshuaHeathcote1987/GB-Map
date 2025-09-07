@@ -3201,37 +3201,43 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{65E8B8E11A200163}" {
-    Position -9.866 -0.111 131.302
+    Position -10.157 4.104 130.967
    }
    ShapePoint "{65E8B8E119CC574E}" {
-    Position 64.144 0.566 164.143
+    Position 63.301 13.061 163.869
    }
    ShapePoint "{65E8B8E133952095}" {
-    Position 158.368 0.928 186.013
+    Position 157.715 11.997 185.946
    }
    ShapePoint "{65E8B8E1332D0B69}" {
-    Position 255.471 2.121 194.626
+    Position 257.852 12.115 184.161
    }
    ShapePoint "{65E8B8E13344C15F}" {
-    Position 332.125 -0.532 237.732
+    Position 332.137 14.312 237.749
    }
    ShapePoint "{65E8B8E1321F2686}" {
-    Position 414.3 0.964 378.911
+    Position 376.585 11.781 367.538
    }
    ShapePoint "{65E8B8E139790B3E}" {
-    Position 489.087 3.024 440.44
+    Position 417.896 15.044 417.539
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 58.077 6.214 56.298
+      OutTangent 58.077 6.214 56.298
+     }
+    }
    }
    ShapePoint "{65E8B8E1381E4404}" {
-    Position 544.2 3.729 508.886
+    Position 492.582 26.596 479.98
    }
    ShapePoint "{65E8B8E1C7FC2D70}" {
-    Position 579.213 1.488 621.325
+    Position 560.368 15.512 602.222
    }
    ShapePoint "{65E8B8E1C706841D}" {
     Position 584.194 3.207 724.131
    }
    ShapePoint "{65E8B8E1C63F245E}" {
-    Position 665.384 2.849 911.057
+    Position 565.318 13.683 842.954
    }
    ShapePoint "{65E8B8E1C32C905A}" {
     Position 666.228 2.043 1043.209
@@ -3261,8 +3267,7 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
-    FalloffStartWidth -2.2
-    RoadFalloffWidth 12.3
+    RoadFalloffWidth 26.6
     {
      RoadEntity {
       ID "556C6556FAB8EA7A"
@@ -3289,37 +3294,43 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{65E8B8E1EE842687}" {
-        Position -9.866 -0.111 131.302
+        Position -10.157 4.104 130.966
        }
        ShapePoint "{65E8B8E1EE8426D3}" {
-        Position 64.144 0.566 164.143
+        Position 63.301 13.061 163.869
        }
        ShapePoint "{65E8B8E1EE84251F}" {
-        Position 158.368 0.928 186.013
+        Position 157.715 11.997 185.946
        }
        ShapePoint "{65E8B8E1EE84256E}" {
-        Position 255.471 2.121 194.626
+        Position 257.852 12.115 184.161
        }
        ShapePoint "{65E8B8E1EE8425B6}" {
-        Position 332.125 -0.532 237.732
+        Position 332.137 14.312 237.749
        }
        ShapePoint "{65E8B8E1EE842588}" {
-        Position 414.3 0.964 378.911
+        Position 376.585 11.781 367.538
        }
        ShapePoint "{65E8B8E1EE8425DB}" {
-        Position 489.087 3.024 440.44
+        Position 417.896 15.044 417.539
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent 58.077 6.214 56.298
+          OutTangent 58.077 6.214 56.298
+         }
+        }
        }
        ShapePoint "{65E8B8E1EE84242E}" {
-        Position 544.2 3.729 508.886
+        Position 492.582 26.596 479.98
        }
        ShapePoint "{65E8B8E1EE84247F}" {
-        Position 579.213 1.488 621.325
+        Position 560.368 15.512 602.222
        }
        ShapePoint "{65E8B8E1EE84244C}" {
         Position 584.194 3.207 724.131
        }
        ShapePoint "{65E8B8E1EE84249B}" {
-        Position 665.384 2.849 911.057
+        Position 565.318 13.683 842.954
        }
        ShapePoint "{65E8B8E1EE8424ED}" {
         Position 666.228 2.043 1043.209
@@ -3328,7 +3339,7 @@ $grp SplineShapeEntity {
         Position 599.224 2.76 1069.497
        }
        ShapePoint "{65F29ABD66CFE8C9}" {
-        Position 404.358 1.618 1077.314
+        Position 404.358 1.618 1077.313
        }
        ShapePoint "{65F29ABD5BF71F33}" {
         Position 257.688 3.911 1095.016
