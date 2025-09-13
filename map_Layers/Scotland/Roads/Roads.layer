@@ -224,7 +224,7 @@ $grp SplineShapeEntity {
     Position -59.843 0.142 56.226
    }
    ShapePoint "{65DEBD537DC365C8}" {
-    Position -114.726 0.142 52.113
+    Position -114.726 0.142 51.975
    }
    ShapePoint "{65DEBD537B718B33}" {
     Position -178.601 0.142 42.102
@@ -260,7 +260,7 @@ $grp SplineShapeEntity {
         Position -59.843 0.496 56.226
        }
        ShapePoint "{65DEBD531F3F925E}" {
-        Position -114.726 0.496 52.113
+        Position -114.726 0.496 51.975
        }
        ShapePoint "{65DEBD531F3F92B0}" {
         Position -178.601 0.496 42.102
@@ -774,7 +774,43 @@ $grp SplineShapeEntity {
     Position 320.664 -0.067 -42.346
    }
    ShapePoint "{65DEBD528CDD8A94}" {
-    Position 322.581 -0.067 -48.214
+    Position 321.882 -0.067 -46.164
+   }
+   ShapePoint "{665A8169FD345BD0}" {
+    Position 314.945 -0.004 -48.53
+   }
+   ShapePoint "{665A8169F3B572E8}" {
+    Position 307.942 -0.004 -51.26
+   }
+   ShapePoint "{665A8169F1B4D5EA}" {
+    Position 281.377 0.059 -61.31
+   }
+   ShapePoint "{665A8169F60993D3}" {
+    Position 262.74 0.178 -69.606
+   }
+   ShapePoint "{665A8169F4976843}" {
+    Position 249.419 0.679 -75.775
+   }
+   ShapePoint "{665A8169F5B65AF7}" {
+    Position 236.784 2.17 -81.719
+   }
+   ShapePoint "{665A8169E93DF355}" {
+    Position 220.805 5.377 -89.266
+   }
+   ShapePoint "{665A8169E28EE44D}" {
+    Position 209.201 9.243 -94.539
+   }
+   ShapePoint "{665A8169E0C02204}" {
+    Position 202.304 11.075 -96.948
+   }
+   ShapePoint "{665A8169E01D26A3}" {
+    Position 189.012 14.808 -102.814
+   }
+   ShapePoint "{665A8169E7BD7731}" {
+    Position 177.478 18.16 -107.826
+   }
+   ShapePoint "{665A8169E4166220}" {
+    Position 163.268 22.114 -113.879
    }
   }
   LineColor 0 0 0 0
@@ -784,19 +820,19 @@ $grp SplineShapeEntity {
     {
      $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
       {
-       coords 0.488 -0.007 0.464
+       coords 0.488 0.055 0.464
        angleY 72.581
       }
       {
-       coords 1.669 0.034 -3.313
+       coords 1.669 0.073 -3.313
        angleY 71.507
       }
       {
-       coords 2.915 0.069 -7.069
+       coords 2.915 0.088 -7.069
        angleY 68.657
       }
       {
-       coords 4.341 0.091 -10.762
+       coords 4.341 0.121 -10.762
        angleY 64.503
       }
       {
@@ -804,11 +840,11 @@ $grp SplineShapeEntity {
        angleY 59.443
       }
       {
-       coords 8.023 0.15 -17.76
+       coords 8.023 0.151 -17.76
        angleY 53.865
       }
       {
-       coords 10.327 0.154 -20.982
+       coords 10.327 0.161 -20.982
        angleY 43.001
       }
       {
@@ -874,14 +910,6 @@ $grp SplineShapeEntity {
       {
        coords 70.851 0.183 -25.066
        angleY 348.61
-      }
-      {
-       coords 74.731 0.183 -24.287
-       angleY 347.983
-      }
-      {
-       coords 78.601 0.183 -23.464
-       angleY 347.532
       }
       {
        coords 82.465 0.183 -22.611
@@ -992,7 +1020,7 @@ $grp SplineShapeEntity {
        angleY 351.539
       }
       {
-       coords 187.089 0.183 -1.167
+       coords 187.089 0.183 -1.166
        angleY 351.539
       }
       {
@@ -1000,23 +1028,11 @@ $grp SplineShapeEntity {
        angleY 351.947
       }
       {
-       coords 194.92 0.183 -0.029
-       angleY 351.998
-      }
-      {
-       coords 198.839 0.183 0.523
-       angleY 352.36
-      }
-      {
-       coords 202.761 0.183 1.05
-       angleY 352.443
-      }
-      {
        coords 206.683 0.183 1.571
        angleY 352.8
       }
       {
-       coords 210.609 0.183 2.068
+       coords 210.61 0.183 2.068
        angleY 352.879
       }
       {
@@ -1100,14 +1116,6 @@ $grp SplineShapeEntity {
        angleY 18.763
       }
       {
-       coords 293.113 0.183 2.547
-       angleY 27.769
-      }
-      {
-       coords 296.636 0.183 0.736
-       angleY 38.607
-      }
-      {
        coords 299.75 0.183 -1.71
        angleY 47.171
       }
@@ -1121,23 +1129,15 @@ $grp SplineShapeEntity {
       }
       {
        coords 307.352 0.183 -10.819
-       angleY 59.367
+       angleY 59.368
       }
       {
        coords 309.381 0.184 -14.216
-       angleY 63.664
+       angleY 63.663
       }
       {
        coords 311.143 0.168 -17.76
-       angleY 65.428
-      }
-      {
-       coords 312.792 0.154 -21.357
-       angleY 66.387
-      }
-      {
-       coords 314.387 0.121 -24.978
-       angleY 69.542
+       angleY 65.427
       }
       {
        coords 315.775 0.117 -28.684
@@ -1145,19 +1145,187 @@ $grp SplineShapeEntity {
       }
       {
        coords 317.065 0.089 -32.425
-       angleY 70.091
+       angleY 70.114
       }
       {
-       coords 318.412 0.061 -36.146
-       angleY 69.915
+       coords 318.411 0.061 -36.147
+       angleY 69.913
       }
       {
-       coords 319.774 -0.037 -39.861
-       angleY 70.658
+       coords 319.762 -0.037 -39.866
+       angleY 67.818
       }
       {
-       coords 321.089 -0.067 -43.594
-       angleY 72.06
+       coords 321.431 -0.067 -43.537
+       angleY 117.194
+      }
+      {
+       coords 319.729 -0.058 -47.188
+       angleY 164.81
+      }
+      {
+       coords 315.904 -0.004 -48.206
+       angleY 159.282
+      }
+      {
+       coords 312.202 -0.004 -49.604
+       angleY 158.737
+      }
+      {
+       coords 308.515 -0.004 -51.042
+       angleY 159.502
+      }
+      {
+       coords 304.809 -0.004 -52.428
+       angleY 159.568
+      }
+      {
+       coords 301.1 0.005 -53.809
+       angleY 159.568
+      }
+      {
+       coords 297.392 0.012 -55.19
+       angleY 159.464
+      }
+      {
+       coords 293.686 0.024 -56.578
+       angleY 159.365
+      }
+      {
+       coords 289.983 0.027 -57.971
+       angleY 159.132
+      }
+      {
+       coords 286.284 0.028 -59.379
+       angleY 158.577
+      }
+      {
+       coords 282.6 0.055 -60.822
+       angleY 157.754
+      }
+      {
+       coords 278.936 0.059 -62.316
+       angleY 156.68
+      }
+      {
+       coords 275.301 0.075 -63.88
+       angleY 155.914
+      }
+      {
+       coords 271.687 0.1 -65.493
+       angleY 155.302
+      }
+      {
+       coords 268.092 0.119 -67.147
+       angleY 155.31
+      }
+      {
+       coords 264.497 0.148 -68.8
+       angleY 155.411
+      }
+      {
+       coords 260.898 0.203 -70.446
+       angleY 155.313
+      }
+      {
+       coords 257.302 0.282 -72.098
+       angleY 155.044
+      }
+      {
+       coords 253.714 0.414 -73.768
+       angleY 154.946
+      }
+      {
+       coords 250.129 0.625 -75.443
+       angleY 154.92
+      }
+      {
+       coords 246.545 0.904 -77.121
+       angleY 154.809
+      }
+      {
+       coords 242.962 1.271 -78.805
+       angleY 154.747
+      }
+      {
+       coords 239.382 1.969 -80.493
+       angleY 154.727
+      }
+      {
+       coords 235.804 2.78 -82.183
+       angleY 154.669
+      }
+      {
+       coords 232.227 3.513 -83.876
+       angleY 154.629
+      }
+      {
+       coords 228.65 4.296 -85.572
+       angleY 154.688
+      }
+      {
+       coords 225.071 5.19 -87.266
+       angleY 154.871
+      }
+      {
+       coords 221.488 6.395 -88.947
+       angleY 155.023
+      }
+      {
+       coords 217.903 7.611 -90.618
+       angleY 155.198
+      }
+      {
+       coords 214.312 8.675 -92.28
+       angleY 155.875
+      }
+      {
+       coords 210.705 9.683 -93.906
+       angleY 158.859
+      }
+      {
+       coords 207.018 10.645 -95.343
+       angleY 161.73
+      }
+      {
+       coords 203.254 11.605 -96.569
+       angleY 157.226
+      }
+      {
+       coords 199.604 12.615 -98.097
+       angleY 156.076
+      }
+      {
+       coords 195.987 13.61 -99.701
+       angleY 155.948
+      }
+      {
+       coords 192.374 14.542 -101.314
+       angleY 156.003
+      }
+      {
+       coords 188.759 15.476 -102.925
+       angleY 156.404
+      }
+      {
+       coords 185.132 16.551 -104.509
+       angleY 156.524
+      }
+      {
+       coords 181.503 17.596 -106.086
+       angleY 156.623
+      }
+      {
+       coords 177.872 18.564 -107.657
+       angleY 156.91
+      }
+      {
+       coords 174.232 19.543 -109.209
+       angleY 156.928
+      }
+      {
+       coords 170.591 20.502 -110.76
+       angleY 156.928
       }
      }
     }
