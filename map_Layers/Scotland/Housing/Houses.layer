@@ -2,43 +2,18 @@ SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/Structures/Hou
  coords 5607.109 -0.133 5378.492
  angleY -18.288
 }
-SCR_DestructibleBuildingEntity : "{0A9982CEAC226FDB}Prefabs/Buildings/Civilian/Apartments/Apartment_4-Storey/Apartment_4-Storey_v2.et" {
- coords 5222.865 -0.468 5304.248
- angleY -71.686
-}
-SCR_DestructibleBuildingEntity : "{0B2717FF3BBF99B5}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v4.et" {
- coords 5193.717 -0.676 5354.95
- angleY -55.362
-}
 SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/Structures/Cultural/Church_01.et" {
  coords 5525.9 8.383 5335.177
  angleY -23.089
 }
 SCR_DestructibleBuildingEntity : "{222BA50DBE764628}Prefabs/Buildings/Civilian/Apartments/Apartment_4-Storey/Apartment_4-Storey_v1.et" {
- coords 5214.609 -0.601 5265.374
- angleY -85.373
+ coords 5199.949 -0.446 5257.218
+ angleY -45.966
 }
-$grp GenericEntity : "{2F571A1E096644E9}Prefabs/Structures/BuildingParts/Entry/Entry_Roof_01_3x6.et" {
- {
-  coords 5235.917 22.143 5386.947
-  angleY 135.705
- }
- {
-  coords 5199.404 22.007 5364.968
-  angleY 34.484
- }
- {
-  coords 5233.049 22.099 5313.029
-  angleY 18.919
- }
- {
-  coords 5174.235 21.944 5327.993
-  angleY 23.672
- }
- {
-  coords 5160.57 21.985 5285.897
-  angleY 3.924
- }
+GenericEntity : "{2F571A1E096644E9}Prefabs/Structures/BuildingParts/Entry/Entry_Roof_01_3x6.et" {
+ coords 5216.5 20.521 5356.884
+ angleY -44.701
+ scale 0.79
 }
 $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structures/Landmarks/Castle_01_Pillar.et" {
  {
@@ -109,10 +84,6 @@ SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/Structures/Hou
 Tree : "{8F91FCAFE65FCDA6}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_3s.et" {
  coords 5561.063 0 5360.473
 }
-SCR_DestructibleBuildingEntity : "{947516EB1689B68B}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v6.et" {
- coords 5222.987 -0.586 5388.525
- angleY -43.182
-}
 SCR_DestructibleBuildingEntity : "{BB7AA78F9AA6A2C6}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_GraveFence_E_02.et" {
  coords 5546.209 0.151 5356.38
  angleY -111.211
@@ -123,12 +94,12 @@ SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/Structures/Agr
 }
 $grp SCR_DestructibleBuildingEntity : "{C5150733DF21B092}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v2.et" {
  {
-  coords 5171.58 -0.608 5316.586
-  angleY -66.211
+  coords 5203.269 0.595 5307.205
+  angleY -134.723
  }
  {
-  coords 5160.815 -0.634 5274.373
-  angleY -86.106
+  coords 5160.813 0.105 5274.373
+  angleY 44.575
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{CC264B8673EF22FD}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Tombstones/E_GraveStone_E_01_C.et" {
@@ -224,10 +195,6 @@ $grp SCR_DestructibleBuildingEntity : "{D9BE883AF3A6B42A}PrefabsEditable/Auto/St
   coords 5564.14 -0.125 5347.09
   angleY -110.603
  }
-}
-SCR_DestructibleBuildingEntity : "{EF05CE37A0C7F8B0}Prefabs/Buildings/Civilian/Apartments/Apartment_4-Storey/Apartment_4-Storey_v3.et" {
- coords 5264.225 -0.505 5380.762
- angleY 5.352
 }
 SCR_DestructibleBuildingEntity : "{FD91510268A541A7}PrefabLibrary/Structures/Houses/House_Wooden_E_1I01/House_Wooden_E_1I01_panels.et" {
  coords 5582.527 1.368 5465.614
