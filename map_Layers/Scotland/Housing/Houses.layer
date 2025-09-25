@@ -10,11 +10,6 @@ SCR_DestructibleBuildingEntity : "{222BA50DBE764628}Prefabs/Buildings/Civilian/A
  coords 5199.949 -0.446 5257.218
  angleY -45.966
 }
-GenericEntity : "{2F571A1E096644E9}Prefabs/Structures/BuildingParts/Entry/Entry_Roof_01_3x6.et" {
- coords 5216.5 20.521 5356.884
- angleY -44.701
- scale 0.79
-}
 $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/Structures/Landmarks/Castle_01_Pillar.et" {
  {
   coords 5386.737 55.998 5297.124
@@ -56,7 +51,7 @@ SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/Structures/Hou
  angleY -3.143
 }
 SCR_DestructibleBuildingEntity : "{57632F08BA42F1DC}PrefabLibrary/Structures/Houses/House_Village_E_1I03.et" {
- coords 5592.084 -0.017 5405.755
+ coords 5589.351 0.017 5401.58
  angleY -109.17
 }
 $grp SCR_DestructibleBuildingEntity : "{6E00504562990EF3}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Graves/E_Grave_E_01_Frame_V1.et" {
