@@ -119,7 +119,7 @@ $grp SplineShapeEntity {
   coords 6321.322 6.243 1804.931
   Points {
    ShapePoint "{65E8D9D80746FC33}" {
-    Position 3.56 0.438 4.316
+    Position 3.56 2.075 4.316
    }
    ShapePoint "{65E8D9D80746D310}" {
     Position -9.417 -0.274 -38.794
@@ -131,12 +131,13 @@ $grp SplineShapeEntity {
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
+    RoadWidth 8
     {
      RoadEntity {
       ID "556C655491CDCD64"
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
-        Position 3.561 0.438 4.316
+        Position 3.56 2.075 4.316
        }
        ShapePoint "{556C6554868CB0CE}" {
         Position -9.417 -0.274 -38.794
@@ -146,7 +147,7 @@ $grp SplineShapeEntity {
        }
       }
       IsClosedSpline 0
-      Width 12
+      Width 8
      }
     }
    }
@@ -156,34 +157,41 @@ $grp SplineShapeEntity {
   coords 6320.591 6.687 1810.005
   Points {
    ShapePoint "{65E8D9D8E4FFC227}" {
-    Position 2.201 0.672 11.04
+    Position 2.201 1.248 11.04
    }
    ShapePoint "{65E8D9D81FF2686B}" {
     Position 14.958 -0.657 -57.667
    }
-   ShapePoint "{65E8D9D81FF2B5FE}" {
-    Position 28.915 -0.598 -109.545
+   ShapePoint "{667CF92E18855B89}" {
+    Position 19.146 -0.824 -78.76
+   }
+   ShapePoint "{667CF92E19FEC95F}" {
+    Position 18.69 -0.948 -90.691
    }
   }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
+    RoadWidth 8
     {
      RoadEntity {
       ID "556C655491CDCD64"
       SplinePoints {
        ShapePoint "{556C6554868CB1B0}" {
-        Position 2.201 0.672 11.04
+        Position 2.201 1.248 11.04
        }
        ShapePoint "{556C6554868CB0CE}" {
         Position 14.958 -0.657 -57.667
        }
-       ShapePoint "{65E8D9D8E55C4E46}" {
-        Position 28.915 -0.598 -109.545
+       ShapePoint "{667CF92E18BA3D3F}" {
+        Position 19.146 -0.824 -78.76
+       }
+       ShapePoint "{667CF92E19FE13E4}" {
+        Position 18.69 -0.948 -90.691
        }
       }
       IsClosedSpline 0
-      Width 12
+      Width 8
      }
     }
    }

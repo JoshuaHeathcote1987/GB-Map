@@ -23,7 +23,8 @@ $grp GenericEntity {
     Object "{79EFCBB87F3D62D1}Assets/Structures/Military/Helipad/Helipadshort.xob"
    }
   }
-  coords 7226.375 6.158 1710.445
+  coords 7226.375 5.38 1713.437
+  scale 0.585
  }
  {
   components {
@@ -3822,7 +3823,7 @@ $grp SplineShapeEntity {
   coords 6795.515 5.125 1534.133
   Points {
    ShapePoint "{65DEC32B8E5963CF}" {
-    Position 0 0 0
+    Position 0 -0.233 0
    }
    ShapePoint "{65DEC32B8E5948D4}" {
     Position -12.175 0.375 -54.761
@@ -3839,7 +3840,7 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0 0 0
+        Position 0 -0.233 0
        }
        ShapePoint "{556C6556BF2A9DE7}" {
         Position -12.175 0.375 -54.761
