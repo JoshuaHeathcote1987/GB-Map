@@ -17193,11 +17193,8 @@ SCR_DestructibleBuildingEntity : "{43A8DE767957446C}PrefabLibrary/Structures/Com
 GenericEntity : "{468B5060A2C0779B}PrefabLibrary/Props/Construction/PlankPile_01_Medium.et" {
  coords 3562.366 6.25 3183.795
 }
-SCR_DestructibleBuildingEntity : "{4D6D06CAD0439114}Prefabs/Structures/Cultural/Fountains/Fountain_01.et" {
- coords 5602.057 0 3220.314
-}
 GenericEntity : "{52F103DBD3472A67}PrefabLibrary/Structures/Forest/FeedRack_02.et" {
- coords 5612.312 3.689 3585.323
+ coords 5600.166 7.965 3585.323
 }
 $grp Tree : "{531BB93086610CA1}PrefabLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
  {
@@ -17550,13 +17547,6 @@ $grp SCR_DestructibleBuildingEntity : "{5CF33ABAD1662F89}PrefabLibrary/Infrastru
   coords 5693.781 0 3216.993
  }
  {
-  coords 5584.028 0 3177.967
-  angleY -91.127
- }
- {
-  coords 5426.966 0 3247.544
- }
- {
   coords 3646.618 0 3246.03
  }
 }
@@ -17847,12 +17837,6 @@ $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/Infrastructure/Lamps/LampS
   angleZ -1.898
  }
  {
-  coords 5446.198 0 3264.749
-  angleX -0.985
-  angleY 358.143
-  angleZ -0.592
- }
- {
   coords 5488.96 0 3263.711
   angleX 0.389
   angleY 2.041
@@ -17993,53 +17977,6 @@ SCR_DestructibleBuildingEntity : "{A6AEE9571CB62BEF}PrefabLibrary/Structures/Com
 SCR_DestructibleBuildingEntity : "{A7259960AB98A3A0}PrefabLibrary/Structures/Houses/House_Village_E_1I05t.et" {
  coords 3315.612 0.193 3200.089
  angleY 180
-}
-$grp SCR_DestructibleEntity : "{A74BD05C8BE0F26F}PrefabLibrary/Infrastructure/Sings/PlasticVergePost_01.et" {
- {
-  coords 5538.269 4.997 3180.761
-  angleX 0.43
-  angleZ -1.916
- }
- {
-  coords 5531.657 4.906 3181.106
-  angleX 1.477
-  angleZ -1.976
- }
- {
-  coords 5524.377 4.941 3181.778
-  angleX -1.161
-  angleZ -0.888
- }
- {
-  coords 5517.449 4.99 3182.157
-  angleX 1.885
-  angleZ 1.544
- }
- {
-  coords 5507.982 4.855 3183.647
-  angleX 0.368
-  angleZ -0.701
- }
- {
-  coords 5498.553 4.859 3185.228
-  angleX -0.109
-  angleZ 1.183
- }
- {
-  coords 5489.208 4.853 3187.052
-  angleX 0.423
-  angleZ -1.621
- }
- {
-  coords 5479.552 5.031 3190.657
-  angleX 0.42
-  angleZ -0.235
- }
- {
-  coords 5470.608 5.031 3194.213
-  angleX -0.254
-  angleZ 0.49
- }
 }
 $grp GenericEntity : "{A7BBEF1B337479E0}PrefabLibrary/Props/Civilian/MessageBoard_02.et" {
  {
