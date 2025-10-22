@@ -22143,6 +22143,79 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 5167.963 57.531 2259.966
+  Points {
+   ShapePoint "{66ACA6038E3358D4}" {
+    Position -2.795 1.581 4.355
+   }
+   ShapePoint "{66ACA6038E3390AB}" {
+    Position 7.247 1.853 6.726
+   }
+   ShapePoint "{66ACA6038CDC34DA}" {
+    Position 17.742 1.649 4.351
+   }
+   ShapePoint "{66ACA6038C97A0AD}" {
+    Position 27.903 1.695 -1.162
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 8.052 0.409 -6.993
+      OutTangent 8.052 0.409 -6.993
+     }
+    }
+   }
+   ShapePoint "{66ACA6038C411CD7}" {
+    Position 34.455 2.344 -8.645
+   }
+   ShapePoint "{66ACA6023835A027}" {
+    Position 37.222 2.205 -14.961
+   }
+   ShapePoint "{66ACA602745FC053}" {
+    Position 38.06 2.909 -21.971
+   }
+   ShapePoint "{66ACA602758B755B}" {
+    Position 36.15 3.35 -27.339
+   }
+   ShapePoint "{66ACA6038DFB825A}" {
+    Position 32.268 2.829 -32.225
+   }
+   ShapePoint "{66ACA6038DBAF584}" {
+    Position 25.619 2.237 -38.689
+   }
+   ShapePoint "{66ACA602555A0ECE}" {
+    Position 21.519 1.962 -41.201
+   }
+   ShapePoint "{66ACA6025448FAEC}" {
+    Position 15.51 1.833 -44.47
+   }
+   ShapePoint "{66ACA6038D710819}" {
+    Position 11.064 1.715 -45.247
+   }
+   ShapePoint "{66ACA60256A63580}" {
+    Position 3.305 1.6 -41.472
+   }
+   ShapePoint "{66ACA60257F120DE}" {
+    Position -1.268 1.854 -37.118
+   }
+   ShapePoint "{66ACA6038D3FB272}" {
+    Position -3.539 1.869 -33.925
+   }
+   ShapePoint "{66ACA60382C40BD4}" {
+    Position -8.648 1.419 -20.43
+   }
+   ShapePoint "{66ACA603828F60ED}" {
+    Position -9.496 1.529 -6.437
+   }
+   ShapePoint "{66ACA603821A819F}" {
+    Position -2.948 1.534 4.055
+   }
+  }
+  {
+   LakeGeneratorEntity : "{FB8CA78AE56C4A0E}PrefabLibrary/Generators/Water/Lake/LG_Lake_01.et" {
+    coords 0 0 0
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{427D2BB4E4D96606}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01_Office_V2.et" {
  coords 5888.836 0.316 1749.644

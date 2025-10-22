@@ -69,6 +69,11 @@ GenericEntity : "{190CC54D175F52CB}Prefabs/Props/Military/SupplyBox/SupplyShippi
  coords 6688.481 46.72 6127.187
 }
 SCR_DestructibleBuildingEntity : "{1A4A64AD1C9A15BA}PrefabLibrary/Structures/Airport/ControlTower_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7AD09D2D35EBFF}" {
+   Enabled 0
+  }
+ }
  coords 6637.551 48.577 6149.056
  angleY 90.343
 }
@@ -297,6 +302,11 @@ GenericEntity : "{97A03B43D914B4DD}Prefabs/Props/Military/SupplyBox/SupplyShippi
  coords 6688.476 44.187 6128.2
 }
 SCR_DestructibleBuildingEntity : "{9B4EE2EF2E6F986D}PrefabLibrary/Structures/Industrial/FactoryHall_E_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F6F16D6C15}" {
+   Enabled 0
+  }
+ }
  coords 6642.207 44.142 6110.138
  angleY 90.734
 }

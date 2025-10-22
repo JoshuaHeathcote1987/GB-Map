@@ -107,6 +107,11 @@ GenericEntity : "{190CC54D175F52CB}Prefabs/Props/Military/SupplyBox/SupplyShippi
  angleZ 0.077
 }
 SCR_DestructibleBuildingEntity : "{1A4A64AD1C9A15BA}PrefabLibrary/Structures/Airport/ControlTower_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7AD09D2D35EBFF}" {
+   Enabled 0
+  }
+ }
  coords 5352.003 30.419 7353.954
  angleX -0.069
  angleY -6.441
@@ -450,6 +455,11 @@ GenericEntity : "{97A03B43D914B4DD}Prefabs/Props/Military/SupplyBox/SupplyShippi
  angleZ 0.077
 }
 SCR_DestructibleBuildingEntity : "{9B4EE2EF2E6F986D}PrefabLibrary/Structures/Industrial/FactoryHall_E_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F6F16D6C15}" {
+   Enabled 0
+  }
+ }
  coords 5390.103 28.669 7363.174
  angleX -0.061
  angleY -6.05
@@ -557,6 +567,11 @@ $grp SCR_DestructibleBuildingEntity : "{CF86E4F10D9173E9}Prefabs/Structures/Infr
  }
 }
 SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5DA867F31CE8DF24}" {
+   Enabled 0
+  }
+ }
  coords 5365.291 30.402 7354.117
  angleX 0.079
  angleY 173.115
