@@ -76647,8 +76647,11 @@ $grp SplineShapeEntity {
    ShapePoint "{65E8D6CF24C9C4C5}" {
     Position -38.964 -1.446 68.827
    }
+   ShapePoint "{66AF0A06682D74C9}" {
+    Position -64.498 1.49 146.432
+   }
    ShapePoint "{65E8D6CF18AD1EBA}" {
-    Position -67.744 1.579 164.108
+    Position -70.174 1.686 163.491
    }
   }
   {
@@ -76665,7 +76668,10 @@ $grp SplineShapeEntity {
         Position -38.964 -1.446 68.827
        }
        ShapePoint "{65E8D6CF1EEBEC0A}" {
-        Position -67.744 1.579 164.108
+        Position -64.498 1.49 146.432
+       }
+       ShapePoint "{66AF0A06682D03E4}" {
+        Position -70.174 1.686 163.491
        }
       }
       IsClosedSpline 0
@@ -90089,6 +90095,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   scale 1.66
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5955.865 12.718 1297.223
   angleX -6.905
   angleY 39.438

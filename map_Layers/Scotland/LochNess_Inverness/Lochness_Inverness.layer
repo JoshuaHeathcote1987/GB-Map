@@ -2,8 +2,8 @@ $grp SplineShapeEntity {
  {
   coords 4614.042 8.812 6913.604
   Points {
-   ShapePoint "{65F4616C2A695DEA}" {
-    Position 0 0 0
+   ShapePoint "{66B29AF5D5CF80EB}" {
+    Position 15.179 -0.062 10.979
    }
    ShapePoint "{65F4616C2A697F18}" {
     Position -27.21 0.05 -29.609
@@ -32,6 +32,24 @@ $grp SplineShapeEntity {
    ShapePoint "{65F4616C3002D44D}" {
     Position -498.529 1.968 -635.278
    }
+   ShapePoint "{66B29AE26130AD1A}" {
+    Position -511.407 0.942 -677.98
+   }
+   ShapePoint "{66B29AE267A770C4}" {
+    Position -528.614 1.401 -764.663
+   }
+   ShapePoint "{66B29AE267321C2F}" {
+    Position -570.281 1.384 -793.091
+   }
+   ShapePoint "{66B29AE25B3AC5B9}" {
+    Position -629.576 2.194 -816.155
+   }
+   ShapePoint "{66B29AE2589BB48B}" {
+    Position -664.718 1.463 -848.404
+   }
+   ShapePoint "{66B29AE259DD8504}" {
+    Position -680.003 0.379 -854.806
+   }
   }
   {
    RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
@@ -41,7 +59,7 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0 0 0
+        Position 15.179 -0.062 10.979
        }
        ShapePoint "{556C6556BF2A9DE7}" {
         Position -27.21 0.05 -29.609
@@ -70,6 +88,24 @@ $grp SplineShapeEntity {
        ShapePoint "{65F4616CDF4B5711}" {
         Position -498.529 1.968 -635.278
        }
+       ShapePoint "{66B29AE26131EFD6}" {
+        Position -511.407 0.942 -677.981
+       }
+       ShapePoint "{66B29AE267A4CF2B}" {
+        Position -528.614 1.401 -764.663
+       }
+       ShapePoint "{66B29AE2673374CD}" {
+        Position -570.281 1.384 -793.091
+       }
+       ShapePoint "{66B29AE25B3A790E}" {
+        Position -629.576 2.194 -816.155
+       }
+       ShapePoint "{66B29AE2589B3B31}" {
+        Position -664.718 1.463 -848.404
+       }
+       ShapePoint "{66B29AE259DD3E02}" {
+        Position -680.003 0.379 -854.806
+       }
       }
       IsClosedSpline 0
       Width 12
@@ -81,8 +117,8 @@ $grp SplineShapeEntity {
  {
   coords 4687.508 8.774 6830.956
   Points {
-   ShapePoint "{65F4616CE00FF92B}" {
-    Position 0 0 0
+   ShapePoint "{66B29AFA13B12A4F}" {
+    Position 47.704 0.026 45.188
    }
    ShapePoint "{65F4616CE00F019B}" {
     Position -18.003 0.009 -29.039
@@ -106,7 +142,7 @@ $grp SplineShapeEntity {
     Position -413.451 1.847 -558.437
    }
    ShapePoint "{65F4616CF6400289}" {
-    Position -471.246 2.026 -616.335
+    Position -471.246 4.068 -616.335
    }
   }
   {
@@ -118,7 +154,7 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0 0 0
+        Position 47.704 0.026 45.188
        }
        ShapePoint "{556C6556BF2A9DE7}" {
         Position -18.003 0.009 -29.039
@@ -139,10 +175,10 @@ $grp SplineShapeEntity {
         Position -348.531 2.585 -511.452
        }
        ShapePoint "{65F4616CF382B983}" {
-        Position -413.451 1.847 -558.438
+        Position -413.451 1.847 -558.437
        }
        ShapePoint "{65F4616CF382B9D3}" {
-        Position -471.246 2.026 -616.335
+        Position -471.246 4.068 -616.335
        }
       }
       IsClosedSpline 0
@@ -173,7 +209,7 @@ $grp SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/Structure
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{AD192273F0A1F50D}PrefabLibrary/Rocks/Granite/GraniteCliff_02/GraniteCliff_02_Fucus.et" {
  {
-  coords 4387.53 -16.826 6632.125
+  coords 4387.53 -18.972 6632.125
   angleY 65.168
  }
  {
@@ -181,11 +217,11 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{AD192273F0A1F50D}PrefabLibrary/Ro
   angleY -167.627
  }
  {
-  coords 4390.024 -16.537 6620.592
+  coords 4390.024 -18.174 6620.592
   angleY 104.452
  }
  {
-  coords 4384.977 -16.534 6606.145
+  coords 4384.977 -17.826 6607.599
   angleY -51.089
  }
  {
@@ -193,7 +229,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{AD192273F0A1F50D}PrefabLibrary/Ro
   angleY 170.773
  }
  {
-  coords 4374.566 -18.053 6600.535
+  coords 4374.566 -19.805 6600.535
   angleY 157.857
  }
  {

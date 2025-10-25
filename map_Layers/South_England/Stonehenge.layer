@@ -57405,6 +57405,11 @@ SCR_DestructibleBuildingEntity : "{1442CEFB8700D7F2}PrefabLibrary/Walls/Concrete
 }
 $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Roads/StoneVergePost_01_D_V2.et" {
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5927.945 13.344 1309.31
   angleX -1.008
   angleY 123.895
@@ -57413,6 +57418,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5929.489 16.32 1311.419
   angleX -1.008
   angleY 123.895
@@ -57421,6 +57431,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5926.446 13.342 1290.313
   angleX -2.5
   angleY 65.019
@@ -57430,6 +57445,9 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
  }
  {
   components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
     EnableDamage 0
    }
@@ -57443,6 +57461,9 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
  }
  {
   components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
    SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
     EnableDamage 0
    }
@@ -57455,6 +57476,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5925.759 12.946 1305.542
   angleX -1.637
   angleY 108.368
@@ -57463,6 +57489,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5924.942 13.49 1297.927
   angleX -2.092
   angleY 91.405
@@ -57471,6 +57502,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5925.074 13.553 1301.152
   angleX -2.092
   angleY 91.405
@@ -57479,6 +57515,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5929.79 13.357 1311.961
   angleX -1.008
   angleY 123.895
@@ -57487,6 +57528,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5935.922 12.576 1294.415
   angleX -2.304
   angleY 79.552
@@ -57495,6 +57541,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5934.101 12.733 1315.332
   angleX -0.292
   angleY 147.388
@@ -57503,6 +57554,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5951.259 12.073 1295.512
   angleX 2.08
   angleY -88.066
@@ -57511,6 +57567,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5936.267 17.401 1293.615
   angleX -2.304
   angleY 79.552
@@ -57519,6 +57580,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5936.592 12.499 1290.47
   angleX -2.304
   angleY 79.552
@@ -57527,6 +57593,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5946.643 15.882 1317.152
   angleX 3.182
   angleY -177.645
@@ -57535,6 +57606,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5947.102 12.897 1316.969
   angleX 3.182
   angleY -177.645
@@ -57543,6 +57619,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5936.923 18.55 1303.05
   angleX -2.092
   angleY 91.405
@@ -57551,6 +57632,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5936.615 13.672 1299.867
   angleX -2.092
   angleY 91.405
@@ -57559,6 +57645,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5936.766 13.719 1303.866
   angleX -2.092
   angleY 91.405
@@ -57567,6 +57658,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5931.359 12.934 1313.637
   angleX -0.292
   angleY 147.388
@@ -57575,6 +57671,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5933.757 15.732 1315.091
   angleX -0.292
   angleY 147.388
@@ -57583,6 +57684,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5943.881 13.041 1317.16
   angleX 3.182
   angleY -177.645
@@ -57591,6 +57697,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5942.843 12.073 1298.479
   angleX -2.092
   angleY 91.405
@@ -57599,6 +57710,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5951.464 16.864 1296.529
   angleX 2.08
   angleY -88.066
@@ -57607,6 +57723,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5951.433 11.847 1299.504
   angleX 2.08
   angleY -88.066
@@ -57615,6 +57736,11 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/Infrastructure/Ro
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5925.169 16.503 1300.487
   angleX -2.092
   angleY 91.405
@@ -57632,6 +57758,11 @@ DecalEntity : "{1DC3A792132D86CB}Prefabs/Decals/Blood/BloodStain_Large_02.et" {
 }
 $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Sings/StoneVergeStone_01.et" {
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5957.906 12.348 1292.192
   angleX -3.622
   angleY -14.255
@@ -57640,6 +57771,11 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Si
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5943.917 12.325 1288.132
   angleX 1.758
   angleY 61.81
@@ -57648,6 +57784,11 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Si
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5955 11.858 1313.768
   angleX 1.777
   angleY 51.473
@@ -57656,6 +57797,11 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Si
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5960.114 12.277 1301.377
   angleX 1.963
   angleY 85.822
@@ -57664,6 +57810,11 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Si
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5951.496 12.426 1284.771
   angleX 1.777
   angleY 51.473
@@ -57672,6 +57823,11 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Si
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5936.318 12.404 1280.281
   angleX 1.088
   angleY 21.067
@@ -57680,6 +57836,11 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/Infrastructure/Si
   Enabled 0
  }
  {
+  components {
+   RigidBody "{54969A6AA8773997}" {
+    ResponseIndex "NoCollision"
+   }
+  }
   coords 5957.762 12.452 1285.628
   angleX 87.044
   angleY 34.219
