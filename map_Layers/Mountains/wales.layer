@@ -10078,7 +10078,6 @@ $grp SplineShapeEntity {
       {
        coords 122.827 -0.136 13.823
        angles 1.183 143.975 26.862
-       scale 1
       }
       {
        coords 85.168 -16.52 -6.664
@@ -10373,7 +10372,6 @@ $grp SplineShapeEntity {
       {
        coords 163.235 11.217 1.715
        angles 7.637 91.695 12.453
-       scale 1
       }
       {
        coords 154.709 11.398 14.323
@@ -14390,7 +14388,6 @@ $grp SplineShapeEntity {
       {
        coords 55.947 7.902 -72.123
        angles 3.964 176.924 -24.532
-       scale 1
       }
       {
        coords 58.57 5.878 -66.452
@@ -15600,7 +15597,6 @@ $grp SplineShapeEntity {
       {
        coords 100.147 -14.887 -66.886
        angles -17.908 119.28 -21.505
-       scale 1
       }
       {
        coords 74.984 0.846 -82.951
@@ -16925,7 +16921,6 @@ $grp SplineShapeEntity {
       {
        coords 156.337 12.628 -116.242
        angles -6.927 -13.487 -20.297
-       scale 1
       }
       {
        coords 172.812 18.905 -126.559
@@ -18130,7 +18125,6 @@ $grp SplineShapeEntity {
       {
        coords 162.279 3.413 -28.515
        angles -31.168 -139.983 9.034
-       scale 1
       }
       {
        coords 144.051 -1.767 -15.259
@@ -21403,8 +21397,14 @@ $grp SplineShapeEntity {
    ShapePoint "{66A920EC7A08453D}" {
     Position 35.932 0.988 25.482
    }
+   ShapePoint "{66DAB85B87BBC64F}" {
+    Position 99.328 6.216 69.679
+   }
    ShapePoint "{65F6AC9316C4FD8A}" {
-    Position 170.631 10.929 104.945
+    Position 148.526 10.831 98.557
+   }
+   ShapePoint "{66DAB85BA4FF036E}" {
+    Position 191.321 10.757 100.31
    }
    ShapePoint "{65F6AC9311C82B9A}" {
     Position 249.111 10.318 20.961
@@ -21436,21 +21436,27 @@ $grp SplineShapeEntity {
         Position 35.932 0.988 25.482
        }
        ShapePoint "{66149C2EE9828036}" {
-        Position 170.631 10.929 104.945
+        Position 99.328 6.216 69.679
        }
        ShapePoint "{66149C2EE9828789}" {
-        Position 249.111 10.318 20.961
+        Position 148.526 10.831 98.557
        }
        ShapePoint "{66149C2EE98287F8}" {
-        Position 345.704 7.882 -84.295
+        Position 191.321 10.757 100.31
        }
        ShapePoint "{66149C2EE982872A}" {
-        Position 385.377 8.25 -113.3
+        Position 249.111 10.318 20.961
        }
        ShapePoint "{66149C2ECFC93C82}" {
-        Position 431.219 3.563 -143.613
+        Position 345.704 7.882 -84.295
        }
        ShapePoint "{66A920EC7A09CBFA}" {
+        Position 385.377 8.25 -113.3
+       }
+       ShapePoint "{66DAB85BA4FC5DDD}" {
+        Position 431.219 3.563 -143.613
+       }
+       ShapePoint "{66DAB85B87BB1D1E}" {
         Position 458.309 2.83 -161.819
        }
       }
@@ -31599,7 +31605,6 @@ $grp SplineShapeEntity {
       {
        coords -88.686 8.67 371.641
        angles 5.315 -32.695 -6.555
-       scale 1
       }
       {
        coords -89.509 8.661 371.848
@@ -33406,7 +33411,6 @@ $grp SplineShapeEntity {
       {
        coords -8.088 3.633 312.635
        angles -1.343 -100.517 0.091
-       scale 1
       }
       {
        coords -66.334 2.37 88.678
@@ -34973,7 +34977,6 @@ $grp SplineShapeEntity {
       {
        coords -255.567 2.436 -116.088
        angles 0.396 -72.215 0.1
-       scale 1
       }
       {
        coords -268.001 5.477 -93.589
@@ -36089,7 +36092,6 @@ $grp SplineShapeEntity {
       {
        coords -148.424 4.181 254.672
        angles -1.745 174.314 1.087
-       scale 1
       }
       {
        coords -136.35 4.621 255.159
@@ -36299,7 +36301,6 @@ $grp SplineShapeEntity {
       {
        coords -31.786 0.363 36.567
        angles -0.298 -69.612 1.383
-       scale 1
       }
       {
        coords -33.748 0.366 38.398
