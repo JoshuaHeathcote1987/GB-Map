@@ -7249,8 +7249,20 @@ $grp SplineShapeEntity {
    ShapePoint "{65F29ABD5B68B981}" {
     Position 12.596 1.919 1079.337
    }
+   ShapePoint "{672113A5B9449E37}" {
+    Position -111.14 0.236 1081.669
+   }
+   ShapePoint "{672113A5BC0ED352}" {
+    Position -136.787 0.446 1082.389
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -25.953 0.254 0.2
+      OutTangent -25.953 0.254 0.2
+     }
+    }
+   }
    ShapePoint "{65F29ABD586F5C99}" {
-    Position -190.967 -0.911 1077.941
+    Position -190.969 -0.566 1077.941
    }
    ShapePoint "{65F29ABD59D52A34}" {
     Position -297.993 0.259 1033.57
@@ -7364,30 +7376,42 @@ $grp SplineShapeEntity {
         Position 12.596 1.919 1079.34
        }
        ShapePoint "{65F29ABD586CFF34}" {
-        Position -190.967 -0.911 1077.94
+        Position -111.14 0.236 1081.67
        }
        ShapePoint "{65F29ABD59CAC661}" {
-        Position -297.993 0.259 1033.57
+        Position -136.787 0.446 1082.39
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -25.953 0.254 0.2
+          OutTangent -25.953 0.254 0.2
+         }
+        }
        }
        ShapePoint "{66B29AFAC9BB2191}" {
-        Position -382.233 0 1033.96
+        Position -190.969 -0.566 1077.94
        }
        ShapePoint "{66B29AFAC6C2877B}" {
-        Position -440.164 0.147 1004.34
+        Position -297.993 0.259 1033.57
        }
        ShapePoint "{66B29AFAC6ABA2B5}" {
-        Position -479.527 1.04 982.768
+        Position -382.233 0 1033.96
        }
        ShapePoint "{66B29AFAC63619C6}" {
-        Position -518.011 2.265 949.639
+        Position -440.164 0.147 1004.34
        }
        ShapePoint "{66B29AFAC7E13571}" {
-        Position -520.92 4.384 907.338
+        Position -479.527 1.04 982.768
        }
        ShapePoint "{66B29AFAC7660521}" {
-        Position -524.948 4.828 894.888
+        Position -518.011 2.265 949.639
        }
        ShapePoint "{66B29AFAC5C383E0}" {
+        Position -520.92 4.384 907.338
+       }
+       ShapePoint "{672113A5B97B7228}" {
+        Position -524.948 4.828 894.888
+       }
+       ShapePoint "{672113A5BC028843}" {
         Position -533.514 5.128 886.711
        }
       }
@@ -124456,25 +124480,25 @@ $grp SplineShapeEntity {
     Position 86.817 -14.391 429.134
    }
    ShapePoint "{66B29AE67FBDFFCE}" {
-    Position 117.542 -9.074 473.901
+    Position 119.631 -17.19 481.387
    }
    ShapePoint "{66B29AE67C9781A1}" {
-    Position 180.212 -13.509 477.136
+    Position 182.903 -16.46 480.05
    }
    ShapePoint "{66B29AE67C6A5BF4}" {
-    Position 206.782 -10.941 466.274
+    Position 209.605 -13.119 469.166
    }
    ShapePoint "{66B29AE67C3488A7}" {
     Position 239.308 -13.864 460.46
    }
    ShapePoint "{66B29AE67D6E1500}" {
-    Position 286.469 -13.754 480.423
+    Position 272.282 -23.369 487.43
    }
    ShapePoint "{66B29AE672C37E88}" {
-    Position 305.316 -16.594 488.27
+    Position 299.885 -28.012 499.403
    }
    ShapePoint "{66DAB84AEB5F71DB}" {
-    Position 335.35 -24.47 495.265
+    Position 335.226 -32.539 503.481
    }
    ShapePoint "{66DAB84BD60C109F}" {
     Position 371.238 -32.836 490.069
@@ -124557,25 +124581,25 @@ $grp SplineShapeEntity {
         Position 86.817 -14.391 429.134
        }
        ShapePoint "{66B29AE677DED490}" {
-        Position 117.542 -9.074 473.901
+        Position 119.631 -17.19 481.387
        }
        ShapePoint "{66B29AE677DED4C4}" {
-        Position 180.212 -13.509 477.136
+        Position 182.903 -16.46 480.05
        }
        ShapePoint "{66B29AE677DED404}" {
-        Position 206.782 -10.941 466.274
+        Position 209.605 -13.119 469.166
        }
        ShapePoint "{66B29AE677DED447}" {
         Position 239.308 -13.864 460.46
        }
        ShapePoint "{66B29AE677DEDB89}" {
-        Position 286.469 -13.754 480.423
+        Position 272.282 -23.369 487.43
        }
        ShapePoint "{66B29AE677DEDBD1}" {
-        Position 305.316 -16.594 488.27
+        Position 299.885 -28.012 499.403
        }
        ShapePoint "{66B29AE677DEDB17}" {
-        Position 335.35 -24.47 495.265
+        Position 335.226 -32.539 503.481
        }
        ShapePoint "{66DAB84BD6AB930D}" {
         Position 371.238 -32.836 490.069
@@ -187998,7 +188022,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{66B29AE5EC834854}" {
-    Position 55.784 6.07 100.792
+    Position 54.41 6.39 102.2
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -188226,7 +188250,7 @@ $grp SplineShapeEntity {
   {
    ForestGeneratorEntity : "{24F7E7E468AB2B44}PrefabLibrary/DefaultLibrary/Generators/Stones/FG_BeachStone_Dense.et" {
     Flags 0x100003 0
-    m_iSeed 5657
+    m_iSeed 31777
     {
      $grp SCR_IndestructibleEnvironmentalEntity : "{2A841F5C64F4BCE2}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_BeachCluster_02/Granite_BeachCluster_02.et" {
       {
@@ -191513,6 +191537,16 @@ $grp SplineShapeEntity {
        angles 0.458 -126.051 -6.943
        scale 0.248
       }
+      {
+       coords 52.385 5.571 97.397
+       angles 3.928 7.444 11.178
+       scale 0.736
+      }
+      {
+       coords 39.539 4.423 84.702
+       angles -35.064 160.577 -25.43
+       scale 0.335
+      }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{46D02BBCD83033CC}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_BeachCluster_01/Granite_BeachCluster_01.et" {
       {
@@ -192439,6 +192473,11 @@ $grp SplineShapeEntity {
        coords 187.234 10.159 181.846
        angles 33.587 12.212 12.022
        scale 0.971
+      }
+      {
+       coords 51.101 5.722 96.614
+       angles -0.834 -114.871 -12.25
+       scale 0.928
       }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{75E7837701ADA216}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_03/Granite_BeachStone_03.et" {
@@ -194046,7 +194085,7 @@ $grp SplineShapeEntity {
    }
    ForestGeneratorEntity : "{3D07E37E995558F1}PrefabLibrary/DefaultLibrary/Generators/Brushlands/FG_Brushland_Phragmites.et" {
     Flags 0x100003 0
-    m_iSeed 2855
+    m_iSeed 18923
     {
      $grp Tree : "{077C695F02F4312C}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_phragmites_australis_1.et" {
       {
