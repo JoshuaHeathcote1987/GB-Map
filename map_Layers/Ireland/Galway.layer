@@ -1956,7 +1956,7 @@ $grp SplineShapeEntity {
     Position 111.074 -1.341 225.174
    }
    ShapePoint "{67212C4B59DA9B48}" {
-    Position 23.242 -0 135.481
+    Position 23.242 0 135.481
    }
    ShapePoint "{65F0148629AC8DE5}" {
     Position -1.687 0.001 18.325
@@ -1994,7 +1994,7 @@ $grp SplineShapeEntity {
         Position 111.074 -1.341 225.174
        }
        ShapePoint "{556C6554868CB0CE}" {
-        Position 23.242 -0 135.481
+        Position 23.242 0 135.481
        }
        ShapePoint "{65F014860804B2FE}" {
         Position -1.687 0.001 18.325
@@ -2484,22 +2484,6 @@ $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastruct
   angles 0.268 227.808 1.546
  }
 }
-$grp GenericEntity : "{96C14B20A90F3257}PrefabLibrary/DefaultLibrary/Props/Industrial/CargoContainer_01_10ft/CargoContainer_01_10ft_red.et" {
- {
-  coords 3650.424 3.468 3256.592
-  angles 0 16.633 0
- }
- {
-  coords 3650.425 3.468 3261.246
- }
- {
-  coords 3650.425 3.468 3265.984
- }
- {
-  coords 3645.919 3.468 3265.984
-  angles 0 -18.051 0
- }
-}
 SCR_DestructibleBuildingEntity : "{972D4847ED6244AC}PrefabLibrary/DefaultLibrary/Structures/Agriculture/Hayloft_E_01/Hayloft_E_01_metal.et" {
  coords 2483.849 0 3032.766
 }
@@ -2627,32 +2611,6 @@ $grp SCR_DestructibleBuildingEntity : "{C431259D77916F52}PrefabLibrary/DefaultLi
  {
   coords 2110.095 0.033 3242.406
   angles 0.275 -90 0
- }
-}
-$grp GenericEntity : "{C62B5473D82B7F74}PrefabLibrary/DefaultLibrary/Props/Industrial/GasTank_01/GasTank_01_blue.et" {
- {
-  coords 3634.767 3.469 3287.795
-  angles 0 -18.491 0
- }
- {
-  coords 3635.092 3.469 3286.823
-  angles 0 -18.491 0
- }
- {
-  coords 3635.428 3.469 3285.818
-  angles 0 -18.491 0
- }
- {
-  coords 3634.169 3.469 3285.397
-  angles 0 -18.491 0
- }
- {
-  coords 3633.854 3.469 3286.341
-  angles 0 -18.491 0
- }
- {
-  coords 3632.953 3.469 3286.04
-  angles 0 -18.491 0
  }
 }
 $grp StaticModelEntity : "{C9ADC723088689F3}PrefabLibrary/DefaultLibrary/Structures/Industrial/LightTower_01.et" {
@@ -2799,19 +2757,4 @@ SCR_DestructibleBuildingEntity : "{F31C1F0584CE9514}PrefabLibrary/DefaultLibrary
 GenericEntity : "{F47C56E3678C7D87}PrefabLibrary/DefaultLibrary/Props/Industrial/VehicleGarbage_01_pile_large.et" {
  coords 3573.147 6.044 3172.642
  angles -5.711 129 -0.041
-}
-$grp GenericEntity : "{F73662767AF7D7B5}PrefabLibrary/DefaultLibrary/Props/Industrial/CargoContainer_01_10ft/CargoContainer_01_10ft_blue.et" {
- {
-  coords 3643.185 3.818 3256.919
-  angles 0 18.45 0
- }
- {
-  coords 3643.185 3.819 3260.985
- }
- {
-  coords 3646.644 3.819 3260.985
- }
- {
-  coords 3646.644 3.819 3252.719
- }
 }

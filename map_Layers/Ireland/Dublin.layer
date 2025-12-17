@@ -1592,7 +1592,7 @@ $grp SplineShapeEntity {
     Position -90.375 0.439 44.303
    }
    ShapePoint "{65E6F25FA61A5D35}" {
-    Position 226.696 0.001 44.566
+    Position 226.696 0.824 44.566
    }
   }
   {
@@ -1609,7 +1609,7 @@ $grp SplineShapeEntity {
         Position -90.375 0.439 44.303
        }
        ShapePoint "{65E7052E20C7B178}" {
-        Position 226.696 0.001 44.566
+        Position 226.696 0.824 44.566
        }
       }
       IsClosedSpline 0
@@ -1634,12 +1634,6 @@ $grp SplineShapeEntity {
    ShapePoint "{65E74A5B6DFF9388}" {
     Position 4.698 0 219.761
    }
-   ShapePoint "{65E6F25F9BC261B0}" {
-    Position 0.5 0.027 57.789
-   }
-   ShapePoint "{65E6F25F9BC24019}" {
-    Position 0.849 0 -121.984
-   }
   }
   {
    RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
@@ -1659,12 +1653,6 @@ $grp SplineShapeEntity {
        }
        ShapePoint "{65E74A5B6EC91F6E}" {
         Position 4.698 0 219.761
-       }
-       ShapePoint "{65E74A5B6F152272}" {
-        Position 0.5 0.027 57.789
-       }
-       ShapePoint "{65E74A5B7028B4EF}" {
-        Position 0.849 0 -121.984
        }
       }
       IsClosedSpline 0
@@ -2219,9 +2207,6 @@ SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/DefaultLibrary
 SCR_DestructibleBuildingEntity : "{1F6EA391B993A869}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_grey.et" {
  coords 3324.356 0 3281.692
 }
-SCR_DestructibleBuildingEntity : "{204BB984E739FB7A}PrefabLibrary/DefaultLibrary/Structures/Naval/FishermanShed_01/FishermanShed_01_V2.et" {
- coords 3616.959 0 3179.21
-}
 SCR_DestructibleBuildingEntity : "{22BF82936E1BBC4D}PrefabLibrary/DefaultLibrary/Structures/Services/FireStation_E_01.et" {
  coords 3479.127 0 3298.455
 }
@@ -2231,9 +2216,6 @@ SCR_DestructibleBuildingEntity : "{2A932C0B0BD5CA11}PrefabLibrary/DefaultLibrary
 }
 SCR_DestructibleBuildingEntity : "{385080D154835F61}PrefabLibrary/DefaultLibrary/Structures/Cultural/Calvary_01.et" {
  coords 3540.181 0 3232.325
-}
-SCR_DestructibleBuildingEntity : "{38D34A365D9AC751}PrefabLibrary/DefaultLibrary/Structures/Naval/CottagePier_01.et" {
- coords 3659.16 0 3355.398
 }
 StaticModelEntity : "{3AF5AB0B270607FE}PrefabLibrary/DefaultLibrary/Structures/Cultural/StatueStPeter_01_pedestal.et" {
  coords 3494.218 0 3248.092
@@ -2417,17 +2399,6 @@ $grp SCR_DestructibleBuildingEntity : "{9EE0CB249DC18DBA}PrefabLibrary/DefaultLi
   angles 0 -29.358 0
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{A5439DD9F4F5400C}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_02/FuelTank_02_green.et" {
- {
-  coords 3627.068 0.604 3347.406
- }
- {
-  coords 3627.004 0.596 3338.991
- }
- {
-  coords 3627.184 0.604 3330.546
- }
-}
 SCR_DestructibleBuildingEntity : "{A6AEE9571CB62BEF}PrefabLibrary/DefaultLibrary/Structures/Commercial/ShopModern_E_01.et" {
  coords 3394.067 0.389 3199.671
 }
@@ -2502,9 +2473,6 @@ $grp GenericEntity : "{B24E825895AD7443}PrefabLibrary/DefaultLibrary/Infrastruct
   coords 3558.834 0 3268.206
  }
 }
-SCR_DestructibleBuildingEntity : "{B27A03D5CBF266AE}PrefabLibrary/DefaultLibrary/Structures/Naval/FishermanShed_01/FishermanShed_01.et" {
- coords 3661.318 0.908 3316.398
-}
 SCR_DestructibleBuildingEntity : "{BBCD6B1D9FE29715}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_orange.et" {
  coords 3312.19 0 3298.265
 }
@@ -2513,9 +2481,6 @@ StaticModelEntity : "{C9ADC723088689F3}PrefabLibrary/DefaultLibrary/Structures/I
 }
 SCR_DestructibleBuildingEntity : "{CDEC6290D9424C36}PrefabLibrary/DefaultLibrary/Structures/Industrial/RampVehicle_01_metal.et" {
  coords 3563.236 0 3294.986
-}
-SCR_DestructibleBuildingEntity : "{D5ABBAFBDAF43275}PrefabLibrary/DefaultLibrary/Structures/Industrial/SmokestackBrick_E_01.et" {
- coords 3501.061 0 3169.745
 }
 $grp SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/DefaultLibrary/Structures/Military/GuardHouse_01.et" {
  {

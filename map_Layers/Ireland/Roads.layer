@@ -3607,28 +3607,12 @@ $grp SplineShapeEntity {
  }
  {
   coords 3015.046 6.303 2460.713
-  Points {
-   ShapePoint "{65F56B932908A474}" {
-    Position 58.487 -0.96 82.435
-   }
-   ShapePoint "{65F56B932908E927}" {
-    Position -0.13 -0.062 -1.57
-   }
-  }
   {
    RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "55F85D16D1C7EB8E"
-      SplinePoints {
-       ShapePoint "{556C65561A62B78A}" {
-        Position 58.487 -0.96 82.435
-       }
-       ShapePoint "{556C65561A62EBA9}" {
-        Position -0.13 -0.062 -1.57
-       }
-      }
       IsClosedSpline 0
       Width 4.5
      }
@@ -16196,10 +16180,6 @@ SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/DefaultLibrary/Props/D
 SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/DefaultLibrary/Structures/Houses/Garage_E_01.et" {
  coords 2593.42 0.069 3003.131
  angles 0 90 0
-}
-SCR_DestructibleBuildingEntity : "{8A54FD8F840E3BC4}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Green.et" {
- coords 3029.514 0 2451.091
- angles 0 -60.408 0
 }
 $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastructure/Lamps/LampStreet_E_01_4m/LampStreet_E_01_4m.et" {
  {
