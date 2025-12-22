@@ -1665,7 +1665,6 @@ $grp SplineShapeEntity {
       {
        coords 32.107 1.939 -8.963
        angles 0 124.16 0
-       scale 1
       }
       {
        coords 33.027 8.414 17.642
@@ -3656,12 +3655,12 @@ $grp SplineShapeEntity {
      $grp Tree : "{AA14F25DFBDF4945}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3d_fallen.et" {
       {
        coords 75.317 17.61 16.177
-       angles 10.553 -31.186 -0
+       angles 10.553 -31.186 0
        scale 0.538
       }
       {
        coords 141.469 33.335 103.707
-       angles -0.153 -56.878 -0
+       angles -0.153 -56.878 0
        scale 0.669
       }
      }
@@ -6945,7 +6944,6 @@ $grp SplineShapeEntity {
       {
        coords 74.29 3.967 -12.727
        angles 1.793 -134.806 -2.3
-       scale 1
       }
       {
        coords 48.73 0.802 -26.913
@@ -9568,7 +9566,6 @@ $grp SplineShapeEntity {
       {
        coords 34.271 1.87 10.265
        angles 0.613 -129.159 -0.834
-       scale 1
       }
       {
        coords 1.635 -0.706 -11.464
@@ -9998,7 +9995,6 @@ $grp SplineShapeEntity {
       {
        coords 100.458 -2.057 -17.36
        angles 0.591 166.723 -0.257
-       scale 1
       }
       {
        coords 121.548 2.531 26.139
@@ -12447,7 +12443,6 @@ $grp SplineShapeEntity {
       {
        coords 226.483 9.474 -7.121
        angles -0.128 177.336 -2.578
-       scale 1
       }
       {
        coords 215.06 19.915 20.863
@@ -23885,7 +23880,6 @@ $grp SplineShapeEntity {
       {
        coords 141.538 -1.445 29.616
        angles -2.396 1.373 -0.7
-       scale 1
       }
       {
        coords 135.939 3.841 72.977
@@ -24455,7 +24449,6 @@ $grp SplineShapeEntity {
       {
        coords 175.333 1.124 -54.45
        angles 2.132 -45.111 0.514
-       scale 1
       }
       {
        coords 152.456 0.189 -28.407
@@ -25280,7 +25273,6 @@ $grp SplineShapeEntity {
       {
        coords 173.422 -0.112 167.136
        angles 1.811 -82.037 -0.34
-       scale 1
       }
       {
        coords 162.983 2.814 170.345
@@ -29174,7 +29166,6 @@ $grp SplineShapeEntity {
       {
        coords 209.769 2.604 230.652
        angles -1.653 -47.935 -0.108
-       scale 1
       }
       {
        coords 215.872 2.524 248.399
@@ -29701,7 +29692,6 @@ $grp SplineShapeEntity {
       {
        coords 75.524 2.993 -50.429
        angles 0.523 91.266 -0.57
-       scale 1
       }
       {
        coords 11.931 0.081 -13.105
@@ -29741,7 +29731,6 @@ $grp SplineShapeEntity {
       {
        coords 57.394 1.939 -33.98
        angles 1.323 -36.685 4.748
-       scale 1
       }
       {
        coords 77.631 2.399 -46.715
@@ -32038,27 +32027,74 @@ $grp SplineShapeEntity {
   Points {
    ShapePoint "{65EE9121529EED13}" {
     Position 0 0 0
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
    ShapePoint "{65EE91215298A20D}" {
     Position 0.703 -1.095 20.572
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
    ShapePoint "{65EE912151B1DE77}" {
     Position -5.926 -0.721 50.974
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
    ShapePoint "{65EE9121513DD0A1}" {
     Position 15.252 -1.573 82.672
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
    ShapePoint "{65EE912156865BCD}" {
     Position 50.29 -0.397 102.858
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
    ShapePoint "{65EE91215786BF5D}" {
     Position 44.154 -0.2 142.239
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
    ShapePoint "{65EE912154DADE71}" {
     Position 12.853 -0.468 154.95
+    Data {
+     ForestGeneratorPointData "{000000002C57B0BA}" {
+     }
+    }
    }
   }
+  LineColor 0 1 1 1
   {
+   ForestGeneratorEntity : "{1D9EB8BDA97F3A25}Prefabs/WEGenerators/Brushland/FG_Brushland_Pastures_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    {
+     $grp Tree : "{2EDB24E90FFFFA21}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_sambucus_nigra_1_aut.et" {
+      {
+       coords 36.513 -0.937 96.924
+       angles 1.753 138.388 1.212
+       scale 0.885
+      }
+      {
+       coords 32.03 -1.558 114.614
+       angles 0.489 -143.53 0.925
+       scale 1.135
+      }
+     }
+    }
+   }
    RoadGeneratorEntity : "{41CEDBF0493A26A5}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Dirt_02.et" {
     coords 0 0 0
     {
@@ -32940,8 +32976,8 @@ $grp GenericEntity : "{30479D1CDF8091B3}Prefabs/Props/Forest/ForestBench_01/Fore
  }
 }
 SCR_DestructibleBuildingEntity : "{3076BD4F789C39B7}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_Bridge.et" {
- coords 5674.429 4.539 974.712
- angles -0.491 -69.19 -0.186
+ coords 5675.458 3.286 974.749
+ angles 1.489 -69.193 0.016
 }
 SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cultural/Castles/Castle_01_Stairs_01.et" {
  coords 5627.328 0 1018.383
@@ -33489,8 +33525,8 @@ $grp SCR_DestructibleBuildingEntity : "{E8C4D8095BADC7E4}Prefabs/Structures/Wall
  }
 }
 SCR_DestructibleBuildingEntity : "{ECCD3DA7BF29DF23}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_Bridge_Pillar.et" {
- coords 5674.307 10.348 974.704
- angles -0.492 -69.682 -0.182
+ coords 5674.385 9.87 974.908
+ angles -0.509 -69.645 -2.303
 }
 GenericEntity : "{F7E3B5AB8E8D8B48}Prefabs/Props/Furniture/DeckChair_01/DeckChair_01_ochre.et" {
  coords 6861.372 10.156 1108.011
