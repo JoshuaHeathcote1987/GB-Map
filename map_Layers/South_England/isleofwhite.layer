@@ -25689,26 +25689,14 @@ $grp SplineShapeEntity {
  {
   coords 6842.448 4.866 1354.123
   Points {
-   ShapePoint "{65EE91334F55261C}" {
-    Position 0.604 0.338 -3.896
+   ShapePoint "{6736CE9F795A489F}" {
+    Position 51.047 1.437 -114.508
    }
-   ShapePoint "{65EE91334F55AAFB}" {
-    Position 3.967 0.634 -14.198
+   ShapePoint "{6736CE9F781C7746}" {
+    Position 57.599 2.214 -129.77
    }
-   ShapePoint "{65EE9133428907B0}" {
-    Position 9.208 0.712 -30.3
-   }
-   ShapePoint "{65EE9133436DB503}" {
-    Position 12.909 1.866 -56.368
-   }
-   ShapePoint "{65EE913340D20728}" {
-    Position 20.336 0.867 -76.898
-   }
-   ShapePoint "{65EE913340878434}" {
-    Position 32.095 0.024 -100.604
-   }
-   ShapePoint "{65EE913346A8DCA9}" {
-    Position 50.62 0.626 -121.652
+   ShapePoint "{6736CE9F7B4E79DE}" {
+    Position 70.698 2.052 -138.919
    }
    ShapePoint "{65EE913346321266}" {
     Position 79.47 0.888 -152.771
@@ -25719,18 +25707,6 @@ $grp SplineShapeEntity {
    ShapePoint "{65EE913345B95154}" {
     Position 111.362 2.224 -246.829
    }
-   ShapePoint "{65EE91333AE342C9}" {
-    Position 112.399 1.55 -313.576
-    Data {
-     SplinePointData SplinePointData {
-      InTangent 0.58 -0.257 -46.74
-      OutTangent 0.58 -0.257 -46.74
-     }
-    }
-   }
-   ShapePoint "{65EE913338C077D0}" {
-    Position 112.523 0.714 -340.308
-   }
   }
   {
    RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
@@ -25740,46 +25716,22 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0.604 0.338 -3.896
+        Position 51.047 1.437 -114.508
        }
        ShapePoint "{556C6556BF2A9DE7}" {
-        Position 3.967 0.634 -14.198
+        Position 57.599 2.214 -129.77
        }
        ShapePoint "{65EE913335255606}" {
-        Position 9.208 0.712 -30.3
+        Position 70.698 2.052 -138.919
        }
-       ShapePoint "{65EE913335255672}" {
-        Position 12.909 1.866 -56.368
-       }
-       ShapePoint "{65EE9133352555AD}" {
-        Position 20.336 0.867 -76.898
-       }
-       ShapePoint "{65EE9133352555EC}" {
-        Position 32.095 0.024 -100.604
-       }
-       ShapePoint "{65EE913335255528}" {
-        Position 50.62 0.626 -121.652
-       }
-       ShapePoint "{65EE913335255563}" {
+       ShapePoint "{6736CE9F7B415681}" {
         Position 79.47 0.888 -152.771
        }
-       ShapePoint "{65EE9133352554A7}" {
+       ShapePoint "{6736CE9F7815AC65}" {
         Position 106.408 1.761 -203.498
        }
-       ShapePoint "{65EE9133352554F0}" {
+       ShapePoint "{6736CE9F7953B359}" {
         Position 111.362 2.224 -246.829
-       }
-       ShapePoint "{65EE91333525542F}" {
-        Position 112.399 1.55 -313.576
-        Data {
-         SplinePointData "{00000000D8F1BA4F}" {
-          InTangent 0.58 -0.257 -46.74
-          OutTangent 0.58 -0.257 -46.74
-         }
-        }
-       }
-       ShapePoint "{65EE913335255476}" {
-        Position 112.523 0.714 -340.308
        }
       }
       IsClosedSpline 0
@@ -164550,7 +164502,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 424.725 -1.335 -31.064
-       angles 0.557 69.029 -0
+       angles 0.557 69.029 0
        scale 0.636
       }
       {
@@ -169208,18 +169160,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Gr
   coords 5898.917 -0.637 641.279
   angles 0 120.357 0
   scale 0.49
- }
- {
-  coords 6831.285 19.958 1276.831
-  angles -84.069 -38.284 103.285
- }
- {
-  coords 6850.251 21.241 1283.154
-  angles -84.069 -38.284 103.285
- }
- {
-  coords 6867.862 20.581 1291.531
-  angles -84.069 -38.284 103.285
  }
 }
 $grp GenericEntity : "{B8576ECF78CDBCD7}Prefabs/Props/Military/Training/Obstacles/ObstacleBridge_01_start.et" {

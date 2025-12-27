@@ -168,8 +168,11 @@ $grp SplineShapeEntity {
  {
   coords 3296.077 6.794 3105.569
   Points {
+   ShapePoint "{6736CE92B4ABA5A4}" {
+    Position -2.832 -0.575 89.766
+   }
    ShapePoint "{65E6F25E42FE7052}" {
-    Position 0 0 122.075
+    Position -2.34 -0.669 153.428
    }
    ShapePoint "{65E6F25E42FE5B43}" {
     Position -2.059 -1.627 387.135
@@ -204,9 +207,12 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0 0 122.075
+        Position -2.832 -0.575 89.766
        }
        ShapePoint "{556C6556BF2A9DE7}" {
+        Position -2.34 -0.669 153.428
+       }
+       ShapePoint "{65E705242B213872}" {
         Position -2.059 -1.627 387.135
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
@@ -215,7 +221,7 @@ $grp SplineShapeEntity {
          }
         }
        }
-       ShapePoint "{65E705242B213872}" {
+       ShapePoint "{65E705242C3B3E00}" {
         Position 22.393 -0.211 476.909
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
@@ -224,10 +230,10 @@ $grp SplineShapeEntity {
          }
         }
        }
-       ShapePoint "{65E705242C3B3E00}" {
+       ShapePoint "{65E705242D8C2A95}" {
         Position 57.753 -1.246 505.62
        }
-       ShapePoint "{65E705242D8C2A95}" {
+       ShapePoint "{6736CE92B4A8F732}" {
         Position 91.352 -1.115 516.961
        }
       }
@@ -457,27 +463,6 @@ GenericEntity : "{17D680E889BAAB59}PrefabLibrary/DefaultLibrary/Props/Civilian/D
  coords 3769.04 5.392 4294.428
  angles -6.485 -14.071 -0.216
 }
-StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/DefaultLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
- coords 3364.732 -0.025 3224.172
- angles 0 -180.101 0
-}
-SCR_DestructibleBuildingEntity : "{1F6EA391B993A869}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_grey.et" {
- coords 3324.356 0 3281.692
-}
-$grp SCR_DestructibleBuildingEntity : "{5945D1EF6878D47C}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_01/FuelTank_01.et" {
- {
-  coords 3331.031 0 3259.29
- }
- {
-  coords 3349.323 0 3259.163
- }
- {
-  coords 3349.508 0 3277.297
- }
-}
-SCR_DestructibleBuildingEntity : "{5B43DD9C01A72C40}PrefabLibrary/DefaultLibrary/Structures/Industrial/FuelTank_03/FuelTank_03_green.et" {
- coords 3311.401 0 3265.268
-}
 $grp GenericEntity : "{6BBAB8146CF535D3}PrefabLibrary/DefaultLibrary/Structures/Naval/Buoy_01/Buoy_01_red.et" {
  {
   coords 3818.581 0 3152.313
@@ -527,9 +512,6 @@ $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastruct
   coords 3825.37 0 4205.769
   angles -1.107 230.247 1.537
  }
-}
-SCR_DestructibleBuildingEntity : "{9C2DEB01D3F52BD6}PrefabLibrary/DefaultLibrary/Structures/Industrial/Warehouse_01_Office.et" {
- coords 3346.624 0 3239.81
 }
 $grp SCR_DestructibleBuildingEntity : "{9EE0CB249DC18DBA}PrefabLibrary/DefaultLibrary/Infrastructure/Bridges/ConcreteBridge_01_Wide.et" {
  {
@@ -598,27 +580,10 @@ $grp SCR_DestructibleBuildingEntity : "{9EE0CB249DC18DBA}PrefabLibrary/DefaultLi
  }
 }
 SCR_DestructibleBuildingEntity : "{AC16E15E979F9072}PrefabLibrary/DefaultLibrary/Structures/Services/Villa_E_2I01_Police.et" {
- coords 3523.119 0.129 3274.651
+ coords 3523.119 -0.008 3269.916
  angles 0 180 0
 }
 $grp GenericEntity : "{B24E825895AD7443}PrefabLibrary/DefaultLibrary/Infrastructure/Lamps/LampStreet_E_02_doubleAngled/LampStreet_E_02_doubleAngled.et" {
- {
-  coords 3302.172 0 3269.99
- }
- {
-  coords 3382.128 0 3272.207
-  {
-   GameEntity {
-    ID "5A42D80F6BF048CC"
-    {
-     LightEntity {
-      ID "5A42D21E6C98C5BF"
-      angles 0 90 0
-     }
-    }
-   }
-  }
- }
  {
   coords 3375.517 0.677 3419.406
  }

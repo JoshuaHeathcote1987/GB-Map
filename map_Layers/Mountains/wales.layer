@@ -59673,16 +59673,6 @@ $grp SplineShapeEntity {
 SCR_IndestructibleEnvironmentalEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
  coords 4794.823 0 2378.325
 }
-StaticModelEntity : "{046689B4F2BC7B24}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_roof_4m_forest.et" {
- coords 6865.543 5.377 1271.178
- angles 0 66.918 0
- scale 7.813
-}
-Tree : "{053196EF2505964A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_0.et" {
- coords 6880.979 -15.692 1314.142
- angles -0.124 -14.865 -1.309
- scale 0.846
-}
 $grp SCR_IndestructibleEnvironmentalEntity : "{0E9A4FF62219106F}Prefabs/Rocks/Granite/GraniteCliff_03_Fucus.et" {
  {
   coords 4915.664 30.085 2233.84
@@ -63408,11 +63398,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Gr
   angles -14.024 0 -22.88
  }
 }
-Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
- coords 6886.292 -17.664 1316.582
- angles -1.398 -127.445 0
- scale 1.071
-}
 $grp Tree : "{9D6B4E946D1074EA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_2s.et" {
  {
   coords 4855.351 0 2182.875
@@ -63944,116 +63929,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Gr
  {
   coords 4971.104 31.9 1992.646
   angles 57.594 170.784 0
- }
- {
-  coords 6873.865 4.678 1290.593
-  angles 6.018 -51.693 9.241
-  scale 0.476
- }
- {
-  coords 6860.567 15.149 1282.242
-  angles 0.866 -23.351 17.101
-  scale 0.476
- }
- {
-  coords 6843.275 9.161 1272.212
-  angles 6.018 -51.693 9.241
-  scale 0.476
- }
- {
-  coords 6877.425 11.604 1287.978
-  angles 30.901 3.179 -35.205
-  scale 0.67
- }
- {
-  coords 6864.687 13.927 1259.072
-  angles -6.124 -173.907 4.331
-  scale 0.476
- }
- {
-  coords 6854.202 13.259 1280.316
-  angles 0.866 -23.351 -20.087
-  scale 0.476
- }
- {
-  coords 6846.34 7.724 1277.482
-  angles 6.018 -51.693 9.241
-  scale 0.476
- }
- {
-  coords 6855.575 14.625 1254.216
-  angles 31.53 173.137 -47.804
-  scale 0.67
- }
- {
-  coords 6870.854 2.282 1286.3
-  angles 10.722 -122.255 -2.53
-  scale 0.476
- }
- {
-  coords 6838.422 20.142 1260.567
-  angles -84.069 -38.284 103.285
- }
- {
-  coords 6857.389 21.425 1266.89
-  angles -84.069 -38.284 103.285
- }
- {
-  coords 6874.999 20.765 1275.267
-  angles -84.069 -38.284 103.285
- }
- {
-  coords 6878.179 11.826 1263.267
-  angles -2.805 153.328 -30.233
-  scale 0.476
- }
- {
-  coords 6872.47 14.208 1261.08
-  angles -2.805 153.328 0.193
-  scale 0.476
- }
- {
-  coords 6868.074 12.722 1283.689
-  angles -8.435 8.236 14.955
-  scale 0.476
- }
- {
-  coords 6883.625 5.281 1262.846
-  angles 11.31 155.533 -1.353
-  scale 0.476
- }
- {
-  coords 6852.393 9.422 1253.52
-  angles 11.31 155.533 -1.353
-  scale 0.476
- }
- {
-  coords 6858.93 6.109 1249.653
-  angles 11.31 155.533 -1.353
-  scale 0.476
- }
- {
-  coords 6849.705 10.005 1251.442
-  angles 11.31 155.533 -1.353
-  scale 0.476
- }
- {
-  coords 6884.73 15.888 1272.223
-  angles 11.31 155.533 -1.353
-  scale 0.476
- }
- {
-  coords 6887.515 10.638 1269.529
-  angles 11.31 155.533 -1.353
-  scale 0.476
- }
- {
-  coords 6822.656 17.733 1272.384
-  angles -84.069 -38.284 103.285
- }
- {
-  coords 6832.716 16.922 1257.17
-  angles -84.069 -38.284 103.285
  }
 }
 SCR_DestructibleBuildingEntity : "{BB6EED4B5022395D}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_InnerWall_Small_02.et" {

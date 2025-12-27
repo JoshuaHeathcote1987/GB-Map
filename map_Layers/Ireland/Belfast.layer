@@ -12446,46 +12446,6 @@ $grp SCR_DestructibleBuildingEntity : "{5CF33ABAD1662F89}PrefabLibrary/DefaultLi
   coords 3237.286 0 3231.212
  }
 }
-$grp GenericEntity : "{5F064E3CE6A73D63}PrefabLibrary/DefaultLibrary/Props/Infrastructure/ConeTraffic_01_red.et" {
- {
-  coords 3303.408 6.226 3234.931
-  angles 0.584 72.466 -1.123
- }
- {
-  coords 3305.323 6.239 3236.529
-  angles 0.832 68.324 -0.331
- }
- {
-  coords 3303.175 6.206 3237.239
-  angles 0.533 36.516 -0.719
- }
- {
-  coords 3305.184 6.237 3239.391
-  angles -0.024 -178.479 0.895
- }
-}
-$grp GenericEntity : "{613F6B641DAE930D}PrefabLibrary/DefaultLibrary/Props/Infrastructure/ConeTraffic_01_stack.et" {
- {
-  coords 3305.414 6.242 3234.488
-  angles -0.211 76.381 -0.87
- }
- {
-  coords 3303.754 6.246 3232.676
-  angles -0.395 -26.156 -0.803
- }
- {
-  coords 3307.022 6.25 3236.138
-  angles 0 -98.979 0
- }
- {
-  coords 3305.979 6.25 3232.647
-  angles 0 -0.791 0
- }
- {
-  coords 3307.911 6.25 3234.892
-  angles 0 88.124 0
- }
-}
 SCR_DestructibleBuildingEntity : "{61986EB0E0286DC7}PrefabLibrary/DefaultLibrary/Structures/Commercial/FuelStation_E_01.et" {
  coords 3825.448 0 4145.911
  angles 0 97.838 0
@@ -12502,15 +12462,9 @@ GenericEntity : "{66F9B70496CD89C2}PrefabLibrary/DefaultLibrary/Infrastructure/S
 GenericEntity : "{6A840CC1C486CFA0}PrefabLibrary/DefaultLibrary/Structures/Commercial/FuelStation_E_01_tankpistol.et" {
  coords 3825.178 0 4145.733
 }
-$grp GenericEntity : "{6B78197F0B3F4FD3}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignNoEntryVehicle.et" {
- {
-  coords 3216.966 6.16 3224.644
-  angles -1.452 180 -0.833
- }
- {
-  coords 3302.621 6.237 3228.85
-  angles 1.055 -90 1.395
- }
+GenericEntity : "{6B78197F0B3F4FD3}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/SignNoEntryVehicle.et" {
+ coords 3216.966 6.16 3224.644
+ angles -1.452 180 -0.833
 }
 $grp GenericEntity : "{6BBAB8146CF535D3}PrefabLibrary/DefaultLibrary/Structures/Naval/Buoy_01/Buoy_01_red.et" {
  {
@@ -12578,18 +12532,6 @@ $grp GenericEntity : "{8D42C046CCA42026}PrefabLibrary/DefaultLibrary/Decals/Runw
 }
 SCR_DestructibleBuildingEntity : "{8E3EDA119269CCA6}PrefabLibrary/DefaultLibrary/Structures/Airport/Hangar_01.et" {
  coords 3202.002 -0.125 3352.349
-}
-$grp GenericEntity : "{8F29AB6B2BC31074}PrefabLibrary/DefaultLibrary/Props/Infrastructure/RoadBlock_01.et" {
- {
-  coords 3310.53 6.25 3231.474
- }
- {
-  coords 3311.084 6.25 3235.082
- }
- {
-  coords 3309.91 6.25 3244.397
-  angles 0 55.481 0
- }
 }
 GenericEntity : "{8F77CCF0A3E98D48}PrefabLibrary/DefaultLibrary/Infrastructure/Sings/Eden/Large/SignLarge_E_Airfield.et" {
  coords 3236.755 6.091 3324.979
@@ -12822,16 +12764,6 @@ $grp SCR_DestructibleBuildingEntity : "{DDDD6E504DF34F70}PrefabLibrary/DefaultLi
  }
  {
   coords 3498.069 0.249 3777.646
- }
-}
-$grp GenericEntity : "{E5A71424707156A3}PrefabLibrary/DefaultLibrary/Props/Infrastructure/SnowBreaker_E_01_B.et" {
- {
-  coords 3388.83 6.25 3254.353
-  angles 0 90 0
- }
- {
-  coords 3388.703 6.25 3268.278
-  angles 0 90 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{E889E8CCCA21EC6C}PrefabLibrary/DefaultLibrary/Structures/Commercial/PubVillage_E_2L01.et" {

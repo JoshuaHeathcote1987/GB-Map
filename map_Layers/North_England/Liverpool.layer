@@ -1444,7 +1444,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 42.462 4.9 -336.015
-       angles -0.244 -178.226 -0
+       angles -0.244 -178.226 0
        scale 0.803
       }
       {
@@ -1464,7 +1464,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 88.29 7.705 -352.536
-       angles 1.98 -124.3 -0
+       angles 1.98 -124.3 0
        scale 1.027
       }
       {
@@ -1504,7 +1504,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 31.558 0.079 -25.872
-       angles 0.263 -75.412 -0
+       angles 0.263 -75.412 0
        scale 0.59
       }
      }
@@ -7350,7 +7350,6 @@ $grp PolylineShapeEntity {
       {
        coords 10.796 0.601 -290.228
        angles -0.553 -90.453 -0.649
-       scale 1
       }
       {
        coords 14.625 0.448 -287.32
@@ -7610,7 +7609,6 @@ $grp PolylineShapeEntity {
       {
        coords 16.061 2.606 -347.841
        angles 2.543 -146.024 2.674
-       scale 1
       }
       {
        coords 8.071 2.441 -339.632
@@ -8145,7 +8143,6 @@ $grp PolylineShapeEntity {
       {
        coords 7.027 1.53 -359.319
        angles 0.806 -105.142 2.611
-       scale 1
       }
       {
        coords 29.089 2.207 -358.794
@@ -8815,7 +8812,6 @@ $grp PolylineShapeEntity {
       {
        coords 239.467 1.31 -383.62
        angles 2.342 159.12 -1.594
-       scale 1
       }
       {
        coords 246.358 1.31 -384.382
@@ -899906,8 +899902,8 @@ $grp GenericEntity : "{0D1EEC1DD3F60163}Prefabs/Props/Military/Furniture/Toilet_
   angles 0 -50.294 0
  }
  {
-  coords 3401.372 6.462 3270.206
-  angles 0 81.388 0
+  coords 3496.008 6.438 3287.92
+  angles 0 -85.204 0
  }
 }
 SCR_DestructibleBuildingEntity : "{0FC00BDA43145B38}Prefabs/Structures/Ruins/Church_Ruin_02/Church_Ruin_02.et" {
@@ -900134,8 +900130,8 @@ $grp GenericEntity : "{210C31BAFF1CFF1A}Prefabs/Structures/BuildingParts/Bathroo
   angles 0 -51.388 0
  }
  {
-  coords 3401.427 6.462 3269.58
-  angles 0 80.295 0
+  coords 3496.099 6.438 3288.541
+  angles 0 -86.297 0
  }
 }
 SCR_DestructibleBuildingEntity : "{21E86BA3108E0A9B}PrefabLibrary/CainLibrary/Structures/Military/Bunker_SPS_covered.et" {
@@ -900509,8 +900505,8 @@ $grp StaticModelEntity : "{3396B75380E17042}Prefabs/Decals/Core/PukeStain.et" {
   angles 0 -172.281 0
  }
  {
-  coords 3402.043 6.503 3270.269
-  angles 0 -40.598 0
+  coords 3495.34 6.479 3288.014
+  angles 0 152.81 0
  }
 }
 GenericEntity : "{33A5964F4AACAF8E}PrefabLibrary/CainLibrary/Props/Military/FireExtinguisherBox_USSR_01.et" {
@@ -902334,12 +902330,12 @@ $grp GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
   angles 0 -138.569 0
  }
  {
-  coords 3405.024 6.506 3268.444
-  angles 0 -22.837 0
+  coords 3492.864 6.482 3290.481
+  angles 0 170.571 0
  }
  {
-  coords 3402.036 6.336 3271.22
-  angles 0 -6.886 0
+  coords 3495.127 6.312 3287.087
+  angles 0 -173.478 0
  }
 }
 SCR_DestructibleBuildingEntity : "{49721D29CCBB820E}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_02/ControlTowerMilitary_E_02.et" {
@@ -902386,8 +902382,8 @@ $grp GenericEntity : "{4FF94098F23EA517}Prefabs/Structures/BuildingParts/Doors/D
   angles 0 -50.857 0
  }
  {
-  coords 3402.707 6.541 3270.91
-  angles 0 80.825 0
+  coords 3494.546 6.517 3287.545
+  angles 0 -85.767 0
  }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{50E63E69B37539DB}Prefabs/Rocks/Granite/GraniteSurfaceStone_01.et" {
@@ -902679,20 +902675,20 @@ $grp GenericEntity : "{5378793BA5CEB780}Prefabs/Props/Furniture/Urinal_01.et" {
   angles 0 -138.977 0
  }
  {
-  coords 3403.731 6.595 3271.466
-  angles 0 -7.295 0
+  coords 3493.421 6.571 3287.241
+  angles 0 -173.887 0
  }
  {
-  coords 3404.417 6.407 3271.539
-  angles 0 -7.295 0
+  coords 3492.737 6.383 3287.329
+  angles 0 -173.887 0
  }
  {
-  coords 3403.077 6.608 3271.385
-  angles 0 -7.295 0
+  coords 3494.076 6.584 3287.168
+  angles 0 -173.887 0
  }
  {
-  coords 3401.902 8.283 3271.252
-  angles 0 -7.295 0
+  coords 3495.25 8.259 3287.025
+  angles 0 -173.887 0
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{548FB6C52ACF593E}PrefabLibrary/CainLibrary/Structures/Houses/Apartment/ApartmentBuilding_USSR_3I01.et" {
@@ -903500,8 +903496,134 @@ $grp SCR_DestructibleBuildingEntity : "{636049CF818FF54B}PrefabLibrary/CainLibra
   angles 0 -51.016 0
  }
  {
-  coords 3403.935 -0.016 3271.333
-  angles 0 80.667 0
+  coords 3493.253 -0.04 3287.418
+  angles 0 -85.925 0
+  {
+   Building {
+    ID "660272B00D02A227"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "562280A5E6703FC8"
+      coords 0 0 0
+     }
+    }
+   }
+   Building {
+    ID "660272B00D02A257"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "562280A5E6703FC8"
+      coords 0 0 0
+     }
+    }
+   }
+   GameEnvironmentProbeEntity {
+    ID "660272B029BA8382"
+    coords 1.518 1.763 -0.188
+   }
+   GenericEntity {
+    ID "660272B00D02A260"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "59BD0C97863A170F"
+      coords 0 0 -0.001
+      {
+       GenericEntity {
+        ID "55B26EB37BEBC926"
+        coords 0 0 -0.001
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "660272B00D02A24E"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "59BD0A353DAE30F6"
+      coords 0 0 0
+      {
+       GenericEntity {
+        ID "55B26EB09B33E285"
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "6602728A2D77580B"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "6602728A3690CF89"
+      coords -2.531 0.14 -2.368
+      angles 0 -132 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF61"
+      coords 0.246 0.46 1.948
+      angles 0 93.123 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF7F"
+      coords -0.054 0.486 1.941
+      angles 0 -86.877 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF6B"
+      coords 3.02 0.754 0.365
+      angles 0 -96.427 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF99"
+      coords 3.423 0.754 0.41
+      angles 0 83.573 0
+     }
+     GenericEntity {
+      ID "6602728A3690CFA3"
+      coords -0.635 0.231 1.281
+     }
+     GenericEntity {
+      ID "6602728A3690CF23"
+      coords -0.201 3.036 -1.04
+      angles 0 -86.971 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF40"
+      coords 0.095 3.053 -1.068
+      angles 0 93.029 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF56"
+      coords -0.058 3.001 1.85
+      angles 0 -86.971 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF5F"
+      coords 0.24 3.058 1.81
+      angles 0 93.029 0
+     }
+     GenericEntity {
+      ID "6602728A3690CF4A"
+      coords -2.087 0.711 2.741
+      angles 0 -37.277 0
+     }
+     ParticleEffectEntity {
+      ID "660272806B2FF8C6"
+      coords -1.509 0 -0.978
+     }
+     ParticleEffectEntity {
+      ID "660272806B2FF8FD"
+      coords 1.612 0 0.017
+     }
+    }
+   }
+  }
  }
 }
 Vehicle S105_white1 : "{63880E311299A016}Prefabs/Vehicles/Wheeled/S105/S105_white.et" {
