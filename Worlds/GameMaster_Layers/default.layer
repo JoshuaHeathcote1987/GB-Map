@@ -16,6 +16,29 @@ SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
  }
 }
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6846B13EAD561B58}" {
+     NavmeshFile "{38D9267224832A26}UnitedKingdom/UnitedKingdom_soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{6D9DC78CC102FC4E}UnitedKingdom/UnitedKingdom_BTRlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{8D4823D1444EA7D2}UnitedKingdom/UnitedKingdom_Lowres.nmn"
+    }
+   }
+  }
+ }
  coords 4161.303 -2 4329.125
  {
   CommentEntity {
@@ -35,4 +58,1091 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
  coords 4161.303 -2 4327.125
+}
+$grp GenericEntity {
+ LandsEnd {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Land's End"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Land's End"
+    MainType "Name Settlement"
+   }
+  }
+  coords 3923.014 7.901 248.146
+ }
+ RAFStMawgan {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "RAF St Mawgan"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.8
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "RAF St Mawgan"
+    MainType "Name Settlement"
+   }
+  }
+  coords 4790.339 8.313 1020.488
+ }
+ Exmouth {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Exmouth"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Exmouth"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5184.697 2.312 722.726
+ }
+ Exeter {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Exeter"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.3
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Exeter"
+    MainType "Name Town"
+   }
+  }
+  coords 5121.384 16.913 927.219
+ }
+ HilltopCastle {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Hilltop Castle"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "HilltopCastle"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5625.063 44.125 993.517
+ }
+ DurdleDoor {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name ""\
+     "Durdle Door"\
+     ""
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName ""\
+    "Durdle Door"\
+    ""
+    MainType "Name Settlement"
+   }
+  }
+  coords 5880.387 0.719 668.098
+ }
+ StoneHenge {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Stonehenge"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Stonehenge"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5946.347 12.406 1293.579
+ }
+ IsleofWight {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Isle of Wight"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Isle of Wight"
+    MainType "Name Settlement"
+   }
+  }
+  coords 6339.548 4.212 734.781
+ }
+ London {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "London"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.5
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "London"
+    MainType "Name City"
+   }
+  }
+  coords 6826.594 5.156 1403.428
+ }
+ GolfCourse {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Royal Ashdown Forest Golf Club"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Royal Ashdown Forest Golf Club"
+    MainType "Name Settlement"
+   }
+  }
+  coords 6845.858 6.356 1096.277
+ }
+ Dover {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Dover"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Dover"
+    MainType "Name Town"
+   }
+  }
+  coords 7599.892 1.937 1075.285
+ }
+ WhiteCliffs {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "White Cliffs of Dover"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "White Cliffs of Dover"
+    MainType "Name Settlement"
+   }
+  }
+  coords 7790.094 9.687 1192.939
+ }
+ Southend {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Southend-on-Sea"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Southend-on-Sea"
+    MainType "Name Town"
+   }
+  }
+  coords 7479.412 2.406 1583.28
+ }
+ Farm1 {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Muzzas Farm"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Muzzas Farm"
+    MainType "Name Settlement"
+   }
+  }
+  coords 6142.029 5.251 905.846
+ }
+ Silverstone {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Silverstone"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Silverstone"
+    MainType "Name Town"
+   }
+  }
+  coords 6043.452 5.344 1818.198
+ }
+ Ascot {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Ascot"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Ascot"
+    MainType "Name Village"
+   }
+  }
+  coords 6239.578 9.344 1449.211
+ }
+ Cardiff {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Cardiff"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Cardiff"
+    MainType "Name City"
+   }
+  }
+  coords 5190.352 5.12 1449.186
+ }
+ RAFValley {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "RAF Valley"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "RAF Valley"
+    MainType "Name Town"
+   }
+  }
+  coords 4627.611 4.782 3118.648
+ }
+ Quarry {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Quarry"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.1
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Quarry"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5545.618 0 2639.064
+ }
+ Norwich {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Norwich"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Norwich"
+    MainType "Name Town"
+   }
+  }
+  coords 7455.601 34.468 2404.185
+ }
+ Liverpool {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Liverpool"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Liverpool"
+    MainType "Name City"
+   }
+  }
+  coords 5551.514 5.03 3212.918
+ }
+ Manchester {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Manchester"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Manchester"
+    MainType "Name City"
+   }
+  }
+  coords 5675.093 7.344 3437.228
+ }
+ PeakDistrict {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Peak District National Park"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_sColor 0.071 0.561 0.192 1
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Peak District National Park"
+    MainType "Name Valley"
+   }
+  }
+  coords 6077.676 13.793 3504.757
+ }
+ Sherwood {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Sherwood Forest"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_sColor 0.071 0.561 0.192 1
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Sherwood Forest"
+    MainType "Name Valley"
+   }
+  }
+  coords 6471.539 41.099 2728.352
+ }
+ LakeDistrict {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Lake District"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Lake District"
+    MainType "Name Town"
+   }
+  }
+  coords 5719.125 37.156 4235.147
+ }
+ SycamoreGap {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Sycamore Gap"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Sycamore Gap"
+    MainType "Name Valley"
+   }
+  }
+  coords 5897.125 28.344 4928.207
+ }
+ Edinburgh {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Edinburgh"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Edinburgh"
+    MainType "Name City"
+   }
+  }
+  coords 5357.798 46.5 5272.489
+ }
+ ArthursSeat {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Arthurs Seat"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Arthurs Seat"
+    MainType "Name Ridge"
+   }
+  }
+  coords 5677.335 95.531 5132.384
+ }
+ GlasgowAirport {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Glasgow Airport"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Glasgow Airport"
+    MainType "Name Local"
+    Scale 1
+   }
+  }
+  coords 4687.889 6.25 5066.73
+ }
+ HMNBClyde {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "HMNB Clyde"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "HMNB Clyde"
+    MainType "Name Settlement"
+   }
+  }
+  coords 4409.357 4.079 5439.562
+ }
+ StAndrews {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "St Andrew's"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "St Andrew's"
+    MainType "Name Village"
+   }
+  }
+  coords 5453.381 1.625 5829.314
+ }
+ Perth {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Perth"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Perth"
+    MainType "Name Village"
+   }
+  }
+  coords 5113.105 5.581 6003.598
+ }
+ Aberdeen {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Aberdeen"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.3
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Aberdeen"
+    MainType "Name City"
+   }
+  }
+  coords 6003.442 3.875 6953.689
+ }
+ Inverness {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Inverness"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Inverness"
+    MainType "Name City"
+   }
+  }
+  coords 4904.552 5.996 6956.826
+ }
+ JohnoGroats {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "John o' Groats"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "John o' Groats"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5221.079 4.781 7904.019
+ }
+ Lochness {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Loch Ness"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Loch Ness"
+    MainType "Name Water Minor"
+   }
+  }
+  coords 4427.863 0 6572.521
+ }
+ BenNevis {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Ben Nevis"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Ben Nevis"
+    MainType "Name Ridge"
+   }
+  }
+  coords 4504.451 159.497 6245.833
+ }
+ UrquhartCastle {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Urquhart Castle"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Urquhart Castle"
+    MainType "Name Settlement"
+   }
+  }
+  coords 4377.665 3.286 6625.438
+ }
+ Skye {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Isle of Skye"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Isle of Skye"
+    MainType "Name Settlement"
+   }
+  }
+  coords 3534.025 6.187 6846.033
+ }
+ IrishSea {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Irish Sea"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Irish Sea"
+    MainType "Name Sea Major"
+   }
+  }
+  coords 4416.274 0 3555.481
+ }
+ EnglishChannel {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "English Channel"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.1
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "English Channel"
+    MainType "Name Sea Major"
+   }
+  }
+  coords 6417.545 0 339.496
+ }
+ NorthSea {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "North Sea "
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.2
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "North Sea "
+    MainType "Name Sea Major"
+   }
+  }
+  coords 6653.776 0 5788.546
+ }
+ BeatriceOilField {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Beatrice Oil Field"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Beatrice Oil Field"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5376.643 28.446 7383.544
+ }
+ Gannetoilandgasfield {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Gannet oil and gas field"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Gannet oil and gas field"
+    MainType "Name Settlement"
+   }
+  }
+  coords 6667.292 44.187 6118.734
+ }
+ Farm2 {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "MindBlank Farm"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Minds Farm"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5712.81 23.746 4894.241
+ }
+ StokesFarm {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Stokes Farm"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Stokes Farm"
+    MainType "Name Settlement"
+   }
+  }
+  coords 5966.988 7.031 2488.028
+ }
+ SnowdoniaNationalPark {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Snowdonia National Park"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_sColor 0.071 0.561 0.192 1
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Snowdonia National Park"
+    MainType "Name Ridge"
+   }
+  }
+  coords 5094.83 77.475 2648.595
+ }
+ Bannau {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Bannau Brycheiniog National Park "
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_sColor 0.071 0.561 0.192 1
+    m_fSizeCoef 0.9
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Bannau Brycheiniog National Park "
+    MainType "Name Ridge"
+   }
+  }
+  coords 5048.273 63.384 1916.329
+ }
+ GallowayForestPark {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Galloway Forest Park"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_sColor 0.071 0.561 0.192 1
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Galloway Forest Park"
+    MainType "Name Settlement"
+   }
+  }
+  coords 4659.998 32.198 4683.191
+ }
+ IsleofMan {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Isle of Man"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 0.7
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Isle of Man"
+    MainType "Name Settlement"
+   }
+  }
+  coords 4530.37 9.981 3957.339
+ }
+ Dublin {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Dublin"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Dublin"
+    MainType "Name City"
+   }
+  }
+  coords 3370.961 6.201 3237.099
+ }
+ Belfast {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Belfast"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.4
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Belfast"
+    MainType "Name City"
+   }
+  }
+  coords 3839.85 5 4162.036
+ }
 }

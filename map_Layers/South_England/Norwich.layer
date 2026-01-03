@@ -549396,16 +549396,16 @@ $grp SplineShapeEntity {
   coords 3281.606 6.25 3224.001
   Points {
    ShapePoint "{6842FC641F72F81D}" {
-    Position -0.417 -0 -20.052
+    Position -0.417 0 -20.052
    }
    ShapePoint "{6842FC649A2C337A}" {
-    Position -0.171 -0 -8.369
+    Position -0.171 0 -8.369
    }
    ShapePoint "{6842FC641F7D063F}" {
-    Position -6.953 -0 1.527
+    Position -6.953 0 1.527
    }
    ShapePoint "{6842FC641C6BC515}" {
-    Position -16.567 -0 7.568
+    Position -16.567 0 7.568
    }
    ShapePoint "{6842FC641C3C82F5}" {
     Position -34.438 0 5.527
@@ -549431,16 +549431,16 @@ $grp SplineShapeEntity {
       ID "5262CB47BB2B3833"
       SplinePoints {
        ShapePoint "{5256DA7852E4536F}" {
-        Position -0.417 -0 -20.052
+        Position -0.417 0 -20.052
        }
        ShapePoint "{5256DA7852E450A5}" {
-        Position -0.171 -0 -8.369
+        Position -0.171 0 -8.369
        }
        ShapePoint "{6842FC64144F5624}" {
-        Position -6.953 -0 1.527
+        Position -6.953 0 1.527
        }
        ShapePoint "{6842FC64144F55B4}" {
-        Position -16.567 -0 7.568
+        Position -16.567 0 7.568
        }
        ShapePoint "{6842FC64144F55EC}" {
         Position -34.438 0 5.527
@@ -549475,7 +549475,7 @@ $grp SplineShapeEntity {
     Position -11.356 -0.07 3.575
    }
    ShapePoint "{6842FC640AA863FC}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{6842FC640AA8B010}" {
     Position 5.421 -0.056 -6.344
@@ -549507,7 +549507,7 @@ $grp SplineShapeEntity {
         Position -11.356 -0.07 3.575
        }
        ShapePoint "{6842FC64096E52D1}" {
-        Position 0 -0 0
+        Position 0 0 0
        }
        ShapePoint "{6842FC64096E5220}" {
         Position 5.421 -0.056 -6.344
@@ -549628,7 +549628,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 11.819 1.18 0.519
-       angles 7.815 95.221 -0
+       angles 7.815 95.221 0
        scale 0.574
       }
       {
@@ -550166,7 +550166,7 @@ $grp SCR_DestructibleBuildingEntity : "{095FFDBA7FE56C82}Prefabs/Structures/Wall
 }
 $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_2.et" {
  {
-  coords 3235.121 -0 3205.419
+  coords 3235.121 0 3205.419
   angles 0.882 -96.845 1.567
   scale 0.85
  }
@@ -550176,17 +550176,17 @@ $grp Tree : "{0A56ED2CC73ABB23}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.85
  }
  {
-  coords 3243.906 -0 3205.5
+  coords 3243.906 0 3205.5
   angles 0.882 -96.845 1.567
   scale 0.85
  }
  {
-  coords 3235.375 -0 3213.78
+  coords 3235.375 0 3213.78
   angles 0.882 -96.845 1.567
   scale 0.85
  }
  {
-  coords 3222.642 -0 3207.006
+  coords 3222.642 0 3207.006
   angles 0.882 -96.845 1.567
   scale 0.85
  }
@@ -551369,7 +551369,7 @@ $grp Tree : "{16D3707EA3F8DD41}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_a
   scale 1.127
  }
  {
-  coords 3227.592 -0 3221.493
+  coords 3227.592 0 3221.493
   angles 0.941 335.115 2.512
   scale 1.123
  }
@@ -554092,10 +554092,6 @@ StaticModelEntity : "{52ADECE22F634F08}Prefabs/Structures/Cultural/Statues/Statu
  coords 7444.884 4.871 1559.006
  angles 0 -56.574 0
  scale 2.44
-}
-SCR_DestructibleBuildingEntity : "{5312C1597A2D08C6}Prefabs/Structures/Communcation Towers/Green Mountain Tower.et" {
- coords 5065.015 95.898 2433.518
- angles 0 159.811 0
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
  {
@@ -581868,12 +581864,12 @@ $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.75
  }
  {
-  coords 3277.77 -0 3207.331
+  coords 3277.77 0 3207.331
   angles 0.345 91.418 359.929
   scale 0.75
  }
  {
-  coords 3250.056 -0 3203.039
+  coords 3250.056 0 3203.039
   angles 0.345 91.418 359.929
   scale 0.75
  }
