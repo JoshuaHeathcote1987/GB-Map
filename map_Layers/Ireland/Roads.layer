@@ -789,7 +789,7 @@ $grp SplineShapeEntity {
     Position -1078.496 -0.779 -738.989
    }
    ShapePoint "{65E7052B87A4CDBA}" {
-    Position -970.917 -1.268 -1019.08
+    Position -960.061 -0.812 -1007.924
    }
    ShapePoint "{6842FC621D42915C}" {
     Position -705.177 2.226 -1132.059
@@ -827,7 +827,7 @@ $grp SplineShapeEntity {
         Position -1078.5 -0.779 -738.989
        }
        ShapePoint "{65E70528676CF722}" {
-        Position -970.917 -1.268 -1019.08
+        Position -960.061 -0.812 -1007.92
        }
        ShapePoint "{65E70528676CF760}" {
         Position -705.177 2.226 -1132.06
@@ -1010,40 +1010,12 @@ $grp SplineShapeEntity {
  }
  {
   coords 3526.562 4.719 4107.816
-  Points {
-   ShapePoint "{65EF1E8FD0FF9FD6}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65EF1E8FD0FE27AD}" {
-    Position -15.154 0.434 45.033
-   }
-   ShapePoint "{65EF1E8FD1D836EE}" {
-    Position -57.264 -0.812 61.279
-   }
-   ShapePoint "{65EF1E8FD3C4F54E}" {
-    Position -94.489 -0.751 45.383
-   }
-  }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position 0 0 0
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position -15.154 0.434 45.033
-       }
-       ShapePoint "{65EF1E8FD4B857D9}" {
-        Position -57.264 -0.812 61.279
-       }
-       ShapePoint "{65EF1E8FD4B85748}" {
-        Position -94.489 -0.751 45.383
-       }
-      }
       IsClosedSpline 0
       Width 12
      }
@@ -3339,7 +3311,7 @@ $grp SplineShapeEntity {
     Position 64.782 -0.625 29.872
    }
    ShapePoint "{65F56B90BC6CD2F2}" {
-    Position -47.235 -0.36 -5.429
+    Position 23.453 -1.221 98.169
    }
    ShapePoint "{65F56B90BE48D5FC}" {
     Position -142.467 1.031 12.355
@@ -3368,7 +3340,7 @@ $grp SplineShapeEntity {
         Position 64.782 -0.625 29.872
        }
        ShapePoint "{556C6554868CB0CE}" {
-        Position -47.235 -0.36 -5.429
+        Position 23.453 -1.221 98.169
        }
        ShapePoint "{65F56B909695206B}" {
         Position -142.467 1.031 12.355
@@ -15938,8 +15910,8 @@ $grp SCR_DestructibleBuildingEntity : "{0B2717FF3BBF99B5}Prefabs/Buildings/Civil
   coords 1942.573 0.078 3346.599
  }
  {
-  coords 3841.44 -0.3 4191.033
-  angles 0 5.27 0
+  coords 3832.265 0.157 4195.798
+  angles 0 6.669 0
  }
 }
 SCR_DestructibleBuildingEntity : "{0E7899885A92BF4F}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
