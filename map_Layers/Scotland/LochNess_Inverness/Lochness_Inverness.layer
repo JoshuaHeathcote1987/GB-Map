@@ -52,7 +52,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     {
      RoadEntity {
@@ -146,7 +146,7 @@ $grp SplineShapeEntity {
    }
   }
   {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
     RoadFalloffWidth 7.3
     {
@@ -189,95 +189,83 @@ $grp SplineShapeEntity {
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{270493CAE0CF24E4}PrefabLibrary/Structures/Landmarks/Castle_01_Tower.et" {
+SCR_DestructibleBuildingEntity : "{270493CAE0CF24E4}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_Tower.et" {
  coords 4370.736 -4.287 6619.237
- angleY -173
+ angles 0 -173 0
 }
-$grp SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
+$grp SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
  {
   coords 4358.646 2.543 6631.896
-  angleY 96.572
+  angles 0 96.572 0
  }
  {
   coords 4373.75 2.779 6611.107
-  angleY -171.173
+  angles 0 -171.173 0
  }
  {
   coords 4372.836 2.62 6634.462
-  angleY -173.416
+  angles 0 -173.416 0
  }
 }
-$grp SCR_IndestructibleEnvironmentalEntity : "{AD192273F0A1F50D}PrefabLibrary/Rocks/Granite/GraniteCliff_02/GraniteCliff_02_Fucus.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{AD192273F0A1F50D}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteCliff_02/GraniteCliff_02_Fucus.et" {
  {
   coords 4387.53 -18.972 6632.125
-  angleY 65.168
+  angles 0 65.168 0
  }
  {
   coords 4378.903 -19.04 6641.418
-  angleY -167.627
+  angles 0 -167.627 0
  }
  {
   coords 4390.024 -18.174 6620.592
-  angleY 104.452
+  angles 0 104.452 0
  }
  {
   coords 4384.977 -17.826 6607.599
-  angleY -51.089
+  angles 0 -51.089 0
  }
  {
   coords 4366.926 -20.723 6643.484
-  angleY 170.773
+  angles 0 170.773 0
  }
  {
   coords 4374.566 -19.805 6600.535
-  angleY 157.857
+  angles 0 157.857 0
  }
  {
   coords 4361.764 -18.972 6595.281
-  angleY -0.095
+  angles 0 -0.095 0
  }
 }
-$grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
+$grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
  {
   coords 4437.073 6.581 6578.855
-  angleX 1.912
-  angleY 27.815
-  angleZ -1.007
+  angles 1.912 27.815 -1.007
   scale 1.144
  }
  {
   coords 4436.202 6.468 6577.154
-  angleX -43.192
-  angleY -153.096
-  angleZ -178.619
+  angles -43.192 -153.096 -178.619
   scale 1.144
  }
  {
   coords 4433.994 3.153 6574.11
-  angleX -2.074
-  angleY -108.037
-  angleZ -0.609
+  angles -2.074 -108.037 -0.609
   scale 1.144
  }
  {
   coords 4435.065 4.025 6575.377
-  angleX 37.097
-  angleY 59.586
-  angleZ 0.183
+  angles 37.097 59.586 0.183
   scale 1.144
  }
  {
   coords 4428.857 2.979 6567.181
-  angleX -16.068
-  angleY 54.137
-  angleZ -0.058
+  angles -16.068 54.137 -0.058
   scale 1.144
  }
  {
   coords 4428.003 3.081 6565.843
-  angleX -2.16
-  angleY -126.377
-  angleZ 0.075
+  angles -2.16 -126.377 0.075
   scale 1.315
  }
 }
