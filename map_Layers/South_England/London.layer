@@ -64882,22 +64882,22 @@ $grp SplineShapeEntity {
     Position 0 0 0
    }
    ShapePoint "{6642F3EF7932C813}" {
-    Position 0.012 0.136 -3.487
+    Position -6.967 0.248 -5.47
    }
    ShapePoint "{6642F3EF7C58FFCE}" {
-    Position -1.776 1.683 -15.205
+    Position -14.074 0.89 -11.858
    }
    ShapePoint "{6642F3EF7DDEA51B}" {
-    Position 7.971 4.243 -19.695
+    Position 9.851 2.926 -27.989
    }
    ShapePoint "{6642F3EF7222F4FB}" {
-    Position 33.498 10.131 -14.558
+    Position 30.404 6.272 -30.887
    }
    ShapePoint "{6642F3EF73B0FE93}" {
-    Position 48.174 14.894 4.554
+    Position 44.982 9.202 -10.388
    }
    ShapePoint "{6642F3EF70706B40}" {
-    Position 53.036 13.208 14.325
+    Position 61.529 17.541 -5.667
    }
   }
   LineColor 0 0 0 0
@@ -64907,84 +64907,124 @@ $grp SplineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{168CE46092EAD301}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_4m.et" {
       {
-       coords -1.621 0.4 -9.823
-       angles 0 96.931 0
+       coords -11.028 0.599 -7.387
+       angles 0 148.257 0
       }
       {
-       coords 3.704 3.471 -19.319
-       angles 0 5.369 0
+       coords -8.399 0.077 -16.904
+       angles 0 35.755 0
       }
       {
-       coords 15.692 5.847 -19.212
-       angles 0 352.852 0
+       coords -5.145 0.214 -19.247
+       angles 0 33.786 0
       }
       {
-       coords 19.67 6.85 -18.713
-       angles 0 349.943 0
+       coords -1.812 -0.377 -21.477
+       angles 0 32.006 0
       }
       {
-       coords 23.619 7.822 -18.013
-       angles 0 346.103 0
+       coords 1.589 0.284 -23.603
+       angles 0 29.974 0
       }
       {
-       coords 27.512 8.767 -17.05
-       angles 0 340.199 0
+       coords 5.062 1.863 -25.606
+       angles 0 27.14 0
       }
       {
-       coords 39.07 11.315 -9.474
-       angles 0 306.748 0
+       coords 16.06 4.078 -30.43
+       angles 0 16.183 0
       }
       {
-       coords 41.47 11.842 -6.261
-       angles 0 302.909 0
+       coords 19.911 4.671 -31.548
+       angles 0 8.402 0
       }
       {
-       coords 43.648 12.472 -2.894
-       angles 0 300.933 0
+       coords 23.878 4.884 -32.134
+       angles 0 355.201 0
       }
       {
-       coords 45.709 13.342 0.545
-       angles 0 301.32 0
+       coords 35.442 6.379 -25.503
+       angles 0 299.991 0
+      }
+      {
+       coords 37.447 6.414 -22.03
+       angles 0 298.194 0
+      }
+      {
+       coords 39.341 6.906 -18.496
+       angles 0 299.402 0
+      }
+      {
+       coords 41.31 7.657 -15.002
+       angles 0 305.256 0
       }
      }
      SCR_DestructibleEntity : "{25E7C831EF87A0E1}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_Pole.et" {
-      coords 52.478 15.787 12.817
-      angles 0 291.239 0
+      coords 60.298 17.412 -5.764
+      angles 0 355.487 0
+     }
+     SCR_DestructibleEntity : "{4ED2904BF79D37CC}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_D.et" {
+      coords -6.313 0.234 -4.93
+      angles 0 152.474 0
      }
      $grp SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_2m.et" {
       {
-       coords 0 0 0
-       angles 0 86.355 0
+       coords -14.438 1.074 -9.497
+       angles 0 86.453 0
       }
       {
-       coords 31.284 9.652 -15.691
-       angles 0 333.527 0
+       coords 27.874 5.186 -31.798
+       angles 0 341.87 0
       }
       {
-       coords 51.7 16.025 10.964
-       angles 0 292.788 0
+       coords 46.749 10.459 -9.214
+       angles 0 334.26 0
       }
+      {
+       coords 48.56 11.436 -8.341
+       angles 0 339.91 0
+      }
+      {
+       coords 50.447 12.202 -7.65
+       angles 0 343.547 0
+      }
+      {
+       coords 52.375 14.661 -7.081
+       angles 0 346.959 0
+      }
+      {
+       coords 54.333 16.431 -6.628
+       angles 0 349.417 0
+      }
+      {
+       coords 56.309 16.816 -6.259
+       angles 0 351.943 0
+      }
+      {
+       coords 58.299 17.159 -5.977
+       angles 0 353.935 0
+      }
+     }
+     SCR_DestructibleEntity : "{C378176AB614B1FD}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_4m_D.et" {
+      coords 43.625 8.432 -11.728
+      angles 0 321.183 0
      }
      $grp SCR_DestructibleEntity : "{F717C1D3B6A27867}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_8m.et" {
       {
-       coords 0.128 0.045 -2.006
-       angles 0 102.607 0
+       coords 0 -0.047 0
+       angles 0 142.013 0
       }
       {
-       coords -2.104 1.265 -13.803
-       angles 0 43.521 0
+       coords -14.313 0.968 -11.503
+       angles 0 42.402 0
       }
       {
-       coords 7.696 4.196 -19.695
-       angles 0 356.548 0
+       coords 8.631 2.674 -27.435
+       angles 0 21.955 0
       }
       {
-       coords 33.083 10.051 -14.795
-       angles 0 318.366 0
-      }
-      {
-       coords 47.794 14.573 3.971
-       angles 0 299.183 0
+       coords 29.784 5.777 -31.173
+       angles 0 314.94 0
       }
      }
     }
@@ -219667,8 +219707,8 @@ $grp SCR_DestructibleBuildingEntity : "{1321E90FE0CF8C3C}Prefabs/Structures/Cult
   angles -87.301 -117.225 89.672
  }
  {
-  coords 5460.65 -6.136 5336.956
-  angles 0 -115.52 0
+  coords 5460.587 -6.019 5337.576
+  angles 0 -117.372 0
  }
  {
   coords 5445.655 3.081 5378.564
@@ -225303,70 +225343,6 @@ SCR_DestructibleBuildingEntity : "{9064E65F34097C8F}Prefabs/Structures/Commercia
  angles 0 -2.687 0
 }
 $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastructure/Lamps/LampStreet_E_01_4m/LampStreet_E_01_4m.et" {
- {
-  coords 7175.5 0.026 1546.5
-  angles -1.028 100.034 -1.491
- }
- {
-  coords 7159 0.118 1546
-  angles -1.956 31.466 -0.39
- }
- {
-  coords 7121.557 -0.001 1541.102
-  angles -0.18 187.213 1.187
- }
- {
-  coords 7051.649 0 1537.469
-  angles -0.474 -51.516 1.083
- }
- {
-  coords 7018.513 0 1535.984
-  angles -0.523 332.786 -1.158
- }
- {
-  coords 6951.598 0.27 1535.026
-  angles 1.886 127.94 -0.538
- }
- {
-  coords 6912.115 0 1531.128
-  angles -1.84 246.486 -1.651
- }
- {
-  coords 6892.741 -0.282 1531.747
-  angles 1.284 341.839 1.684
- }
- {
-  coords 6830.99 -0.022 1544.003
-  angles 1.519 255.55 1.393
- }
- {
-  coords 6912.821 0 1548.586
-  angles 1.791 34.267 1.191
- }
- {
-  coords 6947.761 0 1550.357
-  angles -1.794 344.63 -0.207
- }
- {
-  coords 6983.335 0 1552.183
-  angles -1.701 189.091 1.363
- }
- {
-  coords 7052.042 0 1554.883
-  angles -0.867 191.915 0.623
- }
- {
-  coords 7118.5 -0.038 1555.5
-  angles -1.61 289.466 -1.395
- }
- {
-  coords 7157.733 0 1559.936
-  angles 0.887 34.531 0.531
- }
- {
-  coords 7189.145 0 1561.224
-  angles -0.022 189.278 0.281
- }
  {
   coords 6762.507 0 1470.264
   angles -1.166 151.429 0.009
