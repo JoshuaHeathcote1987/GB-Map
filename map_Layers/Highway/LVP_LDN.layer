@@ -1,30 +1,5 @@
 $grp SplineShapeEntity {
  {
-  coords 5617.219 5.449 3058.824
-  Points {
-   ShapePoint "{65E8D9DFDB9B7BA0}" {
-    Position -13.378 0.467 -105.889
-   }
-  }
-  {
-   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
-    coords 0 0 0
-    {
-     RoadEntity {
-      ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position -13.378 0.467 -105.889
-       }
-      }
-      IsClosedSpline 0
-      Width 12
-     }
-    }
-   }
-  }
- }
- {
   coords 6348.483 5.363 1699.395
   Points {
    ShapePoint "{65E8D9D863379255}" {
@@ -49,7 +24,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{66A920E3A5BA8B48}" {
-    Position -268.1 1.756 884.638
+    Position -268.109 1.214 884.649
    }
    ShapePoint "{65E8D9D8724B3C48}" {
     Position -382.409 6.504 1010.989
@@ -76,10 +51,10 @@ $grp SplineShapeEntity {
     Position -740.054 -0.064 1296.839
    }
    ShapePoint "{672D10A02677EE7E}" {
-    Position -733.763 0.63 1358.156
+    Position -733.763 0.282 1358.157
    }
    ShapePoint "{672D10A024D32769}" {
-    Position -732.667 0.231 1380.528
+    Position -732.859 0.262 1389.409
    }
   }
   {
@@ -111,7 +86,7 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{65E8D9D879BDF7C3}" {
-        Position -268.1 1.756 884.638
+        Position -268.109 1.214 884.649
        }
        ShapePoint "{65E8D9D879BDF706}" {
         Position -382.409 6.504 1010.99
@@ -138,10 +113,10 @@ $grp SplineShapeEntity {
         Position -740.054 -0.064 1296.84
        }
        ShapePoint "{672D10A026766105}" {
-        Position -733.763 0.63 1358.16
+        Position -733.763 0.282 1358.16
        }
        ShapePoint "{672D10A024D1D53D}" {
-        Position -732.667 0.231 1380.53
+        Position -732.859 0.262 1389.41
        }
       }
       IsClosedSpline 0
