@@ -32761,7 +32761,8 @@ $grp SCR_DestructibleEntity : "{1A39A3AC943E9E57}PrefabLibrary/DefaultLibrary/In
  {
   components {
    RigidBody "{54969A6AA8773997}" {
-    ResponseIndex "NoCollision"
+    SimState Collision
+    ResponseIndex "Normal"
    }
   }
   coords 5942.843 12.073 1298.479
@@ -32815,8 +32816,8 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/DefaultLibrary/In
     ResponseIndex "NoCollision"
    }
   }
-  coords 5957.906 12.348 1292.192
-  angles -3.622 -14.255 -93.574
+  coords 5957.906 11.603 1292.192
+  angles 0.324 -14.695 -78.375
   scale 5.576
   Enabled 0
  }
@@ -32826,8 +32827,8 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/DefaultLibrary/In
     ResponseIndex "NoCollision"
    }
   }
-  coords 5943.917 12.325 1288.132
-  angles 1.758 61.81 90.265
+  coords 5943.917 11.46 1288.132
+  angles 1.758 61.81 72.547
   scale 5.576
   Enabled 0
  }
@@ -32881,8 +32882,8 @@ $grp SCR_DestructibleEntity : "{26D0BF524C5D034B}PrefabLibrary/DefaultLibrary/In
     ResponseIndex "NoCollision"
    }
   }
-  coords 5957.762 12.452 1285.628
-  angles 87.044 34.219 14.045
+  coords 5957.762 11.639 1285.628
+  angles -75.666 136.381 4.761
   scale 5.576
   Enabled 0
  }

@@ -1,16 +1,6 @@
-$grp GenericEntity {
- {
-  coords 6697.33 35.743 6147.854
-  scale 2.892
- }
- {
-  coords 6653.193 -0.048 6149.105
-  scale 2.892
- }
- {
-  coords 6653.249 -0.065 6143.751
-  scale 2.892
- }
+GenericEntity {
+ coords 6697.33 35.743 6147.854
+ scale 2.892
 }
 ParticleEffectEntity {
  coords 6636.005 87.306 6135.813
@@ -57,11 +47,6 @@ $grp GenericEntity : "{084D2CC48F3B7333}PrefabsEditable/Auto/Props/Construction/
   coords 6663.037 44.131 6147.464
  }
 }
-SCR_DestructibleBuildingEntity : "{12981279D4DB92D3}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow_Base.et" {
- coords 6703.389 44.015 6156.188
- angles 0 -176.869 0
- scale 0.126
-}
 GenericEntity : "{160E4E4110803F26}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_FIA.et" {
  coords 6637.755 64.475 6143.842
 }
@@ -98,7 +83,7 @@ GenericEntity : "{48610DA0F467790A}Prefabs/Props/Military/SupplyBox/SupplyStack/
  coords 6699.49 44.187 6131.431
 }
 GenericEntity : "{4ED7481E2AC4268A}Prefabs/Props/Helipad/Helipad_short.et" {
- coords 6696.038 43.177 6095.328
+ coords 6696.038 43.982 6095.328
  angles 0 179.486 0
 }
 StaticModelEntity : "{532795AD51CFBEDF}PrefabsEditable/Auto/Structures/Infrastructure/Piping/E_DieselPipe_01_hose_V2.et" {
@@ -247,56 +232,6 @@ StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/
 GenericEntity : "{934887E9F148A6FA}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Supplies_base.et" {
  coords 6679.555 45.761 6111.749
  angles 0 133.403 0
-}
-$grp GenericEntity : "{9469915BD7CB2A46}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_02/BuidlingAddons/TransformerStation_E_02_stairs.et" {
- {
-  coords 6702.414 40.003 6151.735
-  angles 0 -176.869 0
- }
- {
-  coords 6702.635 43.94 6155.683
-  angles 0 -176.869 0
- }
- {
-  coords 6691.843 35.869 6147.673
-  angles 0 -84.886 0
- }
- {
-  coords 6679.887 23.957 6148.729
-  angles 0 -84.753 0
- }
- {
-  coords 6687.841 31.924 6147.981
-  angles 0 -84.753 0
- }
- {
-  coords 6683.902 27.987 6148.345
-  angles 0 -84.753 0
- }
- {
-  coords 6667.923 11.96 6149.55
-  angles 0 -87.066 0
- }
- {
-  coords 6675.897 19.927 6149.129
-  angles 0 -87.066 0
- }
- {
-  coords 6671.95 15.99 6149.332
-  angles 0 -87.066 0
- }
- {
-  coords 6655.978 0 6150.101
-  angles 0 -87.066 0
- }
- {
-  coords 6663.953 7.967 6149.68
-  angles 0 -87.066 0
- }
- {
-  coords 6660.005 4.03 6149.883
-  angles 0 -87.066 0
- }
 }
 GenericEntity : "{97A03B43D914B4DD}Prefabs/Props/Military/SupplyBox/SupplyShippingContainers/SupplyShippingContainers_01/SupplyShippingContainers_01_20ft_Base.et" {
  coords 6688.476 44.187 6128.2

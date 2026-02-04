@@ -26,27 +26,6 @@ $grp GenericEntity {
   coords 6184.968 5.344 1968.976
   angles 0 -176.42 0
  }
- KillerTurkckyFarm {
-  components {
-   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
-     Name "Killer Turkcky Farm"
-     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
-    }
-    m_bAutoRegister ALWAYS
-    m_bStatic 1
-    m_Flags 2072
-    m_fSizeCoef 0.7
-    m_bBold 1
-   }
-   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
-    DisplayName "Killer Turkcky Farm"
-    MainType "Name Settlement"
-   }
-  }
-  coords 6910.249 3.481 3577.051
- }
 }
 $grp PolylineShapeEntity {
  {
@@ -9435,6 +9414,48 @@ $grp PolylineShapeEntity {
       }
      }
     }
+   }
+  }
+ }
+ {
+  coords 6492.555 23.594 1925.335
+  Points {
+   ShapePoint "{68890BF5135461D6}" {
+    Position 0 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{AFBC8775A67A25AB}Prefabs/WEGenerators/Walls/Stone/WG_StoneWall_01.et" {
+    Flags 0x100003 0
+   }
+  }
+ }
+ {
+  coords 6495.687 22.824 1922.825
+  Points {
+   ShapePoint "{68890BF50FC3E521}" {
+    Position 0 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{750314043E7EA87C}Prefabs/WEGenerators/Walls/Stone/WG_StoneWall_02.et" {
+    Flags 0x100003 0
+   }
+  }
+ }
+ {
+  coords 7140.918 2.829 2687.927
+  Points {
+   ShapePoint "{688911E2E0409F9D}" {
+    Position 0 0 0
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{AFBC8775A67A25AB}Prefabs/WEGenerators/Walls/Stone/WG_StoneWall_01.et" {
+    Flags 0x100003 0
    }
   }
  }
@@ -451457,7 +451478,7 @@ $grp SplineShapeEntity {
     Position 62.506 -0.322 -22.026
    }
    ShapePoint "{6874E8C561C997D4}" {
-    Position 97.837 0.089 -7.698
+    Position 85.296 -0.071 -13.709
    }
   }
   {
@@ -451483,7 +451504,7 @@ $grp SplineShapeEntity {
         Position 62.506 -0.322 -22.026
        }
        ShapePoint "{6874E8C55CB3F6CE}" {
-        Position 97.837 0.089 -7.698
+        Position 85.296 -0.071 -13.709
        }
       }
       IsClosedSpline 0
@@ -453867,6 +453888,10 @@ SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Walls/Con
  angles 0 6.574 0
  scale 1.31
 }
+Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ammo.et" {
+ coords 6534.849 22.452 1919.556
+ angles 0 -69.969 0
+}
 $grp GenericEntity : "{33BDFC6E804787F7}Prefabs/Structures/Signs/Warnings/Dst/SignDangerCurve_01_Dst_left.et" {
  {
   coords 2821.669 5.578 3811.084
@@ -453939,7 +453964,7 @@ $grp SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Hous
  }
 }
 SCR_DestructibleBuildingEntity : "{3951BF8EC29C556D}PrefabLibrary/DefaultLibrary/Structures/Agriculture/CowShed_E_01_short.et" {
- coords 5747.084 0.698 4904.076
+ coords 5747.084 0.197 4904.076
  angles 0 -67.112 0
 }
 $grp GenericEntity : "{3A75EF80872F770F}Prefabs/Structures/Signs/Warnings/SignOneWay_01_pole.et" {
@@ -454503,7 +454528,7 @@ $grp SCR_DestructibleBuildingEntity : "{4E0845B85F4535D8}Prefabs/Structures/Agri
   angles 0 77.084 0
  }
  {
-  coords 6928.059 0.861 3587.658
+  coords 6928.059 0.368 3587.658
   angles 0 -18.008 0
  }
 }
@@ -456102,8 +456127,8 @@ $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
  }
 }
 SCR_DestructibleBuildingEntity : "{A580EB57E2822C66}Prefabs/Structures/Agriculture/Water Tower 01.et" {
- coords 6896.594 0 3577.363
- angles 0 -15.529 0
+ coords 6895.021 -0.697 3578.383
+ angles 0 70.143 0
 }
 $grp DecalEntity : "{A5B3D2B79A35AFC8}PrefabLibrary/DefaultLibrary/Decals/Asphalt/Decal_Asphalt_Patch_Blob_03.et" {
  {
@@ -458119,10 +458144,6 @@ $grp DecalEntity : "{D0ADBF5A3B6783C0}Prefabs/Decals/Dirt/Decal_Dirt_Crossroad_0
 SCR_DestructibleBuildingEntity : "{D217E566992B77F4}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_school_v2.et" {
  coords 6992.594 0 1397.812
  angles 0 -54.755 0
-}
-SCR_DestructibleBuildingEntity : "{D3CFBCBBAD783F7D}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_USSR_1L01_Green.et" {
- coords 6888.617 0.363 3624.724
- angles 0 -113.515 0
 }
 $grp GenericEntity : "{D63716E01EF9AC74}Prefabs/Props/Forest/ForestBench_01/ForestBench_01.et" {
  {
