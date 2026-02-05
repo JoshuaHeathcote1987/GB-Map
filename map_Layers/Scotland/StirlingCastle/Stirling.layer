@@ -299,7 +299,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{45BE489A63A25CA6}Prefabs/Rocks/Gr
 }
 $grp SCR_DestructibleBuildingEntity : "{4B7F9020CE1AE2CF}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_OuterWall_01_Corner.et" {
  {
-  coords 4732.947 0.733 5659.269
+  coords 4732.947 0.588 5659.269
   angles 0 -14.365 0
  }
  {
@@ -307,7 +307,7 @@ $grp SCR_DestructibleBuildingEntity : "{4B7F9020CE1AE2CF}PrefabLibrary/DefaultLi
   angles 0 -177.531 0
  }
  {
-  coords 4774.373 2.204 5679.05
+  coords 4774.402 2.088 5679.049
   angles 0 -87.794 0
  }
  {
@@ -324,7 +324,7 @@ SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite
 }
 SCR_DestructibleBuildingEntity : "{58DA2E30CA6FA655}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_InnerWall_02.et" {
  coords 4741.768 -0.323 5609.583
- angles 0 5.641 0
+ angles 0 4.549 2.137
  scale 1.28
 }
 $grp SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
@@ -450,9 +450,9 @@ Tree : "{BAB8054438C72A04}Prefabs/Vegetation/Bush/b_sambucus_nigra_2.et" {
  coords 4851.288 0.031 5602.297
 }
 SCR_DestructibleBuildingEntity : "{BB6EED4B5022395D}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_InnerWall_Small_02.et" {
- coords 4723.771 0.672 5642.187
+ coords 4720.92 0.808 5643.381
  angles -76.174 19.791 3.014
- scale 1.35
+ scale 1.863
 }
 $grp Tree : "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1.et" {
  {
