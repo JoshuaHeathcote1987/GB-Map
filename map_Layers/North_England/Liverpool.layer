@@ -559,7 +559,7 @@ $grp PolylineShapeEntity {
   coords 5689.466 6.062 3243.736
   Points {
    ShapePoint "{65E2DAA3E233C28B}" {
-    Position 0 0.001 0
+    Position -1.539 0.401 -1.204
    }
    ShapePoint "{65E2DAA3E2321915}" {
     Position 0.058 -0.874 -72.511
@@ -572,76 +572,72 @@ $grp PolylineShapeEntity {
     {
      $grp StaticModelEntity : "{1B2F4654BAEFFB71}PrefabLibrary/DefaultLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_A.et" {
       {
-       coords 0 0.001 0.209
-       angles 0 89.954 0
+       coords -1.543 0.398 -0.995
+       angles 0 88.717 0
       }
       {
-       coords 0.003 -0.031 -3.748
-       angles 0 89.954 0
+       coords -1.455 0.357 -4.95
+       angles 0 88.717 0
       }
       {
-       coords 0.006 -0.092 -7.705
-       angles 0 89.954 0
+       coords -1.366 0.311 -8.906
+       angles 0 88.717 0
       }
       {
-       coords 0.009 -0.124 -11.661
-       angles 0 89.954 0
+       coords -1.278 0.264 -12.862
+       angles 0 88.717 0
       }
       {
-       coords 0.012 -0.185 -15.618
-       angles 0 89.954 0
+       coords -1.189 0.202 -16.818
+       angles 0 88.717 0
       }
       {
-       coords 0.016 -0.218 -19.575
-       angles 0 89.954 0
+       coords -1.1 0.141 -20.773
+       angles 0 88.717 0
       }
       {
-       coords 0.019 -0.277 -23.532
-       angles 0 89.954 0
+       coords -1.012 0.079 -24.729
+       angles 0 88.717 0
       }
       {
-       coords 0.022 -0.339 -27.489
-       angles 0 89.954 0
+       coords -0.923 0.017 -28.685
+       angles 0 88.717 0
       }
       {
-       coords 0.025 -0.37 -31.446
-       angles 0 89.954 0
+       coords -0.835 -0.041 -32.64
+       angles 0 88.717 0
       }
       {
-       coords 0.028 -0.431 -35.402
-       angles 0 89.954 0
+       coords -0.746 -0.075 -36.596
+       angles 0 88.717 0
       }
       {
-       coords 0.031 -0.462 -39.359
-       angles 0 89.954 0
+       coords -0.658 -0.137 -40.552
+       angles 0 88.717 0
       }
       {
-       coords 0.034 -0.524 -43.316
-       angles 0 89.954 0
+       coords -0.569 -0.199 -44.508
+       angles 0 88.717 0
       }
       {
-       coords 0.038 -0.562 -47.273
-       angles 0 89.954 0
+       coords -0.48 -0.261 -48.463
+       angles 0 88.717 0
       }
       {
-       coords 0.041 -0.616 -51.23
-       angles 0 89.954 0
+       coords -0.392 -0.323 -52.419
+       angles 0 88.717 0
       }
       {
-       coords 0.044 -0.655 -55.187
-       angles 0 89.954 0
+       coords -0.303 -0.374 -56.375
+       angles 0 88.717 0
       }
       {
-       coords 0.047 -0.709 -59.143
-       angles 0 89.954 0
+       coords -0.215 -0.415 -60.331
+       angles 0 88.717 0
       }
       {
-       coords 0.05 -0.77 -63.1
-       angles 0 89.954 0
-      }
-      {
-       coords 0.053 -0.801 -67.057
-       angles 0 89.954 0
+       coords -0.126 -0.477 -64.286
+       angles 0 88.717 0
       }
      }
     }
@@ -911505,7 +911501,7 @@ $grp Tree : "{35A00F5C3C6CE2FB}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betu
  }
 }
 SCR_DestructibleBuildingEntity : "{3714AD1861F44210}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02.et" {
- coords 5651.108 0.919 3239.512
+ coords 5651.108 1.133 3239.512
  angles 0 0 0
 }
 $grp SCR_DestructibleBuildingEntity : "{3780460BA2B1621F}PrefabLibrary/CainLibrary/Structures/Military/HospitalMilitary_USSR_01_brick.et" {
@@ -913970,11 +913966,11 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   }
  }
  {
-  coords 5633.046 0.75 3239.287
+  coords 5633.046 1.007 3239.287
   angles 0 0 0
  }
  {
-  coords 5716.648 -0.431 3180.256
+  coords 5716.648 -0.039 3180.256
   angles 0 179.311 0
   {
    Building {
