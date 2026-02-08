@@ -2382,7 +2382,6 @@ $grp PolylineShapeEntity {
       {
        coords -15.843 2.449 249.232
        angles 2.15 110.943 1.414
-       scale 1
       }
       {
        coords -13.11 -0.146 210.806
@@ -2434,7 +2433,6 @@ $grp PolylineShapeEntity {
       {
        coords -102.119 -0.144 -101.74
        angles -1.35 138.937 1.643
-       scale 1
       }
       {
        coords -103.591 -0.144 -103.31
@@ -3642,7 +3640,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords -42.342 0.817 299.52
-       angles -0 -158.153 -0.794
+       angles 0 -158.153 -0.794
        scale 1.207
       }
       {
@@ -3743,7 +3741,6 @@ $grp PolylineShapeEntity {
       {
        coords -110.08 -0.113 -116.542
        angles -0.401 -70.589 -0.089
-       scale 1
       }
      }
      $grp Tree : "{C1F4CA4F9D788CE5}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_3s.et" {
@@ -5070,7 +5067,6 @@ $grp PolylineShapeEntity {
       {
        coords -15.23 2.841 178.144
        angles -2.655 91.991 -2.449
-       scale 1
       }
       {
        coords -11.99 -0.068 202.308
@@ -6075,7 +6071,7 @@ $grp PolylineShapeEntity {
   coords 4879.375 6.351 5108.947
   Points {
    ShapePoint "{68909B6DBCF6B439}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -6521,7 +6517,6 @@ $grp PolylineShapeEntity {
       {
        coords -11.643 1.462 -63.684
        angles -2.554 23.852 -1.733
-       scale 1
       }
       {
        coords -27.516 -0.072 -31.748
@@ -6542,7 +6537,7 @@ $grp PolylineShapeEntity {
   coords 4842.743 5.92 5078.095
   Points {
    ShapePoint "{68909B6DA293BF07}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B6DA293F6C4}" {
     Position -38.816 -0.232 -35.913
@@ -6863,7 +6858,7 @@ $grp PolylineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 -222.775 0
      }
      $grp SCR_DestructibleEntity : "{A0B6CA385A8B1D68}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_D.et" {
@@ -7046,7 +7041,7 @@ $grp PolylineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 47.448 0
      }
      SCR_DestructibleEntity : "{A0B6CA385A8B1D68}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_D.et" {
@@ -7061,7 +7056,7 @@ $grp PolylineShapeEntity {
   coords 5087.877 7.975 4883.948
   Points {
    ShapePoint "{68909B6AD15D2972}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -7422,7 +7417,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 151.015 7.005 56.057
-       angles 3.97 60.74 -0
+       angles 3.97 60.74 0
        scale 0.906
       }
       {
@@ -7551,7 +7546,7 @@ $grp PolylineShapeEntity {
      $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
       {
        coords -1.804 1.273 35.414
-       angles -0 -47.924 -0.928
+       angles 0 -47.924 -0.928
        scale 1.157
       }
       {
@@ -8176,7 +8171,6 @@ $grp PolylineShapeEntity {
       {
        coords 3.536 22.076 127.925
        angles -0.74 -122.358 2.599
-       scale 1
       }
       {
        coords -8.062 23.382 133.631
@@ -8951,7 +8945,6 @@ $grp PolylineShapeEntity {
       {
        coords 74.326 0.152 66.024
        angles 0.299 -44.21 -0.827
-       scale 1
       }
       {
        coords 78.547 0.752 75.584
@@ -9256,7 +9249,6 @@ $grp PolylineShapeEntity {
       {
        coords 216.506 9.211 -44.062
        angles 0.907 55.867 0.879
-       scale 1
       }
       {
        coords 221.329 10.437 -43.401
@@ -9536,7 +9528,6 @@ $grp PolylineShapeEntity {
       {
        coords 193.35 8.117 10.043
        angles 2.069 -84.916 1.143
-       scale 1
       }
       {
        coords 270.792 16.78 -62.917
@@ -9551,7 +9542,6 @@ $grp PolylineShapeEntity {
       {
        coords 238.29 13.622 -58.477
        angles -2.626 132.587 -0.063
-       scale 1
       }
       {
        coords 247.587 15.35 -44.846
@@ -10850,7 +10840,6 @@ $grp PolylineShapeEntity {
       {
        coords 184.3 12.95 55.981
        angles 1.277 -10.778 0.689
-       scale 1
       }
       {
        coords 184.783 11.297 43.47
@@ -11320,7 +11309,6 @@ $grp PolylineShapeEntity {
       {
        coords 37.343 -0.163 31.726
        angles -1.446 -1.89 0.38
-       scale 1
       }
       {
        coords -10.653 3.039 45.434
@@ -11481,22 +11469,22 @@ $grp PolylineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords 81.091 -0.163 15.988
-       angles 0.687 -91.53 -0
+       angles 0.687 -91.53 0
        scale 0.712
       }
       {
        coords 200.046 8.253 -0.287
-       angles 0.105 116.876 -0
+       angles 0.105 116.876 0
        scale 0.705
       }
       {
        coords 201.26 8.315 -2.137
-       angles -0.089 159.834 -0
+       angles -0.089 159.834 0
        scale 0.823
       }
       {
        coords 62.934 1.587 84.806
-       angles -0.185 45.364 -0
+       angles -0.185 45.364 0
        scale 1.198
       }
       {
@@ -11526,7 +11514,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 247.153 16.507 8.409
-       angles -0.751 92.661 -0
+       angles -0.751 92.661 0
        scale 0.84
       }
       {
@@ -11541,7 +11529,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 287.783 17.15 -48.06
-       angles 1.011 -130.368 -0
+       angles 1.011 -130.368 0
        scale 1.125
       }
       {
@@ -11576,12 +11564,12 @@ $grp PolylineShapeEntity {
       }
       {
        coords 51.487 -0.163 -7.974
-       angles 0.473 -125.292 -0
+       angles 0.473 -125.292 0
        scale 0.876
       }
       {
        coords 46.414 -0.163 -8.781
-       angles 1.172 -57.142 -0
+       angles 1.172 -57.142 0
        scale 0.926
       }
      }
@@ -13013,7 +13001,6 @@ $grp PolylineShapeEntity {
       {
        coords 34.107 -0.1 36.278
        angles -3.518 -17.315 -2.623
-       scale 1
       }
       {
        coords 35.808 -0.119 36.831
@@ -13189,7 +13176,7 @@ $grp PolylineShapeEntity {
   coords 5079.168 22.614 5193.075
   Points {
    ShapePoint "{68909B6AC62E6532}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -14133,12 +14120,12 @@ $grp PolylineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords 48.718 4.533 -113.953
-       angles -1.115 65.008 -0
+       angles -1.115 65.008 0
        scale 0.994
       }
       {
        coords 40.375 1.615 -87.663
-       angles -0.623 67.733 -0
+       angles -0.623 67.733 0
        scale 1.009
       }
       {
@@ -14603,7 +14590,7 @@ $grp PolylineShapeEntity {
   coords 5293.053 21.941 5065.398
   Points {
    ShapePoint "{68909B6ABDBE236B}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B6ABDB91DA6}" {
     Position 18.799 -1.699 -4.62
@@ -15237,7 +15224,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 406.855 0.708 -370.085
-       angles -2.654 105.46 -0
+       angles -2.654 105.46 0
        scale 0.651
       }
       {
@@ -15302,12 +15289,12 @@ $grp PolylineShapeEntity {
       }
       {
        coords 172.811 -1.423 -151.834
-       angles -2.358 -39.709 -0
+       angles -2.358 -39.709 0
        scale 0.651
       }
       {
        coords 160.027 -3.856 -135.177
-       angles -2.358 -39.709 -0
+       angles -2.358 -39.709 0
        scale 0.651
       }
       {
@@ -15317,17 +15304,17 @@ $grp PolylineShapeEntity {
       }
       {
        coords 41.783 -4.896 -23.053
-       angles 3.162 -64.305 -0
+       angles 3.162 -64.305 0
        scale 0.651
       }
       {
        coords 39.062 -4.756 -21.8
-       angles 3.162 -64.305 -0
+       angles 3.162 -64.305 0
        scale 0.651
       }
       {
        coords 24.962 -3.588 -16.562
-       angles 3.162 -64.305 -0
+       angles 3.162 -64.305 0
        scale 0.651
       }
      }
@@ -15740,7 +15727,7 @@ $grp PolylineShapeEntity {
     Position -12.225 0 25.978
    }
    ShapePoint "{68909B70F0B21AB5}" {
-    Position -0.337 -0 64.712
+    Position -0.337 0 64.712
    }
    ShapePoint "{68909B70F10A7704}" {
     Position 31.72 0.001 103.642
@@ -15752,64 +15739,64 @@ $grp PolylineShapeEntity {
     Flags 0x100003 0
     {
      SCR_DestructibleEntity : "{49E343AF3FEC45F6}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenRural_01_Dam.et" {
-      coords -10.243 -0 21.766
+      coords -10.243 0 21.766
       angles 0 -115.201 0
      }
      $grp SCR_DestructibleEntity : "{8F93F619F4375F9A}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenRural_01_8m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0 -115.201 0
       }
       {
-       coords -3.414 -0 7.255
+       coords -3.414 0 7.255
        angles 0 -115.201 0
       }
       {
-       coords -6.829 -0 14.511
+       coords -6.829 0 14.511
        angles 0 -115.201 0
       }
       {
-       coords -11.966 -0 25.427
+       coords -11.966 0 25.427
        angles 0 -73.511 0
       }
       {
-       coords -9.69 -0 33.116
+       coords -9.69 0 33.116
        angles 0 -73.511 0
       }
       {
-       coords -7.414 -0 40.805
+       coords -7.414 0 40.805
        angles 0 -73.511 0
       }
       {
-       coords -5.138 -0 48.494
+       coords -5.138 0 48.494
        angles 0 -73.511 0
       }
       {
-       coords -2.862 -0 56.183
+       coords -2.862 0 56.183
        angles 0 -73.511 0
       }
       {
-       coords -0.586 -0 63.872
+       coords -0.586 0 63.872
        angles 0 -50.913 0
       }
       {
-       coords 4.47 -0 70.096
+       coords 4.47 0 70.096
        angles 0 -50.913 0
       }
       {
-       coords 9.526 -0 76.32
+       coords 9.526 0 76.32
        angles 0 -50.913 0
       }
       {
-       coords 14.582 -0 82.544
+       coords 14.582 0 82.544
        angles 0 -50.913 0
       }
       {
-       coords 19.638 -0 88.768
+       coords 19.638 0 88.768
        angles 0 -50.913 0
       }
       {
-       coords 24.693 -0 94.992
+       coords 24.693 0 94.992
        angles 0 -50.913 0
       }
      }
@@ -15847,7 +15834,7 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{6E08D3AAD07FF4FC}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenRural_01_4m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
       }
       {
        coords 103.244 1.163 73.321
@@ -17046,7 +17033,7 @@ $grp PolylineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
-      coords 0 -0 0
+      coords 0 0 0
       angles 0 68.415 0
      }
      SCR_DestructibleEntity : "{A0B6CA385A8B1D68}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_D.et" {
@@ -17061,7 +17048,7 @@ $grp PolylineShapeEntity {
   coords 5288.94 6.342 5849.975
   Points {
    ShapePoint "{68909B684CA587F7}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B684CA5B033}" {
     Position -6.164 0.384 33.727
@@ -17151,7 +17138,7 @@ $grp PolylineShapeEntity {
   coords 5191.697 6.125 6056.962
   Points {
    ShapePoint "{68909B690ECE2FBF}" {
-    Position 0.012 -0 0.423
+    Position 0.012 0 0.423
    }
    ShapePoint "{68909B690EC91E18}" {
     Position 7.434 -0.031 -0.648
@@ -17167,7 +17154,7 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{6B08AEEC99A1CFE8}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_4m_v1.et" {
       {
-       coords 0.076 -0 0.414
+       coords 0.076 0 0.414
        angles 0 8.213 0
       }
       {
@@ -17184,7 +17171,7 @@ $grp PolylineShapeEntity {
       angles 0 -264.165 0
      }
      SCR_DestructibleEntity : "{D84A36F4699A8743}Prefabs/Structures/Walls/Stone/StoneWall_02/StoneWall_02_end.et" {
-      coords 0.012 -0 0.423
+      coords 0.012 0 0.423
       angles 0 8.213 0
      }
     }
@@ -17314,7 +17301,7 @@ $grp PolylineShapeEntity {
   coords 5171.496 5.997 5985.776
   Points {
    ShapePoint "{68909B760FEA263D}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B760FEA7E65}" {
     Position 0.189 -0.059 -12.083
@@ -17424,11 +17411,11 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{39DFFF624E601D22}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_A_green.et" {
       {
-       coords 0.012 -0 0.027
+       coords 0.012 0 0.027
        angles 0 -245.77 0
       }
       {
-       coords -3.262 -0 -7.249
+       coords -3.262 0 -7.249
        angles 0 -245.77 0
       }
      }
@@ -17523,7 +17510,7 @@ $grp PolylineShapeEntity {
   coords 5188.836 5.982 6001.856
   Points {
    ShapePoint "{68909B76910F2288}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B76910F4716}" {
     Position -6.274 0.018 0.258
@@ -17550,7 +17537,7 @@ $grp PolylineShapeEntity {
   coords 5147.139 6.156 5996.493
   Points {
    ShapePoint "{68909B768E6A3EDC}" {
-    Position -0.034 -0 -1.137
+    Position -0.034 0 -1.137
    }
    ShapePoint "{68909B768E6A5C7D}" {
     Position 0.88 -0.124 7.611
@@ -17562,7 +17549,7 @@ $grp PolylineShapeEntity {
     Flags 0x100003 0
     {
      SCR_DestructibleEntity : "{18922C932CB910F1}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_4m.et" {
-      coords -0.059 -0 -1.383
+      coords -0.059 0 -1.383
       angles 0 -84.038 0
      }
      SCR_DestructibleEntity : "{685FBE4ABE9D4542}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_2m.et" {
@@ -17612,10 +17599,10 @@ $grp PolylineShapeEntity {
   coords 5193.58 5.969 6025.259
   Points {
    ShapePoint "{68909B7760256338}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B7760258B8A}" {
-    Position -6.078 -0 -15.092
+    Position -6.078 0 -15.092
    }
    ShapePoint "{68909B7764EAE95C}" {
     Position -17.309 0.062 -14.877
@@ -17631,7 +17618,7 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{18922C932CB910F1}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_4m.et" {
       {
-       coords -3.22 -0 -7.997
+       coords -3.22 0 -7.997
        angles 0 -248.064 0
       }
       {
@@ -17644,7 +17631,7 @@ $grp PolylineShapeEntity {
       }
      }
      SCR_DestructibleEntity : "{65E7B36D8CD0D7D2}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_4m_D.et" {
-      coords -5.619 -0 -14.562
+      coords -5.619 0 -14.562
       angles 0 -181.545 0
      }
      $grp SCR_DestructibleEntity : "{685FBE4ABE9D4542}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_2m.et" {
@@ -17662,7 +17649,7 @@ $grp PolylineShapeEntity {
       angles 0 -180.47 0
      }
      SCR_DestructibleEntity : "{F909092008F1BB97}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_02_8m.et" {
-      coords 0.093 -0 0.23
+      coords 0.093 0 0.23
       angles 0 -248.064 0
      }
     }
@@ -17704,7 +17691,7 @@ $grp PolylineShapeEntity {
   coords 5184.161 4.726 5950.575
   Points {
    ShapePoint "{68909B77C1AA3DAD}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B77C1AA8746}" {
     Position -1.337 -0.751 -9.097
@@ -18628,7 +18615,6 @@ $grp PolylineShapeEntity {
       {
        coords 33.051 10.093 -86.396
        angles -1.311 163.372 -1.638
-       scale 1
       }
       {
        coords 16.67 6.08 -66.776
@@ -19636,7 +19622,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 39.102 7.685 -69.231
-       angles 1.251 -87.124 -0
+       angles 1.251 -87.124 0
        scale 1.198
       }
       {
@@ -19646,7 +19632,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 70.921 18.022 -131.712
-       angles 1.22 71.886 -0
+       angles 1.22 71.886 0
        scale 0.93
       }
       {
@@ -19656,7 +19642,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords -48.867 14.853 -114.708
-       angles 0.988 165.25 -0
+       angles 0.988 165.25 0
        scale 0.962
       }
       {
@@ -19666,17 +19652,17 @@ $grp PolylineShapeEntity {
       }
       {
        coords -24.883 -0.167 -60.945
-       angles -1.328 118.579 -0
+       angles -1.328 118.579 0
        scale 1.297
       }
       {
        coords -39.898 4.972 -79.748
-       angles 0.126 -170.315 -0
+       angles 0.126 -170.315 0
        scale 0.965
       }
       {
        coords -43.04 9.109 -91.132
-       angles -1.169 -111.009 -0
+       angles -1.169 -111.009 0
        scale 0.912
       }
      }
@@ -19761,7 +19747,6 @@ $grp PolylineShapeEntity {
       {
        coords 42.094 7.42 -64.444
        angles -1.911 -38.904 -0.299
-       scale 1
       }
       {
        coords 47.654 8.532 -71.387
@@ -19850,7 +19835,6 @@ $grp PolylineShapeEntity {
       {
        coords 50.063 8.391 -67.309
        angles -2.64 164.91 1.805
-       scale 1
       }
       {
        coords 72.033 13.917 -100.606
@@ -21204,12 +21188,12 @@ $grp PolylineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords -46.173 17.54 -25.309
-       angles 0.562 -32.136 -0
+       angles 0.562 -32.136 0
        scale 1.125
       }
       {
        coords -47.949 18.429 4.306
-       angles 1.594 -105.648 -0
+       angles 1.594 -105.648 0
        scale 1.031
       }
       {
@@ -21224,7 +21208,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 83.327 3.041 21.061
-       angles 1.279 -64.591 -0
+       angles 1.279 -64.591 0
        scale 1.026
       }
       {
@@ -21239,12 +21223,12 @@ $grp PolylineShapeEntity {
       }
       {
        coords 95.126 4.684 16.403
-       angles 1.972 -44.43 -0
+       angles 1.972 -44.43 0
        scale 0.928
       }
       {
        coords 76.294 5.239 27.056
-       angles -0.138 27.412 -0
+       angles -0.138 27.412 0
        scale 1.18
       }
       {
@@ -21274,7 +21258,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords -11.396 5.077 -27.43
-       angles -1.432 -120.381 -0
+       angles -1.432 -120.381 0
        scale 1.179
       }
       {
@@ -22179,7 +22163,7 @@ $grp PolylineShapeEntity {
   coords 4957.484 33.016 6618.541
   Points {
    ShapePoint "{68909B7237E0E73C}" {
-    Position 0 -0 0
+    Position 0 0 0
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -25080,7 +25064,6 @@ $grp PolylineShapeEntity {
       {
        coords 93.541 21.998 75.421
        angles -0.396 -32.257 -2.616
-       scale 1
       }
       {
        coords 189.128 16.665 84.648
@@ -28319,7 +28302,6 @@ $grp PolylineShapeEntity {
       {
        coords -42.928 4.418 267.386
        angles 6.937 -158.251 -12.353
-       scale 1
       }
       {
        coords 85.15 35.586 174.295
@@ -29269,7 +29251,6 @@ $grp PolylineShapeEntity {
       {
        coords 125.451 34.9 17.938
        angles -19.145 124.26 24.479
-       scale 1
       }
       {
        coords 123.845 37.923 23.195
@@ -30250,7 +30231,6 @@ $grp PolylineShapeEntity {
       {
        coords 145.905 45.487 42.664
        angles -1.725 30.268 -1.095
-       scale 1
       }
       {
        coords 209.079 54.406 143.394
@@ -36518,7 +36498,6 @@ $grp PolylineShapeEntity {
       {
        coords 65.79 6.565 10.61
        angles -1.715 -88.003 0.528
-       scale 1
       }
       {
        coords 67.7 6.44 11.832
@@ -37502,7 +37481,6 @@ $grp PolylineShapeEntity {
       {
        coords 108.165 -3.326 -8.17
        angles -1.138 -149.759 0.868
-       scale 1
       }
      }
      $grp Tree : "{AA7A0604B96151CC}PrefabLibrary/CainLibrary/Vegetation/Trees/t_picea_abies_0sw.et" {
@@ -39009,7 +38987,6 @@ $grp PolylineShapeEntity {
       {
        coords -168.93 -24.032 89.596
        angles -2.383 -134.114 2.265
-       scale 1
       }
       {
        coords -167.986 -24.413 93.218
@@ -40040,12 +40017,12 @@ $grp PolylineShapeEntity {
       }
       {
        coords -85.816 -6.29 37.772
-       angles -1.32 137.861 -0
+       angles -1.32 137.861 0
        scale 1.141
       }
       {
        coords -125.657 -8.849 39.992
-       angles 0.167 -62.547 -0
+       angles 0.167 -62.547 0
        scale 1.276
       }
       {
@@ -40065,12 +40042,12 @@ $grp PolylineShapeEntity {
       }
       {
        coords -200.754 -16.252 55.192
-       angles -1.853 -72.71 -0
+       angles -1.853 -72.71 0
        scale 0.994
       }
       {
        coords -138.303 -18.368 57.518
-       angles -1.525 -63.261 -0
+       angles -1.525 -63.261 0
        scale 1.194
       }
       {
@@ -40090,12 +40067,12 @@ $grp PolylineShapeEntity {
       }
       {
        coords -168.628 -19.663 61.043
-       angles -0.984 137.97 -0
+       angles -0.984 137.97 0
        scale 1.136
       }
       {
        coords -194.867 -22.838 70.215
-       angles -0.084 79.082 -0
+       angles -0.084 79.082 0
        scale 1.074
       }
       {
@@ -40105,7 +40082,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords 0.988 -1.618 6.529
-       angles -1.463 162.35 -0
+       angles -1.463 162.35 0
        scale 1.28
       }
      }
@@ -42969,10 +42946,10 @@ $grp PolylineShapeEntity {
   coords 5448.199 25.125 4696.28
   Points {
    ShapePoint "{68909B70F10A7704}" {
-    Position 19.201 -0 -27.959
+    Position 19.201 0 -27.959
    }
    ShapePoint "{68909B6B62BCA448}" {
-    Position 30.555 -0 -46.841
+    Position 30.555 0 -46.841
    }
    ShapePoint "{68909B6B60FCAC9E}" {
     Position 77.306 1.153 -103.914
@@ -42985,7 +42962,7 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{6E08D3AAD07FF4FC}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenRural_01_4m.et" {
       {
-       coords 27.465 -0 -41.703
+       coords 27.465 0 -41.703
        angles 0 58.98 0
       }
       {
@@ -42995,31 +42972,31 @@ $grp PolylineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{8F93F619F4375F9A}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenRural_01_8m.et" {
       {
-       coords 19.201 -0 -27.959
+       coords 19.201 0 -27.959
        angles 0 58.98 0
       }
       {
-       coords 23.333 -0 -34.831
+       coords 23.333 0 -34.831
        angles 0 58.98 0
       }
       {
-       coords 29.479 -0 -45.051
+       coords 29.479 0 -45.051
        angles 0 50.905 0
       }
       {
-       coords 34.535 -0 -51.274
+       coords 34.535 0 -51.274
        angles 0 50.905 0
       }
       {
-       coords 39.591 -0 -57.496
+       coords 39.591 0 -57.496
        angles 0 50.905 0
       }
       {
-       coords 44.647 -0 -63.719
+       coords 44.647 0 -63.719
        angles 0 50.905 0
       }
       {
-       coords 49.703 -0 -69.942
+       coords 49.703 0 -69.942
        angles 0 50.905 0
       }
       {
@@ -90759,7 +90736,7 @@ $grp SplineShapeEntity {
     Position -85.949 0.564 -17.115
    }
    ShapePoint "{68909B61E4D7CC07}" {
-    Position -76.527 -0.179 8.155
+    Position -77.863 -0.344 9.427
    }
    ShapePoint "{68909B61E46F0D43}" {
     Position -53.898 -0.033 16.098
@@ -90768,13 +90745,13 @@ $grp SplineShapeEntity {
     Position -40.952 0.474 17.547
    }
    ShapePoint "{68909B61E5403DA9}" {
-    Position -6.797 0.789 8.064
+    Position -6.916 0.708 7.717
    }
    ShapePoint "{68909B61E52A7074}" {
-    Position 3.407 1.689 2.314
+    Position 2.582 1.516 2.418
    }
    ShapePoint "{68909B61D44D6525}" {
-    Position -5.292 1.677 -13.761
+    Position -2.803 2.262 -16.532
    }
    ShapePoint "{68909B61D567B44E}" {
     Position -11.539 1.198 -9.525
@@ -90814,9 +90791,8 @@ $grp SplineShapeEntity {
    }
   }
   {
-   LakeGeneratorEntity : "{FB8CA78AE56C4A0E}PrefabLibrary/DefaultLibrary/Generators/Water/Lake/LG_Lake_01.et" {
+   LakeGeneratorEntity : "{1F2254A7C9C8AA57}Prefabs/WEGenerators/Water/Lake/LG_Lake_01.et" {
     coords 0 0 0
-    m_bGeometryAsOBB 0
    }
   }
  }
@@ -90990,7 +90966,7 @@ $grp SplineShapeEntity {
   coords 5230.686 7.266 5843.188
   Points {
    ShapePoint "{68909B6819C4AB9C}" {
-    Position 0 -0 0
+    Position 0 0 0
    }
    ShapePoint "{68909B6819C4D768}" {
     Position 5 -0.34 0
@@ -91478,7 +91454,7 @@ $grp SplineShapeEntity {
      $grp Tree : "{9C6CE0F73E3AED80}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1f.et" {
       {
        coords 175.03 -18.108 68.235
-       angles 1.948 127.445 -0
+       angles 1.948 127.445 0
        scale 1.201
       }
       {
@@ -92845,7 +92821,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 128.692 -30.637 -85.195
-       angles 1.177 -173.183 -0
+       angles 1.177 -173.183 0
        scale 0.912
       }
       {
@@ -92860,22 +92836,22 @@ $grp SplineShapeEntity {
       }
       {
        coords 74.396 -28.654 -85.373
-       angles 1.171 158.021 -0
+       angles 1.171 158.021 0
        scale 0.936
       }
       {
        coords 54.741 -20.934 -72.953
-       angles -1.178 103.406 -0
+       angles -1.178 103.406 0
        scale 0.934
       }
       {
        coords 22.8 -11.036 -46.523
-       angles 0.641 -32.169 -0
+       angles 0.641 -32.169 0
        scale 1.14
       }
       {
        coords 27.333 -12.057 -50.545
-       angles 0.931 -64.712 -0
+       angles 0.931 -64.712 0
        scale 1.011
       }
       {
@@ -92885,7 +92861,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -15.337 -10.045 -16.874
-       angles 1.092 -10.086 -0
+       angles 1.092 -10.086 0
        scale 1.162
       }
      }
@@ -93666,6 +93642,97 @@ $grp SplineShapeEntity {
        angles -0.128 56.208 -0.768
        scale 1.189
       }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5528.494 37.581 1078.555
+  Points {
+   ShapePoint "{68909B4148CC04A5}" {
+    Position 0 -0 0
+   }
+   ShapePoint "{68909B4148CC2FAD}" {
+    Position 1.701 -0.673 -7.723
+   }
+   ShapePoint "{68909B41490B6969}" {
+    Position 1.304 -0.674 -18.689
+   }
+   ShapePoint "{68909B414E0ABD3A}" {
+    Position -2.686 0.115 -41.691
+   }
+   ShapePoint "{68909B414FA22120}" {
+    Position -4.767 0.949 -58.833
+   }
+   ShapePoint "{68909B414CA50029}" {
+    Position 23.147 5.365 -97.168
+   }
+   ShapePoint "{68909B4142E56D17}" {
+    Position 69.075 5.843 -143.141
+   }
+   ShapePoint "{68909B4147099002}" {
+    Position 91.896 5.111 -163.801
+   }
+   ShapePoint "{68909B4144ECB181}" {
+    Position 113.322 6.311 -161.897
+   }
+   ShapePoint "{68909B41446AF6F0}" {
+    Position 135.074 6.545 -151.002
+   }
+   ShapePoint "{68909B4145CD651B}" {
+    Position 157.205 6.456 -140.368
+   }
+   ShapePoint "{68909B414516DF97}" {
+    Position 163.523 5.695 -122.234
+   }
+  }
+  {
+   RoadGeneratorEntity : "{8E83BBD5CEC42A11}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Dirt_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "523EAA80CAA6C6B5"
+      SplinePoints {
+       ShapePoint "{52346539D885C296}" {
+        Position 0 -0 0
+       }
+       ShapePoint "{52346539D885C1A2}" {
+        Position 1.701 -0.673 -7.723
+       }
+       ShapePoint "{68909B413CFC5B15}" {
+        Position 1.304 -0.674 -18.689
+       }
+       ShapePoint "{68909B413CFC5B47}" {
+        Position -2.686 0.115 -41.691
+       }
+       ShapePoint "{68909B413CFC5A88}" {
+        Position -4.767 0.949 -58.833
+       }
+       ShapePoint "{68909B413CFC5AC8}" {
+        Position 23.147 5.365 -97.168
+       }
+       ShapePoint "{68909B413CFC5A03}" {
+        Position 69.075 5.843 -143.141
+       }
+       ShapePoint "{68909B413CFC5A78}" {
+        Position 91.896 5.111 -163.801
+       }
+       ShapePoint "{68909B413CFC59BD}" {
+        Position 113.322 6.311 -161.897
+       }
+       ShapePoint "{68909B413CFC59C1}" {
+        Position 135.074 6.545 -151.002
+       }
+       ShapePoint "{68909B413CFC5909}" {
+        Position 157.205 6.456 -140.368
+       }
+       ShapePoint "{68909B413CFC5949}" {
+        Position 163.523 5.695 -122.234
+       }
+      }
+      IsClosedSpline 0
+      Width 4
      }
     }
    }
@@ -94496,7 +94563,7 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.783
  }
  {
-  coords 5214.474 -0 5971.354
+  coords 5214.474 0 5971.354
   angles -0.711 143.695 1.711
   scale 0.783
  }
@@ -94511,17 +94578,17 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.783
  }
  {
-  coords 5253.048 -0 5977.363
+  coords 5253.048 0 5977.363
   angles -0.711 143.695 1.711
   scale 0.783
  }
  {
-  coords 5230.718 -0 5974.63
+  coords 5230.718 0 5974.63
   angles -0.711 143.695 1.711
   scale 0.783
  }
  {
-  coords 5101.19 -0 6028.109
+  coords 5101.19 0 6028.109
   angles -0.711 143.695 1.711
   scale 0.783
  }
@@ -94531,7 +94598,7 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.783
  }
  {
-  coords 5114.515 -0 5910.533
+  coords 5114.515 0 5910.533
   angles -0.711 143.695 1.711
   scale 0.783
  }
@@ -94551,12 +94618,12 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.783
  }
  {
-  coords 5219.53 -0 6070.478
+  coords 5219.53 0 6070.478
   angles -0.711 143.695 1.711
   scale 0.783
  }
  {
-  coords 5232.702 -0 6070.534
+  coords 5232.702 0 6070.534
   angles -0.711 143.695 1.711
   scale 0.783
  }
@@ -94571,7 +94638,7 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.783
  }
  {
-  coords 5211.542 -0 6073.002
+  coords 5211.542 0 6073.002
   angles -0.711 143.695 1.711
   scale 0.783
  }
@@ -94581,12 +94648,12 @@ $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 0.783
  }
  {
-  coords 5223.656 -0 5892.611
+  coords 5223.656 0 5892.611
   angles -0.711 143.695 1.711
   scale 0.783
  }
  {
-  coords 5172.581 -0 5892.05
+  coords 5172.581 0 5892.05
   angles -0.711 143.695 1.711
   scale 0.783
  }
@@ -94682,7 +94749,7 @@ $grp SCR_DestructibleBuildingEntity : "{264F14BB6F1309F3}Prefabs/Structures/Agri
   angles 0 104.775 0
  }
  {
-  coords 5184.641 -0 6014.301
+  coords 5184.641 0 6014.301
   angles 0 -1.95 0
  }
 }
@@ -95584,7 +95651,7 @@ $grp SCR_DestructibleBuildingEntity : "{2F76EAD3331D4E8A}PrefabLibrary/DefaultLi
 }
 $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_pinus_sylvestris_1s.et" {
  {
-  coords 5177.659 -0 5982.429
+  coords 5177.659 0 5982.429
   angles -0.892 52.395 0.965
   scale 1.194
  }
@@ -95594,7 +95661,7 @@ $grp Tree : "{2FE01B5E743D5205}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_p
   scale 1.194
  }
  {
-  coords 5167.382 -0 5975.792
+  coords 5167.382 0 5975.792
   angles -0.892 52.395 0.965
   scale 1.194
  }
@@ -95800,7 +95867,7 @@ $grp Tree : "{35A00F5C3C6CE2FB}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betu
   scale 1.124
  }
  {
-  coords 5147.383 -0 5976.778
+  coords 5147.383 0 5976.778
   angles -2.368 -160.23 2.09
   scale 1.124
  }
@@ -95971,12 +96038,12 @@ $grp Tree : "{3CC1DBB2CFC57931}PrefabLibrary/CainLibrary/Vegetation/Trees/t_sorb
   scale 1.174
  }
  {
-  coords 5171.983 -0 5896.803
+  coords 5171.983 0 5896.803
   angles 2.271 19.985 -1.6
   scale 1.174
  }
  {
-  coords 5268.898 -0 5910.874
+  coords 5268.898 0 5910.874
   angles 2.271 19.985 -1.6
   scale 1.174
  }
@@ -95986,12 +96053,12 @@ $grp Tree : "{3CC1DBB2CFC57931}PrefabLibrary/CainLibrary/Vegetation/Trees/t_sorb
   scale 1.174
  }
  {
-  coords 5157.507 -0 5947.089
+  coords 5157.507 0 5947.089
   angles 2.271 19.985 -1.6
   scale 1.174
  }
  {
-  coords 5148.896 -0 5960.552
+  coords 5148.896 0 5960.552
   angles 2.271 19.985 -1.6
   scale 1.174
  }
@@ -96644,7 +96711,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Gr
   coords 5149.104 -1.551 5475.224
  }
  {
-  coords 4897.976 -1.617 5509.326
+  coords 4904.777 -7.808 5509.326
  }
  {
   coords 5045.908 9.597 6040.566
@@ -98273,7 +98340,7 @@ Tree : "{8B3736CD82DEFF16}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abies_3d
  angles 15.06 -31.388 0.05
 }
 Tree : "{8B992E9FCF0F4F8F}PrefabLibrary/CainLibrary/Vegetation/Trees/t_sorbus_aucuparia_2f_aut.et" {
- coords 5243.034 -0 5897.01
+ coords 5243.034 0 5897.01
  angles -1.568 162.064 0.685
  scale 1.143
 }
@@ -99189,7 +99256,7 @@ $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.048
  }
  {
-  coords 5117.71 -0 6017.484
+  coords 5117.71 0 6017.484
   angles 0.788 33.191 0.971
   scale 1.048
  }
@@ -99204,12 +99271,12 @@ $grp Tree : "{AD7EFA7B1214DD21}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 1.048
  }
  {
-  coords 5168.327 -0 5999.667
+  coords 5168.327 0 5999.667
   angles -0.13 78.211 1.244
   scale 1.048
  }
  {
-  coords 5141.927 -0 5999.489
+  coords 5141.927 0 5999.489
   angles 0.788 33.191 0.971
   scale 1.048
  }
@@ -100026,7 +100093,7 @@ $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.949
  }
  {
-  coords 5835.394 -0 3589.316
+  coords 5835.394 0 3589.316
   angles 1.152 3.406 -3.668
   scale 0.949
  }
@@ -101976,7 +102043,7 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
   scale 0.762
  }
  {
-  coords 5225.832 -0 5980.134
+  coords 5225.832 0 5980.134
   angles 0.176 77.401 0.356
   scale 0.762
  }
@@ -102345,7 +102412,7 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 1.045
  }
  {
-  coords 5163.975 -0 6013.087
+  coords 5163.975 0 6013.087
   angles 2.29 -124.6 -1.381
   scale 1.045
  }
@@ -102437,7 +102504,7 @@ $grp Tree : "{DE7FC095F656695C}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abi
   scale 0.57
  }
  {
-  coords 5387.294 -0 5235.449
+  coords 5387.294 0 5235.449
   angles 0 -153.865 0
   scale 0.57
  }
@@ -102723,7 +102790,7 @@ $grp SCR_DestructibleBuildingEntity : "{F08D8E78433D713A}Prefabs/Structures/Hous
   angles 0 8.828 0
  }
  {
-  coords 5169.498 -0 6031.633
+  coords 5169.498 0 6031.633
   angles 0 105.465 0
  }
 }
@@ -102736,7 +102803,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{F09A0FB3D74B7C23}Prefabs/Rocks/Gr
  }
 }
 SCR_DestructibleBuildingEntity : "{F1B6AA8F41D0CBA3}Prefabs/Structures/Agriculture/Gates/Gate Kolchoz.et" {
- coords 5164.344 -0 5812.677
+ coords 5164.344 0 5812.677
  angles 0 70.855 0
 }
 GenericEntity : "{F2B4F6B20ABC8A4A}Prefabs/Vegetation/Tree/Debris/dst_debris_con_04.et" {
