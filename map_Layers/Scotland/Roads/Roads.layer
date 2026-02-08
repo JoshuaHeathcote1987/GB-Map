@@ -6520,10 +6520,10 @@ $grp SplineShapeEntity {
   coords 5262.392 4.728 5983.447
   Points {
    ShapePoint "{65E8B8E11DC64D9D}" {
-    Position 0 1.029 0
+    Position 1.571 0.962 -3.328
    }
    ShapePoint "{65E8B8E11DC66AC1}" {
-    Position -6.009 1.429 22.834
+    Position -6.01 1.397 22.839
     Data {
      SplinePointData SplinePointData {
       InTangent -9.017 0.189 35.742
@@ -6646,10 +6646,10 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 0 1.029 0
+        Position 1.571 0.962 -3.328
        }
        ShapePoint "{556C6556BF2A9DE7}" {
-        Position -6.009 1.429 22.834
+        Position -6.01 1.397 22.839
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent -9.017 0.189 35.742
@@ -6792,10 +6792,10 @@ $grp SplineShapeEntity {
     Position 81.277 2.292 195.944
    }
    ShapePoint "{65E8B8E4F13E5700}" {
-    Position 69.936 2.774 257.296
+    Position 69.937 1.92 257.292
    }
    ShapePoint "{65E8B8E4F0D6AAC4}" {
-    Position 64.29 1.798 281.68
+    Position 64.29 1.593 281.68
    }
   }
   {
@@ -6826,10 +6826,10 @@ $grp SplineShapeEntity {
         Position 81.277 2.292 195.944
        }
        ShapePoint "{65E8B8E486FB39E7}" {
-        Position 69.936 2.774 257.296
+        Position 69.937 1.92 257.292
        }
        ShapePoint "{65E8B8E486FB3832}" {
-        Position 64.29 1.798 281.68
+        Position 64.29 1.593 281.68
        }
       }
       IsClosedSpline 0
@@ -7417,7 +7417,7 @@ $grp SplineShapeEntity {
     Position 0 -0.001 0
    }
    ShapePoint "{65E8B8EFABF4949D}" {
-    Position 30.492 -4.341 15.9
+    Position 30.492 -2.078 15.9
    }
    ShapePoint "{65E8B8EFA95C4B14}" {
     Position 70.529 -6.085 29.206
@@ -7441,7 +7441,7 @@ $grp SplineShapeEntity {
         Position 0 -0.001 0
        }
        ShapePoint "{556C65561A62EBA9}" {
-        Position 30.492 -4.341 15.9
+        Position 30.492 -2.078 15.9
        }
        ShapePoint "{65E8B8EFB53FEDE1}" {
         Position 70.529 -6.085 29.206
@@ -122088,10 +122088,10 @@ $grp SplineShapeEntity {
     Position 69.541 38.193 245.484
    }
    ShapePoint "{66B29AE1AADA5FC8}" {
-    Position 61.535 44.11 239.243
+    Position 61.634 43.838 240.095
    }
    ShapePoint "{66B29AE1AA6DD924}" {
-    Position 52.592 49.243 250.625
+    Position 51.675 49.343 251.356
    }
    ShapePoint "{66B29AE1ABDF9DFF}" {
     Position 47.626 53.675 232.281
@@ -122171,10 +122171,10 @@ $grp SplineShapeEntity {
         Position 69.541 38.193 245.484
        }
        ShapePoint "{66B29AE1ACD63FB3}" {
-        Position 61.535 44.11 239.243
+        Position 61.634 43.838 240.095
        }
        ShapePoint "{66B29AE1ACD63FE8}" {
-        Position 52.592 49.243 250.625
+        Position 51.675 49.342 251.356
        }
        ShapePoint "{66B29AE1ACD63F22}" {
         Position 47.626 53.675 232.281
@@ -205275,7 +205275,6 @@ $grp SplineShapeEntity {
       {
        coords 171.218 -2.559 154.911
        angles 0.199 78.269 1.679
-       scale 1
       }
       {
        coords 193.516 -2.653 168.729
@@ -206092,7 +206091,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 170.218 -2.373 168.126
-       angles -0.248 158.669 -0
+       angles -0.248 158.669 0
        scale 1.101
       }
       {
@@ -221175,32 +221174,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Gr
   coords 3982.385 90.486 6369.78
  }
 }
-$grp SCR_DestructibleBuildingEntity : "{9EE0CB249DC18DBA}PrefabLibrary/DefaultLibrary/Infrastructure/Bridges/ConcreteBridge_01_Wide.et" {
- {
-  coords 4661.817 8.756 6877.366
-  angles 0 46.5 0
- }
- {
-  coords 4644.29 8.756 6895.84
-  angles 0 46.5 0
- }
- {
-  coords 4626.756 8.756 6914.313
-  angles 0 46.5 0
- }
- {
-  coords 3990.348 10.746 6062.076
-  angles 0 46.5 0
- }
- {
-  coords 3972.814 10.746 6080.549
-  angles 0 46.5 0
- }
- {
-  coords 4007.875 10.746 6043.601
-  angles 0 46.5 0
- }
-}
 $grp SCR_IndestructibleEnvironmentalEntity : "{A5A0B5EF1773A200}Prefabs/Rocks/Granite/Granite_Cluster_Large_01.et" {
  {
   coords 4337.167 0 6607.726
@@ -221719,23 +221692,5 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{FC2FFB6EB18CBA53}PrefabLibrary/De
   coords 4032.454 -0.914 6484.586
   angles 1.034 1.285 0.217
   scale 0.681
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{FDB73CBC36C9FE21}PrefabLibrary/DefaultLibrary/Infrastructure/Bridges/ConcreteBridge_01_Pillar.et" {
- {
-  coords 4642.974 0.82 6897.768
-  angles 0 47.164 0
- }
- {
-  coords 4670.538 0.82 6868.042
-  angles 0 47.164 0
- }
- {
-  coords 3989.032 2.81 6064.004
-  angles 0 47.164 0
- }
- {
-  coords 4016.595 2.81 6034.278
-  angles 0 47.164 0
  }
 }

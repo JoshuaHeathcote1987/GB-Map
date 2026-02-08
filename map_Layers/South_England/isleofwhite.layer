@@ -291,31 +291,6 @@ $grp PolylineShapeEntity {
   }
  }
  {
-  coords 5017.123 59.885 2340.175
-  Points {
-   ShapePoint "{65F0AB1B8A40AB8B}" {
-    Position 23.863 6.378 -1.611
-   }
-   ShapePoint "{65F0AB1B8A40F781}" {
-    Position 28.582 -1.535 -22.936
-   }
-   ShapePoint "{65F0AB1B88EE2DC4}" {
-    Position -16.487 3.861 -33.273
-   }
-   ShapePoint "{65F0AB1B885036AE}" {
-    Position -23.355 7.246 -18.428
-   }
-   ShapePoint "{65F0AB1B882B5DE9}" {
-    Position -4.365 6.375 17.736
-   }
-  }
-  {
-   LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/DefaultLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
-    coords 0 3.742 0
-   }
-  }
- }
- {
   coords 5208.059 53.336 2433.557
   {
    LakeGeneratorEntity : "{D54725073DA8ED79}PrefabLibrary/DefaultLibrary/Generators/Water/Lake/LG_LakeMountain_01.et" {
@@ -85898,7 +85873,6 @@ $grp SplineShapeEntity {
       {
        coords -93.072 -27.652 94.843
        angles -0.446 149.572 -0.425
-       scale 1
       }
       {
        coords -95.796 -28.066 101.208
