@@ -175391,7 +175391,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{672113AA053D8268}" {
-    Position -43.754 3.775 35.04
+    Position -56.68 3.775 24.68
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -175465,8 +175465,7 @@ $grp SplineShapeEntity {
   {
    ForestGeneratorEntity : "{14A2008B0D33B5EB}Prefabs/WEGenerators/Brushland/FG_Brushland_Picea_Dense.et" {
     Flags 0x100003 0
-    coords 0 0 0
-    m_iSeed 26487
+    m_iSeed 10539
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
@@ -176159,6 +176158,36 @@ $grp SplineShapeEntity {
        angles -1.267 53.483 0.502
        scale 1.118
       }
+      {
+       coords -54.562 4.025 24.209
+       angles -0.04 126.116 -0.933
+       scale 0.875
+      }
+      {
+       coords -49.265 3.816 34.449
+       angles 0.513 35.366 0.085
+       scale 0.874
+      }
+      {
+       coords -38.827 3.818 25.777
+       angles -0.794 121.425 -1.528
+       scale 1.126
+      }
+      {
+       coords -42.598 4.007 26.713
+       angles 0.812 39.189 0.437
+       scale 1.168
+      }
+      {
+       coords -33.127 2.4 72.438
+       angles 1.101 -113.119 -1.626
+       scale 1.099
+      }
+      {
+       coords -27.033 3.123 19.188
+       angles 0.178 -140.75 -1.779
+       scale 0.821
+      }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_03.et" {
       {
@@ -176558,6 +176587,16 @@ $grp SplineShapeEntity {
        coords 6.629 0.05 32.939
        angles -1.112 88.629 0.521
        scale 0.849
+      }
+      {
+       coords -43.659 4.025 25.878
+       angles -0.216 -3.296 1.877
+       scale 0.917
+      }
+      {
+       coords -41.74 3.887 30.733
+       angles -0.834 85.63 -0.383
+       scale 1.142
       }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_01.et" {
@@ -177246,6 +177285,26 @@ $grp SplineShapeEntity {
        angles 1.288 -83.158 1.416
        scale 1.06
       }
+      {
+       coords -50.451 4.025 27.348
+       angles 0.859 -134.092 -1.076
+       scale 0.978
+      }
+      {
+       coords -53.953 3.983 30.603
+       angles 1.455 96.067 -1.416
+       scale 1.138
+      }
+      {
+       coords -43.582 2.952 40.179
+       angles -0.513 -77.115 1.549
+       scale 0.931
+      }
+      {
+       coords -30.245 3.657 14.473
+       angles 0.178 53.857 -0.194
+       scale 0.944
+      }
      }
      $grp Tree : "{CF0A210B7AC7B329}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_2.et" {
       {
@@ -177430,8 +177489,7 @@ $grp SplineShapeEntity {
    }
    ForestGeneratorEntity : "{5643C0352F5B17C1}Prefabs/WEGenerators/Brushland/FG_Brushland_Picea_High_aut.et" {
     Flags 0x100003 0
-    coords 0 0 0
-    m_iSeed 27731
+    m_iSeed 13467
     {
      $grp Tree : "{053196EF2505964A}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_0.et" {
       {
@@ -178967,8 +179025,7 @@ $grp SplineShapeEntity {
    }
    ForestGeneratorEntity : "{62D576323E43CAAC}Prefabs/WEGenerators/Brushland/FG_Brushland_Phragmites_aut.et" {
     Flags 0x100003 0
-    coords 0 0 0
-    m_iSeed 20880
+    m_iSeed 13423
     {
      $grp Tree : "{15C551EE7CEE9CAD}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_phragmites_australis_1_aut.et" {
       {
@@ -182347,11 +182404,6 @@ $grp SplineShapeEntity {
        coords 76.817 -1.948 162.553
        angles -0.067 8.668 1.919
        scale 0.902
-      }
-      {
-       coords 63.589 0.408 158.893
-       angles 2.242 17.787 0.107
-       scale 0.944
       }
       {
        coords 55.372 0.689 151.709
