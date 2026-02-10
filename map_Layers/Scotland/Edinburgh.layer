@@ -77776,7 +77776,6 @@ $grp SplineShapeEntity {
       {
        coords -37.586 -0.768 -85.16
        angles 2.523 -37.98 -0.539
-       scale 1
       }
       {
        coords -40.384 -0.608 -90.917
@@ -95676,16 +95675,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Gr
   coords 5061.411 0.001 5948.073
  }
 }
-$grp GenericEntity : "{452423B4A0BC2B76}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_base_single.et" {
- {
-  coords 5343.967 0.154 5273.006
-  angles 0 -27.33 0
- }
- {
-  coords 5372.461 -0.001 5287.765
-  angles 0 -27.514 0
- }
-}
 SCR_IndestructibleEnvironmentalEntity : "{45BE489A63A25CA6}Prefabs/Rocks/Granite/Granite_BeachCluster_01.et" {
  coords 5432.639 -1.404 5427.698
 }
@@ -96366,6 +96355,14 @@ $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/
  {
   coords 5456.231 0 5243.23
   angles 0 178.628 0
+ }
+ {
+  coords 5372.508 -0.001 5286.865
+  angles 0 -27.804 0
+ }
+ {
+  coords 5344.449 0 5272.758
+  angles 0 -26.906 0
  }
 }
 SCR_DestructibleBuildingEntity : "{617D7CE9A6B13AD8}Prefabs/Structures/Cultural/Cemeteries/Graves/Grave_E_01_CoveredDouble.et" {
