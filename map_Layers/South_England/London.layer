@@ -2570,23 +2570,6 @@ $grp PolylineShapeEntity {
   }
  }
 }
-RoadEntity {
- coords 5566.247 8.033 5893.398
- angles 0 -26.09 0
- SplinePoints {
-  ShapePoint "{556C6556BF2A9CBB}" {
-   Position 0 -0.001 0
-  }
-  ShapePoint "{556C6556BF2A9DE7}" {
-   Position 5 -0.001 0
-  }
- }
- IsClosedSpline 0
- Type "Road Main"
- Width 8
- Material "{F07E8EBF707B795F}Assets/Structures/Infrastructure/Roads/Data/Road_Asphalt_E_01_DashedLine.emat"
- RandomSeed 31212
-}
 $grp SplineShapeEntity {
  {
   coords 7196.198 4.094 1553.072
