@@ -95282,6 +95282,17 @@ $grp SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cult
   angles 0 144.949 0
  }
 }
+$grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m_grass.et" {
+ {
+  coords 3567.093 1.409 3136.182
+  scale 1.31
+ }
+ {
+  coords 3577.075 0.987 3136.156
+  angles 0 0 4.655
+  scale 1.31
+ }
+}
 $grp GenericEntity : "{323FFF62EFFAE2F1}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_200x450.et" {
  {
   components {
