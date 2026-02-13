@@ -95674,9 +95674,18 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Gr
  {
   coords 5061.411 0.001 5948.073
  }
+ {
+  coords 4482.225 -0 3155.638
+  angles -23.245 0 0
+ }
 }
-SCR_IndestructibleEnvironmentalEntity : "{45BE489A63A25CA6}Prefabs/Rocks/Granite/Granite_BeachCluster_01.et" {
- coords 5432.639 -1.404 5427.698
+$grp SCR_IndestructibleEnvironmentalEntity : "{45BE489A63A25CA6}Prefabs/Rocks/Granite/Granite_BeachCluster_01.et" {
+ {
+  coords 5432.639 -1.404 5427.698
+ }
+ {
+  coords 4488.864 -0 3157.003
+ }
 }
 GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_wreck.et" {
  coords 5447.853 18.406 5206.34
@@ -96213,6 +96222,9 @@ SCR_DestructibleBuildingEntity : "{58A839659867372C}Prefabs/Structures/Houses/Vi
 SCR_DestructibleBuildingEntity : "{58DA2E30CA6FA655}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_InnerWall_02.et" {
  coords 5355.156 0.006 5310.013
  angles 0.369 60.722 0.394
+}
+SCR_IndestructibleEnvironmentalEntity : "{5A403FBC1467033F}Prefabs/Rocks/Granite/Granite_BeachCluster_02_Fucus.et" {
+ coords 4489.047 0 3161.028
 }
 GenericEntity : "{5B8922E61D8DF345}Prefabs/Props/Military/Antennas/Antenna_R161_01.et" {
  coords 5205.315 36.399 5381.121
@@ -102297,6 +102309,10 @@ SCR_DestructibleBuildingEntity : "{F1B6AA8F41D0CBA3}Prefabs/Structures/Agricultu
  coords 5164.344 0 5812.677
  angles 0 70.855 0
 }
+SCR_IndestructibleEnvironmentalEntity : "{F1CA2255BAE3B521}Prefabs/Rocks/Granite/Granite_Cluster_03_fucus.et" {
+ coords 4485.572 -0 3155.166
+ scale 2.02
+}
 GenericEntity : "{F2B4F6B20ABC8A4A}Prefabs/Vegetation/Tree/Debris/dst_debris_con_04.et" {
  coords 5517.943 19.487 5407.327
 }
@@ -102349,6 +102365,10 @@ SCR_DestructibleBuildingEntity : "{F5F65D19951ED02F}PrefabLibrary/DefaultLibrary
 }
 GenericEntity : "{F70A3289977E44EA}Prefabs/Sounds/Sources/SoundSource_WaterFall_Medium.et" {
  coords 7827.317 0 2197.167
+}
+SCR_IndestructibleEnvironmentalEntity : "{FA8C2031F43C6684}Prefabs/Rocks/Granite/Granite_BeachCluster_01_waterline.et" {
+ coords 4480.427 -0.104 3154.736
+ angles -20.165 0 0
 }
 $grp SCR_DestructibleBuildingEntity : "{FC0C1941CF04892B}Prefabs/Structures/Cultural/Cemeteries/Tombstones/GraveStone_E_01_B.et" {
  {
