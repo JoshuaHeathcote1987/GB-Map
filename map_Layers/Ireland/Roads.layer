@@ -1,122 +1,10 @@
 $grp PolylineShapeEntity {
  {
   coords 2589.888 5.187 2985.072
-  Points {
-   ShapePoint "{65F01B5464F196AE}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F01B5464F1E395}" {
-    Position 49.493 0 -0.3
-   }
-   ShapePoint "{65F01B54675352A9}" {
-    Position 49.493 0 73.189
-   }
-   ShapePoint "{65F01B5469CEAB98}" {
-    Position -1.8 0 73.49
-   }
-  }
   LineColor 0 0 0 0
   {
    WallGeneratorEntity : "{BE0F4C5476112BC7}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenFence_01.et" {
     Flags 0x100003 0
-    {
-     SCR_DestructibleEntity : "{12377CDE9AA9E376}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_4m.et" {
-      coords 49.343 0 67.179
-      angles 0 -88.568 0
-     }
-     $grp SCR_DestructibleEntity : "{62FAEE07088DB6C5}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_2m.et" {
-      {
-       coords 49.441 0 71.121
-       angles 0 -88.568 0
-      }
-      {
-       coords 1.835 0 73.461
-       angles 0 -179.545 0
-      }
-     }
-     SCR_DestructibleEntity : "{6BF9F725B127D808}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_4m_D.et" {
-      coords 48.45 0 31.472
-      angles 0 -88.568 0
-     }
-     SCR_DestructibleEntity : "{8D66287EE8B4C914}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_Pole.et" {
-      coords -0.062 0 73.476
-      angles 0 -179.545 0
-     }
-     $grp SCR_DestructibleEntity : "{F3AC596DBEE14810}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_01_8m.et" {
-      {
-       coords 0 0 0
-       angles 0 0.347 0
-      }
-      {
-       coords 23.828 0 -0.144
-       angles 0 0.347 0
-      }
-      {
-       coords 31.771 0 -0.193
-       angles 0 0.347 0
-      }
-      {
-       coords 39.713 0 -0.241
-       angles 0 0.347 0
-      }
-      {
-       coords 47.656 0 -0.289
-       angles 0 -88.568 0
-      }
-      {
-       coords 47.855 0 7.651
-       angles 0 -88.568 0
-      }
-      {
-       coords 48.053 0 15.592
-       angles 0 -88.568 0
-      }
-      {
-       coords 48.252 0 23.532
-       angles 0 -88.568 0
-      }
-      {
-       coords 48.549 0 35.418
-       angles 0 -88.568 0
-      }
-      {
-       coords 48.747 0 43.358
-       angles 0 -88.568 0
-      }
-      {
-       coords 48.946 0 51.298
-       angles 0 -88.568 0
-      }
-      {
-       coords 49.144 0 59.239
-       angles 0 -88.568 0
-      }
-      {
-       coords 49.49 0 73.082
-       angles 0 -179.545 0
-      }
-      {
-       coords 41.548 0 73.145
-       angles 0 -179.545 0
-      }
-      {
-       coords 33.605 0 73.208
-       angles 0 -179.545 0
-      }
-      {
-       coords 25.663 0 73.271
-       angles 0 -179.545 0
-      }
-      {
-       coords 17.72 0 73.334
-       angles 0 -179.545 0
-      }
-      {
-       coords 9.777 0 73.398
-       angles 0 -179.545 0
-      }
-     }
-    }
    }
   }
  }
@@ -844,65 +732,14 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 2120.922 3.094 2598.487
-  Points {
-   ShapePoint "{65EF1E8A86188452}" {
-    Position 0.461 0.066 5.743
-   }
-   ShapePoint "{65EF1E8D2C89CA18}" {
-    Position 2.718 0.257 -31.378
-   }
-   ShapePoint "{65EF1E8A861B4893}" {
-    Position 8.726 1.842 -128.084
-   }
-   ShapePoint "{65EF1E8D717E1704}" {
-    Position 23.229 7.917 -406.98
-   }
-   ShapePoint "{65EF1E8D5313F812}" {
-    Position 28.387 5.137 -485.446
-   }
-   ShapePoint "{65EF1E8A8ABFF33F}" {
-    Position 40.711 5.369 -548.917
-   }
-   ShapePoint "{65EF1E8A8A2D331C}" {
-    Position 109.32 2.038 -770.24
-   }
-   ShapePoint "{65EF1E8A90DA360F}" {
-    Position 146.575 1.781 -841.607
-   }
-  }
+  coords 2120.922 3.017 2598.49
   {
-   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+   RoadGeneratorEntity : "{512AB601E1636E26}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
     coords 0 0 0
+    FalloffStartWidth 0
     {
      RoadEntity {
-      ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position 0.461 0.066 5.743
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position 2.718 0.257 -31.378
-       }
-       ShapePoint "{65EF1E8A9ECFDFE4}" {
-        Position 8.726 1.842 -128.084
-       }
-       ShapePoint "{65EF1E8A9ECFDF67}" {
-        Position 23.229 7.917 -406.98
-       }
-       ShapePoint "{65EF1E8A9ECFDCC4}" {
-        Position 28.387 5.137 -485.446
-       }
-       ShapePoint "{65EF1E8D717FE932}" {
-        Position 40.711 5.369 -548.918
-       }
-       ShapePoint "{65EF1E8D5313545C}" {
-        Position 109.32 2.038 -770.24
-       }
-       ShapePoint "{65EF1E8D2C8978EA}" {
-        Position 146.575 1.781 -841.607
-       }
-      }
+      ID "556C6556FAB8EA7A"
       IsClosedSpline 0
       Width 12
      }
@@ -1025,17 +862,6 @@ $grp SplineShapeEntity {
  }
  {
   coords 2258.333 6.375 3282.394
-  Points {
-   ShapePoint "{65EF1E8E76FA33B2}" {
-    Position -0.135 0 0.921
-   }
-   ShapePoint "{65EF1E8E76FA56A3}" {
-    Position 164.233 -1.044 13.853
-   }
-   ShapePoint "{65EF1E8E79B02A38}" {
-    Position 222.721 -0.773 107.836
-   }
-  }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
@@ -1043,17 +869,6 @@ $grp SplineShapeEntity {
     {
      RoadEntity {
       ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position -0.135 0 0.921
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position 164.233 -1.044 13.853
-       }
-       ShapePoint "{65EF1E8E7ED2E343}" {
-        Position 222.721 -0.773 107.836
-       }
-      }
       IsClosedSpline 0
       Width 12
      }
@@ -1063,40 +878,12 @@ $grp SplineShapeEntity {
  }
  {
   coords 2505.395 5.531 3418.302
-  Points {
-   ShapePoint "{65EF1E8E2286ACFD}" {
-    Position 1.857 0 -1.665
-   }
-   ShapePoint "{65EF1E8E2286D47B}" {
-    Position 32.273 -0.182 26.272
-   }
-   ShapePoint "{65EF1E8E23738C9F}" {
-    Position 89.87 -0.812 52.822
-   }
-   ShapePoint "{65EF1E8E2325002F}" {
-    Position 122.751 -1.147 102.287
-   }
-  }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position 1.857 0 -1.665
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position 32.273 -0.182 26.272
-       }
-       ShapePoint "{65EF1E8E28247E18}" {
-        Position 89.87 -0.812 52.822
-       }
-       ShapePoint "{65EF1E8E28247F39}" {
-        Position 122.751 -1.147 102.287
-       }
-      }
       IsClosedSpline 0
       Width 12
      }
@@ -1167,58 +954,12 @@ $grp SplineShapeEntity {
  }
  {
   coords 2194.745 4.719 2722.313
-  Points {
-   ShapePoint "{65EF1E80D6450386}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65EF1E80D645B7C6}" {
-    Position 35.647 0.306 4.906
-   }
-   ShapePoint "{65EF1E80D70177BF}" {
-    Position 66.707 -0.187 17.104
-   }
-   ShapePoint "{65EF1E80D8B1CC2B}" {
-    Position 107.233 0.259 45.462
-   }
-   ShapePoint "{65EF1E80D86471B8}" {
-    Position 168.242 -0.007 69.149
-   }
-   ShapePoint "{65EF1E80DC568B1D}" {
-    Position 383.462 0.5 180.418
-   }
-   ShapePoint "{67212C4AC851F3D6}" {
-    Position 398.38 0.469 231.999
-   }
-  }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position 0 0 0
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position 35.647 0.306 4.906
-       }
-       ShapePoint "{65EF1E80A8FE880D}" {
-        Position 66.707 -0.187 17.104
-       }
-       ShapePoint "{65EF1E80A8FE89E9}" {
-        Position 107.233 0.259 45.462
-       }
-       ShapePoint "{65EF1E80A8FE897C}" {
-        Position 168.242 -0.007 69.149
-       }
-       ShapePoint "{65EF1E80A8FE8ED1}" {
-        Position 383.462 0.5 180.418
-       }
-       ShapePoint "{67212C4AC856DC5B}" {
-        Position 398.38 0.468 231.999
-       }
-      }
       IsClosedSpline 0
       Width 12
      }
@@ -1228,70 +969,12 @@ $grp SplineShapeEntity {
  }
  {
   coords 2179.148 3.562 2622.084
-  Points {
-   ShapePoint "{65EF1E8091A46C6F}" {
-    Position 0.589 -0.763 0.508
-   }
-   ShapePoint "{65EF1E8091A49C88}" {
-    Position 17.88 -2.811 -58.533
-   }
-   ShapePoint "{65EF1E80926F49BC}" {
-    Position 121.096 0.843 -110.296
-   }
-   ShapePoint "{65EF1E8095A50018}" {
-    Position 294.283 2.789 -169.344
-   }
-   ShapePoint "{65EF1E80953E235F}" {
-    Position 396.067 4.33 -223.06
-   }
-   ShapePoint "{65EF1E8097CB8D0D}" {
-    Position 633.467 1.406 -325.161
-   }
-   ShapePoint "{65EF1E80976207EF}" {
-    Position 759.773 1.186 -342.133
-   }
-   ShapePoint "{65EF1E8098F642FD}" {
-    Position 825.54 0.302 -406.23
-   }
-   ShapePoint "{65EF1E80985F531F}" {
-    Position 891.485 0.281 -416.873
-   }
-  }
   {
    RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position 0.589 -0.763 0.508
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position 17.88 -2.811 -58.533
-       }
-       ShapePoint "{65EF1E809F8578F8}" {
-        Position 121.096 0.843 -110.296
-       }
-       ShapePoint "{65EF1E809F857856}" {
-        Position 294.283 2.789 -169.344
-       }
-       ShapePoint "{65EF1E809F857984}" {
-        Position 396.067 4.33 -223.06
-       }
-       ShapePoint "{65EF1E809F8579F0}" {
-        Position 633.467 1.406 -325.161
-       }
-       ShapePoint "{65EF1E809F857928}" {
-        Position 759.773 1.186 -342.133
-       }
-       ShapePoint "{65EF1E809F857E92}" {
-        Position 825.54 0.302 -406.23
-       }
-       ShapePoint "{65EF1E809F857ECE}" {
-        Position 891.485 0.281 -416.873
-       }
-      }
       IsClosedSpline 0
       Width 12
      }
@@ -3367,28 +3050,12 @@ $grp SplineShapeEntity {
  }
  {
   coords 2532.541 5.835 2733.208
-  Points {
-   ShapePoint "{65F56B9354F4BB5F}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F56B93532DB9EB}" {
-    Position 5.801 -0.804 146.045
-   }
-  }
   {
    RoadGeneratorEntity : "{2D9AEF10F5FEA98B}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Dirt_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "523EAA80CAA6C6B5"
-      SplinePoints {
-       ShapePoint "{52346539D885C296}" {
-        Position 0 0 0
-       }
-       ShapePoint "{52346539D885C1A2}" {
-        Position 5.801 -0.804 146.045
-       }
-      }
       IsClosedSpline 0
       Width 4
      }
@@ -3412,102 +3079,13 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 2276.871 6.357 2325.536
-  Points {
-   ShapePoint "{65F56B93314B1A5C}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F56B93314B5A5E}" {
-    Position 20.238 -1.122 62.156
-   }
-   ShapePoint "{65F56B933246BD19}" {
-    Position 1.754 -0.571 117.74
-   }
-   ShapePoint "{65F56B9333BFD244}" {
-    Position 10.344 -2.288 188.531
-   }
-  }
-  {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
-    coords 0 0 0
-    {
-     RoadEntity {
-      ID "55F85D16D1C7EB8E"
-      SplinePoints {
-       ShapePoint "{556C65561A62B78A}" {
-        Position 0 0 0
-       }
-       ShapePoint "{556C65561A62EBA9}" {
-        Position 20.238 -1.122 62.156
-       }
-       ShapePoint "{65F56B93348061E0}" {
-        Position 1.754 -0.571 117.74
-       }
-       ShapePoint "{65F56B933480617A}" {
-        Position 10.344 -2.288 188.531
-       }
-      }
-      IsClosedSpline 0
-      Width 4.5
-     }
-    }
-   }
-  }
- }
- {
   coords 1791.657 3.922 2153.604
-  Points {
-   ShapePoint "{65F56B93388E9BA0}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F56B93388EDAC2}" {
-    Position -137.406 0.633 62.823
-   }
-   ShapePoint "{65F56B93396A2F38}" {
-    Position -148.704 0.104 117.616
-   }
-   ShapePoint "{65F56B933AC07F6B}" {
-    Position -77.786 -0.692 193.171
-   }
-   ShapePoint "{65F56B933A5E8752}" {
-    Position 34.309 1.164 278.941
-   }
-   ShapePoint "{65F56B933BDC2140}" {
-    Position 275.665 -0.139 325.521
-   }
-   ShapePoint "{65F56B933DB535A8}" {
-    Position 333.849 0.655 338.938
-   }
-  }
   {
    RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
     coords 0 0 0
     {
      RoadEntity {
       ID "55F85D16D1C7EB8E"
-      SplinePoints {
-       ShapePoint "{556C65561A62B78A}" {
-        Position 0 0 0
-       }
-       ShapePoint "{556C65561A62EBA9}" {
-        Position -137.406 0.633 62.823
-       }
-       ShapePoint "{65F56B933EEAE64D}" {
-        Position -148.704 0.104 117.616
-       }
-       ShapePoint "{65F56B933EEAE7AF}" {
-        Position -77.786 -0.692 193.171
-       }
-       ShapePoint "{65F56B933EEAE7E6}" {
-        Position 34.309 1.164 278.941
-       }
-       ShapePoint "{65F56B933EEAE75B}" {
-        Position 275.665 -0.139 325.521
-       }
-       ShapePoint "{65F56B933EEAE49F}" {
-        Position 333.849 0.655 338.938
-       }
-      }
       IsClosedSpline 0
       Width 4.5
      }
@@ -15904,12 +15482,25 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 2120.922 3.017 2598.49
+  {
+   RoadGeneratorEntity : "{512AB601E1636E26}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    FalloffStartWidth 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{0B2717FF3BBF99B5}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v4.et" {
  coords 1942.573 0.078 3346.599
-}
-SCR_DestructibleBuildingEntity : "{0E7899885A92BF4F}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
- coords 2530.781 0 2711.712
 }
 $grp SCR_DestructibleEntity : "{2F3B772F3FF94C7F}PrefabLibrary/DefaultLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_red.et" {
  {
@@ -15921,28 +15512,6 @@ $grp SCR_DestructibleEntity : "{2F3B772F3FF94C7F}PrefabLibrary/DefaultLibrary/Pr
 }
 SCR_DestructibleBuildingEntity : "{5CF33ABAD1662F89}PrefabLibrary/DefaultLibrary/Infrastructure/PhoneBooth_E_01.et" {
  coords 3259.259 0 2198.449
-}
-$grp GenericEntity : "{613F6B641DAE930D}PrefabLibrary/DefaultLibrary/Props/Infrastructure/ConeTraffic_01_stack.et" {
- {
-  coords 2597.615 5.187 3025.63
-  angles 0 89.199 0
- }
- {
-  coords 2595.504 5.187 3025.601
-  angles 0 89.199 0
- }
- {
-  coords 2592.963 5.187 3025.565
-  angles 0 89.199 0
- }
- {
-  coords 2590.385 5.187 3025.529
-  angles 0 89.199 0
- }
- {
-  coords 2587.618 5.187 3025.49
-  angles 0 89.199 0
- }
 }
 StaticModelEntity : "{68FA4E56264168B7}PrefabLibrary/DefaultLibrary/Infrastructure/Towers/TransmitterTower_01_small.et" {
  coords 3438.826 3.875 2260.942
@@ -15961,10 +15530,6 @@ $grp SCR_DestructibleEntity : "{6A5C6D2127C08EFE}PrefabLibrary/DefaultLibrary/Pr
 }
 SCR_DestructibleEntity : "{82811097384BF4D3}PrefabLibrary/DefaultLibrary/Props/Decoration/FlowerpotFlowers_01_begonia/FlowerpotFlowers_01_begonia_white.et" {
  coords 2596.385 5.188 2998.479
-}
-SCR_DestructibleBuildingEntity : "{8732EEEE5AC2B938}PrefabLibrary/DefaultLibrary/Structures/Houses/Garage_E_01.et" {
- coords 2593.42 0.069 3003.131
- angles 0 90 0
 }
 $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastructure/Lamps/LampStreet_E_01_4m/LampStreet_E_01_4m.et" {
  {
@@ -16044,25 +15609,10 @@ $grp SCR_DestructibleBuildingEntity : "{98E878BFD0072149}Prefabs/Buildings/Fire 
 }
 $grp SCR_DestructibleBuildingEntity : "{9ACCDC76D1EBDA27}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
  {
-  coords 2256.073 0 2318.557
-  angles 0 93.484 0
- }
- {
   coords 1826.5 0 2148.781
  }
  {
   coords 1924.28 0.001 1603.072
- }
-}
-$grp SCR_DestructibleEntity : "{A9C9E1C6642B2989}PrefabLibrary/DefaultLibrary/Props/Decoration/FlowerpotStreet_01_rect_short/FlowerpotStreet_01_rect_short_begonia_red.et" {
- {
-  coords 2594.405 5.187 3015.747
- }
- {
-  coords 2594.405 5.187 3019.376
- }
- {
-  coords 2594.405 5.187 3022.83
  }
 }
 SCR_DestructibleEntity : "{C17780042E00F53D}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_6m_B.et" {
@@ -16117,21 +15667,6 @@ $grp SCR_DestructibleBuildingEntity : "{C92E272A514F2CE0}PrefabLibrary/DefaultLi
  }
  {
   coords 3470.841 0.22 2188.523
- }
-}
-SCR_DestructibleEntity : "{F186366C262AE4F6}PrefabLibrary/DefaultLibrary/Props/Cultural/BelfrySmall_01.et" {
- coords 2620.729 0 2986.527
- angles -0.997 0 1.94
-}
-$grp SCR_DestructibleBuildingEntity : "{F68D383E74D86E73}PrefabLibrary/DefaultLibrary/Props/Cultural/GraveStone_E_01_B.et" {
- {
-  coords 2623.493 0 2986.312
- }
- {
-  coords 2625.722 0 2986.312
- }
- {
-  coords 2627.987 0 2986.312
  }
 }
 SCR_DestructibleBuildingEntity : "{F7D0D1E4A8822BA7}Prefabs/Buildings/Civilian/Apartments/Apartment_8-Storey/Apartment_8-Storey_v3.et" {

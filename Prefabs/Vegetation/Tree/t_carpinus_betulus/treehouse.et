@@ -1,0 +1,44 @@
+Tree : "{E654FA522FE59C67}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_base.et" {
+ ID "0F2AA6B42CA78628"
+ components {
+  MeshObject "{68A5368A0637C953}" {
+   Object "{07A5F4B2FB079DCC}Assets/Vegetation/Tree/Carpinus_Betulus/T_Carpinus_betulus_3s.xob"
+   LODFactors {
+    200 15 5 12 1
+   }
+  }
+  RigidBody "{68A5368A0637C977}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ MaxHealth 12729
+ "Collision multiplier" 4
+ "Melee multiplier" 0.3
+ "Fragmentation multiplier" 0.04
+ "Explosive multiplier" 1.7
+ "Incendiary multiplier" 9
+ DamageReduction 4.5
+ DamageThreshold 108.63
+ FirstDestructionPhase SCR_BaseDestructionPhase "{5EA30A303A8696D4}" {
+  m_aPhaseDestroySpawnObjects {
+   SCR_PrefabSpawnable "{6308EB177862FBD3}" {
+    m_Prefabs {
+     "{4968F66DE1DDC077}Prefabs/Vegetation/Tree/Dst/t_carpinus_betulus/T_Carpinus_betulus_3s_dst_top01.et"
+    }
+   }
+  }
+ }
+ LastDestructionPhase SCR_BaseDestructionPhase "{5EA30A2E369EFD7F}" {
+  m_sPhaseModel "{4ABF948A1B932669}Assets/Vegetation/Tree/Carpinus_Betulus/Dst/T_Carpinus_betulus_3s_dst_base.xob"
+  m_aPhaseDestroySpawnObjects {
+   SCR_DebrisSpawnable "{5EA30A2D2933E380}" {
+    m_ModelPrefabs {
+     "{4ABF948A1B932669}Assets/Vegetation/Tree/Carpinus_Betulus/Dst/T_Carpinus_betulus_3s_dst_base.xob"
+    }
+   }
+  }
+ }
+ m_iFoliageHeight 7
+}

@@ -1,0 +1,206 @@
+$grp SplineShapeEntity {
+ {
+  coords 2126.191 8.656 2577.279
+  {
+   RoadGeneratorEntity : "{512AB601E1636E26}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    FalloffStartWidth 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2311.246 4.156 2607.901
+  Points {
+   ShapePoint "{68A51A36A93628D0}" {
+    Position -23.179 4.187 -148.267
+   }
+   ShapePoint "{68A51A36AB2B5D26}" {
+    Position 4.64 4.188 -98.012
+   }
+   ShapePoint "{68A51A36AB99CC6A}" {
+    Position 22.153 4.188 -54.541
+   }
+   ShapePoint "{68A51A36AA11A048}" {
+    Position 18.15 4.178 -23.723
+   }
+   ShapePoint "{68A500A1450F8823}" {
+    Position 0.042 3.984 -2.854
+   }
+   ShapePoint "{68A500A1450FACEE}" {
+    Position -26.348 4.352 3.642
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -30.722 0.841 3.272
+      OutTangent -30.722 0.841 3.272
+     }
+    }
+   }
+   ShapePoint "{68A500A13BFEEF56}" {
+    Position -65.01 4.352 7.078
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position -23.179 4.187 -148.267
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 4.64 4.188 -98.012
+       }
+       ShapePoint "{68A500A131F4D4D9}" {
+        Position 22.153 4.188 -54.541
+       }
+       ShapePoint "{68A51A36AA16EF9E}" {
+        Position 18.15 4.178 -23.723
+       }
+       ShapePoint "{68A51A36AB9E9437}" {
+        Position 0.042 3.984 -2.854
+       }
+       ShapePoint "{68A51A36AB281FF8}" {
+        Position -26.348 4.352 3.642
+        Data {
+         SplinePointData "{00000000D8F1BA4F}" {
+          InTangent -30.722 0.841 3.272
+          OutTangent -30.722 0.841 3.272
+         }
+        }
+       }
+       ShapePoint "{68A51A36A934BA09}" {
+        Position -65.01 4.352 7.078
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleBuildingEntity : "{07B7B618E3DEFBBF}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_02.et" {
+ coords 2254.159 -4.286 2546.674
+ angles 0 129.664 0
+}
+SCR_DestructibleBuildingEntity : "{1321E90FE0CF8C3C}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_03_d.et" {
+ coords 2230.656 -6.884 2545.004
+ angles 0 -50.028 0
+ scale 1.4
+}
+SCR_DestructibleBuildingEntity : "{66F1A0049CC2F5BD}Prefabs/Structures/Agriculture/Barn/Barn_E_03/Barn_E_03_open.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{68A51A31548E0CDF}" {
+     SourceMaterial "Barn_E_03_EXT"
+     AssignedMaterial "{C71F3083A5F51E20}Assets/Structures/Cultural/Castles/Castle_01/Data/StoneWall_02.emat"
+    }
+   }
+  }
+ }
+ coords 2228.487 5.519 2566.183
+ angles 0 -49.616 0
+}
+$grp SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_01.et" {
+ {
+  coords 2252.944 -4.38 2544.003
+  angles 0 -50.308 0
+ }
+ {
+  coords 2248.714 -5.793 2564.811
+  angles 0 45.345 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{85D22B7ED8C8024C}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_Small_02.et" {
+ {
+  coords 2237.31 0.614 2545.063
+  angles 0 -50.673 0
+ }
+ {
+  coords 2240.691 0.255 2548.946
+  angles 0 -50.673 0
+ }
+ {
+  coords 2244.25 0.616 2553.375
+  angles 0 -50.673 0
+ }
+ {
+  coords 2247.725 0.655 2557.501
+  angles 0 -50.673 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{86952D860A66DBA6}Prefabs/Structures/Culture/Castle/Castle Wall Bastion.et" {
+ {
+  coords 2317.916 1.04 2563.238
+  angles 0 92.635 0
+  scale 0.77
+ }
+ {
+  coords 2305.802 0 2591.148
+  angles 0 30.625 0
+  scale 0.77
+ }
+ {
+  coords 2250.03 -1.617 2593.077
+  angles 0 -29.434 0
+  scale 0.77
+ }
+ {
+  coords 2201.726 -1.925 2541.254
+  angles 0 -67.377 0
+  scale 0.77
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D7BEC4BF41553508}Prefabs/Infrastructure/Bridges/Brick Bridge.et" {
+ {
+  coords 2245.356 -0.405 2615.634
+  angles 0 -82.891 0
+ }
+ {
+  coords 2220.536 14.278 2618.74
+  angles 0 -82.891 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{E8C4D8095BADC7E4}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m.et" {
+ {
+  coords 2240.232 2.547 2578.598
+  angles 0 -49.739 0
+  scale 2.28
+ }
+ {
+  coords 2226.792 2.42 2567.046
+  angles 0 -49.739 0
+  scale 2.28
+ }
+ {
+  coords 2215.522 2.417 2553.174
+  angles 0 -49.739 0
+  scale 2.28
+ }
+ {
+  coords 2219.126 2.457 2552.312
+  angles 0 -49.739 0
+  scale 2.28
+ }
+ {
+  coords 2230.277 2.443 2565.264
+  angles 0 -49.739 0
+  scale 2.28
+ }
+}
+SCR_DestructibleBuildingEntity : "{E9C3EBDD0562D348}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_90_V2.et" {
+ coords 2313.034 -0.086 2576.905
+ angles 0 122.52 0
+ scale 1.64
+}
