@@ -453408,35 +453408,15 @@ Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ur
  coords 6534.849 22.452 1919.556
  angles 0 -69.969 0
 }
-$grp GenericEntity : "{33BDFC6E804787F7}Prefabs/Structures/Signs/Warnings/Dst/SignDangerCurve_01_Dst_left.et" {
- {
-  coords 2821.669 5.578 3811.084
-  angles 0 53.716 0
- }
- {
-  coords 3074.023 6.445 3130.403
-  angles 0 33.224 0
- }
- {
-  coords 3599.189 4.937 3128.5
-  angles 0 -82.593 0
- }
+GenericEntity : "{33BDFC6E804787F7}Prefabs/Structures/Signs/Warnings/Dst/SignDangerCurve_01_Dst_left.et" {
+ coords 3599.189 4.937 3128.5
+ angles 0 -82.593 0
 }
 GenericEntity : "{3532649D6B93B0D9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSlide_01.et" {
  coords 6523.115 3.125 3485.327
  angles 0 -53.686 0
 }
 $grp GenericEntity : "{3786D96761E703BC}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_fallingTree.et" {
- {
-  coords 3073.417 7 3127.8
-  angles 0 -46.043 0
-  scale 2.07
- }
- {
-  coords 2819.466 6.188 3809.049
-  angles 0 -46.043 0
-  scale 2.07
- }
  {
   coords 3387.702 4.18 4147.392
   angles 0 66.895 0
@@ -454012,19 +453992,9 @@ $grp StaticModelEntity : "{46BCEF649425432C}Prefabs/Structures/Military/Fortific
   angles -5.345 -144.15 0
  }
 }
-$grp GenericEntity : "{4A8829F6DD2162F7}Prefabs/Structures/Signs/Warnings/SignAheadOnly_01.et" {
- {
-  coords 2823.193 6.536 3812.148
-  angles 20.369 52.68 86.409
- }
- {
-  coords 3075.078 7.269 3131.934
-  angles 20.369 32.188 86.409
- }
- {
-  coords 3597.404 6.041 3128.768
-  angles 20.369 -83.629 86.409
- }
+GenericEntity : "{4A8829F6DD2162F7}Prefabs/Structures/Signs/Warnings/SignAheadOnly_01.et" {
+ coords 3597.404 6.041 3128.768
+ angles 20.369 -83.629 86.409
 }
 $grp GenericEntity : "{4D1517866E9C2362}Prefabs/Props/Forest/WoodPile/WoodPile_02_A.et" {
  {
@@ -456917,30 +456887,6 @@ DecalEntity : "{BAA55688399B3545}Prefabs/Decals/Dirt/Decal_Dirt_Patch_01.et" {
  scale 5.625
 }
 $grp GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
- {
-  coords 2825.026 6.219 3809.939
-  angles 0 50.895 0
- }
- {
-  coords 2821.884 6.219 3813.631
-  angles 0 50.895 0
- }
- {
-  coords 2823.141 6.219 3812.11
-  angles 0 50.895 0
- }
- {
-  coords 3073.333 6.951 3132.864
-  angles 0 30.404 0
- }
- {
-  coords 3075.043 6.951 3131.88
-  angles 0 30.404 0
- }
- {
-  coords 3077.568 6.951 3130.507
-  angles 0 30.404 0
- }
  {
   coords 3390.979 4.211 4143.379
   angles 0 163.834 0

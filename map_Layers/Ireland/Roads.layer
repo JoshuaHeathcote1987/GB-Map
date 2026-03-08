@@ -3064,67 +3064,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 1922.424 3.785 1573.01
-  Points {
-   ShapePoint "{65F56B93F9EF6746}" {
-    Position 0 0 0
-   }
-   ShapePoint "{65F56B93F9EFA12A}" {
-    Position 49.257 3.49 -23.744
-   }
-   ShapePoint "{65F56B93FAFA8F11}" {
-    Position 110.332 0.555 -19.729
-   }
-   ShapePoint "{65F56B93FAACA411}" {
-    Position 180.423 2.946 8.837
-   }
-   ShapePoint "{65F56B93FA51A326}" {
-    Position 264.198 1.956 49.195
-   }
-   ShapePoint "{65F56B93FBF05CE3}" {
-    Position 317.88 2.21 80.373
-   }
-   ShapePoint "{65F56B93FB97D4D6}" {
-    Position 329.746 1.152 117.998
-   }
-  }
-  {
-   RoadGeneratorEntity : "{6C770E9E60A49C05}PrefabLibrary/DefaultLibrary/Generators/Roads/Dirt/RG_Road_Forest_01.et" {
-    coords 0 0 0
-    {
-     RoadEntity {
-      ID "55F85D16D1C7EB8E"
-      SplinePoints {
-       ShapePoint "{556C65561A62B78A}" {
-        Position 0 0 0
-       }
-       ShapePoint "{556C65561A62EBA9}" {
-        Position 49.257 3.49 -23.744
-       }
-       ShapePoint "{65F56B93FCA7A9DD}" {
-        Position 110.332 0.555 -19.729
-       }
-       ShapePoint "{65F56B93FCA7A939}" {
-        Position 180.423 2.946 8.837
-       }
-       ShapePoint "{65F56B93FCA7A970}" {
-        Position 264.197 1.956 49.195
-       }
-       ShapePoint "{65F56B93FCA7AEAA}" {
-        Position 317.88 2.21 80.373
-       }
-       ShapePoint "{65F56B93FCA7AEE9}" {
-        Position 329.746 1.152 117.998
-       }
-      }
-      IsClosedSpline 0
-      Width 4.5
-     }
-    }
-   }
-  }
- }
- {
   coords 2216.783 6.881 3626.863
   Points {
    ShapePoint "{65F56B93CB2C22F1}" {
@@ -15539,30 +15478,6 @@ $grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastruct
   angles -1.448 53.197 -1.907
  }
  {
-  coords 2436.618 0.001 1803.157
-  angles -1.795 135.85 -1.92
- }
- {
-  coords 2390.064 -0.681 1773.528
-  angles -1.795 135.85 -1.92
- }
- {
-  coords 2354.145 0 1745.208
-  angles -1.795 135.85 -1.92
- }
- {
-  coords 2295.387 0 1703.14
-  angles -1.795 135.85 -1.92
- }
- {
-  coords 2320.134 0 1700.914
-  angles -1.795 135.85 -1.92
- }
- {
-  coords 2350.56 0 1722.238
-  angles -1.795 135.85 -1.92
- }
- {
   coords 2908.917 0 4507.176
   angles 0.535 118.843 -0.533
  }
@@ -15575,14 +15490,6 @@ $grp SCR_DestructibleBuildingEntity : "{98E878BFD0072149}Prefabs/Buildings/Fire 
  {
   coords 3312.347 3.423 2239.484
   angles 0 -90 0
- }
-}
-$grp SCR_DestructibleBuildingEntity : "{9ACCDC76D1EBDA27}PrefabLibrary/DefaultLibrary/Structures/Houses/FarmHouse_E_1L01/FarmHouse_E_1L01_Wood.et" {
- {
-  coords 1826.5 0 2148.781
- }
- {
-  coords 1924.28 0.001 1603.072
  }
 }
 SCR_DestructibleEntity : "{C17780042E00F53D}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_6m_B.et" {

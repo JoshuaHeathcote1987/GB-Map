@@ -3911,7 +3911,6 @@ $grp SplineShapeEntity {
       {
        coords 597.374 41.078 -259.836
        angles -1.103 -162.888 0.398
-       scale 1
       }
       {
        coords 612.888 29.815 -265.51
@@ -4874,7 +4873,7 @@ $grp SplineShapeEntity {
       }
       {
        coords -36.959 30.689 -300.939
-       angles -0 -166.536 1.729
+       angles 0 -166.536 1.729
        scale 1.186
       }
       {
@@ -264668,20 +264667,6 @@ $grp GenericEntity : "{8108030C9418162E}Prefabs/Structures/Signs/Warnings/SignNo
 SCR_DestructibleBuildingEntity : "{86952D860A66DBA6}Prefabs/Structures/Culture/Castle/Castle Wall Bastion.et" {
  coords 3421.257 -0.591 3083.722
  angles 0 -93.563 0
-}
-$grp GenericEntity : "{9096F3C3D040A2F3}PrefabLibrary/DefaultLibrary/Infrastructure/Lamps/LampStreet_E_01_4m/LampStreet_E_01_4m.et" {
- {
-  coords 3897.258 -0.001 4122.946
-  angles 1.974 -82.226 -0.227
- }
- {
-  coords 3902.814 0 4160.374
-  angles 0.141 8.856 1.258
- }
- {
-  coords 3907.468 0.001 4192.326
-  angles -1.269 140.717 1.965
- }
 }
 GenericEntity : "{91BA22D8056DD57C}Prefabs/Structures/BuildingParts/Mural/Murals_5x1_TSNC_V2.et" {
  coords 3785.084 9.364 4212.045
