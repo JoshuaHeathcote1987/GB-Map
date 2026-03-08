@@ -85,43 +85,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 2272.175 4.93 1719.462
-  Points {
-   ShapePoint "{65EE339A73C62EF8}" {
-    Position 0 0.3 0
-   }
-   ShapePoint "{65EE339A73C677EC}" {
-    Position 109.997 0.4 79.586
-   }
-   ShapePoint "{68CB0D84180AD3D5}" {
-    Position 123.372 -0.017 119.504
-   }
-  }
-  {
-   RoadGeneratorEntity : "{02AF8C5A31EC3A53}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
-    coords 0 0 0
-    {
-     RoadEntity {
-      ID "556C655491CDCD64"
-      SplinePoints {
-       ShapePoint "{556C6554868CB1B0}" {
-        Position 0 0.3 0
-       }
-       ShapePoint "{556C6554868CB0CE}" {
-        Position 109.997 0.4 79.586
-       }
-       ShapePoint "{68CB0D84180BBC52}" {
-        Position 123.372 -0.017 119.504
-       }
-      }
-      IsClosedSpline 0
-      Width 12
-     }
-    }
-   }
-  }
- }
- {
   coords 2123.003 3.782 2956.105
   Points {
    ShapePoint "{68A53682C7FE1013}" {
