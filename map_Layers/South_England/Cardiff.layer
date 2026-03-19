@@ -25542,7 +25542,6 @@ $grp SplineShapeEntity {
       {
        coords -66.731 7.532 29.399
        angles -0.081 -78.719 -1.657
-       scale 1
       }
       {
        coords -68.729 7.679 40.751
@@ -26297,7 +26296,6 @@ $grp SplineShapeEntity {
       {
        coords 270.654 -20.061 203.901
        angles 0.606 21.545 -0.353
-       scale 1
       }
       {
        coords 264.812 -16.483 201.202
@@ -26347,7 +26345,6 @@ $grp SplineShapeEntity {
       {
        coords 139.646 -20.407 10.526
        angles -0.206 33.674 -1.969
-       scale 1
       }
       {
        coords 140.779 -20.228 17.879
@@ -29337,7 +29334,6 @@ $grp SplineShapeEntity {
       {
        coords 137.655 -25.541 445.156
        angles 0.833 50.418 -1.343
-       scale 1
       }
       {
        coords 140.335 -20.825 435.115
@@ -29392,7 +29388,6 @@ $grp SplineShapeEntity {
       {
        coords -120.207 39.639 -246.316
        angles 1.536 -135.433 -0.76
-       scale 1
       }
       {
        coords -119.534 39.607 -254.869
@@ -29557,7 +29552,6 @@ $grp SplineShapeEntity {
       {
        coords -43.602 1.6 -70.745
        angles -0.168 88.058 0.608
-       scale 1
       }
       {
        coords -34.052 2.4 -71.373
@@ -31985,7 +31979,6 @@ $grp SplineShapeEntity {
       {
        coords 170.734 5.025 143.21
        angles 0.94 -56.724 1.464
-       scale 1
       }
       {
        coords -104.403 19.136 -51.354
@@ -33640,7 +33633,6 @@ $grp SplineShapeEntity {
       {
        coords 53.853 5.571 431.409
        angles 1.018 -117.305 -1.046
-       scale 1
       }
       {
        coords 174.393 -13.497 307.633
@@ -33750,7 +33742,6 @@ $grp SplineShapeEntity {
       {
        coords 258.935 -12.715 206.723
        angles 0.783 -102.462 -0.128
-       scale 1
       }
       {
        coords 262.953 -15.264 207.791
@@ -36094,7 +36085,6 @@ $grp SplineShapeEntity {
       {
        coords -28.061 1.332 -107.755
        angles -0.979 -132.104 -1.681
-       scale 1
       }
       {
        coords -26.297 1.763 -97.65
@@ -37374,7 +37364,6 @@ $grp SplineShapeEntity {
       {
        coords 97.908 -8.164 446.548
        angles 0.405 -141.761 1.196
-       scale 1
       }
       {
        coords 109.365 -13.512 448.401
@@ -37914,7 +37903,6 @@ $grp SplineShapeEntity {
       {
        coords -35.477 -6.798 -327.233
        angles 0.313 -173.337 1.381
-       scale 1
       }
       {
        coords -36.483 -1.944 -313.041
@@ -38354,7 +38342,6 @@ $grp SplineShapeEntity {
       {
        coords 56.484 -8.677 -128.002
        angles -1.663 48.968 -1.898
-       scale 1
       }
       {
        coords 46.058 -5.061 -123.958
@@ -42035,7 +42022,6 @@ $grp SplineShapeEntity {
       {
        coords 128.594 -11.087 327.028
        angles 1.662 119.403 0.397
-       scale 1
       }
       {
        coords 118.856 -6.344 329.879
@@ -419985,30 +419971,14 @@ Vehicle Ural4320_ammo1 : "{3336BE330C4F355B}Prefabs/Vehicles/Wheeled/Ural4320/Ur
  coords 6534.849 22.452 1919.556
  angles 0 -69.969 0
 }
-GenericEntity : "{33BDFC6E804787F7}Prefabs/Structures/Signs/Warnings/Dst/SignDangerCurve_01_Dst_left.et" {
- coords 3599.189 4.937 3128.5
- angles 0 -82.593 0
-}
 GenericEntity : "{3532649D6B93B0D9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSlide_01.et" {
  coords 6523.115 3.125 3485.327
  angles 0 -53.686 0
 }
-$grp GenericEntity : "{3786D96761E703BC}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_fallingTree.et" {
- {
-  coords 3387.702 4.18 4147.392
-  angles 0 66.895 0
-  scale 2.07
- }
- {
-  coords 3602.188 5.547 3128.451
-  angles 0 177.649 0
-  scale 2.07
- }
- {
-  coords 3950.836 10.374 6068.264
-  angles 0 -47.838 0
-  scale 2.07
- }
+GenericEntity : "{3786D96761E703BC}Prefabs/Vegetation/Tree/Debris/T_trunk_debris_fallingTree.et" {
+ coords 3950.836 10.374 6068.264
+ angles 0 -47.838 0
+ scale 2.07
 }
 $grp SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01.et" {
  {
@@ -420568,10 +420538,6 @@ $grp StaticModelEntity : "{46BCEF649425432C}Prefabs/Structures/Military/Fortific
   coords 6132.772 -0.153 1352.231
   angles -5.345 -144.15 0
  }
-}
-GenericEntity : "{4A8829F6DD2162F7}Prefabs/Structures/Signs/Warnings/SignAheadOnly_01.et" {
- coords 3597.404 6.041 3128.768
- angles 20.369 -83.629 86.409
 }
 $grp GenericEntity : "{4D1517866E9C2362}Prefabs/Props/Forest/WoodPile/WoodPile_02_A.et" {
  {
@@ -423464,22 +423430,6 @@ DecalEntity : "{BAA55688399B3545}Prefabs/Decals/Dirt/Decal_Dirt_Patch_01.et" {
  scale 5.625
 }
 $grp GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
- {
-  coords 3390.979 4.211 4143.379
-  angles 0 163.834 0
- }
- {
-  coords 3386.355 4.211 4141.925
-  angles 0 163.834 0
- }
- {
-  coords 3597.274 5.743 3126.808
-  angles 0 -85.413 0
- }
- {
-  coords 3597.553 5.762 3131.648
-  angles 0 -85.413 0
- }
  {
   coords 3950.809 10.405 6070.377
   angles 0 49.101 0
