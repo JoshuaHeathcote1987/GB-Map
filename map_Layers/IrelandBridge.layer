@@ -1,0 +1,430 @@
+$grp SplineShapeEntity {
+ {
+  coords 3484.723 2.011 2151.882
+  Points {
+   ShapePoint "{6908A54E7F11B6A5}" {
+    Position -26.799 4.267 49.771
+   }
+   ShapePoint "{6908A54E7F11BB2F}" {
+    Position 10.239 7.252 33.275
+   }
+   ShapePoint "{6908A54E765453B5}" {
+    Position 56.397 12.823 17.59
+   }
+   ShapePoint "{6908A54E744E9332}" {
+    Position 91.837 13.719 1.079
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    FalloffStartWidth 5.3
+    RoadFalloffWidth 59.1
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position -26.799 4.267 49.771
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 10.239 7.252 33.275
+       }
+       ShapePoint "{6908A54E63F65D78}" {
+        Position 56.397 12.823 17.59
+       }
+       ShapePoint "{6908A54E63F65D02}" {
+        Position 91.837 13.719 1.079
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4296.209 5.051 1811.067
+  Points {
+   ShapePoint "{6908A54DBAFE0741}" {
+    Position 27.917 3.335 15.535
+   }
+   ShapePoint "{6908A54DBAFF874F}" {
+    Position -47.725 4.903 16.926
+   }
+   ShapePoint "{6908A54DBB581B5A}" {
+    Position -143.489 11.683 45.422
+   }
+   ShapePoint "{6908A54DB8E06CAE}" {
+    Position -192.808 10.615 72.578
+   }
+  }
+  {
+   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    FalloffStartWidth 6.4
+    RoadFalloffWidth 27.9
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position 27.917 3.335 15.535
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position -47.725 4.903 16.926
+       }
+       ShapePoint "{6908A54DB0B6B50B}" {
+        Position -143.489 11.683 45.422
+       }
+       ShapePoint "{6908A54DB0B6B4A9}" {
+        Position -192.808 10.615 72.578
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7AF750C232C9FB90}Prefabs/Infrastructure/Bridges/Highway Bridge with Pillars.et" {
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3582.289 15.258 2149.982
+  angles 0 116.875 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3649.034 15.243 2115.841
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F53331A96}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3626.815 15.222 2127.223
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F4BC7D966}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3604.56 15.226 2138.633
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3671.326 15.258 2104.466
+  angles 0 116.875 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3738.071 15.258 2070.325
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F53331A96}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3715.852 15.258 2081.707
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F4BC7D966}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3693.597 15.258 2093.117
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3760.302 15.258 2059.018
+  angles 0 116.875 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3827.048 15.258 2024.877
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F53331A96}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3804.829 15.258 2036.259
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F4BC7D966}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3782.573 15.258 2047.669
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3849.307 15.258 2013.531
+  angles 0 116.875 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3916.051 15.258 1979.39
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F53331A96}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3893.832 15.258 1990.772
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F4BC7D966}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3871.578 15.258 2002.182
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3938.339 15.258 1967.982
+  angles 0 116.875 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 4005.083 15.258 1933.841
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F53331A96}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3982.864 15.258 1945.223
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F4BC7D966}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 3960.61 15.258 1956.633
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 4027.3 15.258 1922.537
+  angles 0 116.875 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F6D411ECF}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 4094.045 15.258 1888.396
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F53331A96}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 4071.826 15.258 1899.778
+  angles 0 117.132 0
+ }
+ {
+  components {
+   MeshObject "{62E304CE198BCBDA}" {
+    Materials {
+     MaterialAssignClass "{68909B7F4BC7D966}" {
+      SourceMaterial "HighwayBridgeMetal"
+      AssignedMaterial "{2D0B112B7DB06D53}Assets/Structures/BuildingsParts/Doors/Door_Metal/data/Door_Metal_B_Red.emat"
+     }
+    }
+   }
+  }
+  coords 4049.571 15.258 1911.188
+  angles 0 117.132 0
+ }
+}
