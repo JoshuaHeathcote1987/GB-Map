@@ -32854,7 +32854,6 @@ $grp SplineShapeEntity {
        {
         coords -16.141 2.266 -33.449
         angles 1.884 169.337 -1.446
-        scale 1
        }
       }
       $grp Tree : "{A35E15EBC6033C07}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1.et" {
@@ -142742,8 +142741,9 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{6FDC70C8E32A8254}Prefabs/Rocks/Gr
 }
 $grp SCR_DestructibleBuildingEntity : "{7124EA81F33E40CE}Prefabs/Structures/Culture/Castle/Castle Tower 02.et" {
  {
-  coords 2291.511 -10.328 2582.609
+  coords 2291.511 -11.313 2582.609
   angles 0 -177.575 0
+  scale 1.07
  }
  {
   coords 2263.287 2.258 2581.302

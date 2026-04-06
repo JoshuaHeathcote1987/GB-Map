@@ -1188,4 +1188,120 @@ $grp GenericEntity {
   }
   coords 2354.89 11.657 1782.877
  }
+ Londonderry {
+  components {
+   SCR_EditableCommentComponent "{6846B12CB7FB1339}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{6846B12FF384E8AA}" {
+     Name "Londonderry"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_bStatic 1
+    m_Flags 2072
+    m_fSizeCoef 1.3
+    m_bBold 1
+   }
+   SCR_MapDescriptorComponent "{6846B12EA446C148}" {
+    DisplayName "Londonderry"
+    MainType "Name City"
+   }
+  }
+  coords 2953.16 16.563 4384.265
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{50E63E69B37539DB}Prefabs/Rocks/Granite/GraniteSurfaceStone_01.et" {
+ {
+  coords 2976.284 14.352 4436.111
+ }
+ {
+  coords 2985.19 14.352 4439.332
+ }
+ {
+  coords 2975.214 13.439 4443.27
+ }
+ {
+  coords 2985.529 14.573 4445.224
+ }
+ {
+  coords 2993.035 14.424 4442.22
+ }
+ {
+  coords 2977.846 13.834 4445.473
+  angles 0 114.421 0
+ }
+ {
+  coords 2982.533 14.457 4452.889
+ }
+ {
+  coords 2989.177 15.4 4449.782
+ }
+ {
+  coords 2997.073 14.184 4452.97
+ }
+ {
+  coords 2987.774 13.805 4458.973
+ }
+ {
+  coords 2992.088 14.321 4457.62
+  angles 0 -128.125 0
+ }
+}
+GenericEntity : "{8108030C9418162E}Prefabs/Structures/Signs/Warnings/SignNoEntryOneDir_01_pole.et" {
+ coords 2950.33 16.581 4396.531
+ angles 0 -133.523 0
+}
+$grp Tree : "{A55D677BBD929F25}Prefabs/Vegetation/Tree/t_pinus_sylvestris/T_Pinus_sylvestris_02_2sw.et" {
+ {
+  coords 2978.019 7.36 4440.232
+  angles 0 91.277 0
+  scale 0.99
+ }
+ {
+  coords 2988.778 0.581 4435.965
+  angles 0 91.277 0
+  scale 0.99
+ }
+ {
+  coords 2980.448 5.8 4458.636
+  angles 0 91.277 0
+  scale 0.99
+ }
+ {
+  coords 2989.771 7.775 4453.187
+  angles 0 91.277 0
+  scale 0.99
+ }
+}
+$grp Tree : "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
+ {
+  coords 2970.875 0 4420.405
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2978.247 0 4427.663
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2963.854 -0 4412.198
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2974.673 -0 4420.346
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2981.833 8.267 4447.084
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2989.693 2.342 4442.069
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
 }
