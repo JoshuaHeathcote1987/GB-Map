@@ -43172,7 +43172,6 @@ $grp SplineShapeEntity {
       {
        coords -173.463 18.227 -254.053
        angles -71.683 98.199 -46.248
-       scale 1
       }
       {
        coords -176.985 16.121 -252.315
@@ -44696,7 +44695,6 @@ $grp SplineShapeEntity {
       {
        coords -236.795 22.509 -319.413
        angles -0.721 153.429 1.993
-       scale 1
       }
       {
        coords -240.97 21.621 -320.778
@@ -46140,7 +46138,6 @@ $grp SplineShapeEntity {
       {
        coords 116.088 27.763 -70.919
        angles 0.381 -5.427 -0.199
-       scale 1
       }
       {
        coords 121.75 28.253 -76.066
@@ -78405,8 +78402,14 @@ $grp GenericEntity : "{3532649D6B93B0D9}Prefabs/Structures/Civilian/SportGrounds
  }
 }
 SCR_DestructibleBuildingEntity : "{3780460BA2B1621F}PrefabLibrary/CainLibrary/Structures/Military/HospitalMilitary_USSR_01_brick.et" {
- coords 3375.505 6.324 3069.885
+ coords 3372.379 8.189 3069.942
  angles 0 91.045 0
+ {
+  SCR_IndestructibleEnvironmentalEntity {
+   ID "666ECA1A51D8882B"
+   coords 0 -2.259 0.154
+  }
+ }
 }
 $grp GenericEntity : "{3A75EF80872F770F}Prefabs/Structures/Signs/Warnings/SignOneWay_01_pole.et" {
  {

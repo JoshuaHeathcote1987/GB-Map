@@ -805,6 +805,131 @@ $grp PolylineShapeEntity {
    }
   }
  }
+ {
+  coords 5467.833 4.719 3398.93
+  Points {
+   ShapePoint "{6926B9F5C084F7C6}" {
+    Position -2.311 -0 -2.126
+   }
+   ShapePoint "{6926B9F5C0870D38}" {
+    Position -3.719 -0 26.423
+   }
+   ShapePoint "{6926B9F5BADAC292}" {
+    Position -26.455 -0 25.983
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords -2.311 -0 -2.126
+       angles 0 -92.823 0
+      }
+      {
+       coords -2.411 -0 -0.108
+       angles 0 -92.823 0
+      }
+      {
+       coords -2.51 -0 1.909
+       angles 0 -92.823 0
+      }
+      {
+       coords -2.61 -0 3.927
+       angles 0 -92.823 0
+      }
+      {
+       coords -2.709 -0 5.945
+       angles 0 -92.823 0
+      }
+      {
+       coords -2.808 -0 7.963
+       angles 0 -92.823 0
+      }
+      {
+       coords -2.908 -0 9.98
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.007 -0 11.998
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.107 -0 14.016
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.206 -0 16.034
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.306 -0 18.051
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.405 -0 20.069
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.505 -0 22.087
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.604 -0 24.104
+       angles 0 -92.823 0
+      }
+      {
+       coords -3.704 -0 26.122
+       angles 0 -180.349 0
+      }
+      {
+       coords -5.724 -0 26.11
+       angles 0 -180.349 0
+      }
+      {
+       coords -7.744 -0 26.098
+       angles 0 -180.349 0
+      }
+      {
+       coords -9.764 -0 26.085
+       angles 0 -180.349 0
+      }
+      {
+       coords -11.784 -0 26.073
+       angles 0 -180.349 0
+      }
+      {
+       coords -13.805 -0 26.061
+       angles 0 -180.349 0
+      }
+      {
+       coords -15.825 -0 26.048
+       angles 0 -180.349 0
+      }
+      {
+       coords -17.845 -0 26.036
+       angles 0 -180.349 0
+      }
+      {
+       coords -19.865 -0 26.024
+       angles 0 -180.349 0
+      }
+      {
+       coords -21.885 -0 26.011
+       angles 0 -180.349 0
+      }
+      {
+       coords -23.905 -0 25.999
+       angles 0 -180.349 0
+      }
+     }
+    }
+   }
+  }
+ }
 }
 $grp SplineShapeEntity {
  {
@@ -4117,9 +4242,15 @@ DecalEntity : "{2ACD219E71A51B54}Prefabs/Decals/Fluids/Decal_PetrolStain_01_V1.e
  angles -90 -180 -180
  scale 2
 }
-SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cultural/Castles/Castle_01_Stairs_01.et" {
- coords 5495.455 -5.29 5422.856
- angles 0 -3.615 0
+$grp SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cultural/Castles/Castle_01_Stairs_01.et" {
+ {
+  coords 5495.455 -5.29 5422.856
+  angles 0 -3.615 0
+ }
+ {
+  coords 5516.547 -5.522 5372.891
+  angles 0 64.591 0
+ }
 }
 $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m_grass.et" {
  {
@@ -4354,6 +4485,43 @@ GenericEntity : "{4A34979DC19CA9ED}Prefabs/Props/Construction/ConcreteMixer_01.e
  coords 6894.253 4.313 1585.37
  angles 0 -135.818 0
 }
+$grp SCR_IndestructibleEnvironmentalEntity : "{50E63E69B37539DB}Prefabs/Rocks/Granite/GraniteSurfaceStone_01.et" {
+ {
+  coords 2976.284 14.352 4436.111
+ }
+ {
+  coords 2985.19 14.352 4439.332
+ }
+ {
+  coords 2975.214 13.439 4443.27
+ }
+ {
+  coords 2985.529 14.573 4445.224
+ }
+ {
+  coords 2993.035 14.424 4442.22
+ }
+ {
+  coords 2977.846 13.834 4445.473
+  angles 0 114.421 0
+ }
+ {
+  coords 2982.533 14.457 4452.889
+ }
+ {
+  coords 2989.177 15.4 4449.782
+ }
+ {
+  coords 2997.073 14.184 4452.97
+ }
+ {
+  coords 2987.774 13.805 4458.973
+ }
+ {
+  coords 2992.088 14.321 4457.62
+  angles 0 -128.125 0
+ }
+}
 GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_bathtub.et" {
  coords 6610.791 4.103 1429.289
  angles 4.69 44.772 -36.116
@@ -4537,6 +4705,10 @@ GenericEntity : "{7E5A4578657283E6}Prefabs/Props/Industrial/GasTank_02_red.et" {
  coords 6890.513 3.485 3614.829
  angles 0 153.559 0
 }
+GenericEntity : "{8108030C9418162E}Prefabs/Structures/Signs/Warnings/SignNoEntryOneDir_01_pole.et" {
+ coords 2950.33 16.581 4396.531
+ angles 0 -133.523 0
+}
 SCR_DestructibleBuildingEntity : "{8606D888D71A206A}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1I02.et" {
  coords 6258.592 0.119 1456.732
  angles 0 -46.164 0
@@ -4676,6 +4848,28 @@ $grp GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/Cab
 GenericEntity : "{A52C57FE8549A13E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_red.et" {
  coords 6904.598 3.094 3553.119
  angles 0 43.217 0
+}
+$grp Tree : "{A55D677BBD929F25}Prefabs/Vegetation/Tree/t_pinus_sylvestris/T_Pinus_sylvestris_02_2sw.et" {
+ {
+  coords 2978.019 7.36 4440.232
+  angles 0 91.277 0
+  scale 0.99
+ }
+ {
+  coords 2988.778 0.581 4435.965
+  angles 0 91.277 0
+  scale 0.99
+ }
+ {
+  coords 2980.448 5.8 4458.636
+  angles 0 91.277 0
+  scale 0.99
+ }
+ {
+  coords 2989.771 7.775 4453.187
+  angles 0 91.277 0
+  scale 0.99
+ }
 }
 GenericEntity : "{A8D8015D0E2B600A}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01_single_mattress.et" {
  coords 6604.403 3.782 1426.433
@@ -4839,6 +5033,38 @@ DecalEntity : "{CDDCF6AC97F06199}Prefabs/Decals/Fluids/Decal_PetrolStain_01_V2.e
  coords 5367.442 0 6142.33
  angles -90 -180 -180
  scale 2
+}
+$grp Tree : "{CED0732AEAD82213}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_1s.et" {
+ {
+  coords 2970.875 0 4420.405
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2978.247 0 4427.663
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2963.854 0 4412.198
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2974.673 0 4420.346
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2981.833 8.267 4447.084
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
+ {
+  coords 2989.693 2.342 4442.069
+  angles -1.616 -31.026 0.132
+  scale 1.108
+ }
 }
 SCR_DestructibleBuildingEntity : "{D1A2077E004C7F64}Prefabs/Structures/Agriculture/Wooden Barn Short.et" {
  coords 6895.825 -0.413 3591.338
