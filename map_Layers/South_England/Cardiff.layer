@@ -1,31 +1,11 @@
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{65EB0A6B6221F9AA}" {
-    Object "{8B56875CC2F31D40}Assets/Structures/Military/Houses/GuardBox_01/GuardBox_01.xob"
-   }
+GenericEntity {
+ components {
+  MeshObject "{65EB0A6B6221F9AA}" {
+   Object "{8B56875CC2F31D40}Assets/Structures/Military/Houses/GuardBox_01/GuardBox_01.xob"
   }
-  coords 5508.039 8.215 1559.481
-  angles 0 -91.272 0
  }
- {
-  components {
-   MeshObject "{65EB0A6B6221F9AA}" {
-    Object "{8B56875CC2F31D40}Assets/Structures/Military/Houses/GuardBox_01/GuardBox_01.xob"
-   }
-  }
-  coords 5508.368 8.408 1563.496
-  angles 0 91.848 0
- }
- {
-  components {
-   MeshObject "{65EB0A6B6221F9AA}" {
-    Object "{8B56875CC2F31D40}Assets/Structures/Military/Houses/GuardBox_01/GuardBox_01.xob"
-   }
-  }
-  coords 6184.968 5.344 1968.976
-  angles 0 -176.42 0
- }
+ coords 6184.968 5.344 1968.976
+ angles 0 -176.42 0
 }
 $grp PolylineShapeEntity {
  {
@@ -290016,6 +289996,16 @@ $grp SplineShapeEntity {
   }
  }
 }
+$grp StaticModelEntity {
+ {
+  coords 6127.269 -0.296 1356.075
+  angles -5.345 -144.15 0
+ }
+ {
+  coords 6132.772 -0.153 1352.231
+  angles -5.345 -144.15 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{008ECFE8693C0A1D}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs02.et" {
  coords 5714.632 0.61 4933.352
  angles 0 160.882 0
@@ -290069,12 +290059,9 @@ $grp Tree : "{0730D3271265110D}PrefabLibrary/DefaultLibrary/Vegetation/Vegetable
 }
 $grp StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
  {
-  coords 5506.844 9.531 1552.929
+  coords 5506.845 9.77 1552.259
   angles 0 89.963 0
- }
- {
-  coords 5510.108 7.746 1568.88
-  angles 0 -90.709 0
+  scale 0.81
  }
  {
   coords 6179.757 0 1966.733
@@ -291533,16 +291520,6 @@ $grp GenericEntity : "{45D056CC11985141}Prefabs/Props/Wrecks/S1203_wreck/S1203_w
 GenericEntity : "{46B71B9E370BE7C0}Prefabs/Props/Forest/WoodPile/WoodPile_01_End_B.et" {
  coords 6412.153 19.656 2735.071
  angles 0 -114.479 0
-}
-$grp StaticModelEntity : "{46BCEF649425432C}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_03/TrenchOld_03_6m_wood_right.et" {
- {
-  coords 6127.269 -0.296 1356.075
-  angles -5.345 -144.15 0
- }
- {
-  coords 6132.772 -0.153 1352.231
-  angles -5.345 -144.15 0
- }
 }
 $grp GenericEntity : "{4D1517866E9C2362}Prefabs/Props/Forest/WoodPile/WoodPile_02_A.et" {
  {
