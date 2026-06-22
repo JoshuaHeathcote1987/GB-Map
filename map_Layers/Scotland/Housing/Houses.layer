@@ -1,14 +1,38 @@
+$grp SCR_DestructibleBuildingEntity {
+ {
+  coords 5199.949 -0.446 5257.218
+  angles 0 -45.966 0
+ }
+ {
+  coords 5203.269 -0.721 5307.205
+  angles 0 -134.723 0
+ }
+ {
+  coords 5160.813 -0.426 5274.373
+  angles 0 44.575 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_red.et" {
  coords 5599.521 0.157 5378.163
  angles 0 -18.288 0
 }
 SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/DefaultLibrary/Structures/Cultural/Church_01.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69AD1DBFB7407E76}" {
+     SourceMaterial "Church_01_ExtDetails"
+     AssignedMaterial "{D8EB675C8B55975B}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_InnerWall_02.emat"
+    }
+    MaterialAssignClass "{69AD1DBFB7407D99}" {
+     SourceMaterial "Church_01_ExtWalls"
+     AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+    }
+   }
+  }
+ }
  coords 5525.9 8.383 5335.177
  angles 0 -23.089 0
-}
-SCR_DestructibleBuildingEntity : "{222BA50DBE764628}Prefabs/Buildings/Civilian/Apartments/Apartment_4-Storey/Apartment_4-Storey_v1.et" {
- coords 5199.949 -0.446 5257.218
- angles 0 -45.966 0
 }
 $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_Pillar.et" {
  {
@@ -47,6 +71,16 @@ SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/DefaultLibrary
  angles 0 -3.143 0
 }
 SCR_DestructibleBuildingEntity : "{57632F08BA42F1DC}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1I03.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69AD1DBABFE30757}" {
+     SourceMaterial "House_E_1I03_walls"
+     AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+    }
+   }
+  }
+ }
  coords 5589.351 0.017 5401.58
  angles 0 -109.17 0
 }
@@ -68,16 +102,6 @@ SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/DefaultLibrary
 SCR_DestructibleBuildingEntity : "{C363B659675041BA}Prefabs/Structures/Agriculture/Barn/Barn_E_03/Barn_E_03_closed.et" {
  coords 4001.739 0.24 6539.395
  angles 0 110.658 0
-}
-$grp SCR_DestructibleBuildingEntity : "{C5150733DF21B092}Prefabs/Buildings/Civilian/Apartments/Apartment_12-Storey/Apartment_12-Storey_v2.et" {
- {
-  coords 5203.269 -0.721 5307.205
-  angles 0 -134.723 0
- }
- {
-  coords 5160.813 -0.426 5274.373
-  angles 0 44.575 0
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{CC264B8673EF22FD}PrefabsEditable/Auto/Structures/Cultural/Cemeteries/Tombstones/E_GraveStone_E_01_C.et" {
  {

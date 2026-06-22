@@ -4129,6 +4129,11 @@ $grp GenericEntity : "{04FE0B74EBFBD066}Prefabs/Props/Fabric/Flags/Flag_2_3_RedC
   scale 3.06
  }
 }
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 5504.039 6.089 1569.484
+ angles 0 -90.559 0
+ scale 0.81
+}
 DecalEntity : "{091747817467C504}Prefabs/Decals/Fluids/Decal_OilStain_01_medium.et" {
  coords 5363.566 0 6135.315
  angles -90 -180 -180
@@ -4207,6 +4212,80 @@ $grp DecalEntity : "{25AB7FF81B8EDEF9}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_01.e
   coords 6929.658 0 3559.021
   angles -90 0 -35.682
   scale 10
+ }
+}
+$grp GenericEntity : "{25C8B889A777399D}Prefabs/Props/Infrastructure/ConeTraffic/ConeTraffic_01_red.et" {
+ {
+  coords 5502.554 8.408 1566.943
+ }
+ {
+  coords 5498.472 8.401 1566.62
+ }
+ {
+  coords 5500.122 8.401 1566.943
+ }
+ {
+  coords 5494.981 8.401 1565.077
+ }
+ {
+  coords 5496.931 8.401 1566.164
+ }
+ {
+  coords 5501.511 8.401 1567.029
+ }
+ {
+  coords 5492.499 8.401 1564.301
+ }
+ {
+  coords 5486.776 8.401 1562.534
+ }
+ {
+  coords 5489.732 8.401 1563.092
+ }
+ {
+  coords 5482.48 8.401 1561.728
+ }
+ {
+  coords 5479.272 8.448 1561.314
+ }
+ {
+  coords 5507.086 8.215 1555.592
+ }
+ {
+  coords 5509.178 8.215 1555.818
+ }
+ {
+  coords 5510.965 8.215 1556.048
+ }
+ {
+  coords 5514.265 8.215 1556.138
+ }
+ {
+  coords 5512.841 8.215 1556.073
+ }
+ {
+  coords 5516.54 8.215 1556.337
+ }
+ {
+  coords 5520.676 8.215 1557.548
+ }
+ {
+  coords 5518.674 8.215 1556.805
+ }
+ {
+  coords 5523.507 8.215 1558.559
+ }
+ {
+  coords 5526.251 8.215 1559.368
+ }
+ {
+  coords 5534.445 8.229 1559.804
+ }
+ {
+  coords 5529.693 8.229 1559.529
+ }
+ {
+  coords 5538.82 8.229 1560.057
  }
 }
 $grp GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.et" {
@@ -4529,6 +4608,16 @@ GenericEntity : "{52F4C6F1D59655CA}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
 GenericEntity : "{57237781CE749464}Prefabs/Props/Agriculture/Farm/Trough_01.et" {
  coords 6926.364 3.554 3614.201
  angles 0 72.929 0
+}
+$grp SCR_DestructibleBuildingEntity : "{593465C224511F4F}Prefabs/Structures/Commerical/TicketBooth.et" {
+ {
+  coords 5505.682 7.946 1560.34
+  angles 0 178.429 0
+ }
+ {
+  coords 5505.431 7.863 1561.48
+  angles 0 0.445 0
+ }
 }
 $grp Tree : "{59EDDDB5D3B5241F}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_piceaabies_3f.et" {
  {

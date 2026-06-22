@@ -16855,9 +16855,6 @@ $grp GenericEntity : "{4E847FB9C036EE30}Prefabs/Props/Industrial/CargoContainers
   angles 0 153.947 0
  }
 }
-GenericEntity : "{52F103DBD3472A67}PrefabLibrary/DefaultLibrary/Structures/Forest/FeedRack_02.et" {
- coords 5600.166 7.965 3585.323
-}
 Tree : "{531BB93086610CA1}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_betula_pendula_0.et" {
  coords 3440.182 0 3173.976
  angles 1.681 187.916 0.655
@@ -16867,7 +16864,7 @@ GenericEntity : "{564C25FB20184E01}PrefabLibrary/DefaultLibrary/Infrastructure/S
  coords 3496.254 3.819 3798.043
  angles 2.168 26.087 0.017
 }
-StaticModelEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
+SCR_DestructibleBuildingEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
  coords 3888.818 3.964 4007.738
  angles 0 96.492 0
 }

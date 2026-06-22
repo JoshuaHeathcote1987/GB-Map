@@ -1,3 +1,8 @@
+GenericEntity {
+ coords 3519.346 11.475 3279.151
+ angles 0 90.939 0
+ scale 25.787
+}
 $grp PolylineShapeEntity {
  {
   coords 3606.332 6.25 3224.568
@@ -2568,6 +2573,10 @@ $grp PolylineShapeEntity {
    }
   }
  }
+}
+SCR_DestructibleBuildingEntity {
+ coords 3517.165 6.18 3246.783
+ angles 0 -179.008 0
 }
 $grp SplineShapeEntity {
  {
@@ -78383,7 +78392,7 @@ $grp SCR_DestructibleBuildingEntity : "{329AA27D49D3CA99}Prefabs/Structures/City
     EnableDamage 0
    }
   }
-  coords 3856.504 0.446 4202.822
+  coords 3834.073 0.512 4205.223
   angles 0 -173.889 0
  }
 }
@@ -78713,10 +78722,6 @@ SCR_DestructibleBuildingEntity : "{93710009B66143C7}Prefabs/Structures/Commerica
 SCR_DestructibleBuildingEntity : "{9541E062B18908ED}Prefabs/Structures/Commerical/SuperMarket_WithStairs.et" {
  coords 3861.593 0.703 4246.979
  angles 0 -85.627 0
-}
-SCR_DestructibleBuildingEntity : "{98E878BFD0072149}Prefabs/Buildings/Fire Station/Firestation_v1.et" {
- coords 3517.165 6.18 3246.783
- angles 0 -179.008 0
 }
 $grp SCR_DestructibleEntity : "{99CB239B0D6F04D4}Prefabs/Structures/Walls/Brick/BrickWallOld_01/BrickWallOld_01_Pole_white.et" {
  {
@@ -79400,11 +79405,6 @@ $grp Tree : "{F4922F4706ECDFC3}PrefabLibrary/CainLibrary/Vegetation/Trees/t_pice
   angles -0.456 167.349 -0.278
   scale 1.072
  }
-}
-GenericEntity : "{F6FDE2A78B4237ED}Prefabs/Props/Furniture/Pictures/Picture_FireVehicle_01_300x700.et" {
- coords 3519.346 11.475 3279.151
- angles 0 90.939 0
- scale 25.787
 }
 $grp SCR_DestructibleBuildingEntity : "{FDB73CBC36C9FE21}PrefabLibrary/DefaultLibrary/Infrastructure/Bridges/ConcreteBridge_01_Pillar.et" {
  {
