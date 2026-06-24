@@ -1,3 +1,17 @@
+$grp GenericEntity {
+ {
+  coords 2397.075 13.521 1709.482
+  angles 0 154.749 0
+ }
+ {
+  coords 2419.078 14.561 1719.8
+  angles 0 156.504 0
+ }
+ {
+  coords 2408.051 14.019 1714.533
+  angles 0 154.98 0
+ }
+}
 ParticleEffectEntity {
  coords 2347.25 18.452 1792.307
  EffectPath "{E454B3B05B8A3A90}Particles/Props/Sparks_Electric_Medium.ptc"
@@ -74340,10 +74354,6 @@ $grp GenericEntity : "{142C8190C2BBBAF5}Prefabs/Structures/Walls/Brick/BrickWall
 SCR_DestructibleBuildingEntity : "{1D4AA0AA6AF86050}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_01/WaterStation_01_base.et" {
  coords 2331.696 0.588 1756.167
 }
-GenericEntity : "{1E3693459113E8D2}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_CurlUp.et" {
- coords 2397.075 13.521 1709.482
- angles 0 154.749 0
-}
 SCR_DestructibleBuildingEntity : "{1EBCCFE4C5D09AEE}Prefabs/Structures/Infrastructure/Naval/Piers/90 Pier01.et" {
  coords 2049.029 2.614 2474.719
  angles 0 -7.137 0
@@ -74393,11 +74403,6 @@ $grp SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cult
   angles 0 0.296 0
   scale 1.1
  }
- {
-  coords 2290.689 -6.562 1748.977
-  angles 0 0.296 0
-  scale 1.1
- }
 }
 SCR_DestructibleBuildingEntity : "{329AA27D49D3CA99}Prefabs/Structures/City/5_Floor_Appartment.et" {
  coords 3756.49 1.256 4125.83
@@ -74411,10 +74416,6 @@ GenericEntity : "{3805BF3D6095E6B9}Prefabs/Structures/Signs/Traffic/VergePost/St
  }
  coords 2231.348 20.695 1764.83
  scale 14.286
-}
-GenericEntity : "{3E7EB2BFD667F698}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_WHSmythe.et" {
- coords 2419.078 14.561 1719.8
- angles 0 156.504 0
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Granite/GraniteCliff_01.et" {
  {
@@ -74515,7 +74516,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Gr
   angles 0 1.01 0
  }
  {
-  coords 2295.871 -8.386 1761.394
+  coords 2295.911 -8.386 1763.667
   angles 0 1.01 0
  }
  {
@@ -74523,7 +74524,7 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Gr
   angles 0 -90.454 0
  }
  {
-  coords 2294.677 -6.221 1763.469
+  coords 2294.691 -6.221 1764.249
   angles 0 1.01 0
  }
  {
@@ -74817,8 +74818,9 @@ $grp SCR_DestructibleBuildingEntity : "{7124EA81F33E40CE}Prefabs/Structures/Cult
   angles 0 -148.222 0
  }
  {
-  coords 2297.395 -6.808 1754.712
+  coords 2297.396 -8.659 1754.803
   angles 0 -179.831 0
+  scale 1.092
  }
 }
 SCR_DestructibleBuildingEntity : "{728F2D7CD93D3D1D}Prefabs/Structures/Infrastructure/Waterworks/WaterReservoir_01/WaterReservoir_01.et" {
@@ -74970,32 +74972,6 @@ $grp SCR_DestructibleBuildingEntity : "{86952D860A66DBA6}Prefabs/Structures/Cult
  {
   coords 2228.834 -6.072 1781.21
   angles 0 35.556 0
- }
-}
-$grp GenericEntity : "{8792D3CCB7359A71}Prefabs/Sounds/Sources/SoundSource_WaterFall_Large.et" {
- {
-  components {
-   SoundComponent "{56B7086A4B90F246}" {
-    Enabled 1
-   }
-  }
-  coords 2001.745 0.643 1867.742
- }
- {
-  components {
-   SoundComponent "{56B7086A4B90F246}" {
-    Enabled 1
-   }
-  }
-  coords 1997.623 1.284 1843.67
- }
- {
-  components {
-   SoundComponent "{56B7086A4B90F246}" {
-    Enabled 1
-   }
-  }
-  coords 5375.091 23.632 2486.207
  }
 }
 $grp Tree : "{8900F9BBB67F93E3}Prefabs/Vegetation/Bush/b_phragmites_australis_1b_aut.et" {
@@ -76494,10 +76470,6 @@ SCR_DestructibleBuildingEntity : "{DECF116069DCCC2B}Prefabs/Structures/Cultural/
  coords 1892.865 -12.34 1946.901
  angles 0 0 0
 }
-GenericEntity : "{E06CCC4E1E454E21}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1_BritProps_Pharmacy.et" {
- coords 2408.051 14.019 1714.533
- angles 0 154.98 0
-}
 SCR_DestructibleBuildingEntity : "{E0D823883B9C3E26}Prefabs/Structures/Military/Houses/GuardHouse_03/GuardHouse_03_white.et" {
  coords 2379.622 -0.483 1791.307
  angles 0 -89.965 0
@@ -76705,32 +76677,6 @@ SCR_DestructibleBuildingEntity : "{F51B9B9BD15BBE64}Prefabs/Structures/Commercia
 SCR_DestructibleBuildingEntity : "{F536F4CB2FB2191C}Prefabs/Structures/Services/Hospital.et" {
  coords 2321.212 -0.432 1842.315
  angles 0 -91.8 0
-}
-$grp GenericEntity : "{F70A3289977E44EA}Prefabs/Sounds/Sources/SoundSource_WaterFall_Medium.et" {
- {
-  components {
-   SoundComponent "{56B7086A4B90F246}" {
-    Enabled 1
-   }
-  }
-  coords 5696.127 35.754 4071.488
- }
- {
-  components {
-   SoundComponent "{56B7086A4B90F246}" {
-    Enabled 1
-   }
-  }
-  coords 5671.207 29.875 4082.38
- }
- {
-  components {
-   SoundComponent "{56B7086A4B90F246}" {
-    Enabled 1
-   }
-  }
-  coords 2304.764 0 1755.768
- }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{F85FC719F392E7A5}Prefabs/Rocks/Granite/Granite_Boulder_02_Fucus.et" {
  {

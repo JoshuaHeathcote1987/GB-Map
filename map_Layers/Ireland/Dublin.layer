@@ -1,41 +1,4 @@
-GenericEntity {
- coords 3519.346 11.475 3279.151
- angles 0 90.939 0
- scale 25.787
-}
 $grp PolylineShapeEntity {
- {
-  coords 3606.332 6.25 3224.568
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 3605.782 6.25 3309.213
-  Points {
-   ShapePoint "{65E6F25EC383C294}" {
-    Position -410.47 -0.312 0.514
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 3605.212 5.885 3321.79
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
-    Flags 0x100003 0
-   }
-  }
- }
  {
   coords 3319.477 6.25 3258.015
   Points {
@@ -2682,36 +2645,6 @@ $grp SplineShapeEntity {
  }
  {
   coords 3191.879 5.942 3316.046
-  {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
-    coords 0 0 0
-    {
-     RoadEntity {
-      ID "556C6556FAB8EA7A"
-      IsClosedSpline 0
-      Width 12
-     }
-    }
-   }
-  }
- }
- {
-  coords 3191.879 5.942 3316.046
-  {
-   RoadGeneratorEntity : "{5E336AEB0923963F}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
-    coords 0 0 0
-    {
-     RoadEntity {
-      ID "556C6556FAB8EA7A"
-      IsClosedSpline 0
-      Width 12
-     }
-    }
-   }
-  }
- }
- {
-  coords 3191.879 5.942 3316.046
   Points {
    ShapePoint "{684B1E8108566D18}" {
     Position -84.82 0.902 -125.098
@@ -2729,7 +2662,7 @@ $grp SplineShapeEntity {
     Position -33.427 0.233 -3.234
    }
    ShapePoint "{65E726241E851D15}" {
-    Position 0.025 -0.004 0.355
+    Position 1.673 0.308 1.696
    }
    ShapePoint "{65E726269395BD10}" {
     Position 101.09 -0.004 -0.658
@@ -2761,22 +2694,22 @@ $grp SplineShapeEntity {
         Position -79.766 0.989 -111.986
        }
        ShapePoint "{684B1E815147566F}" {
-        Position -73.2 1.14 -86.133
+        Position -73.199 1.14 -86.133
        }
        ShapePoint "{684B1E814921A69C}" {
         Position -56.332 0.494 -40.519
        }
        ShapePoint "{684B1E814E519217}" {
-        Position -33.426 0.233 -3.234
+        Position -33.427 0.233 -3.234
        }
        ShapePoint "{684B1E814F4F88A9}" {
-        Position 0.025 -0.004 0.355
+        Position 1.673 0.308 1.696
        }
        ShapePoint "{684B1E8115DAA3CE}" {
         Position 101.09 -0.004 -0.658
        }
        ShapePoint "{684B1E81155C3580}" {
-        Position 166.25 0.277 25.737
+        Position 166.25 0.277 25.738
        }
        ShapePoint "{684B1E810A7CB349}" {
         Position 203.85 -0.067 34.744
@@ -30759,10 +30692,6 @@ $grp SplineShapeEntity {
        angles -2.852 -139.63 -2.758
        scale 0.86
       }
-     }
-     ForestGeneratorEntity : "{1D9EB8BDA97F3A25}Prefabs/WEGenerators/Brushland/FG_Brushland_Pastures_01.et" {
-      Flags 0x100003 0
-      coords 0 0 0
      }
      $grp Tree : "{20C4A23B039DFCF3}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_picea_abies_3s.et" {
       {

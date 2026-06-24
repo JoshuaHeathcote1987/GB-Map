@@ -75743,44 +75743,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{0B31DF40DF62F895}Prefabs/Structur
   angles 0 -7.52 0
  }
 }
-$grp GenericEntity : "{0BE3BDE3910436F2}Prefabs/Props/Decorations/Flowerpots/FlowerpotPelargonia_01_red.et" {
- {
-  coords 5169.578 18.342 946.99
-  angles 0 75.799 0
- }
- {
-  coords 5168.97 18.326 949.22
-  angles 0 75.799 0
- }
- {
-  coords 5168.361 18.357 951.443
-  angles 0 75.799 0
- }
- {
-  coords 5166.896 18.359 957.812
-  angles 0 75.799 0
- }
- {
-  coords 5166.198 18.277 959.994
-  angles 0 75.799 0
- }
- {
-  coords 5163.741 18.372 960.823
-  angles 0 -12.508 0
- }
- {
-  coords 5161.64 18.309 960.276
-  angles 0 -12.508 0
- }
- {
-  coords 5154.301 18.301 958.373
-  angles 0 -12.508 0
- }
- {
-  coords 5151.867 18.368 957.783
-  angles 0 -12.508 0
- }
-}
 SCR_DestructibleBuildingEntity : "{0C133163A2E6AD2E}PrefabLibrary/DefaultLibrary/Props/Cultural/Grave_E_01_CoveredDouble.et" {
  coords 5091.107 0 1011.523
 }
@@ -75902,6 +75864,16 @@ SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/Default
  scale 1.295
 }
 SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/DefaultLibrary/Structures/Cultural/Church_01.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69B133F9C8E378D6}" {
+     SourceMaterial "Church_01_ExtWalls"
+     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+   }
+  }
+ }
  coords 5100.321 6.237 993.825
  angles 0 168.475 0
 }
@@ -76627,6 +76599,16 @@ $grp SCR_DestructibleBuildingEntity : "{5AFE0681AA5C74B4}PrefabLibrary/DefaultLi
  }
 }
 SCR_DestructibleBuildingEntity : "{5B4099F8DD30CD3E}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I01.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69B133F9758B0CDB}" {
+     SourceMaterial "House_Town_E_2I01_Ext_Front"
+     AssignedMaterial "{4E968779BCFE5A1A}Assets/Clutter/Rocks/Data/pebbledash4.emat"
+    }
+   }
+  }
+ }
  coords 5112.336 0 940.303
  angles 0 -14.153 0
 }
@@ -76667,7 +76649,7 @@ $grp GenericEntity : "{613F6B641DAE930D}PrefabLibrary/DefaultLibrary/Props/Infra
   angles 0.887 7.604 0.118
  }
 }
-StaticModelEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
+SCR_DestructibleBuildingEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
  coords 4940.47 16.287 1234.867
 }
 $grp GenericEntity : "{647C8407E399D6BB}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleStraight.et" {
@@ -76761,6 +76743,16 @@ $grp GenericEntity : "{72E42BEAFED9B5A7}Prefabs/Props/Garbage/Bins/GarbageContai
  }
 }
 SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69B133F90DB7FEB5}" {
+     SourceMaterial "House_Town_E_2I02_v2_Ext1"
+     AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+    }
+   }
+  }
+ }
  coords 5126.547 0 945.388
  angles 0 -13.239 0
 }
@@ -76863,10 +76855,6 @@ $grp DecalEntity : "{925553528D276E6D}Prefabs/Decals/Asphalt/Decal_Asphalt_Crack
   scale 3
  }
 }
-SCR_DestructibleBuildingEntity : "{92E8F78BCF17D93D}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_clothesstore.et" {
- coords 5100.701 -0.011 937.359
- angles 0 -13.967 0
-}
 $grp SCR_DestructibleEntity : "{935A7079755D467F}Prefabs/Props/Decorations/Flowerpots/FlowerpotStreet_01/FlowerpotStreet_01_rect_long_begonia_white.et" {
  {
   coords 5162.863 16.687 924.511
@@ -76932,10 +76920,6 @@ $grp SCR_DestructibleEntity : "{95A1D31077D47BEA}PrefabLibrary/DefaultLibrary/Wa
   coords 5095.11 6.727 756.062
   angles 0 254.254 0
  }
-}
-SCR_DestructibleBuildingEntity : "{965AFAD159CB0C8A}Prefabs/Structures/Commercial/Pubs/PubVillage_E_2L01/PubVillage_E_2L01_V8_ProgresBar.et" {
- coords 5158.992 0.24 951.274
- angles 0 -104.369 0
 }
 SCR_DestructibleBuildingEntity : "{97380F89AA02D20B}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/BusShed_E_01_blue.et" {
  coords 5175.677 0.131 931.745
@@ -77901,10 +77885,6 @@ GenericEntity : "{F2E1EC75BF5C8224}PrefabLibrary/DefaultLibrary/Infrastructure/S
  coords 4808.813 6.976 858.282
  angles -0.607 92.232 1.448
 }
-SCR_DestructibleBuildingEntity : "{F51B9B9BD15BBE64}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_householdwares.et" {
- coords 5077.448 -0.019 931.506
- angles 0 -13.014 0
-}
 $grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
  {
   coords 5098.531 6.025 747.481
@@ -77970,6 +77950,16 @@ SCR_DestructibleBuildingEntity : "{FF45F0D3CBF5F8A6}Prefabs/Structures/Infrastru
  angles 0 -105.645 0
 }
 SCR_DestructibleBuildingEntity : "{FF48B5059EB0AC65}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/ShopHouse_E_2I01t_drugstore.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69B133F888B0A4D8}" {
+     SourceMaterial "House_Town_E_2I01_Ext_Front"
+     AssignedMaterial "{074E9266CE382E70}Assets/Clutter/Rocks/Data/pebbledash3.emat"
+    }
+   }
+  }
+ }
  coords 5089.049 -0.034 934.396
  angles 0 -14.329 0
 }

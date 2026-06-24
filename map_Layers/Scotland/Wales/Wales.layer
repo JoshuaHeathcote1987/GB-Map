@@ -2785,15 +2785,6 @@ $grp PolylineShapeEntity {
   }
  }
  {
-  coords 5700.72 37.452 4227.931
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{272D40AD86F21423}PrefabLibrary/DefaultLibrary/Generators/Walls/Stone/WG_StoneWall_02.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
   coords 5697.027 37.644 4222.799
   Points {
    ShapePoint "{668AC19F4F990E82}" {
@@ -3349,19 +3340,16 @@ $grp PolylineShapeEntity {
   }
  }
  {
-  coords 5614.12 7.343 3527.889
- }
- {
   coords 5613.919 7.344 3527.243
   Points {
    ShapePoint "{66A0A0F40C8C875C}" {
-    Position 2.999 -0 0.25
+    Position 2.999 0 0.25
    }
    ShapePoint "{66A0A0F40C8CC8CE}" {
     Position -11.206 0 0.732
    }
    ShapePoint "{66A0A0F4FBB4979F}" {
-    Position -11.074 -0 -9.224
+    Position -11.074 0 -9.224
    }
   }
   LineColor 0 0 0 0
@@ -3371,30 +3359,30 @@ $grp PolylineShapeEntity {
     m_iSeed 5
     {
      SCR_DestructibleEntity : "{168CE46092EAD301}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_4m.et" {
-      coords -5.006 -0 0.522
+      coords -5.006 0 0.522
       angles 0 -178.057 0
      }
      SCR_DestructibleEntity : "{25E7C831EF87A0E1}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_Pole.et" {
-      coords -11.074 -0 -9.294
+      coords -11.074 0 -9.294
       angles 0 -269.707 0
      }
      $grp SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_2m.et" {
       {
-       coords -9.014 -0 0.658
+       coords -9.014 0 0.658
        angles 0 -178.057 0
       }
       {
-       coords -11.064 -0 -7.284
+       coords -11.064 0 -7.284
        angles 0 -269.707 0
       }
      }
      $grp SCR_DestructibleEntity : "{F717C1D3B6A27867}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_8m.et" {
       {
-       coords 2.999 -0 0.25
+       coords 2.999 0 0.25
        angles 0 -178.057 0
       }
       {
-       coords -11.023 -0 0.726
+       coords -11.023 0 0.726
        angles 0 -269.707 0
       }
      }
@@ -3567,7 +3555,7 @@ $grp PolylineShapeEntity {
     Position 34.152 0.094 -44.354
    }
    ShapePoint "{69AD1DB5149FF3DD}" {
-    Position 23.538 -0 -43.558
+    Position 23.538 0 -43.558
    }
   }
   LineColor 0 0 0 0
@@ -3580,12 +3568,12 @@ $grp PolylineShapeEntity {
       angles 0 -181.513 0
      }
      SCR_DestructibleEntity : "{25E7C831EF87A0E1}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_Pole.et" {
-      coords 24.84 -0 -43.523
+      coords 24.84 0 -43.523
       angles 0 -181.513 0
      }
      $grp SCR_DestructibleEntity : "{4ED2904BF79D37CC}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_D.et" {
       {
-       coords 24.03 -0 -0.018
+       coords 24.03 0 -0.018
        angles 0 47.038 0
       }
       {
@@ -3599,19 +3587,19 @@ $grp PolylineShapeEntity {
      }
      $grp SCR_DestructibleEntity : "{F717C1D3B6A27867}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_8m.et" {
       {
-       coords 0 -0 0
+       coords 0 0 0
        angles 0 0.043 0
       }
       {
-       coords 8.01 -0 -0.006
+       coords 8.01 0 -0.006
        angles 0 0.043 0
       }
       {
-       coords 16.02 -0 -0.012
+       coords 16.02 0 -0.012
        angles 0 0.043 0
       }
       {
-       coords 27.652 -0 -3.908
+       coords 27.652 0 -3.908
        angles 0 47.038 0
       }
       {
@@ -5375,94 +5363,6 @@ $grp PolylineShapeEntity {
  {
   coords 5624.674 5.29 3221.541
   Points {
-   ShapePoint "{66A0A0E22083EBA8}" {
-    Position 52.581 0.362 -11.774
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/DefaultLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 5624.674 5.29 3221.541
-  Points {
-   ShapePoint "{66A0A0E22083EBA8}" {
-    Position 50.883 0.3 -11.774
-   }
-   ShapePoint "{66A0A0E221741E35}" {
-    Position 50.76 0.386 -2.021
-   }
-   ShapePoint "{66A0A0E226A4430B}" {
-    Position -0.007 0.001 -0.094
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/DefaultLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
-    Flags 0x100003 0
-    {
-     SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m.et" {
-      coords 5.397 -0.259 -0.504
-      angles 0 -175.661 0
-     }
-     SCR_DestructibleEntity : "{4EF4686F9F99FE80}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_Pole.et" {
-      coords 1.571 -0.177 -0.214
-      angles 0 -175.661 0
-     }
-     SCR_DestructibleEntity : "{A86BB734C60AEF9C}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m_D.et" {
-      coords 35.392 -0.259 -2.78
-      angles 0 -175.661 0
-     }
-     $grp SCR_DestructibleEntity : "{D4101A467FE8E7EE}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_8m.et" {
-      {
-       coords 50.886 0.297 -11.991
-       angles 0 -90.723 0
-      }
-      {
-       coords 51.001 0.402 -3.965
-       angles 0 -175.661 0
-      }
-      {
-       coords 43.197 -0.259 -3.372
-       angles 0 -175.661 0
-      }
-      {
-       coords 28.809 -0.259 -2.281
-       angles 0 -175.661 0
-      }
-      {
-       coords 21.005 -0.259 -1.689
-       angles 0 -175.661 0
-      }
-      {
-       coords 13.201 -0.259 -1.096
-       angles 0 -175.661 0
-      }
-     }
-    }
-   }
-  }
- }
- {
-  coords 5624.674 5.29 3221.541
-  Points {
-   ShapePoint "{66A0A0E228B7C456}" {
-    Position -0.186 -0.161 -12.274
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/DefaultLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 5624.674 5.29 3221.541
-  Points {
    ShapePoint "{66A0A0E228B7C456}" {
     Position -0.186 -0.161 -12.274
    }
@@ -5481,10 +5381,6 @@ $grp PolylineShapeEntity {
    WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/DefaultLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
     Flags 0x100003 0
     {
-     SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m.et" {
-      coords 44.986 -0.259 -24.129
-      angles 0 5.08 0
-     }
      SCR_DestructibleEntity : "{4546AD2CC984193B}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_2m.et" {
       coords 48.851 -0.059 -24.472
       angles 0 5.08 0
@@ -5799,240 +5695,217 @@ $grp PolylineShapeEntity {
   }
  }
 }
-RoadEntity {
- coords 7257.986 -6.567 4412.761
- angles 0 -122.189 0
- SplinePoints {
-  ShapePoint "{556C6554868CB1B0}" {
-   Position 0 -0.001 0
-  }
-  ShapePoint "{556C6554868CB0CE}" {
-   Position 5 -0.025 0
-  }
- }
- IsClosedSpline 0
- Type "Road Main"
- Width 12
- Material "{157C879F91D214B4}Assets/Structures/Infrastructure/Roads/Data/Road_Asphalt_E_01.emat"
- RandomSeed 10277
-}
-$grp SCR_DestructibleBuildingEntity {
+SCR_DestructibleBuildingEntity {
+ coords 5635.076 1.349 3514.049
+ angles 0 -177.398 0
  {
-  coords 5635.076 1.349 3514.049
-  angles 0 -177.398 0
-  {
-   $grp Building {
-    {
-     coords 0 0 -0.001
-    }
-    {
-     coords 0 0 -0.001
-    }
-    {
-     coords 0 0 -0.001
-    }
-    {
-     coords 0 0 -0.001
-    }
-    {
-     coords 0 0 0.001
-    }
-    {
-     coords 0 0 0.001
-    }
-    {
-     coords 0 0 0.001
-    }
-    {
-     coords 0.001 0 0
-    }
-    {
-     coords 0.001 0 0
-    }
-   }
-   EnvironmentProbeEntity {
-    coords -6.254 1.772 -8.878
-   }
-   $grp GenericEntity {
-    {
-     coords 0 0 -0.001
-     {
-      $grp GenericEntity {
-       {
-        coords -3.738 0 5.82
-       }
-       {
-        coords -4.387 0 5.722
-        {
-         GenericEntity {
-          coords 0 0 0.001
-         }
-        }
-       }
-       {
-        coords -4.387 0 5.722
-       }
-       {
-        coords 5.48 0 -9.454
-       }
-       {
-        coords 7.387 0 -9.454
-       }
-       {
-        coords -10.962 0 -9.43
-       }
-       {
-        coords -4.436 0 -3.206
-       }
-       {
-        coords -10.962 0 -12.944
-       }
-       {
-        coords 7.043 0 -6.772
-       }
-       {
-        coords 4.17 0 -6.772
-       }
-       {
-        coords 2.735 0 -6.772
-       }
-       {
-        coords 5.608 0 -6.772
-       }
-       {
-        coords 5.586 0 -3.473
-       }
-       {
-        coords 12.279 0 -9.106
-       }
-       {
-        coords 10.846 0 -9.106
-       }
-       {
-        coords 7.043 0 -3.472
-       }
-       {
-        coords 1.278 0 -3.473
-       }
-       {
-        coords 4.151 0 -3.473
-       }
-       {
-        coords 4.17 0 -3.472
-       }
-       {
-        coords 5.608 0 -3.472
-       }
-       {
-        coords 2.735 0 -3.472
-       }
-       {
-        coords 12.257 0 -0.945
-       }
-       {
-        coords 12.257 0 1.914
-       }
-       {
-        coords 2.713 0 -3.473
-       }
-       {
-        coords 12.257 0 3.349
-       }
-       {
-        coords 12.257 0 0.488
-       }
-       {
-        coords 2.572 0 -7.016
-       }
-      }
-     }
-    }
-    {
-     coords -2.347 3.336 6.196
-    }
-    {
-     coords -11.387 3.281 -9.059
-    }
-    {
-     coords 0.001 0 0
-     {
-      GenericEntity {
-       coords 0 0 0
-      }
-     }
-    }
-    {
-     coords -0.001 0 0
-     {
-      GenericEntity {
-       coords 0 0 0
-      }
-     }
-    }
-    {
-     coords 0.001 0 0
-     {
-      GenericEntity {
-       coords 0 0 0
-      }
-     }
-    }
-    {
-     coords 0 0 -0.001
-     {
-      GenericEntity {
-       coords 0 0 0
-      }
-     }
-    }
-    {
-     coords 0 -0.009 3.017
-    }
-    {
-     coords 0 0 0.001
-    }
-    {
-     coords 0 0 -0.001
-     {
-      $grp GenericEntity {
-       {
-        coords 0 0 0
-       }
-       {
-        coords 0 0 0
-       }
-      }
-     }
-    }
-    {
-     coords 0 0 -0.001
-     {
-      GenericEntity {
-       coords 0 0 0
-      }
-     }
-    }
-    {
-     coords 0 0 -0.001
-    }
-    {
-     coords 0 0 0.001
-    }
-    {
-     coords 0 0 -0.001
-    }
-   }
-   SCR_DestructibleBuildingEntity {
+  $grp Building {
+   {
     coords 0 0 -0.001
    }
-   SCR_IndestructibleEnvironmentalEntity {
-    coords -3.736 0 1.485
+   {
+    coords 0 0 -0.001
+   }
+   {
+    coords 0 0 -0.001
+   }
+   {
+    coords 0 0 -0.001
+   }
+   {
+    coords 0 0 0.001
+   }
+   {
+    coords 0 0 0.001
+   }
+   {
+    coords 0 0 0.001
+   }
+   {
+    coords 0.001 0 0
+   }
+   {
+    coords 0.001 0 0
    }
   }
- }
- {
-  coords 5666.791 1.676 3237.702
-  angles 0 -90.523 0
+  EnvironmentProbeEntity {
+   coords -6.254 1.772 -8.878
+  }
+  $grp GenericEntity {
+   {
+    coords 0 0 -0.001
+    {
+     $grp GenericEntity {
+      {
+       coords -3.738 0 5.82
+      }
+      {
+       coords -4.387 0 5.722
+       {
+        GenericEntity {
+         coords 0 0 0.001
+        }
+       }
+      }
+      {
+       coords -4.387 0 5.722
+      }
+      {
+       coords 5.48 0 -9.454
+      }
+      {
+       coords 7.387 0 -9.454
+      }
+      {
+       coords -10.962 0 -9.43
+      }
+      {
+       coords -4.436 0 -3.206
+      }
+      {
+       coords -10.962 0 -12.944
+      }
+      {
+       coords 7.043 0 -6.772
+      }
+      {
+       coords 4.17 0 -6.772
+      }
+      {
+       coords 2.735 0 -6.772
+      }
+      {
+       coords 5.608 0 -6.772
+      }
+      {
+       coords 5.586 0 -3.473
+      }
+      {
+       coords 12.279 0 -9.106
+      }
+      {
+       coords 10.846 0 -9.106
+      }
+      {
+       coords 7.043 0 -3.472
+      }
+      {
+       coords 1.278 0 -3.473
+      }
+      {
+       coords 4.151 0 -3.473
+      }
+      {
+       coords 4.17 0 -3.472
+      }
+      {
+       coords 5.608 0 -3.472
+      }
+      {
+       coords 2.735 0 -3.472
+      }
+      {
+       coords 12.257 0 -0.945
+      }
+      {
+       coords 12.257 0 1.914
+      }
+      {
+       coords 2.713 0 -3.473
+      }
+      {
+       coords 12.257 0 3.349
+      }
+      {
+       coords 12.257 0 0.488
+      }
+      {
+       coords 2.572 0 -7.016
+      }
+     }
+    }
+   }
+   {
+    coords -2.347 3.336 6.196
+   }
+   {
+    coords -11.387 3.281 -9.059
+   }
+   {
+    coords 0.001 0 0
+    {
+     GenericEntity {
+      coords 0 0 0
+     }
+    }
+   }
+   {
+    coords -0.001 0 0
+    {
+     GenericEntity {
+      coords 0 0 0
+     }
+    }
+   }
+   {
+    coords 0.001 0 0
+    {
+     GenericEntity {
+      coords 0 0 0
+     }
+    }
+   }
+   {
+    coords 0 0 -0.001
+    {
+     GenericEntity {
+      coords 0 0 0
+     }
+    }
+   }
+   {
+    coords 0 -0.009 3.017
+   }
+   {
+    coords 0 0 0.001
+   }
+   {
+    coords 0 0 -0.001
+    {
+     $grp GenericEntity {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 0 0 0
+      }
+     }
+    }
+   }
+   {
+    coords 0 0 -0.001
+    {
+     GenericEntity {
+      coords 0 0 0
+     }
+    }
+   }
+   {
+    coords 0 0 -0.001
+   }
+   {
+    coords 0 0 0.001
+   }
+   {
+    coords 0 0 -0.001
+   }
+  }
+  SCR_DestructibleBuildingEntity {
+   coords 0 0 -0.001
+  }
+  SCR_IndestructibleEnvironmentalEntity {
+   coords -3.736 0 1.485
+  }
  }
 }
 $grp SplineShapeEntity {

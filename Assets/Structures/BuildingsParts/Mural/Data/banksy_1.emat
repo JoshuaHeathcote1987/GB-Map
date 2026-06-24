@@ -1,0 +1,14 @@
+MatPBRDecal {
+ Color 0.745 0.721 0.669 1
+ Diffuse 0.88 0.847 0.816 1
+ AlphaTest 0.3
+ BlendMode None
+ MetalnessScale 0
+ BCRMap "{671D6A053BF700CA}Images/Graffiti/Bgraf1BCR.edds"
+ OpacityMap "{E9B344B61B663548}Images/Graffiti/OCR.edds"
+ NMOMap "{166FDA90968123E0}Images/building textures/pebbledashnmo.edds"
+ DecalCategory Static
+ GBufferNormal 1
+ GBufferRoughness 1
+ GBufferAO 1
+}

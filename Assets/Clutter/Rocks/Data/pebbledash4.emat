@@ -1,0 +1,13 @@
+MatPBRBasic {
+ Color 0.78 0.78 0.78 1
+ DiffuseIBL 0.561 0.071 0.071 1
+ SpecularIBL 0.502 0.502 0.502 1
+ WetnessScale 0.5
+ PorosityScale 0.5
+ BCRMap "{9D7067F9C34BBBD3}Images/building textures/pebbledash2.edds"
+ NMOMap "{166FDA90968123E0}Images/building textures/pebbledashnmo.edds"
+ GlobalMapsUVTransform MatUVTransform "{69B0F98DFA04DBC8}" {
+  TilingU 5
+  TilingV 5
+ }
+}

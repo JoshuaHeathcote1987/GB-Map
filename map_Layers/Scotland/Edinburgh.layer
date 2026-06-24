@@ -67720,18 +67720,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 5937.54 7.274 1581.708
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{0AF31175B35CBAB5}PrefabLibrary/DefaultLibrary/Generators/Walls/Wooden/WG_WoodenFence_04.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 5942.155 7.377 1582.338
- }
- {
   coords 5696.003 6.062 1561.067
   Points {
    ShapePoint "{667CF92D6B8A90D3}" {
@@ -88346,6 +88334,13 @@ $grp SCR_DestructibleBuildingEntity : "{264F14BB6F1309F3}Prefabs/Structures/Agri
 SCR_DestructibleBuildingEntity : "{270493CAE0CF24E4}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_Tower.et" {
  coords 5334.346 -0.943 5252.261
  angles 0 -27.887 0
+ {
+  GameEnvironmentProbeEntity {
+   ID "5E788ECCABD7F590"
+   LVReflectionBrightness -2.65
+   LVDiffuseBrightness 0.62
+  }
+ }
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
  {
@@ -88465,12 +88460,13 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/De
   angles 0.599 123.562 -4.542
  }
  {
-  coords 5404.898 16.239 5227.106
+  coords 5409.236 15.696 5232.529
   angles 0.599 123.562 -4.542
  }
  {
-  coords 5391.713 16.817 5214.317
+  coords 5386.463 19.136 5209.88
   angles -1.765 -40.799 -0.215
+  scale 0.88
  }
  {
   coords 5375.578 17.772 5204.371
@@ -89451,14 +89447,24 @@ $grp SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Hous
   angles 0 169.465 0
  }
  {
-  coords 5564.167 0.014 5439.421
-  angles 0 -129.128 0
- }
- {
-  coords 5571.675 0 5428.996
-  angles 0 -122.357 0
- }
- {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B0F98B5D22C23C}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+     MaterialAssignClass "{69B0F98B5D22C221}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Foundation"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+     MaterialAssignClass "{69B0F98B5D22C25D}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+    }
+   }
+  }
   coords 5577.681 0.001 5417.524
   angles 0 -114.554 0
  }
@@ -90870,7 +90876,17 @@ GenericEntity : "{74D1DB7828061BD7}Prefabs/Props/Garbage/Generic/Junk_01/Junk_01
 }
 $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
  {
-  coords 5474.281 0 5454.442
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B0F98F60B79E44}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
+  coords 5474.449 0 5454.453
   angles 0 176.109 0
  }
  {
@@ -90890,6 +90906,16 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   angles 0 169.347 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B0F98F67D1F855}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5511.395 0.058 5455.894
   angles 0 -179.193 0
  }
@@ -95690,7 +95716,7 @@ $grp Tree : "{DE7FC095F656695C}Prefabs/Vegetation/Tree/t_picea_abies/t_picea_abi
   coords 5453.014 0.001 5261.875
  }
  {
-  coords 5409.849 0 5210.431
+  coords 5415.899 0.097 5210.431
  }
  {
   coords 5366.183 0 5186.866
@@ -96101,9 +96127,6 @@ SCR_DestructibleBuildingEntity : "{F5F65D19951ED02F}PrefabLibrary/DefaultLibrary
    coords 0 0.013 0
   }
  }
-}
-GenericEntity : "{F70A3289977E44EA}Prefabs/Sounds/Sources/SoundSource_WaterFall_Medium.et" {
- coords 7827.317 0 2197.167
 }
 SCR_IndestructibleEnvironmentalEntity : "{FA8C2031F43C6684}Prefabs/Rocks/Granite/Granite_BeachCluster_01_waterline.et" {
  coords 4480.427 -0.104 3154.736

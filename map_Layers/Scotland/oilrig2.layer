@@ -14,6 +14,10 @@ $grp GenericEntity {
   angles -1.249 -96.786 0.077
   scale 2.892
  }
+ {
+  coords 5398.468 27.882 7418.378
+  angles 1.248 82.7 -0.088
+ }
 }
 ParticleEffectEntity {
  coords 5364.404 71.272 7353.929
@@ -111,17 +115,9 @@ GenericEntity : "{48610DA0F467790A}Prefabs/Props/Military/SupplyBox/SupplyStack/
  coords 5362.194 28.174 7417.541
  angles -1.249 -96.786 0.077
 }
-GenericEntity : "{4ED7481E2AC4268A}Prefabs/Props/Helipad/Helipad_short.et" {
- coords 5398.468 27.882 7418.378
- angles 1.248 82.7 -0.088
-}
 StaticModelEntity : "{532795AD51CFBEDF}PrefabsEditable/Auto/Structures/Infrastructure/Piping/E_DieselPipe_01_hose_V2.et" {
  coords 5341.494 27.645 7400.607
  angles -1.249 -96.786 0.077
-}
-GenericEntity : "{605DCA664B550FDA}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_Vehicle_US_01.et" {
- coords 5383.234 30.115 7400.625
- angles 0.834 38.529 -0.933
 }
 StaticModelEntity : "{68FA4E56264168B7}PrefabLibrary/DefaultLibrary/Infrastructure/Towers/TransmitterTower_01_small.et" {
  coords 5364.724 51.142 7354.108
@@ -254,17 +250,9 @@ $grp SCR_DestructibleEntity : "{6DE2E49EC8DE06F7}PrefabLibrary/DefaultLibrary/Wa
   scale 1.54
  }
 }
-GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
- coords 5393.094 35.939 7417.32
- angles -1.249 -96.786 0.077
-}
 StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
  coords 5346.347 37.516 7358.832
  angles -1.249 -96.786 0.077
-}
-GenericEntity : "{934887E9F148A6FA}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Supplies_base.et" {
- coords 5384.054 30.203 7400.067
- angles 0.802 36.611 -0.96
 }
 $grp GenericEntity : "{9469915BD7CB2A46}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_02/BuidlingAddons/TransformerStation_E_02_stairs.et" {
  {

@@ -635,15 +635,6 @@ $grp PolylineShapeEntity {
  }
  {
   coords 4881.283 6.27 6933.396
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{3D01BACFAD3B1797}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFence_02.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 4881.283 6.27 6933.396
   Points {
    ShapePoint "{66DAB85E27982662}" {
     Position -22.311 -0.27 -5.815
@@ -705,20 +696,6 @@ $grp PolylineShapeEntity {
       angles 0 -202.957 0
      }
     }
-   }
-  }
- }
- {
-  coords 4881.283 6.27 6933.396
-  Points {
-   ShapePoint "{66DAB85E1A25CD46}" {
-    Position -36.393 -0.261 -22.848
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{3D01BACFAD3B1797}Prefabs/WEGenerators/Walls/Wooden/WG_WoodenFence_02.et" {
-    Flags 0x100003 0
    }
   }
  }
@@ -36679,15 +36656,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 4817.541 5.081 6976.244
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{59B0C519BF4FCF12}Prefabs/WEGenerators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
   coords 4905.695 5.845 6965.616
   Points {
    ShapePoint "{66DAB8437A070F23}" {
@@ -37175,15 +37143,6 @@ $grp SplineShapeEntity {
       }
      }
     }
-   }
-  }
- }
- {
-  coords 4942.546 5.265 7006.606
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{C64558621107969D}Prefabs/WEGenerators/Walls/Metal/WG_MetalFence_01_base.et" {
-    Flags 0x100003 0
    }
   }
  }
@@ -127241,15 +127200,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 2016.285 12.634 2647.35
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{C290227A0992EDB6}PrefabLibrary/DefaultLibrary/Generators/Pavements/Tile/WG_TilePavement_01_Wide.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
   coords 2350.707 8.656 2644.747
   LineColor 0 1 0 0
   {
@@ -142298,6 +142248,20 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{3F68EE5DCB004B10}Prefabs/Rocks/Gr
  }
 }
 SCR_DestructibleBuildingEntity : "{40BE566C8F18D8B3}Prefabs/Structures/Cultural/Churches/Church_01/Church_01_white.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{5E08D54622AB3D79}" {
+     SourceMaterial "Church_01_ExtWalls"
+     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+    MaterialAssignClass "{69B133FA10DFA2EB}" {
+     SourceMaterial "Church_01_ExtDetails"
+     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+   }
+  }
+ }
  coords 5270.452 6.325 7955.951
  angles 0.499 -124.951 0
 }

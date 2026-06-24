@@ -16575,15 +16575,6 @@ $grp PolylineShapeEntity {
  }
  {
   coords 3388.489 5.719 3122.343
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{5CBDB5C1AC623D4A}Prefabs/WEGenerators/Walls/Brick/WG_BrickWall_USSR_04_decorative.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 3388.489 5.719 3122.343
   Points {
    ShapePoint "{672510DDE914243A}" {
     Position -95.815 0.722 -3.286
@@ -16652,9 +16643,6 @@ $grp PolylineShapeEntity {
     }
    }
   }
- }
- {
-  coords 3417.313 6.375 3119.001
  }
  {
   coords 3442.34 6.25 3116.609
@@ -17344,15 +17332,6 @@ $grp PolylineShapeEntity {
       }
      }
     }
-   }
-  }
- }
- {
-  coords 5633.925 5.727 3133.466
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{FF391BC34318D596}Prefabs/WEGenerators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Wide.et" {
-    Flags 0x100003 0
    }
   }
  }
@@ -519633,15 +519612,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3266.07 6.326 3118.981
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{7100CD51E9E2CC67}Prefabs/WEGenerators/Walls/Brick/WG_BrickWall_02.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
   coords 3231.607 6.25 3100.143
   Points {
    ShapePoint "{672510DF6C270E90}" {
@@ -519748,12 +519718,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 3264.241 6.25 3068.238
- }
- {
-  coords 3251.838 6.25 3043.238
- }
- {
   coords 3362.803 6.625 3122.087
   Points {
    ShapePoint "{672510C19BC8AB72}" {
@@ -519851,20 +519815,6 @@ $grp SplineShapeEntity {
   coords 3362.803 6.625 3122.087
   Points {
    ShapePoint "{672510CB6DEE6AFE}" {
-    Position -43.671 0 0.579
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{526E22797215BAB6}Prefabs/WEGenerators/Pavements/Tile/WG_TilePavement_01_Wide.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 3362.803 6.625 3122.087
-  Points {
-   ShapePoint "{672510CB6DEE6AFE}" {
     Position -43.723 -0.086 -1.01
    }
    ShapePoint "{672510CB62679707}" {
@@ -519885,20 +519835,6 @@ $grp SplineShapeEntity {
       angles 0 179.446 0
      }
     }
-   }
-  }
- }
- {
-  coords 3362.803 6.625 3122.087
-  Points {
-   ShapePoint "{672510CB62679707}" {
-    Position -52.031 -0.118 -1.35
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{526E22797215BAB6}Prefabs/WEGenerators/Pavements/Tile/WG_TilePavement_01_Wide.et" {
-    Flags 0x100003 0
    }
   }
  }
@@ -520008,20 +519944,6 @@ $grp SplineShapeEntity {
       }
      }
     }
-   }
-  }
- }
- {
-  coords 3362.803 6.625 3122.087
-  Points {
-   ShapePoint "{672510CB67720567}" {
-    Position -128.62 -0.074 -0.813
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{526E22797215BAB6}Prefabs/WEGenerators/Pavements/Tile/WG_TilePavement_01_Wide.et" {
-    Flags 0x100003 0
    }
   }
  }
@@ -530105,10 +530027,30 @@ $grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Hous
   angles 0 0.685 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B10A67DD576D1D}" {
+      SourceMaterial "ApartmentPrefab_E_5I01_EXT_Walls_17EE113F8C965DDF"
+      AssignedMaterial "{F346D5FEC3E54604}Assets/Clutter/Rocks/Data/pebbledash2.emat"
+     }
+    }
+   }
+  }
   coords 5667.542 0.024 3095.791
   angles 0 -2.728 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B10A6661800E05}" {
+      SourceMaterial "ApartmentPrefab_E_5I01_EXT_Walls_17EE113F8C965DDF"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5650.464 -0.115 3095.027
   angles 0 -2.728 0
  }
@@ -533455,7 +533397,7 @@ $grp Tree : "{AC43B039B67361F6}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
   scale 0.935
  }
  {
-  coords 3237.055 0 3233.672
+  coords 3238.774 0.012 3232.506
   angles 0.345 91.418 359.929
   scale 0.75
  }
@@ -537239,14 +537181,6 @@ SCR_DestructibleBuildingEntity : "{F51B9B9BD15BBE64}Prefabs/Structures/Commercia
 SCR_DestructibleBuildingEntity : "{F536F4CB2FB2191C}Prefabs/Structures/Services/Hospital.et" {
  coords 3305.986 -0.421 3233.009
  angles 0 90.138 0
-}
-$grp GenericEntity : "{F70A3289977E44EA}Prefabs/Sounds/Sources/SoundSource_WaterFall_Medium.et" {
- {
-  coords 5663.612 14.971 4071.792
- }
- {
-  coords 5694.201 14.971 4065.781
- }
 }
 $grp SCR_DestructibleBuildingEntity : "{F78C674F187E0DA5}Prefabs/Structures/Infrastructure/Naval/Cranes/HarborCrane_01_turret_multicolour.et" {
  {

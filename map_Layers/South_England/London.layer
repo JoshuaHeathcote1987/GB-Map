@@ -4254,51 +4254,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 6868.929 4.938 1531.221
-  Points {
-   ShapePoint "{65DCD88517A5FF67}" {
-    Position 0.21 0 0.004
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 6863.001 5 1381.026
-  Points {
-   ShapePoint "{65DCD885E74FF9F7}" {
-    Position 28.702 -0.414 151.926
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 6856.81 4.937 1531.093
-  Points {
-   ShapePoint "{6874E8C5F93CC49F}" {
-    Position 20.555 -0.216 1.584
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{B369FBF98A1B3541}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Narrow.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
-  coords 4671.006 5.659 5688.221
- }
- {
   coords 6795.515 5.125 1534.133
   Points {
    ShapePoint "{65DEC32B8E5963CF}" {
@@ -10331,20 +10286,6 @@ $grp SplineShapeEntity {
       }
      }
     }
-   }
-  }
- }
- {
-  coords 7120.098 5.156 1451.278
-  Points {
-   ShapePoint "{65DEF2090DB972EE}" {
-    Position -26.849 0.375 0.337
-   }
-  }
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{F020C729AB582D8F}PrefabLibrary/DefaultLibrary/Generators/Pavements/Asphalt/WG_Asphalt_Pavement_01_Wide.et" {
-    Flags 0x100003 0
    }
   }
  }
@@ -61958,10 +61899,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 5462.023 32.571 2640.165
-  LineColor 0 0 0 0
- }
- {
   coords 5414.655 46.117 2579.198
   Points {
    ShapePoint "{6642F3EEF62ECA22}" {
@@ -86107,15 +86044,6 @@ $grp SplineShapeEntity {
   }
  }
  {
-  coords 5479.039 21.283 5347.373
-  LineColor 0 0 0 0
-  {
-   WallGeneratorEntity : "{8BC5DE406BDDA372}PrefabLibrary/DefaultLibrary/Generators/Walls/Custom/WG_WoodenConcretePoleFence_03.et" {
-    Flags 0x100003 0
-   }
-  }
- }
- {
   coords 5446.462 18.656 5428.267
   Points {
    ShapePoint "{665A81671267F749}" {
@@ -86282,9 +86210,6 @@ $grp SplineShapeEntity {
     }
    }
   }
- }
- {
-  coords 5548.715 13.311 5433.32
  }
  {
   coords 5510.617 20.36 5411.09
@@ -90873,10 +90798,6 @@ $grp SCR_DestructibleBuildingEntity : "{151CFDB2968ADB77}Prefabs/Structures/Hous
   components {
    MeshObject "{506EDA9D46FC6C06}" {
     Materials {
-     MaterialAssignClass "{69AD1DB86A74D6EE}" {
-      SourceMaterial "Villa_E_2I01_Ext_Walls"
-      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
-     }
      MaterialAssignClass "{511069976E36E6B6}" {
       SourceMaterial "Villa_E_2I01_Int"
       AssignedMaterial "{EF56F8F783B18CBB}Assets/Structures/Houses/Villa/Villa_E_2I01/Data/Villa_E_2I01_Int_Police.emat"
@@ -90884,6 +90805,10 @@ $grp SCR_DestructibleBuildingEntity : "{151CFDB2968ADB77}Prefabs/Structures/Hous
      MaterialAssignClass "{511069976E36E6A5}" {
       SourceMaterial "Villa_E_2I01_Int_Details"
       AssignedMaterial "{9014C0A698989178}Assets/Structures/Houses/Villa/Villa_E_2I01/Data/Villa_E_2I01_Int_Details_Police.emat"
+     }
+     MaterialAssignClass "{69AD1DB86A74D6EE}" {
+      SourceMaterial "Villa_E_2I01_Ext_Walls"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
      }
     }
    }
@@ -91975,6 +91900,20 @@ $grp SCR_DestructibleBuildingEntity : "{27CC3110521583D6}Prefabs/Structures/Hous
   angles 0 -22.477 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B10A65B264DC26}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+     MaterialAssignClass "{69B10A65B264DC53}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{5804E58BEEB592DD}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_Tower_Stones_01.emat"
+     }
+    }
+   }
+  }
   coords 5446.311 4.64 5379.396
   angles 0 151.764 0
  }
@@ -92786,6 +92725,16 @@ $grp GenericEntity : "{3D9B780ABF8DEE7C}Prefabs/Props/Recreation/Beach/Caravan_0
 }
 $grp SCR_DestructibleBuildingEntity : "{3E242C5D950D820C}Prefabs/Structures/City/Appartment Complex 5 Floors.et" {
  {
+  components {
+   MeshObject "{5F2101B07004B228}" {
+    Materials {
+     MaterialAssignClass "{69B10A615FFE16DF}" {
+      SourceMaterial "ExteriorDetails"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5612.545 -0.566 3417.78
   angles 0 -8.946 0
  }
@@ -101496,6 +101445,28 @@ $grp SCR_DestructibleBuildingEntity : "{E7EC0E80F0645DFE}Prefabs/Structures/Hous
   angles 0 60.227 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69B10A65D1EF8552}" {
+      SourceMaterial "House_Town_E_2I03_ext1"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+     MaterialAssignClass "{69B10A65D1EF8541}" {
+      SourceMaterial "House_Town_E_2I03_ext2"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+     MaterialAssignClass "{69B10A65D1EF857D}" {
+      SourceMaterial "House_Town_E_2I03_ext3"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+     MaterialAssignClass "{69B10A65D1EF857A}" {
+      SourceMaterial "House_Town_E_2I03_ext4"
+      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+     }
+    }
+   }
+  }
   coords 5462.403 3.738 5388.363
   angles 0 152.787 0
  }

@@ -1,0 +1,69 @@
+SCR_DestructibleBuildingEntity : "{0B1B8B16E7E9481F}Prefabs/Structures/Commercial/Pubs/PubVillage_E_2L01/PubVillage_E_2L01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 0 0 0
+ angles 14.504 -14.752 -11.028
+ {
+  $grp GenericEntity : "{234CF9A4AE06D5ED}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_02_Pub_V1.et" {
+   {
+    ID "69B12A353C840A01"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{69B12A35AB53B086}" {
+        SourceMaterial "MLOD"
+        AssignedMaterial "{94232400CEB9AF7C}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/sign3.emat"
+       }
+       MaterialAssignClass "{69B12A35AB53B096}" {
+        SourceMaterial "SignCommercial_02"
+        AssignedMaterial "{26C3119BE287B987}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/sign3m.emat"
+       }
+      }
+     }
+    }
+    coords 0.95 3.561 -9.108
+    angles 0 180 0
+   }
+   {
+    ID "69B12A353C840A02"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{69B12A35AC6B079C}" {
+        SourceMaterial "MLOD"
+        AssignedMaterial "{94232400CEB9AF7C}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/sign3.emat"
+       }
+       MaterialAssignClass "{69B12A35AC6B07EB}" {
+        SourceMaterial "SignCommercial_02"
+        AssignedMaterial "{26C3119BE287B987}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/sign3m.emat"
+       }
+      }
+     }
+    }
+    coords 8.003 3.484 -1.367
+    angles 0 90 0
+   }
+   {
+    ID "69B12A353C85D833"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{69B12A35A774EF2E}" {
+        SourceMaterial "MLOD"
+        AssignedMaterial "{94232400CEB9AF7C}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/sign3.emat"
+       }
+       MaterialAssignClass "{69B12A35A774EF31}" {
+        SourceMaterial "SignCommercial_02"
+        AssignedMaterial "{26C3119BE287B987}Assets/Structures/BuildingsParts/Signs/SignCommercial_02/Data/sign3m.emat"
+       }
+      }
+     }
+    }
+    coords 3.92 5.893 6.899
+   }
+  }
+  GenericEntity : "{F17159B15B451C0D}Prefabs/Structures/Commercial/Pubs/PubVillage_E_2L01/Furniture/PubVillage_E_2L01_furniture_01.et" {
+   ID "69B12A353C85D832"
+   coords 0 0 0
+  }
+ }
+}

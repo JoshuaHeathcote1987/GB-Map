@@ -45,6 +45,16 @@ $grp SCR_DestructibleBuildingEntity : "{30694DA736A9009F}PrefabLibrary/DefaultLi
  }
 }
 SCR_DestructibleBuildingEntity : "{3714AD1861F44210}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69B10A652591EBAA}" {
+     SourceMaterial "House_Town_E_2I02_Ext1"
+     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+   }
+  }
+ }
  coords 5530.1 0 5454.718
  angles 0 -171.276 0
 }
@@ -67,6 +77,16 @@ $grp SCR_DestructibleBuildingEntity : "{45EE339FC3CE3AB8}PrefabsEditable/Auto/St
  }
 }
 SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{566CB527A6B0F4CD}" {
+     SourceMaterial "House_Prefab_2I01_ext_walls"
+     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+   }
+  }
+ }
  coords 5491.273 0.431 5430.106
  angles 0 -3.143 0
 }
@@ -74,17 +94,27 @@ SCR_DestructibleBuildingEntity : "{57632F08BA42F1DC}PrefabLibrary/DefaultLibrary
  components {
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
-    MaterialAssignClass "{69AD1DBABFE30757}" {
+    MaterialAssignClass "{69B1188F5BF2494C}" {
      SourceMaterial "House_E_1I03_walls"
      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
     }
    }
   }
  }
- coords 5589.351 0.017 5401.58
+ coords 5589.351 -0.305 5401.58
  angles 0 -109.17 0
 }
 SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Town_E_2I02/House_Town_E_2I02_v2.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69B0F98F6F8166C5}" {
+     SourceMaterial "House_Town_E_2I02_v2_Ext1"
+     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+   }
+  }
+ }
  coords 5492.854 -0.01 5455.298
  angles 0 177.691 0
 }
