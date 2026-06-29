@@ -517695,6 +517695,7 @@ $grp SCR_DestructibleBuildingEntity : "{034A45B0D41025B9}Prefabs/Structures/Cult
  {
   coords 5346.604 -24.097 5254.107
   angles 0 162.595 0
+  UndergroundStructure 1
  }
  {
   coords 5352.156 -22.658 5252.965
@@ -518367,6 +518368,7 @@ $grp SCR_DestructibleBuildingEntity : "{1321E90FE0CF8C3C}Prefabs/Structures/Cult
  {
   coords 5386.683 -27.274 5249.921
   angles 0 69.973 0
+  UndergroundStructure 1
  }
  {
   coords 5384.097 -25.964 5236.881
@@ -518876,8 +518878,9 @@ $grp GameEntity : "{2BF048C6593C3D1B}PrefabLibrary/DefaultLibrary/Infrastructure
 }
 $grp SCR_DestructibleBuildingEntity : "{2C97FDC04C9E39C0}Prefabs/Structures/Cultural/Castles/Castle_01_InnerWall_Small_01.et" {
  {
-  coords 5336.625 -15.396 5271.959
-  angles 0 60.044 0
+  coords 5338.427 -18.291 5269.738
+  angles 0 68.117 -90.72
+  UndergroundStructure 1
  }
  {
   coords 5363.945 -20.568 5232.665
@@ -519014,8 +519017,9 @@ $grp SCR_DestructibleBuildingEntity : "{31CAD6AEE7E7E4CF}Prefabs/Structures/Cult
   angles 0 -18.635 0
  }
  {
-  coords 5402.097 -5.596 5212.78
+  coords 5402.383 -4.938 5212.14
   angles 0 -114.086 0
+  UndergroundStructure 1
  }
 }
 GenericEntity : "{31CE12B3D1F6789E}Prefabs/Structures/Military/Flags/FlagPole_01/FlagPole_01_base.et" {
@@ -525949,46 +525953,6 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{50E63E69B37539DB}Prefabs/Rocks/Gr
   angles 0.126 170.482 179.979
  }
  {
-  coords 5361.506 29.053 5235.852
-  angles 2.703 -15.037 -0.24
-  scale 2
- }
- {
-  coords 5343.237 29.55 5246.718
-  angles 2.714 -9.517 0.021
-  scale 2
- }
- {
-  coords 5337.882 30.001 5257.811
-  angles 2.714 -9.517 0.021
-  scale 2
- }
- {
-  coords 5332.539 30.775 5272.822
-  angles 2.714 -9.517 0.021
-  scale 2
- }
- {
-  coords 5355.611 29.83 5271.635
-  angles 2.714 -9.517 0.021
-  scale 2
- }
- {
-  coords 5360.588 29.506 5262.753
-  angles 2.714 -9.517 0.021
-  scale 2
- }
- {
-  coords 5366.038 29.688 5250.675
-  angles 2.714 -9.517 0.021
-  scale 2
- }
- {
-  coords 5378.814 29.281 5242.04
-  angles 2.703 -15.037 -0.24
-  scale 2
- }
- {
   coords 5396.34 24.616 5225.165
   angles 2.703 -15.037 -0.24
   scale 2
@@ -527317,6 +527281,7 @@ $grp SCR_DestructibleBuildingEntity : "{6BE382F85F1A7491}Prefabs/Structures/Cult
  {
   coords 5383.665 -26.516 5235.321
   angles 0 62.73 0
+  UndergroundStructure 1
  }
 }
 $grp StaticModelEntity : "{6EAC75D8EF841198}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/Dst/BoatShed_01_Ruin.et" {
@@ -529278,6 +529243,7 @@ $grp GenericEntity : "{8D42C046CCA42026}PrefabLibrary/DefaultLibrary/Decals/Runw
 SCR_DestructibleBuildingEntity : "{8D5BD6AF6FBD7A62}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01_Hole.et" {
  coords 5399.544 18.096 5211.959
  angles 0 -116.031 0
+ UndergroundStructure 1
 }
 GenericEntity : "{8E0A17590AA58A72}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_CzechHedgehog.et" {
  coords 4222.083 3.187 5511.941
@@ -530507,7 +530473,7 @@ $grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cult
   UndergroundStructure 1
  }
  {
-  coords 5326.376 -24.157 5228.58
+  coords 5326.376 -23.622 5228.58
   angles 0 -20.323 0
   UndergroundStructure 1
  }
@@ -530563,11 +530529,11 @@ $grp SCR_DestructibleBuildingEntity : "{92F8DAE5E56CA22E}Prefabs/Structures/Cult
  {
   coords 5393.059 -20.281 5231.854
   angles 0 64.47 0
+  UndergroundStructure 1
  }
  {
   coords 5369.917 -23.743 5234.767
   angles 0 -19 0
-  UndergroundStructure 1
  }
  {
   coords 5347.665 -18.792 5224.824
@@ -533162,60 +533128,6 @@ SCR_DestructibleBuildingEntity : "{D73AD9ABECE6B673}PrefabLibrary/DefaultLibrary
  coords 5330.113 2.897 5251.269
  angles 0 151.502 0
 }
-$grp GenericEntity : "{D89073F0CC9A72F9}Prefabs/Compositions/Misc/SubCompositions/Storage/Location/Storage_Castle_01_FIA_01.et" {
- {
-  coords 5350.224 24.9 5248.72
-  angles 0 -107.851 0
- }
- {
-  coords 5341.456 24.9 5240.625
-  angles 0 -21.913 0
- }
- {
-  coords 5337.713 24.9 5243.881
-  angles 0 -108.171 0
- }
- {
-  coords 5348.71 24.9 5240.953
-  angles 0 -23.505 0
- }
- {
-  coords 5368.24 24.9 5247.458
-  angles 0 -26.989 0
-  {
-   GenericEntity {
-    ID "5E3E9DB66B94D417"
-    coords 0.508 0.009 -2.123
-   }
-   GenericEntity {
-    ID "5E3E9DB66B94D585"
-    coords -4.014 0.009 -2.122
-   }
-  }
- }
- {
-  coords 5376.375 24.9 5245.203
-  angles 0 -112.084 0
-  {
-   GenericEntity {
-    ID "5E3E9DB66B94D5CB"
-    coords -0.145 0.027 0.158
-   }
-   GenericEntity {
-    ID "5E3E9DB66B94D417"
-    coords 0.849 0.009 -2.152
-   }
-   GenericEntity {
-    ID "5E3E9DB66B94D422"
-    coords -2.69 0 1.169
-   }
-  }
- }
- {
-  coords 5360.48 24.9 5242.236
-  angles 0 64.756 0
- }
-}
 SCR_DestructibleBuildingEntity : "{D924650E9CDA2130}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/CoalLoader_01_crane.et" {
  coords 5691.933 -2.015 2480.589
  angles 0 78.936 0
@@ -533226,20 +533138,6 @@ SCR_IndestructibleEnvironmentalEntity : "{D9D20C6C33517ED5}Prefabs/Rocks/Granite
 GenericEntity : "{D9D40CE1916FCB7A}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSwing_USSR_01.et" {
  coords 5460.704 3.342 3420.136
  angles 0 74.723 0
-}
-$grp GenericEntity : "{DA3D4CF729F32F6B}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5_storage.et" {
- {
-  coords 5343.884 24.9 5256.496
-  angles 0 -113.12 0
- }
- {
-  coords 5342.99 24.9 5258.417
-  angles 0 -113.12 0
- }
- {
-  coords 5342.205 24.9 5260.116
-  angles 0 -116.013 0
- }
 }
 $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_corylus_avellana_1l.et" {
  {
@@ -534823,61 +534721,6 @@ $grp StaticModelEntity : "{E95CB8F4C4B2C210}Prefabs/Decals/Markings/Runway/Decal
 GenericEntity : "{E98385D7F126474C}Prefabs/Props/Wrecks/UH1H_wreck/UH1H_wreck_02_static.et" {
  coords 4380.451 10.052 4803.93
 }
-$grp EnvironmentProbeEntity : "{EA344DD1A4013264}Prefabs/Infrastructure/Tunnels/TunnelProbe.et" {
- {
-  coords 5367.997 25.677 5242.469
-  angles 0 0 0
-  VisibleDistance 200
-  LVReflectionBrightness -20
-  LVDiffuseBrightness -20
-  {
-   ProbeVolume : "{CD5BB05FBEEBAE01}Prefabs/Structures/Core/ProbeVolume_Base.et" {
-    editor EntityEditorProps "{69B138A8A253A10A}" {
-     SizeMin -0.6 -0.6 -0.6
-     SizeMax 0.6 0.6 0.6
-     Visible 1
-     Color 1 0.3137 0.3137 0.2471
-     Color2 0.0392 0.1569 0.1569 0.0392
-    }
-    coords -6.857 -1.528 12.484
-    angles 0 -25.907 0
-    Box BoundingVolume "{69B138A884F5FDF5}" {
-     Size 85.429 43.931 106.512
-    }
-    BoxReflection 1
-    SphereLerp 1
-    BoxLerp 0
-    EV -4.81
-   }
-  }
- }
- {
-  coords 5329.448 39.301 5245.218
-  angles 0 0 0
-  VisibleDistance 200
-  LVReflectionBrightness -20
-  LVDiffuseBrightness -0.93
-  {
-   ProbeVolume : "{CD5BB05FBEEBAE01}Prefabs/Structures/Core/ProbeVolume_Base.et" {
-    editor EntityEditorProps "{69B138A8A253A10A}" {
-     SizeMin -0.6 -0.6 -0.6
-     SizeMax 0.6 0.6 0.6
-     Visible 1
-     Color 1 0.3137 0.3137 0.2471
-     Color2 0.0392 0.1569 0.1569 0.0392
-    }
-    coords 4.236 -1.016 -9.734
-    angles 0 -25.907 0
-    Box BoundingVolume "{69B138A884F5FDF5}" {
-     Size 16.234 15.937 29.618
-    }
-    SphereLerp 1
-    BoxLerp 0
-    EV -5
-   }
-  }
- }
-}
 GenericEntity : "{EB706A318736CAC8}PrefabLibrary/DefaultLibrary/Decals/Runway/Runway_Num5.et" {
  coords 4527.102 6.307 5056.478
  angles 0 24.172 0
@@ -535061,44 +534904,6 @@ $grp Tree : "{F31C58EF165C78C4}PrefabLibrary/CainLibrary/Vegetation/Bushes/b_bet
   coords 4540.656 -0.042 5263.139
   angles -0.219 83.726 -0.155
   scale 1.105
- }
-}
-$grp GenericEntity : "{F39F7C209905A4C7}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage.et" {
- {
-  coords 5349.469 24.9 5256.072
-  angles 0 -20.964 0
- }
- {
-  coords 5347.136 24.9 5262.522
-  angles 0 -20.964 0
- }
- {
-  coords 5353.624 24.9 5267.251
-  angles 0 -110.965 0
- }
- {
-  coords 5353.163 24.9 5268.228
-  angles 0 -110.965 0
- }
- {
-  coords 5358.926 24.9 5272.294
-  angles 0 -110.965 0
- }
- {
-  coords 5359.263 24.9 5271.206
-  angles 0 -110.965 0
- }
- {
-  coords 5372.638 24.9 5268.319
-  angles 0 -110.965 0
- }
- {
-  coords 5374.371 24.9 5263.241
-  angles 0 -110.965 0
- }
- {
-  coords 5373.899 24.9 5258.514
-  angles 0 -110.965 0
  }
 }
 Tree : "{F4678C5F9113FA8F}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betula_pendula_1sw_aut.et" {
