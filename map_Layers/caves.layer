@@ -1,0 +1,148 @@
+SCR_IndestructibleEnvironmentalEntity : "{2744DB5B79E2F462}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteCliff_03/GraniteCliff_03.et" {
+ coords 5343.069 47.222 5223.306
+ angles -1.392 -174.933 -177.145
+}
+$grp GameEnvironmentProbeEntity : "{94B6B47CDA125A62}Prefabs/Structures/Core/ProbeEnvCave_base.et" {
+ {
+  coords 5361.563 28.257 5257.329
+  LVDiffuseBrightness -20
+  {
+   ProbeVolume : "{CD5BB05FBEEBAE01}Prefabs/Structures/Core/ProbeVolume_Base.et" {
+    editor EntityEditorProps "{69BAD1C2272DA0B6}" {
+     SizeMin -0.6 -0.6 -0.6
+     SizeMax 0.6 0.6 0.6
+     Visible 1
+     Color 1 0.3137 0.3137 0.2471
+     Color2 0.0392 0.1569 0.1569 0.0392
+    }
+    coords -8.52 6.357 -4.009
+    angles 0 -27.138 0
+    Box BoundingVolume "{69BAD1C2EF26D872}" {
+     Size 61.711 23.071 59.883
+    }
+    BoxReflection 1
+    BoxLerp 0.14
+    EV 3.32
+   }
+  }
+ }
+ {
+  coords 5394.962 17.635 5224.394
+  LVDiffuseBrightness -20
+  {
+   ProbeVolume : "{CD5BB05FBEEBAE01}Prefabs/Structures/Core/ProbeVolume_Base.et" {
+    editor EntityEditorProps "{69BAD1C3B3E3ECD2}" {
+     SizeMin -0.6 -0.6 -0.6
+     SizeMax 0.6 0.6 0.6
+     Visible 1
+     Color 1 0.3137 0.3137 0.2471
+     Color2 0.0392 0.1569 0.1569 0.0392
+    }
+    coords -10.302 0.859 2.169
+    angles 0 -20.193 0
+    Box BoundingVolume "{69BAD1C070878339}" {
+     Size 28.147 11.717 29.562
+    }
+    BoxLerp 1
+    EV 4.35
+   }
+  }
+ }
+}
+$grp GenericEntity : "{FBD32285925CFBE7}Prefabs/Editor/Plane_01/GridPlane_100x100.et" {
+ {
+  components {
+   MeshObject "{1A2A26F3EBB7515C}" {
+    Materials {
+     MaterialAssignClass "{69B138A05BDFD7AC}" {
+      SourceMaterial "MAT01"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+     MaterialAssignClass "{69B138A05BDFD7DD}" {
+      SourceMaterial "MAT02"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+    }
+   }
+  }
+  coords 5374.411 28.275 5249.158
+  angles 0 161.754 180
+  scale 0.156
+ }
+ {
+  components {
+   MeshObject "{1A2A26F3EBB7515C}" {
+    Materials {
+     MaterialAssignClass "{69B138A05BDFD7AC}" {
+      SourceMaterial "MAT01"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+     MaterialAssignClass "{69B138A05BDFD7DD}" {
+      SourceMaterial "MAT02"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+    }
+   }
+  }
+  coords 5357.446 28.427 5248.185
+  angles 0 161.754 180
+  scale 0.156
+ }
+ {
+  components {
+   MeshObject "{1A2A26F3EBB7515C}" {
+    Materials {
+     MaterialAssignClass "{69B138A05BDFD7AC}" {
+      SourceMaterial "MAT01"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+     MaterialAssignClass "{69B138A05BDFD7DD}" {
+      SourceMaterial "MAT02"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+    }
+   }
+  }
+  coords 5335.381 28.421 5249.256
+  angles 0 161.754 180
+  scale 0.156
+ }
+ {
+  components {
+   MeshObject "{1A2A26F3EBB7515C}" {
+    Materials {
+     MaterialAssignClass "{69B138A05BDFD7AC}" {
+      SourceMaterial "MAT01"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+     MaterialAssignClass "{69B138A05BDFD7DD}" {
+      SourceMaterial "MAT02"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+    }
+   }
+  }
+  coords 5356.869 28.405 5275.777
+  angles 0 161.754 180
+  scale 0.156
+ }
+ {
+  components {
+   MeshObject "{1A2A26F3EBB7515C}" {
+    Materials {
+     MaterialAssignClass "{69B138A05BDFD7AC}" {
+      SourceMaterial "MAT01"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+     MaterialAssignClass "{69B138A05BDFD7DD}" {
+      SourceMaterial "MAT02"
+      AssignedMaterial "{F0309090ED90DAFC}Assets/Clutter/Rocks/Data/pebbledashcastle.emat"
+     }
+    }
+   }
+  }
+  coords 5327.613 28.475 5278.229
+  angles 0 161.754 180
+  scale 0.156
+ }
+}
