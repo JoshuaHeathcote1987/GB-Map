@@ -1,43 +1,3 @@
-$grp GenericEntity {
- {
-  coords 2274.819 16.935 2404.768
-  angles 0 -71.486 0
- }
- {
-  coords 2330.781 8.344 2456.957
-  angles 0 20.677 0
- }
- {
-  coords 2305.208 8.344 2468.677
-  angles 0 -62.068 0
- }
- {
-  coords 2266.946 19.363 2382.539
-  angles 0 -69.185 0
- }
- {
-  coords 2270.85 18.571 2393.396
-  angles 0 -71.996 0
- }
- {
-  coords 2322.908 12.247 2491.791
-  angles 0 -155.018 0
- }
- {
-  coords 2321.407 12.256 2500.125
-  angles 0 -65.049 0
- }
-}
-$grp ParticleEffectEntity {
- {
-  coords 4567.873 15.606 6731.807
-  EffectPath "{0C33A8C313282CA0}Particles/Enviroment/Fireflies.ptc"
- }
- {
-  coords 4567.867 15.587 6731.64
-  EffectPath "{D9140AF2107099DF}Particles/Enviroment/Butterflies.ptc"
- }
-}
 $grp PolylineShapeEntity {
  {
   coords 4715.953 16.226 6838.522
@@ -424,9 +384,6 @@ $grp PolylineShapeEntity {
     coords 0 0 0
    }
   }
- }
- {
-  coords 4928.381 6 6963.301
  }
  {
   coords 4874.196 5.793 6985.55
@@ -28525,10 +28482,6 @@ $grp PolylineShapeEntity {
   }
  }
 }
-SCR_DestructibleBuildingEntity {
- coords 2330.698 0.318 2497.211
- angles 0 116.306 0
-}
 $grp SplineShapeEntity {
  {
   coords 5238.829 4.782 7914.767
@@ -28537,7 +28490,7 @@ $grp SplineShapeEntity {
     Position 2.382 -0.09 -1.278
    }
    ShapePoint "{65F29AB649E80772}" {
-    Position 21.559 -0.063 14.333
+    Position 18.359 -0.079 12.743
    }
    ShapePoint "{65F29AB64FB77D02}" {
     Position 29.597 0.05 13.431
@@ -28566,7 +28519,7 @@ $grp SplineShapeEntity {
         Position 2.382 -0.09 -1.278
        }
        ShapePoint "{556C65561A62EBA9}" {
-        Position 21.559 -0.063 14.333
+        Position 18.359 -0.079 12.743
        }
        ShapePoint "{65F29AB63E2A63E5}" {
         Position 29.597 0.05 13.431
@@ -28824,7 +28777,7 @@ $grp SplineShapeEntity {
     Position -195.307 4.507 -279.432
    }
    ShapePoint "{66B29AF5A692FC4D}" {
-    Position -178.876 4.44 -303.846
+    Position -179.648 4.454 -304.868
     Data {
      SplinePointData SplinePointData {
       InTangent 14.725 0.108 -19.699
@@ -28833,11 +28786,11 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{65F29AB85A8C0533}" {
-    Position -165.857 4.504 -318.831
+    Position -158.767 4.254 -327.747
     Data {
      SplinePointData SplinePointData {
-      InTangent 17.502 -0.383 -23.702
-      OutTangent 17.502 -0.383 -23.702
+      InTangent 20.511 -0.383 -21.48
+      OutTangent 20.511 -0.383 -21.48
      }
     }
    }
@@ -28886,7 +28839,7 @@ $grp SplineShapeEntity {
         Position -195.307 4.507 -279.432
        }
        ShapePoint "{65F29AB858D488D1}" {
-        Position -178.876 4.44 -303.846
+        Position -179.648 4.454 -304.868
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent 14.725 0.108 -19.699
@@ -28895,11 +28848,11 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{66B29AF5A6926B07}" {
-        Position -165.856 4.504 -318.831
+        Position -158.767 4.254 -327.747
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
-          InTangent 17.502 -0.383 -23.702
-          OutTangent 17.502 -0.383 -23.702
+          InTangent 20.511 -0.383 -21.48
+          OutTangent 20.511 -0.383 -21.48
          }
         }
        }
@@ -31378,9 +31331,6 @@ $grp SplineShapeEntity {
     Flags 0x100003 0
    }
   }
- }
- {
-  coords 4554.407 20.729 6680.909
  }
  {
   coords 5149.266 11.717 7812.564
@@ -144469,29 +144419,8 @@ $grp GenericEntity : "{8F2945BE755E7694}Prefabs/Props/Wrecks/ShipWreckWooden_01/
   angles 0 93.067 0
  }
 }
-$grp Tree : "{8F91FCAFE65FCDA6}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_3s.et" {
- {
-  coords 5896.19 0.282 4929.005
- }
- {
-  components {
-   RigidBody "{73B3A8278DD8FBEC}" {
-    ResponseIndex "HugeDestructible"
-   }
-  }
-  coords 2296.367 -2.233 2821.503
-  scale 2.132
- }
- {
-  components {
-   RigidBody "{73B3A8278DD8FBEC}" {
-    ResponseIndex "HugeDestructible"
-   }
-  }
-  coords 4420.15 -2.206 3852.152
-  angles 0 139.656 0
-  scale 2.132
- }
+Tree : "{8F91FCAFE65FCDA6}Prefabs/Vegetation/Tree/t_carpinus_betulus/t_carpinus_betulus_3s.et" {
+ coords 5896.19 0.282 4929.005
 }
 SCR_DestructibleBuildingEntity : "{90436AEB3290E129}Prefabs/Structures/Industrial/Cranes/CoalLoader_01/CoalLoader_01_bridge_wooden.et" {
  coords 5358.066 -0.029 3168.196
@@ -144646,6 +144575,16 @@ $grp SCR_DestructibleBuildingEntity : "{9CB78575EDE724C9}Prefabs/Structures/Recr
   angles 0 89.628 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA235A518BD7A}" {
+      SourceMaterial "Gym_02_EXT"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5335.541 -0.211 5144.388
   angles 0 -90.383 0
  }

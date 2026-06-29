@@ -35,55 +35,6 @@ $grp GenericEntity {
   coords 5205.687 4.971 1467.786
   angles 0 -168.019 0
  }
- {
-  coords 5617.396 7.531 3502.416
-  angles 0 -173.903 0
- }
- {
-  coords 5605.749 7.344 3516.649
-  angles 0 -104.014 0
- }
- {
-  coords 5721.024 7.441 3479.688
-  angles 0 -119.962 0
- }
- {
-  coords 5717.815 7.441 3485.76
-  angles 0 -120.452 0
- }
- {
-  coords 5733.313 7.344 3495.019
-  angles 0 149.149 0
- }
- {
-  coords 5738.906 7.344 3499.197
-  angles 0 154.018 0
- }
- {
-  coords 5460.218 4.625 3244.52
-  angles 0 20.677 0
- }
- {
-  coords 5618.908 7.531 3502.317
-  angles 0 -178.461 0
- }
- {
-  coords 5472.269 4.716 3243.576
- }
- {
-  coords 5675.912 13.533 3239.011
-  angles 0 85.507 0
- }
- {
-  coords 5676.693 10.274 3238.964
-  angles 0 89.495 0
-  scale 0.87
- }
- {
-  coords 5668.935 9.699 3245.739
-  angles 0 -0.274 0
-  scale 0.87
- }
 }
 $grp ParticleEffectEntity {
  {
@@ -5692,219 +5643,6 @@ $grp PolylineShapeEntity {
      }
     }
    }
-  }
- }
-}
-SCR_DestructibleBuildingEntity {
- coords 5635.076 1.349 3514.049
- angles 0 -177.398 0
- {
-  $grp Building {
-   {
-    coords 0 0 -0.001
-   }
-   {
-    coords 0 0 -0.001
-   }
-   {
-    coords 0 0 -0.001
-   }
-   {
-    coords 0 0 -0.001
-   }
-   {
-    coords 0 0 0.001
-   }
-   {
-    coords 0 0 0.001
-   }
-   {
-    coords 0 0 0.001
-   }
-   {
-    coords 0.001 0 0
-   }
-   {
-    coords 0.001 0 0
-   }
-  }
-  EnvironmentProbeEntity {
-   coords -6.254 1.772 -8.878
-  }
-  $grp GenericEntity {
-   {
-    coords 0 0 -0.001
-    {
-     $grp GenericEntity {
-      {
-       coords -3.738 0 5.82
-      }
-      {
-       coords -4.387 0 5.722
-       {
-        GenericEntity {
-         coords 0 0 0.001
-        }
-       }
-      }
-      {
-       coords -4.387 0 5.722
-      }
-      {
-       coords 5.48 0 -9.454
-      }
-      {
-       coords 7.387 0 -9.454
-      }
-      {
-       coords -10.962 0 -9.43
-      }
-      {
-       coords -4.436 0 -3.206
-      }
-      {
-       coords -10.962 0 -12.944
-      }
-      {
-       coords 7.043 0 -6.772
-      }
-      {
-       coords 4.17 0 -6.772
-      }
-      {
-       coords 2.735 0 -6.772
-      }
-      {
-       coords 5.608 0 -6.772
-      }
-      {
-       coords 5.586 0 -3.473
-      }
-      {
-       coords 12.279 0 -9.106
-      }
-      {
-       coords 10.846 0 -9.106
-      }
-      {
-       coords 7.043 0 -3.472
-      }
-      {
-       coords 1.278 0 -3.473
-      }
-      {
-       coords 4.151 0 -3.473
-      }
-      {
-       coords 4.17 0 -3.472
-      }
-      {
-       coords 5.608 0 -3.472
-      }
-      {
-       coords 2.735 0 -3.472
-      }
-      {
-       coords 12.257 0 -0.945
-      }
-      {
-       coords 12.257 0 1.914
-      }
-      {
-       coords 2.713 0 -3.473
-      }
-      {
-       coords 12.257 0 3.349
-      }
-      {
-       coords 12.257 0 0.488
-      }
-      {
-       coords 2.572 0 -7.016
-      }
-     }
-    }
-   }
-   {
-    coords -2.347 3.336 6.196
-   }
-   {
-    coords -11.387 3.281 -9.059
-   }
-   {
-    coords 0.001 0 0
-    {
-     GenericEntity {
-      coords 0 0 0
-     }
-    }
-   }
-   {
-    coords -0.001 0 0
-    {
-     GenericEntity {
-      coords 0 0 0
-     }
-    }
-   }
-   {
-    coords 0.001 0 0
-    {
-     GenericEntity {
-      coords 0 0 0
-     }
-    }
-   }
-   {
-    coords 0 0 -0.001
-    {
-     GenericEntity {
-      coords 0 0 0
-     }
-    }
-   }
-   {
-    coords 0 -0.009 3.017
-   }
-   {
-    coords 0 0 0.001
-   }
-   {
-    coords 0 0 -0.001
-    {
-     $grp GenericEntity {
-      {
-       coords 0 0 0
-      }
-      {
-       coords 0 0 0
-      }
-     }
-    }
-   }
-   {
-    coords 0 0 -0.001
-    {
-     GenericEntity {
-      coords 0 0 0
-     }
-    }
-   }
-   {
-    coords 0 0 -0.001
-   }
-   {
-    coords 0 0 0.001
-   }
-   {
-    coords 0 0 -0.001
-   }
-  }
-  SCR_DestructibleBuildingEntity {
-   coords 0 0 -0.001
-  }
-  SCR_IndestructibleEnvironmentalEntity {
-   coords -3.736 0 1.485
   }
  }
 }
@@ -51721,6 +51459,24 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   angles 0 97.476 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232D05F584D}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D05F587A}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D05F5875}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5527.068 -0.32 5274.954
   angles 0 121.9 0
  }

@@ -1,44 +1,7 @@
-$grp GenericEntity {
- {
-  coords 5346.33 19.377 7413.466
-  angles -1.249 -96.786 0.077
-  scale 2.892
- }
- {
-  coords 5351.083 -16.374 7369.537
-  angles -1.249 -96.786 0.077
-  scale 2.892
- }
- {
-  coords 5356.391 -16.275 7370.224
-  angles -1.249 -96.786 0.077
-  scale 2.892
- }
- {
-  coords 5398.468 27.882 7418.378
-  angles 1.248 82.7 -0.088
- }
-}
 ParticleEffectEntity {
  coords 5364.404 71.272 7353.929
  angles -1.249 -96.786 0.077
  EffectPath "{0EDE755E5A808E81}Particles/Logistics/Fire/Ammunition_Fire/Ammunition_Fire_small.ptc"
-}
-PolylineShapeEntity {
- coords 5287.997 -21.48 7422.544
- angles -1.249 -96.786 0.077
- Points {
-  ShapePoint "{65F48560CB624E2E}" {
-   Position -82.664 48.122 -45.445
-  }
-  ShapePoint "{65F48560CB628C88}" {
-   Position -82.545 48.411 -120.914
-  }
-  ShapePoint "{65F485608ED0BA5A}" {
-   Position -40 48.035 -119.176
-  }
- }
- LineColor 0 0 0 0
 }
 $grp GenericEntity : "{00BFC85667B84E0C}PrefabsEditable/Auto/Props/Construction/ConcretePipe/E_ConcretePipe_01_Short_Pile.et" {
  {

@@ -3,7 +3,7 @@ $grp SplineShapeEntity {
   coords 4614.042 8.812 6913.604
   Points {
    ShapePoint "{66B29AF5D5CF80EB}" {
-    Position 15.179 -0.062 10.979
+    Position 7.138 -0.031 2.588
    }
    ShapePoint "{65F4616C2A697F18}" {
     Position -27.21 0.05 -29.609
@@ -59,7 +59,7 @@ $grp SplineShapeEntity {
       ID "556C6556FAB8EA7A"
       SplinePoints {
        ShapePoint "{556C6556BF2A9CBB}" {
-        Position 15.179 -0.062 10.979
+        Position 7.138 -0.031 2.588
        }
        ShapePoint "{556C6556BF2A9DE7}" {
         Position -27.21 0.05 -29.609
@@ -89,7 +89,7 @@ $grp SplineShapeEntity {
         Position -498.529 1.968 -635.278
        }
        ShapePoint "{66B29AE26131EFD6}" {
-        Position -511.407 0.942 -677.981
+        Position -511.407 0.942 -677.98
        }
        ShapePoint "{66B29AE267A4CF2B}" {
         Position -528.614 1.401 -764.663
@@ -218,10 +218,76 @@ $grp SplineShapeEntity {
    }
   }
  }
+ {
+  coords 4027.382 10.702 6021.575
+  Points {
+   ShapePoint "{69BA8288949A37B5}" {
+    Position -0.334 -0.004 0.805
+   }
+   ShapePoint "{69BA8288949A257A}" {
+    Position -4.2 -0.162 5.049
+   }
+  }
+  {
+   RoadGeneratorEntity : "{512AB601E1636E26}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position -0.334 -0.004 0.805
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position -4.2 -0.162 5.049
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3973.43 10.857 6081.438
+  Points {
+   ShapePoint "{69BA828B5647E8E3}" {
+    Position -0.905 0.018 1.062
+   }
+   ShapePoint "{69BA828B56461DF2}" {
+    Position 4.831 -0.014 -5.327
+   }
+  }
+  {
+   RoadGeneratorEntity : "{512AB601E1636E26}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position -0.905 0.018 1.062
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 4.831 -0.014 -5.327
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
 }
 SCR_DestructibleBuildingEntity : "{270493CAE0CF24E4}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_Tower.et" {
  coords 4370.736 -4.287 6619.237
  angles 0 -173 0
+}
+StaticModelEntity : "{61EBFF9FAC0429DE}PrefabLibrary/DefaultLibrary/Infrastructure/Towers/TransmissionTower_01.et" {
+ coords 5207.417 18.687 5188.13
+ angles 0 -38.992 0
 }
 $grp SCR_DestructibleBuildingEntity : "{625C23A0F9BF5D2C}PrefabLibrary/DefaultLibrary/Structures/Landmarks/Castle_01_OuterWall_Stairs.et" {
  {
@@ -267,6 +333,64 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{AD192273F0A1F50D}PrefabLibrary/De
   angles 0 -0.095 0
  }
 }
+$grp SCR_IndestructibleEnvironmentalEntity : "{B6A096447B215355}Prefabs/Rocks/Granite/GraniteCliff_03.et" {
+ {
+  coords 4022.014 -11.813 6030.603
+  angles 0 136.515 0
+ }
+ {
+  coords 4010.599 -11.584 6016.562
+  angles 0 -59.316 0
+ }
+ {
+  coords 4001.254 -13.656 6007.254
+  angles 0 -59.316 0
+ }
+ {
+  coords 4002.235 -19.965 6020.829
+  angles 0 -59.316 0
+ }
+ {
+  coords 3996.511 -11.864 5992.482
+  angles 0 -59.316 0
+ }
+ {
+  coords 3990.635 -16.575 5992.146
+  angles 0 -59.316 0
+ }
+ {
+  coords 3993.137 -17.167 5999.333
+  angles 0 -59.316 0
+ }
+ {
+  coords 3986.636 -19.838 5979.607
+  angles 0 112.876 0
+ }
+ {
+  coords 3990.488 -15.242 5977.028
+  angles 0 112.876 0
+ }
+ {
+  coords 3990.609 -12.209 5972.881
+  angles 0 112.876 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{B7F7B60D503A4686}Prefabs/Structures/Services/FireStation.et" {
+ {
+  coords 4786.524 0 5451.522
+ }
+ {
+  coords 5176.916 0.305 5195.087
+  angles 0 63.331 0
+ }
+ {
+  coords 7220.433 0 1567.717
+  angles 0 -3.454 0
+ }
+ {
+  coords 3579.826 0.026 3208.085
+ }
+}
 $grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Stone_03/Granite_ForestStone_03.et" {
  {
   coords 4437.073 6.581 6578.855
@@ -297,5 +421,27 @@ $grp SCR_IndestructibleEnvironmentalEntity : "{D01FE761ED605522}PrefabLibrary/De
   coords 4428.003 3.081 6565.843
   angles -2.16 -126.377 0.075
   scale 1.315
+ }
+}
+$grp SCR_IndestructibleEnvironmentalEntity : "{DF692A1784D6B324}Prefabs/Rocks/Granite/GraniteRock_01_V2.et" {
+ {
+  coords 5025.284 20.693 6736.17
+  scale 2.54
+ }
+ {
+  coords 4990.083 4.127 6743.625
+  scale 2.54
+ }
+ {
+  coords 4952.187 0.575 6712.771
+  scale 2.54
+ }
+ {
+  coords 5078.174 49.737 6736.054
+  scale 2.54
+ }
+ {
+  coords 5053.411 25.737 6800.114
+  scale 2.54
  }
 }

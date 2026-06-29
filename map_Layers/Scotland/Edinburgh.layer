@@ -1,73 +1,3 @@
-$grp GameEntity {
- {
-  coords 3865.699 29.645 4187.609
-  angles 0 -81.492 0
- }
- {
-  coords 3844.701 29.946 4199.464
-  angles 0 98.798 0
- }
-}
-$grp GenericEntity {
- {
-  components {
-   MeshObject "{65EB0A6B6221F9AA}" {
-    Object "{8B56875CC2F31D40}Assets/Structures/Military/Houses/GuardBox_01/GuardBox_01.xob"
-   }
-  }
-  coords 5179.027 19.891 5160.252
-  angles 0 -38.852 0
- }
- {
-  coords 5249.933 25.007 5370.481
-  angles 0 -134.137 0
-  scale 4.168
- }
- {
-  coords 5246.458 25.071 5331.82
-  angles 0 -44.077 0
-  scale 4.168
- }
- {
-  coords 5207.886 25.465 5328.528
-  angles 0 46.02 0
-  scale 4.168
- }
- {
-  coords 5221.934 24.229 5399.004
-  angles 0 45.374 0
-  scale 2.465
- }
- {
-  coords 5219.917 24.287 5397.078
-  angles 0 -134.251 0
-  scale 2.465
- }
- {
-  coords 5182.321 24.875 5359.129
-  angles 0 45.374 0
-  scale 2.465
- }
- {
-  coords 5180.304 24.933 5357.205
-  angles 0 -134.251 0
-  scale 2.465
- }
- {
-  coords 5237.26 18.696 5425.938
-  angles 0 -21.681 0
- }
- {
-  coords 5210.926 18.427 5408.194
-  angles 0 -46.778 0
-  scale 1.514
- }
- {
-  coords 5170.828 18.56 5368.984
-  angles 0 -46.778 0
-  scale 1.514
- }
-}
 $grp PolylineShapeEntity {
  {
   coords 5540.035 18.545 5459.239
@@ -1543,7 +1473,7 @@ $grp PolylineShapeEntity {
     Position 40.532 1.7 -83.033
    }
    ShapePoint "{66730C39061D0D92}" {
-    Position 77.306 0.022 -48.679
+    Position 77.522 0.022 -48.377
    }
    ShapePoint "{66730C3906DD3578}" {
     Position 72.97 0.022 -43.969
@@ -1601,178 +1531,190 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m.et" {
       {
-       coords 32.695 0.499 -64.006
-       angles 0 -194.758 0
+       coords 32.694 0.521 -64.006
+       angles 0 -194.76 0
       }
       {
-       coords 31.426 1.203 -71.68
-       angles 0 54.122 0
+       coords 31.425 1.203 -71.679
+       angles 0 54.113 0
       }
       {
-       coords 72.845 0.017 -52.715
-       angles 0 -42.138 0
+       coords 72.79 0.018 -52.671
+       angles 0 -42.221 0
       }
       {
-       coords 75.977 0.022 -50.162
-       angles 0 -115.903 0
+       coords 77.331 0.022 -48.844
+       angles 0 -131.819 0
       }
       {
-       coords 68.541 0.022 -38.95
-       angles 0 -129.517 0
+       coords 68.43 0.022 -38.63
+       angles 0 -130.487 0
       }
       {
-       coords 64.9 0.022 -34.534
-       angles 0 -129.938 0
+       coords 64.714 0.022 -34.278
+       angles 0 -130.186 0
       }
       {
-       coords 46.748 0.022 -14.071
-       angles 0 -133.574 0
+       coords 46.534 0.022 -13.838
+       angles 0 -133.636 0
       }
       {
-       coords 44.079 0.022 -11.253
-       angles 0 -136.066 0
+       coords 43.863 0.022 -11.023
+       angles 0 -136.205 0
       }
       {
-       coords 39.97 0.022 -7.269
-       angles 0 -140.593 0
+       coords 39.744 0.022 -7.049
+       angles 0 -140.83 0
       }
       {
-       coords 35.571 0.022 -3.602
-       angles 0 -151.555 0
+       coords 35.331 0.022 -3.398
+       angles 0 -152.265 0
       }
       {
-       coords 32.175 0.022 -1.715
-       angles 0 -162.388 0
+       coords 31.912 0.022 -1.553
+       angles 0 -163.254 0
       }
       {
-       coords 28.481 0.022 -0.52
-       angles 0 -168.126 0
+       coords 28.2 0.018 -0.416
+       angles 0 -168.458 0
       }
       {
-       coords 22.886 0.119 0.68
-       angles 0 -174.309 0
+       coords 22.598 -0.087 0.752
+       angles 0 -174.635 0
       }
       {
-       coords 17.197 0.338 1.267
-       angles 0 -179.607 0
+       coords 15.072 -0.363 1.485
+       angles 0 -181.701 0
       }
       {
-       coords 11.474 0.428 1.315
-       angles 0 -181.933 0
+       coords 11.194 -0.462 1.374
+       angles 0 -182.619 0
       }
       {
-       coords 7.596 0.37 1.193
-       angles 0 -184.293 0
+       coords 5.477 -0.532 1.121
+       angles 0 -185.108 0
       }
       {
-       coords 3.73 0.214 0.903
-       angles 0 -184.293 0
-      }
-      {
-       coords 1.208 0.025 -6.852
-       angles 0 78.177 0
+       coords 1.165 -0.407 -6.845
+       angles 0 77.831 0
       }
      }
      $grp SCR_DestructibleEntity : "{4546AD2CC984193B}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_2m.et" {
       {
-       coords 28.952 0.987 -64.992
-       angles 0 -194.758 0
+       coords 28.951 0.987 -64.992
+       angles 0 -194.76 0
       }
       {
-       coords 38.699 1.603 -80.837
-       angles 0 50.151 0
+       coords 33.699 1.337 -74.823
+       angles 0 54.113 0
       }
       {
-       coords 74.282 0.022 -46.672
-       angles 0 -115.903 0
+       coords 75.663 0.022 -50.065
+       angles 0 -42.221 0
       }
       {
-       coords 66.071 0.022 -35.956
-       angles 0 -129.517 0
+       coords 74.744 0.022 -45.952
+       angles 0 -131.819 0
       }
       {
-       coords 41.285 0.022 -8.56
-       angles 0 -136.066 0
+       coords 65.911 0.022 -35.678
+       angles 0 -130.487 0
       }
       {
-       coords 36.971 0.022 -4.806
-       angles 0 -140.593 0
+       coords 41.062 0.022 -8.337
+       angles 0 -136.205 0
       }
       {
-       coords 24.685 0.06 0.278
-       angles 0 -168.126 0
+       coords 36.735 0.022 -4.598
+       angles 0 -140.83 0
       }
       {
-       coords 19.028 0.277 1.065
-       angles 0 -174.309 0
+       coords 24.399 -0.042 0.36
+       angles 0 -168.458 0
       }
       {
-       coords 13.317 0.423 1.294
-       angles 0 -179.607 0
+       coords 18.737 -0.238 1.114
+       angles 0 -174.635 0
       }
       {
-       coords 2.003 0.034 -10.65
-       angles 0 78.177 0
+       coords 16.904 -0.302 1.286
+       angles 0 -174.635 0
+      }
+      {
+       coords 7.318 -0.52 1.196
+       angles 0 -182.619 0
+      }
+      {
+       coords 1.612 -0.495 0.776
+       angles 0 -185.108 0
+      }
+      {
+       coords 1.983 -0.313 -10.638
+       angles 0 77.831 0
       }
      }
      SCR_DestructibleEntity : "{4EF4686F9F99FE80}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_Pole.et" {
-      coords 8.456 0.204 -10.712
-      angles 0 -17.951 0
+      coords 9.62 -0.286 -10.333
+      angles 0 -17.838 0
      }
      $grp SCR_DestructibleEntity : "{A86BB734C60AEF9C}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m_D.et" {
       {
-       coords 63.06 0.022 -61.569
-       angles 0 -42.138 0
+       coords 63.017 0.022 -61.54
+       angles 0 -42.221 0
       }
       {
-       coords 67.952 0.022 -57.142
-       angles 0 -42.138 0
-      }
-      {
-       coords 2.218 0.018 -12.733
-       angles 0 -17.951 0
+       coords 67.904 0.022 -57.106
+       angles 0 -42.221 0
       }
      }
      $grp SCR_DestructibleEntity : "{D4101A467FE8E7EE}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_8m.et" {
       {
-       coords 26.84 0.955 -65.339
-       angles 0 54.122 0
+       coords 26.837 0.955 -65.34
+       angles 0 54.113 0
       }
       {
-       coords 39.857 1.675 -82.562
-       angles 0 -42.138 0
+       coords 34.764 1.401 -76.326
+       angles 0 49.304 0
       }
       {
-       coords 45.657 0.85 -77.314
-       angles 0 -42.138 0
+       coords 39.845 1.675 -82.567
+       angles 0 -42.221 0
       }
       {
-       coords 51.458 0.201 -72.065
-       angles 0 -42.138 0
+       coords 45.638 1.31 -77.31
+       angles 0 -42.221 0
       }
       {
-       coords 57.259 0.022 -66.817
-       angles 0 -42.138 0
+       coords 51.431 0.442 -72.053
+       angles 0 -42.221 0
       }
       {
-       coords 73.521 0.022 -44.987
-       angles 0 -129.517 0
+       coords 57.224 0.022 -66.796
+       angles 0 -42.221 0
       }
       {
-       coords 62.412 0.022 -31.556
-       angles 0 -131.034 0
+       coords 73.512 0.022 -44.582
+       angles 0 -130.487 0
       }
       {
-       coords 57.274 0.022 -25.652
-       angles 0 -131.034 0
+       coords 62.212 0.022 -31.311
+       angles 0 -131.069 0
       }
       {
-       coords 52.143 0.022 -19.741
-       angles 0 -133.574 0
+       coords 57.07 0.022 -25.41
+       angles 0 -131.069 0
       }
       {
-       coords -0.396 -0.014 0.809
-       angles 0 78.177 0
+       coords 51.935 0.022 -19.503
+       angles 0 -133.636 0
+      }
+      {
+       coords -0.484 -0.462 0.805
+       angles 0 77.831 0
+      }
+      {
+       coords 2.211 -0.253 -12.718
+       angles 0 -17.838 0
       }
      }
     }
@@ -41200,18 +41142,6 @@ $grp PolylineShapeEntity {
 }
 $grp SCR_DestructibleBuildingEntity {
  {
-  coords 5192.981 5.732 5370.158
-  angles 0 -43.75 0
- }
- {
-  coords 5187.069 -0.692 5323.469
-  angles 0 -134.335 0
- }
- {
-  coords 5309.088 0.111 5433.299
-  angles 0 -103.576 0
- }
- {
   components {
    SCR_DestructibleBuildingComponent "{5D7AD09D18B36140}" {
     Enabled 0
@@ -41238,22 +41168,6 @@ $grp SCR_DestructibleBuildingEntity {
     coords -3.2 0 1.486
    }
   }
- }
- {
-  coords 3876.468 -0.306 4190.528
-  angles 0 96.824 0
- }
- {
-  coords 3834.036 0 4195.304
-  angles 0 -84.022 0
- }
- {
-  coords 5179.274 18.687 5203.834
-  angles 0 -22.766 0
- }
- {
-  coords 5209.527 5.746 5385.968
-  angles 0 -43.43 0
  }
 }
 $grp SplineShapeEntity {
@@ -87971,15 +87885,61 @@ $grp GenericEntity : "{1A1CE09F7BCA6650}Prefabs/Props/Wrecks/S105_wreck/S105_wre
 }
 $grp SCR_DestructibleBuildingEntity : "{1A774A9DF37FE9CA}Prefabs/Structures/Services/Government/MunicipalOffice_E_01/MunicipalOffice_E_01_beige.et" {
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{59CECCA793482AE8}" {
+      SourceMaterial "MunicipalOffice_E_01_Ext"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{59CECCA793482A9E}" {
+      SourceMaterial "MunicipalOffice_E_01_Ext_Details"
+      AssignedMaterial "{9DFB1BC6E1CFAE74}Assets/Structures/Services/Government/MunicipalOffice_E_01/Data/MunicipalOffice_E_01_Ext_Details_Grey.emat"
+     }
+     MaterialAssignClass "{59CECCA793482A87}" {
+      SourceMaterial "MunicipalOffice_E_01_Ext_MLOD"
+      AssignedMaterial "{AF0469DB486B2079}Assets/Structures/Services/Government/MunicipalOffice_E_01/Data/MunicipalOffice_E_01_Ext_MLOD_Beige.emat"
+     }
+    }
+   }
+  }
   coords 5226.405 -0.063 5213.526
   angles 0 -132.215 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{59CECCA793482AE8}" {
+      SourceMaterial "MunicipalOffice_E_01_Ext"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{59CECCA793482A9E}" {
+      SourceMaterial "MunicipalOffice_E_01_Ext_Details"
+      AssignedMaterial "{9DFB1BC6E1CFAE74}Assets/Structures/Services/Government/MunicipalOffice_E_01/Data/MunicipalOffice_E_01_Ext_Details_Grey.emat"
+     }
+     MaterialAssignClass "{59CECCA793482A87}" {
+      SourceMaterial "MunicipalOffice_E_01_Ext_MLOD"
+      AssignedMaterial "{AF0469DB486B2079}Assets/Structures/Services/Government/MunicipalOffice_E_01/Data/MunicipalOffice_E_01_Ext_MLOD_Beige.emat"
+     }
+    }
+   }
+  }
   coords 5244.699 0 5191.393
   angles 0 -129.029 0
  }
 }
 SCR_DestructibleBuildingEntity : "{1B68F3EE279C97A1}Prefabs/Structures/Commercial/Pubs/PubVillage_E_2L01/PubVillage_E_2L01_V1.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69BAA2358A7CF2CB}" {
+     SourceMaterial "Pub_Village_E_01_L_Ext"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+   }
+  }
+ }
  coords 5264.398 0.725 5172.66
  angles 0 46.16 0
 }
@@ -88869,7 +88829,7 @@ $grp GenericEntity : "{29063844DEEAC10B}Prefabs/Props/Garbage/Generic/Junk_01/Ju
   angles 0 -78.985 0
  }
  {
-  coords 5317.558 18.362 5450.796
+  coords 5320.822 18.318 5452.394
   angles -2.739 -11.586 0
  }
  {
@@ -89431,18 +89391,82 @@ $grp Tree : "{35A00F5C3C6CE2FB}PrefabLibrary/CainLibrary/Vegetation/Trees/t_betu
 }
 $grp SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01.et" {
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA235EE10FB79}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA235EE10FB68}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5405.618 0.359 5385.108
   angles 0 -7.712 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA23666D856CE}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA23666D856FD}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5405.492 -0.033 5448.668
   angles 0 172.98 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA23663386F04}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA23663386F2D}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5393.483 0.219 5446.587
   angles 0 170.299 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA2366AF276AF}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA2366AF276DD}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Foundation"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA2366AF276DA}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA2366AF276D8}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Sides"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5363.889 0.098 5440.352
   angles 0 169.465 0
  }
@@ -89469,10 +89493,38 @@ $grp SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Hous
   angles 0 -114.554 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA235C7ABA37A}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA235C7ABA36B}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5534.132 -0.546 5231.886
   angles 0 -56.378 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA235BAE31C65}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Back"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA235BAE0E395}" {
+      SourceMaterial "House_Town_E_2I01_Ext_Front"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+    }
+   }
+  }
   coords 5527.407 -0.621 5221.72
   angles 0 -53.697 0
  }
@@ -89684,7 +89736,17 @@ SCR_DestructibleBuildingEntity : "{43A29CB361BBBA26}Prefabs/Structures/Culture/C
  angles 0 108.423 0
 }
 SCR_DestructibleBuildingEntity : "{448D2BD96AA205E4}Prefabs/Structures/Houses/Village/HouseAddon_Garage_E_01/HouseAddon_Garage_E_01.et" {
- coords 5462.666 -0.292 5427.165
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69BAA23639A322F9}" {
+     SourceMaterial "HouseAddon_Garage_E_01_EXT_base"
+     AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+    }
+   }
+  }
+ }
+ coords 5462.666 -0.238 5427.165
  angles 0 -99.513 0
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{450AAF1BC197F8C9}Prefabs/Rocks/Granite/Granite_Cluster_01.et" {
@@ -90333,18 +90395,58 @@ SCR_DestructibleBuildingEntity : "{60333F74EE12B52F}Prefabs/Structures/Houses/Vi
 }
 $grp GenericEntity : "{614C7CCF23A6FB40}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_single.et" {
  {
+  components {
+   MeshObject "{555683DEAEA049BB}" {
+    Materials {
+     MaterialAssignClass "{69BAA23140B79614}" {
+      SourceMaterial "Color_palette"
+      AssignedMaterial "{ACAC235176BA538E}Common/Materials/default_black.emat"
+     }
+    }
+   }
+  }
   coords 5431.054 0.025 5221.525
   angles 0 91.843 0
  }
  {
+  components {
+   MeshObject "{555683DEAEA049BB}" {
+    Materials {
+     MaterialAssignClass "{69BAA23140B4A5DC}" {
+      SourceMaterial "Color_palette"
+      AssignedMaterial "{ACAC235176BA538E}Common/Materials/default_black.emat"
+     }
+    }
+   }
+  }
   coords 5456.231 0 5243.23
   angles 0 178.628 0
  }
  {
+  components {
+   MeshObject "{555683DEAEA049BB}" {
+    Materials {
+     MaterialAssignClass "{69BAA231323B59D3}" {
+      SourceMaterial "LampStreetE_03"
+      AssignedMaterial "{ACAC235176BA538E}Common/Materials/default_black.emat"
+     }
+    }
+   }
+  }
   coords 5372.508 -0.001 5286.865
   angles 0 -27.804 0
  }
  {
+  components {
+   MeshObject "{555683DEAEA049BB}" {
+    Materials {
+     MaterialAssignClass "{69BAA23132389DC1}" {
+      SourceMaterial "LampStreetE_03"
+      AssignedMaterial "{ACAC235176BA538E}Common/Materials/default_black.emat"
+     }
+    }
+   }
+  }
   coords 5344.449 0 5272.758
   angles 0 -26.906 0
  }
@@ -90400,11 +90502,6 @@ $grp GenericEntity : "{625787D8FEB15355}Prefabs/Structures/BuildingParts/Lights/
   coords 4744.118 33.779 5673.856
   angles 0 91.818 0
  }
-}
-GenericEntity : "{632172193E638A2D}Prefabs/Vegetation/Tree/Roots/Roots_02_Base.et" {
- coords 5518.542 20.18 5399.25
- angles 50.46 80.402 16.686
- scale 2.49
 }
 GenericEntity : "{653CF84332F15181}Prefabs/Vegetation/Tree/Debris/TreeDebris_base.et" {
  coords 5527.519 19.76 5397.681
@@ -90599,31 +90696,91 @@ $grp GenericEntity : "{6FB18A7B32767402}Prefabs/Structures/Civilian/SportGrounds
 }
 $grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideSquareWide.et" {
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275918799}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5204.57 24.216 5362.552
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275918D8F}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5209.745 24.187 5367.541
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232759160C1}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5215.049 24.149 5372.584
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275916EEF}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5220.889 24.134 5378.196
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591B141}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5199.753 24.239 5357.832
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591B806}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5190.55 24.296 5353.668
   angles -0.893 135.081 89.799
   scale 2.25
@@ -90634,176 +90791,526 @@ $grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Ent
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2310D30675D}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5186.282 24.398 5358.935
   angles -0.893 135.081 89.799
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D6266}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5215.656 24.393 5397.418
   angles 0.34 -44.543 90.207
   scale 2.25
  }
  {
-  coords 5225.314 24.311 5387.377
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232759174F6}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5224.054 24.322 5388.896
   angles 0.34 -44.543 90.207
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2325880D88B}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5220.364 24.352 5392.589
   angles 0.34 -44.543 90.207
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D6001}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5210.089 24.487 5402.962
   angles 0.34 -44.543 90.207
   scale 2.25
  }
  {
-  coords 5252.575 24.332 5367.408
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232759019C4}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5252.481 24.525 5367.317
   angles -0.211 46.072 90.337
   scale 2.25
  }
  {
-  coords 5232.315 24.51 5383.2
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232684C6C8A}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5232.212 24.483 5383.101
   angles -0.341 135.079 89.795
   scale 2.25
  }
  {
-  coords 5237.957 24.415 5377.279
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232684C609C}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5237.903 24.539 5377.224
   angles -0.341 135.079 89.795
   scale 2.25
  }
  {
-  coords 5243.032 24.37 5372.192
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232684C8A02}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5242.95 24.605 5372.107
   angles -0.341 135.079 89.795
   scale 2.25
  }
  {
-  coords 5259.177 24.338 5355.593
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275900B17}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5259.177 24.499 5355.592
   angles -0.341 135.079 89.795
   scale 2.25
  }
  {
-  coords 5262.638 24.307 5352.121
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2324C4061E0}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5262.64 24.527 5352.121
   angles -0.341 135.079 89.795
   scale 2.25
  }
  {
-  coords 5258.16 24.34 5366.623
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327590121A}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5258.202 24.575 5366.663
   angles 0.34 -44.543 90.207
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA232759040AE}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5238.066 24.7 5318.413
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
-  coords 5270.14 24.339 5354.424
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275903C93}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5270.142 24.525 5354.423
   angles 0.34 -44.543 90.207
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275903773}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5264.375 24.566 5343.764
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275902AF9}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5258.539 24.581 5338.152
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275905CA7}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5253.23 24.619 5333.107
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327590576A}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5248.059 24.648 5328.12
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275904FA1}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5243.241 24.671 5323.401
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327590798A}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5232.581 24.826 5313.15
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA23275906DB0}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5227.934 24.852 5308.67
   angles -0.217 46.072 90.89
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591A3FA}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5188.589 24.989 5343.764
   angles -0.34 135.212 89.794
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591E4BD}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5218.925 24.967 5312.781
   angles -0.34 135.212 89.794
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591F13B}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5215.515 24.982 5316.303
   angles -0.34 135.212 89.794
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591FFB4}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5214.623 24.926 5327.178
   angles 0.339 -44.41 90.208
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591C6E2}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5208.886 24.981 5328.107
   angles -0.212 46.205 90.337
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591CD4D}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5199.313 25.054 5332.848
   angles -0.34 135.212 89.794
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2327591D456}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5194.305 25.118 5337.998
   angles -0.34 135.212 89.794
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D7339}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5208.912 24.463 5401.851
   angles 0.334 -42.953 90.216
   scale 2.25
  }
  {
-  coords 5198.796 24.474 5387.404
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D67F5}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5198.796 24.539 5387.404
   angles -0.211 46.051 90.338
   scale 2.25
  }
  {
-  coords 5203.967 24.446 5392.391
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D6145}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5203.967 24.511 5392.391
   angles -0.211 46.051 90.338
   scale 2.25
  }
  {
-  coords 5193.092 24.485 5386.63
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D628D}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5193.092 24.583 5386.63
   angles 0.347 -46.579 90.194
   scale 2.25
  }
  {
-  coords 5183.655 24.49 5371.479
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D9F37}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5183.655 24.529 5371.479
   angles -0.189 42.42 90.351
   scale 2.25
  }
  {
-  coords 5188.585 24.511 5376.71
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D9C68}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5188.585 24.563 5376.71
   angles -0.2 44.202 90.345
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E462E78D}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5181.164 24.495 5368.881
   angles -0.211 46.051 90.338
   scale 2.25
@@ -90814,17 +91321,47 @@ $grp StaticModelEntity : "{7022F1A36DC9510C}Prefabs/Structures/BuildingParts/Ent
   scale 2.25
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA2325D857529}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5210.896 16.96 5402.568
   angles 0.34 -44.543 -178.756
   scale 2.25
  }
  {
-  coords 5194.047 24.476 5390.01
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E17D66B0}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5194.047 24.544 5390.01
   angles 0.339 -44.533 90.207
   scale 2.25
  }
  {
-  coords 5197.037 24.498 5392.952
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA231E7C3DE0B}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5197.038 24.572 5392.952
   angles 0.339 -44.533 90.207
   scale 2.25
  }
@@ -90879,9 +91416,13 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   components {
    MeshObject "{506EDA9D46FC6C06}" {
     Materials {
-     MaterialAssignClass "{69B0F98F60B79E44}" {
+     MaterialAssignClass "{69BAA232154B7A9F}" {
       SourceMaterial "House_Town_E_2I02_v2_Ext1"
       AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{69BAA232154B7A87}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
      }
     }
    }
@@ -90890,18 +91431,86 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   angles 0 176.602 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232176DD054}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232176DD041}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5456.917 0 5453.514
   angles 0 176.014 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA23211325928}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{5804E58BEEB592DD}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_Tower_Stones_01.emat"
+     }
+     MaterialAssignClass "{69BAA23211325954}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+     MaterialAssignClass "{69BAA23211325949}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5438.563 0 5451.534
   angles 0 173.234 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA2321A96D146}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{5804E58BEEB592DD}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_Tower_Stones_01.emat"
+     }
+     MaterialAssignClass "{69BAA2321A96D174}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+     MaterialAssignClass "{69BAA2321A96D16E}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5420.326 0 5449.389
   angles 0 172.862 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA2321B35EB9A}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA2321B35EB82}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA2321B35EBBD}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5378.648 0.06 5441.981
   angles 0 169.347 0
  }
@@ -90909,9 +91518,13 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   components {
    MeshObject "{506EDA9D46FC6C06}" {
     Materials {
-     MaterialAssignClass "{69B0F98F67D1F855}" {
+     MaterialAssignClass "{69BAA23200F3C025}" {
       SourceMaterial "House_Town_E_2I02_v2_Ext1"
       AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{69BAA23200F3C051}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
      }
     }
    }
@@ -90920,30 +91533,156 @@ $grp SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLi
   angles 0 -179.193 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232192E77EB}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{5804E58BEEB592DD}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_Tower_Stones_01.emat"
+     }
+     MaterialAssignClass "{69BAA232192E7716}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{5804E58BEEB592DD}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_Tower_Stones_01.emat"
+     }
+     MaterialAssignClass "{69BAA232192E7712}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5348.786 0.094 5439.616
   angles 0 169.347 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232D4EED14A}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4EED177}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4EED172}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5541.894 -0.159 5245.512
   angles 0 -57.079 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232D4E28263}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4E28197}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4E28192}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5571.728 0.622 5291.778
   angles 0 -58.538 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232D4EDE26A}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4EDE198}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4EDE193}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5562.027 0.212 5276.188
   angles 0 -58.166 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232D4EF7D85}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4EF7DB7}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232D4EF7DB4}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5552.122 -0.08 5260.609
   angles 0 -56.318 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232CFF5356C}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232CFF53499}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232CFF53495}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5511.915 -0.56 5203.908
   angles 0 -48.026 0
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA232CFEBD6CA}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext1"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232CFEBD6FD}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext2"
+      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+     }
+     MaterialAssignClass "{69BAA232CFEBD6F9}" {
+      SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+      AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+     }
+    }
+   }
+  }
   coords 5499.304 -0.302 5190.717
   angles 0 -45.636 0
  }
@@ -91016,10 +91755,6 @@ $grp GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck/M923A1
   angles 0 47.241 0
  }
  {
-  coords 5299.66 18.218 5447.583
-  angles 0 -105.113 0
- }
- {
   coords 5215.786 18.292 5479.929
   angles 0 47.241 0
  }
@@ -91031,10 +91766,6 @@ $grp GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck/M923A1
 SCR_DestructibleEntity : "{781EA3F923020334}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_4m_B.et" {
  coords 5486.895 0.006 5420.747
  angles 0 -83.358 0
-}
-GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
- coords 5308.397 18.438 5447.523
- angles 0 -11.882 0
 }
 $grp Tree : "{797885BBBC1FEFA0}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_juniperus_communis_1s.et" {
  {
@@ -91415,10 +92146,12 @@ $grp StaticModelEntity : "{7DB7CAFF8C188DB7}PrefabLibrary/DefaultLibrary/Infrast
 }
 $grp GenericEntity : "{7E5A4578657283E6}Prefabs/Props/Industrial/GasTank_02_red.et" {
  {
-  coords 5299.766 18.438 5444.202
+  coords 5299.696 18.438 5445.49
+  angles 0 -98.698 0
  }
  {
-  coords 5299.354 18.437 5444.149
+  coords 5299.811 18.437 5445.091
+  angles 0 -98.698 0
  }
 }
 DecalEntity : "{7F5B851062D38849}Prefabs/Decals/Markings/Decal_CrossWalk_01.et" {
@@ -91647,7 +92380,8 @@ $grp SCR_DestructibleEntity : "{895C12D7154D9CE6}Prefabs/Structures/Walls/Pipe/P
  }
 }
 GenericEntity : "{899CD560D9E20D92}Prefabs/Props/Industrial/GasTank_02_base.et" {
- coords 5298.885 18.438 5444.053
+ coords 5299.977 18.438 5444.642
+ angles 0 -98.698 0
 }
 $grp SCR_IndestructibleEnvironmentalEntity : "{8A403C31EFCF153F}Prefabs/Rocks/Granite/GraniteStone_03.et" {
  {
@@ -91680,498 +92414,1738 @@ GenericEntity : "{8BAF6C3ACF99388E}Prefabs/Props/Garbage/Cardboard/Cardboard_Pil
 }
 $grp GenericEntity : "{8C8F12C64813023F}PrefabLibrary/DefaultLibrary/Props/Civilian/Sport/BenchStadium_01.et" {
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6208DAB}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5241.991 18.873 5337.566
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E9D3A}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5244.75 18.863 5340.327
   angles 0 -44.978 0
  }
  {
-  coords 5253.129 18.872 5348.705
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6236161}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5253.104 18.872 5348.686
   angles 0 -44.978 0
  }
  {
-  coords 5250.318 18.863 5345.878
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6239473}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5250.292 18.863 5345.859
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620C73D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5247.563 18.873 5343.127
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6230E61}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5260.088 21.891 5347.506
   angles 0 -44.978 0
  }
  {
-  coords 5255.884 18.862 5351.459
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6238952}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5255.858 18.862 5351.44
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620B7E1}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5246.196 21.902 5333.615
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620A80D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5248.954 21.892 5336.367
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6230340}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5257.333 21.901 5344.748
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E9C10}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5251.769 21.902 5339.172
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C62335C3}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5254.522 21.892 5341.93
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C623288A}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5253.107 20.844 5343.248
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620BEBB}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5244.782 20.854 5334.933
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E9CBB}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5247.539 20.844 5337.691
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C62342EC}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5255.916 20.853 5346.068
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620F351}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5250.353 20.854 5340.494
   angles 0 -44.978 0
  }
  {
-  coords 5258.674 20.843 5348.826
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6236FF0}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
+  coords 5258.648 20.843 5348.807
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6237523}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5257.298 19.91 5350.141
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6234840}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5254.542 19.92 5347.384
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6235A04}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5251.734 19.911 5344.562
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620F911}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5248.975 19.921 5341.807
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620D542}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5246.164 19.911 5339.005
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E9E60}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5243.407 19.921 5336.252
   angles 0 -44.978 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621D6A7}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5225.447 18.894 5321.318
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621CFCF}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5228.231 18.884 5324.044
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6207F10}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5236.698 18.893 5332.337
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6203CB3}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5233.857 18.884 5329.543
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6200B01}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5231.072 18.894 5326.819
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C62071FF}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5243.644 21.912 5331.068
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E639A}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5239.479 18.883 5335.064
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621AD7A}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5229.608 21.923 5317.322
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621EEDB}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5232.394 21.913 5320.046
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E99C4}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5240.861 21.922 5328.337
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621E10E}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5235.235 21.923 5322.819
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6202694}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5238.017 21.913 5325.547
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6202D9E}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5236.618 20.865 5326.881
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621A5CE}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5228.208 20.875 5318.656
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621F406}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5230.992 20.865 5321.385
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6204C59}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5239.457 20.874 5329.677
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6201A67}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5233.836 20.875 5324.152
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234A94E9ECA}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5242.243 20.864 5332.402
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C62062FA}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5240.88 19.931 5333.729
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C6204617}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5238.096 19.941 5331.005
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C620351E}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5235.259 19.932 5328.208
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C62012DB}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5232.474 19.942 5325.484
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621C270}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5229.629 19.932 5322.711
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234C621DE2D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5226.848 19.942 5319.986
   angles 0 -44.378 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080BFF6}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5214.706 19.225 5362.256
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080B0FD}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5211.932 19.215 5359.515
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480835F3F}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5203.499 19.224 5351.193
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080E519}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5206.327 19.215 5353.999
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080EC52}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5209.1 19.225 5356.732
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808372B0}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5196.545 22.243 5352.437
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348083526C}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5200.725 19.214 5348.456
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808095FF}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5210.529 22.254 5366.235
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080D707}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5207.753 22.244 5363.5
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480833FFF}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5199.318 22.253 5355.174
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080C9CF}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5204.92 22.254 5360.716
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348083054D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5202.147 22.244 5357.975
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348083130E}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5203.552 21.195 5356.649
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480808E36}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5211.935 21.205 5364.909
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080AAB6}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5209.159 21.195 5362.167
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808332C8}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5200.725 21.205 5353.849
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080C2F9}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5206.327 21.205 5359.382
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480837C6D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5197.953 21.195 5351.104
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480834A9C}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5199.318 20.261 5349.783
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808325AD}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5202.091 20.271 5352.521
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480831869}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5204.917 20.262 5355.326
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080FB35}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5207.696 20.272 5358.063
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080DD74}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5210.523 20.262 5360.846
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808086BD}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5213.3 20.272 5363.58
   angles 0 135.397 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081B574}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5231.355 19.246 5378.396
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081E10A}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5228.555 19.236 5375.688
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808021F0}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5220.033 19.245 5367.45
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808028E8}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5222.894 19.236 5370.226
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480801A0E}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5225.697 19.246 5372.931
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480807A72}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5213.096 22.264 5368.766
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480809D6D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5217.236 19.235 5364.742
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081DF70}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5227.222 22.275 5382.42
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081D076}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5224.418 22.264 5379.713
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808047A8}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5215.897 22.274 5371.477
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081CA2F}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5221.559 22.275 5376.958
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480803067}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5218.756 22.264 5374.25
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480803D9F}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5220.15 21.216 5372.905
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081A6F6}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5228.611 21.226 5381.077
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081F75D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5225.811 21.216 5378.366
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480804EF7}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5217.291 21.226 5370.129
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081FCF4}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5222.949 21.226 5375.617
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA234808072E6}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5214.491 21.216 5367.425
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480806B6B}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5215.844 20.282 5366.087
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080545D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5218.644 20.292 5368.793
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23480800BB5}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5221.5 20.284 5371.571
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348080128C}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5224.303 20.294 5374.276
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081E831}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5227.166 20.284 5377.031
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2348081AD81}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5229.965 20.294 5379.737
   angles 0 135.996 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276DEAE}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5201.189 19.852 5337.52
   angles 0 46.554 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA233627112C8}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5218.673 18.784 5322.229
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276983F}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5217.332 19.831 5320.836
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23362769178}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5214.621 19.841 5323.635
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23362711E89}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5215.963 18.794 5325.029
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276EA14}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5213.184 18.785 5327.884
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23362768BF4}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5211.845 19.832 5326.488
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276BFDF}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5209.133 19.842 5329.294
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276F7C2}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5210.479 18.795 5330.686
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276FCF4}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5207.723 18.785 5333.543
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276B2D2}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5206.375 19.832 5332.147
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276A551}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5203.671 19.842 5334.952
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276C93A}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5205.009 18.795 5336.344
   angles 0 45.955 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2336276D7AE}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5202.549 18.805 5338.898
   angles 0 46.554 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045C15}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5252.133 18.656 5361.554
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045827}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5241.299 18.655 5372.982
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045F2E}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5245.401 19.693 5371.48
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA233720423E6}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5255.94 19.713 5360.337
   angles 0 -132.849 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2337204591D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5239.973 19.692 5377.189
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045FA8}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5244.047 18.646 5370.098
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045EBD}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5248.083 19.703 5368.647
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045E3F}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5246.723 18.656 5367.269
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045D89}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5249.448 18.646 5364.384
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045BA8}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5238.617 18.645 5375.811
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045D17}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5250.811 19.693 5365.765
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA233720458B2}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5242.654 19.702 5374.364
   angles 0 -133.448 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA2337204239D}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5254.567 18.666 5358.974
   angles 0 -132.849 0
  }
  {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{69BAA23372045C99}" {
+      SourceMaterial "BenchStadium_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5253.485 19.703 5362.932
   angles 0 -133.448 0
  }
@@ -92357,6 +94331,16 @@ SCR_DestructibleBuildingEntity : "{A4B690DEC3D39B11}Prefabs/Structures/Infrastru
  angles 0 -92.315 0
 }
 SCR_DestructibleBuildingEntity : "{A5548DAA9EEA018F}Prefabs/Structures/Military/Houses/GuardHouse_05/Guardhouse_USSR_05_checkpoint.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69BAA236850CC376}" {
+     SourceMaterial "Guardhouse_USSR_01_EXT_Walls_4FA879926750F29C"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+   }
+  }
+ }
  coords 5327.307 0.005 5268.605
  angles 0 -116.95 0
 }
@@ -93422,26 +95406,86 @@ $grp Tree : "{C8E68C4C6AF159DA}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
 }
 $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233A4E06B6C}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5229.143 22.939 5384.777
   angles 0 135.571 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233A4E09DAB}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5234.286 19.384 5381.036
   angles 0 45.363 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233AE4F3795}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5198.279 19.345 5345.433
   angles 0 -135.877 -1.774
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233A8AF36AD}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5194.492 22.91 5350.477
   angles 0 135.571 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233AE4F25AB}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5198.95 19.33 5344.763
   angles 0 -134.877 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233B710B5EB}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5262.191 22.596 5349.517
   angles 0 -47.4 0
  }
@@ -93450,18 +95494,58 @@ $grp StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Ent
   angles 0 43.366 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233E67AEBB2}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5196.011 24.871 5396.653
   angles 0 45.787 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233E67AFBAF}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5199.669 21.706 5400.25
   angles 0 45.787 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233E50BBA00}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5185.326 24.86 5385.789
   angles 0 -135.638 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233E50B8506}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Narrow"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5181.741 21.386 5382.048
   angles 0 -135.638 0
  }
@@ -93512,6 +95596,16 @@ $grp StaticModelEntity : "{CB228FDEA1146C60}PrefabLibrary/DefaultLibrary/Infrast
   angles 0 -133.801 0
  }
  {
+  components {
+   MeshObject "{547A8804AA50F719}" {
+    Materials {
+     MaterialAssignClass "{69BAA233B59FF04F}" {
+      SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+    }
+   }
+  }
   coords 5263.723 23.175 5349.477
   angles 0 -49.131 0
  }
@@ -94212,6 +96306,16 @@ $grp SCR_DestructibleBuildingEntity : "{D97095FEEDBD5613}Prefabs/Structures/Infr
   }
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA233A15D7B6C}" {
+      SourceMaterial "Concrete_bridge_01_concrete"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5232.339 19.198 5382.784
   angles 0 135.689 0
   {
@@ -94426,6 +96530,16 @@ $grp SCR_DestructibleBuildingEntity : "{D97095FEEDBD5613}Prefabs/Structures/Infr
   }
  }
  {
+  components {
+   MeshObject "{506EDA9D46FC6C06}" {
+    Materials {
+     MaterialAssignClass "{69BAA233A395DE9C}" {
+      SourceMaterial "Concrete_bridge_01_concrete"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5215.77 19.198 5366.593
   angles 0 135.689 0
   {
@@ -95351,176 +97465,622 @@ $grp Tree : "{DA7492F3E6B63251}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_
 }
 $grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m_V2.et" {
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5197.317 20.059 5355.602
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5202.993 20.089 5361.156
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5208.652 20.059 5366.651
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5214.25 20.059 5372.124
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5219.88 20.059 5377.681
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5225.55 20.059 5383.171
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5195.618 20.059 5353.939
   angles 0 -44.063 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5175.191 20.943 5357.999
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5191.957 20.473 5341.161
   angles 0 -133.768 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5186.182 20.835 5346.607
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5180.658 20.919 5352.311
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5198.18 20.486 5334.601
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5214.671 20.365 5317.489
   angles 0 -133.768 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5209.171 20.378 5323.21
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5203.646 20.463 5328.914
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5243.392 20.078 5327.573
   angles -0.005 135.597 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5226.559 20.271 5310.916
   angles -0.005 134.618 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5232.09 20.147 5316.424
   angles -0.005 135.597 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5237.732 20.091 5322.011
   angles -0.005 135.597 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5220.256 20.344 5311.604
   angles 0 -133.768 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5260.133 20.057 5344.853
   angles -0.01 134.804 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5243.531 19.091 5327.964
   angles -0.01 133.825 -0.39
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5248.99 20.132 5333.554
   angles -0.01 134.804 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5254.554 20.076 5339.218
   angles -0.01 134.804 -0.391
   scale 1.14
  }
  {
-  coords 5238.617 19.435 5386.42
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
+  coords 5238.617 19.856 5386.42
   angles 0 -133.768 0
   scale 1.14
  }
  {
-  coords 5255.832 19.362 5368.466
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
+  coords 5255.834 19.724 5368.464
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
-  coords 5250.306 19.369 5374.171
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
+  coords 5250.308 19.738 5374.169
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
-  coords 5244.84 19.392 5379.858
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
+  coords 5244.842 19.817 5379.856
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5266.264 19.726 5350.434
   angles -0.01 134.804 0
   scale 1.14
  }
  {
-  coords 5259.341 19.352 5364.83
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
+  coords 5259.343 19.721 5364.828
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
-  coords 5234.583 19.418 5390.624
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
+  coords 5234.585 19.855 5390.622
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5217.372 19.912 5408.573
   angles 0 -133.768 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5223.594 19.925 5402.013
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5229.06 19.902 5396.326
   angles 0 -133.768 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+    }
+   }
+  }
   coords 5170.715 21.012 5362.632
   angles 0 -133.768 -0.391
   scale 1.14
@@ -95601,41 +98161,153 @@ $grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Wall
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5267.676 19.772 5349.122
   angles -0.01 134.804 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5227.868 20.317 5308.935
   angles -0.005 134.618 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5233.398 20.193 5314.442
   angles -0.005 135.597 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5239.042 20.137 5320.03
   angles -0.005 135.597 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5244.701 20.124 5325.592
   angles -0.005 135.597 0
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5250.299 20.178 5331.573
   angles -0.01 134.804 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5255.863 20.122 5337.237
   angles -0.01 134.804 -0.391
   scale 1.14
  }
  {
+  components {
+   MeshObject "{50F0A4C5B8E7DB72}" {
+    Materials {
+     MaterialAssignClass "{56B2C9781881F953}" {
+      SourceMaterial "StoneRetainingWall_01"
+      AssignedMaterial "{BA9EC0E1B123326E}Assets/Clutter/Rocks/Data/pebbledash5.emat"
+     }
+     MaterialAssignClass "{56B2C9781881F948}" {
+      SourceMaterial "StoneRetainingWall_01_MLod"
+      AssignedMaterial "{E1582A9AA7826981}Assets/Structures/Walls/Stone/Data/StoneRetainingWall_01_V2_MLod.emat"
+     }
+    }
+   }
+  }
   coords 5261.442 20.103 5342.872
   angles -0.01 134.804 0
   scale 1.14
@@ -95699,6 +98371,20 @@ $grp Tree : "{DB49D8B142D18E86}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
  }
 }
 SCR_DestructibleBuildingEntity : "{DD6953233EB10B88}Prefabs/Structures/Commercial/Pubs/PubVillage_E_1L01/PubVillage_E_1L01.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69BAA23596100E2A}" {
+     SourceMaterial "PubVillage_E_1L01_BackWalls_Ext"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+    MaterialAssignClass "{69BAA23596100E5A}" {
+     SourceMaterial "PubVillage_E_1L01_Walls_Foundation_Ext"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+   }
+  }
+ }
  coords 5290.767 0.223 5147.964
  angles 0 -156.839 0
 }

@@ -1,18 +1,18 @@
-$grp SCR_DestructibleBuildingEntity {
- {
-  coords 5199.949 -0.446 5257.218
-  angles 0 -45.966 0
- }
- {
-  coords 5203.269 -0.721 5307.205
-  angles 0 -134.723 0
- }
- {
-  coords 5160.813 -0.426 5274.373
-  angles 0 44.575 0
- }
-}
 SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Village_E_1I04t/House_Village_E_1I04t_red.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{556A2758BA2A65C6}" {
+     SourceMaterial "House_Village_E_1I04_mlod"
+     AssignedMaterial "{910B6724C0D8EECD}Assets/Structures/Houses/Village/House_Village_E_1I04/Data/House_Village_E_1I04_mlod_red.emat"
+    }
+    MaterialAssignClass "{556A2758BA2A6538}" {
+     SourceMaterial "House_Village_E_1I04_walls"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+   }
+  }
+ }
  coords 5599.521 0.157 5378.163
  angles 0 -18.288 0
 }
@@ -20,13 +20,29 @@ SCR_DestructibleBuildingEntity : "{1D550075761179CA}PrefabLibrary/DefaultLibrary
  components {
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
-    MaterialAssignClass "{69AD1DBFB7407E76}" {
-     SourceMaterial "Church_01_ExtDetails"
-     AssignedMaterial "{D8EB675C8B55975B}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_InnerWall_02.emat"
+    MaterialAssignClass "{69BAA232EE83A503}" {
+     SourceMaterial "Church_01_Decorations_11A5BD7EFE181C03"
+     AssignedMaterial "{45017121A9752681}Assets/Props/Furniture/BenchWooden_02/Data/BenchWooden_02_worn.emat"
     }
-    MaterialAssignClass "{69AD1DBFB7407D99}" {
+    MaterialAssignClass "{69BAA232EE83A529}" {
+     SourceMaterial "Church_01_ExtDetails"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+    MaterialAssignClass "{69BAA232EE83A55B}" {
      SourceMaterial "Church_01_ExtWalls"
      AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+    }
+    MaterialAssignClass "{69BAA232EE83A552}" {
+     SourceMaterial "Church_01_IntWallsDamaged_404F6413E1F9222"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+    MaterialAssignClass "{69BAA232EE83A54F}" {
+     SourceMaterial "Church_01_IntWalls_770976603FE6E573"
+     AssignedMaterial "{F39B336D56AC7D91}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerWall_01.emat"
+    }
+    MaterialAssignClass "{69BAA232EE83A548}" {
+     SourceMaterial "Church_01_Wood_F1B661A5230E8A60"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
     }
    }
   }
@@ -48,9 +64,13 @@ SCR_DestructibleBuildingEntity : "{3714AD1861F44210}PrefabLibrary/DefaultLibrary
  components {
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
-    MaterialAssignClass "{69B10A652591EBAA}" {
+    MaterialAssignClass "{69BAA23205AF1066}" {
      SourceMaterial "House_Town_E_2I02_Ext1"
-     AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+     AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
+    }
+    MaterialAssignClass "{69BAA23205AF1792}" {
+     SourceMaterial "House_Town_E_2I02_Ext3_Details"
+     AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
     }
    }
   }
@@ -80,6 +100,10 @@ SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/DefaultLibrary
  components {
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
+    MaterialAssignClass "{566CB527A6B0F4C4}" {
+     SourceMaterial "House_Prefab_2I01_ext_metal"
+     AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
     MaterialAssignClass "{566CB527A6B0F4CD}" {
      SourceMaterial "House_Prefab_2I01_ext_walls"
      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
@@ -108,9 +132,13 @@ SCR_DestructibleBuildingEntity : "{75CF81F88D4C3998}PrefabLibrary/DefaultLibrary
  components {
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
-    MaterialAssignClass "{69B0F98F6F8166C5}" {
+    MaterialAssignClass "{69BAA232024A3751}" {
      SourceMaterial "House_Town_E_2I02_v2_Ext1"
      AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
+    }
+    MaterialAssignClass "{69BAA232024A377F}" {
+     SourceMaterial "House_Town_E_2I02_v2_Ext3_Details"
+     AssignedMaterial "{DB5E3CCEE38C8FC2}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerSurface_01.emat"
     }
    }
   }
@@ -126,6 +154,16 @@ SCR_DestructibleBuildingEntity : "{BB7AA78F9AA6A2C6}PrefabsEditable/Auto/Structu
  angles 0 -111.211 0
 }
 SCR_DestructibleBuildingEntity : "{BC72C74ABB5732A8}PrefabLibrary/DefaultLibrary/Structures/Agriculture/Barn_E_01/Barn_E_01_white.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{571B276C926FF650}" {
+     SourceMaterial "Barn_E_01_Walls"
+     AssignedMaterial "{5804E58BEEB592DD}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_Tower_Stones_01.emat"
+    }
+   }
+  }
+ }
  coords 5492.104 0.872 5304.989
  angles 0 90.334 0
 }
@@ -155,6 +193,20 @@ $grp SCR_DestructibleBuildingEntity : "{CC264B8673EF22FD}PrefabsEditable/Auto/St
   angles 0 -111.254 0
   {
    SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/DefaultLibrary/Structures/Houses/House_Prefab_2I01/House_Prefab_2I01t.et" {
+    components {
+     MeshObject "{506EDA9D46FC6C06}" {
+      Materials {
+       MaterialAssignClass "{566CB527A6B0F4CD}" {
+        SourceMaterial "House_Prefab_2I01_ext_walls"
+        AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+       }
+       MaterialAssignClass "{69BAA232DF189A5D}" {
+        SourceMaterial "House_Prefab_2I01_ext_walls2"
+        AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+       }
+      }
+     }
+    }
     coords 92.323 0.31 36.373
     angles 0 105.221 0
    }
