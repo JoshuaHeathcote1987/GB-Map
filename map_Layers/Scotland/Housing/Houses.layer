@@ -2,13 +2,13 @@ SCR_DestructibleBuildingEntity : "{0734A1B6BD445637}PrefabLibrary/DefaultLibrary
  components {
   MeshObject "{506EDA9D46FC6C06}" {
    Materials {
-    MaterialAssignClass "{556A2758BA2A65C6}" {
-     SourceMaterial "House_Village_E_1I04_mlod"
-     AssignedMaterial "{910B6724C0D8EECD}Assets/Structures/Houses/Village/House_Village_E_1I04/Data/House_Village_E_1I04_mlod_red.emat"
-    }
     MaterialAssignClass "{556A2758BA2A6538}" {
      SourceMaterial "House_Village_E_1I04_walls"
      AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
+    }
+    MaterialAssignClass "{556A2758BA2A65C6}" {
+     SourceMaterial "House_Village_E_1I04_mlod"
+     AssignedMaterial "{910B6724C0D8EECD}Assets/Structures/Houses/Village/House_Village_E_1I04/Data/House_Village_E_1I04_mlod_red.emat"
     }
    }
   }
@@ -110,6 +110,9 @@ SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/DefaultLibrary
     }
    }
   }
+  SCR_DestructibleBuildingComponent "{5D7AD09CDEC9DA72}" {
+   Enabled 0
+  }
  }
  coords 5491.273 0.431 5430.106
  angles 0 -3.143 0
@@ -205,6 +208,9 @@ $grp SCR_DestructibleBuildingEntity : "{CC264B8673EF22FD}PrefabsEditable/Auto/St
         AssignedMaterial "{C5911A3926B657CA}Assets/Structures/Cultural/Castles/Castle_01/Data/Castle_01_TowerCornerStones.emat"
        }
       }
+     }
+     SCR_DestructibleBuildingComponent "{5D7AD09CDEC9DA72}" {
+      Enabled 0
      }
     }
     coords 92.323 0.31 36.373

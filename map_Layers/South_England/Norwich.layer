@@ -244073,7 +244073,6 @@ $grp SplineShapeEntity {
       {
        coords 225.807 17.34 -67.982
        angles 1.785 91.958 1.473
-       scale 1
       }
       {
        coords 235.143 17.139 -63.887
@@ -245586,7 +245585,7 @@ $grp SplineShapeEntity {
       }
       {
        coords 93.134 8.356 -38.693
-       angles 1.847 -14.634 -0
+       angles 1.847 -14.634 0
        scale 1.192
       }
       {
@@ -508964,6 +508963,11 @@ StaticModelEntity : "{40F16A79339AACC8}Prefabs/Structures/Cultural/Statues/Statu
  }
 }
 SCR_DestructibleBuildingEntity : "{41C5165E46EEBE30}PrefabLibrary/CainLibrary/Structures/Houses/Apartment/ApartmentBuilding_USSR_5I01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{65BCF8EB0467EC31}" {
+   Enabled 0
+  }
+ }
  coords 7336.95 1.523 1546.036
  angles 0 -5.063 0
 }

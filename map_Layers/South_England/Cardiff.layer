@@ -313706,6 +313706,11 @@ SCR_DestructibleBuildingEntity : "{3F91DEEC9C78E473}Prefabs/Structures/Military/
  angles 0 -177.577 0
 }
 SCR_DestructibleBuildingEntity : "{41C5165E46EEBE30}PrefabLibrary/CainLibrary/Structures/Houses/Apartment/ApartmentBuilding_USSR_5I01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{65BCF8EB0467EC31}" {
+   Enabled 0
+  }
+ }
  coords 6914.551 -0.395 1428.67
  angles 0 153.137 0
 }
