@@ -126903,9 +126903,19 @@ $grp SCR_DestructibleBuildingEntity : "{323D779591F59437}Prefabs/Structures/Wall
 }
 $grp SCR_DestructibleBuildingEntity : "{329AA27D49D3CA99}Prefabs/Structures/City/5_Floor_Appartment.et" {
  {
+  components {
+   SCR_DestructibleBuildingComponent "{631E1E819031BD37}" {
+    Enabled 0
+   }
+  }
   coords 2726.233 0.343 4594.374
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{631E1E819031BD37}" {
+    Enabled 0
+   }
+  }
   coords 2665.475 1.788 4595.002
   angles 0 1.063 0
  }
@@ -128105,6 +128115,11 @@ $grp Tree : "{B3453920EE605F13}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_c
  }
 }
 SCR_DestructibleBuildingEntity : "{C3085C63B543921D}Prefabs/Structures/Houses/Town/School.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{631E1E819031BD37}" {
+   Enabled 0
+  }
+ }
  coords 2496.55 4.271 4656.036
  angles 0 93.538 0
 }

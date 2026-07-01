@@ -17349,6 +17349,11 @@ $grp GenericEntity : "{F2C5628C6D12840C}Prefabs/Props/Industrial/CargoContainers
  }
 }
 SCR_DestructibleBuildingEntity : "{F36CD6CE90DEF9B2}Prefabs/Structures/Industrial/Cranes/GantryCrane_03/GantryCrane_03_base.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{64A8D31B4FD1DEE6}" {
+   Enabled 0
+  }
+ }
  coords 3786.876 9.56 4055.524
  angles 0 96.574 0
 }

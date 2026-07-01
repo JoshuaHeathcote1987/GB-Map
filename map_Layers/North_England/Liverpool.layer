@@ -525712,6 +525712,9 @@ $grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Hous
      }
     }
    }
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
+   }
   }
   coords 5699.432 0.23 3096.988
   angles 0 -2.728 0
@@ -525733,6 +525736,9 @@ $grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Hous
       AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
      }
     }
+   }
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
    }
   }
   coords 5742.736 0.139 3104.198

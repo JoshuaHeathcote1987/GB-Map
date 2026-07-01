@@ -141393,9 +141393,6 @@ $grp DecalEntity : "{0B6336953A280DC2}Prefabs/Decals/Asphalt/Decal_Asphalt_Crack
   scale 3.38
  }
 }
-SCR_PowerPole : "{0F4569CE231DF603}Prefabs/Structures/Infrastructure/Power/Powerlines/LightningRod_01/LightningRod_01.et" {
- coords 2263.05 33.331 2581.588
-}
 Tree : "{124518D13290A687}Prefabs/Vegetation/Bush/b_salix_cinerea_0.et" {
  coords 2292.422 0 2521.267
 }
@@ -141417,6 +141414,11 @@ $grp SCR_DestructibleBuildingEntity : "{1321E90FE0CF8C3C}Prefabs/Structures/Cult
  }
 }
 SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_USSR_5I01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{65BCF8EB0467EC31}" {
+   Enabled 0
+  }
+ }
  coords 2099.643 -0.176 2452.554
  angles 0 22.534 0
 }
@@ -141999,6 +142001,11 @@ $grp GenericEntity : "{31CE12B3D1F6789E}Prefabs/Structures/Military/Flags/FlagPo
  }
 }
 SCR_DestructibleBuildingEntity : "{329AA27D49D3CA99}Prefabs/Structures/City/5_Floor_Appartment.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{631E1E819031BD37}" {
+   Enabled 0
+  }
+ }
  coords 2243.436 1.322 2322.428
  angles 0 113.718 0
 }

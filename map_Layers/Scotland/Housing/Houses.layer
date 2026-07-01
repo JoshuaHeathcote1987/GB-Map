@@ -112,6 +112,7 @@ SCR_DestructibleBuildingEntity : "{50309EB34CA81D70}PrefabLibrary/DefaultLibrary
   }
   SCR_DestructibleBuildingComponent "{5D7AD09CDEC9DA72}" {
    Enabled 0
+   EnableDamage 0
   }
  }
  coords 5491.273 0.431 5430.106
@@ -211,6 +212,7 @@ $grp SCR_DestructibleBuildingEntity : "{CC264B8673EF22FD}PrefabsEditable/Auto/St
      }
      SCR_DestructibleBuildingComponent "{5D7AD09CDEC9DA72}" {
       Enabled 0
+      EnableDamage 0
      }
     }
     coords 92.323 0.31 36.373

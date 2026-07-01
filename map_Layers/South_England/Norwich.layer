@@ -506840,6 +506840,11 @@ $grp SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Hous
   angles 0 -26.084 0
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65BCF8EB0467EC31}" {
+    Enabled 0
+   }
+  }
   coords 5700.917 -0.167 3211.932
   angles 0 -90.525 0
  }
@@ -508602,6 +508607,11 @@ GenericEntity : "{3CF50AE706F1246C}Prefabs/Structures/Civilian/SportGrounds/Play
  angles 0 99.778 0
 }
 SCR_DestructibleBuildingEntity : "{3E242C5D950D820C}Prefabs/Structures/City/Appartment Complex 5 Floors.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{631E1E819031BD37}" {
+   Enabled 0
+  }
+ }
  coords 3353.785 -0.649 3210.605
  angles 0 -179.951 0
 }
@@ -509224,20 +509234,45 @@ $grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Hous
   angles 0 -53.819 0
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
+   }
+  }
   coords 3403.774 0.007 3111.512
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
+   }
+  }
   coords 3418.022 0.607 3205.989
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
+   }
+  }
   coords 5751.255 0.177 3179.844
   angles 0 0.685 0
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
+   }
+  }
   coords 5734.511 0.211 3180.052
   angles 0 0.685 0
  }
  {
+  components {
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
+   }
+  }
   coords 5710.886 0.321 3146.205
   angles 0 0.685 0
  }
@@ -509250,6 +509285,9 @@ $grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Hous
       AssignedMaterial "{F346D5FEC3E54604}Assets/Clutter/Rocks/Data/pebbledash2.emat"
      }
     }
+   }
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
    }
   }
   coords 5667.542 0.024 3095.791
@@ -509264,6 +509302,9 @@ $grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Hous
       AssignedMaterial "{5CFB32B5E0D96225}Assets/Clutter/Rocks/Data/pebbledash.emat"
      }
     }
+   }
+   SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+    Enabled 0
    }
   }
   coords 5650.464 -0.115 3095.027
@@ -509757,6 +509798,11 @@ SCR_DestructibleBuildingEntity : "{5BD8B2D0D66EEFA7}Prefabs/Structures/Commercia
  angles 0 97.979 0
 }
 SCR_DestructibleBuildingEntity : "{5C081C56DEEE0F64}Prefabs/Structures/Military/Houses/ApartmentBuilding_3I01/ApartmentBuilding_USSR_3I01_V2.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{6588E4637D957AFF}" {
+   Enabled 0
+  }
+ }
  coords 3433.634 -0.166 3110.363
 }
 SCR_DestructibleBuildingEntity : "{5CC8525A69118B0C}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_orange.et" {

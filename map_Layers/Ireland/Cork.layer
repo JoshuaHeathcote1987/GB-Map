@@ -41646,6 +41646,11 @@ $grp Tree : "{425761285F36BF16}PrefabLibrary/DefaultLibrary/Vegetation/Trees/t_b
  }
 }
 SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_gray.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{65A74D4542DD89B7}" {
+   Enabled 0
+  }
+ }
  coords 2431.282 -0.11 1734.252
  angles 0 -25.966 0
 }

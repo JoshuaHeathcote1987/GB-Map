@@ -1,0 +1,410 @@
+$grp GenericEntity : "{01F5301E60BA6915}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_UnitedKingdom.et" {
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6774.064 36.621 1435.408
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6766.89 36.523 1437.932
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6747.815 43.892 1491.648
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6896.223 10.867 1546.926
+  angles 47.182 0 0
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6908.113 12.528 1528.42
+  angles 57.222 -178.702 0.911
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6976.148 8.172 1537.561
+  angles -0.525 -179.472 0.493
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 6952.678 5.971 1534.887
+  angles -0.525 -179.472 0.493
+ }
+ {
+  components {
+   SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+    m_sDefaultMaterial "{2982521676444E84}Assets/Props/Fabric/Flags/Data/Flag_1_2_UK.emat"
+   }
+  }
+  coords 7010.808 6.911 1539.061
+  angles -0.525 -179.472 0.493
+ }
+}
+$grp GenericEntity : "{32A0E35C8C724DC1}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V2_sealand.et" {
+ {
+  coords 8283.721 26.688 1707.249
+ }
+ {
+  coords 8306.356 26.688 1707.24
+ }
+ {
+  coords 8288.217 17.844 1751.255
+ }
+ {
+  coords 8306.89 17.844 1752.09
+ }
+}
+SCR_DestructibleBuildingEntity : "{6DF062B77D4F27B5}Prefabs/Structures/Infrastructure/Bridges/BridgeConcrete_E_01_small/BridgeConcrete_E_01_small.et" {
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{69C2B08CBA7B48FA}" {
+     SourceMaterial "BridgeConcrete_E_01_small"
+     AssignedMaterial "{700C0007E314AC23}Assets/Structures/Industrial/Large_Redbarn/Data/DoorMaterialsRedBarn.emat"
+    }
+   }
+  }
+ }
+ coords 8299.018 17.259 1696.877
+ angles 0 -91.229 0
+ scale 4.257
+ {
+  SCR_DestructibleBuildingEntity : "{2B6615E4983D11D9}Prefabs/Structures/Industrial/Cranes/GantryCrane_01/GantryCrane_E_01.et" {
+   components {
+    MeshObject "{506EDA9D46FC6C06}" {
+     Materials {
+      MaterialAssignClass "{69C2B08E6649C788}" {
+       SourceMaterial "GantryCrane_01_main"
+       AssignedMaterial "{A03CD2F07EDFC589}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_Red.emat"
+      }
+     }
+    }
+   }
+   coords 2.453 0.557 0.882
+   angles 0 91.229 0
+   scale 0.235
+  }
+  $grp StaticModelEntity : "{35E14C4C60C4A4F3}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01/BuildingAddons/WeightStation_01_platform.et" {
+   {
+    components {
+     MeshObject "{56ACD1C4DC78C87B}" {
+      Materials {
+       MaterialAssignClass "{69C2B089491A4E53}" {
+        SourceMaterial "WeightStation_01_platform"
+        AssignedMaterial "{20587DE3A21024DD}Assets/Props/Construction/ContainerMetal_01/data/MetalContainer_01_Green.emat"
+       }
+      }
+     }
+    }
+    coords 6.27 1.977 1.587
+    angles -0.544 91.229 0
+    scale 0.256
+   }
+   {
+    components {
+     MeshObject "{56ACD1C4DC78C87B}" {
+      Materials {
+       MaterialAssignClass "{69C2B089491A5AD3}" {
+        SourceMaterial "WeightStation_01_platform"
+        AssignedMaterial "{20587DE3A21024DD}Assets/Props/Construction/ContainerMetal_01/data/MetalContainer_01_Green.emat"
+       }
+      }
+     }
+    }
+    coords 6.231 1.977 0.331
+    angles -0.544 91.229 0
+    scale 0.256
+   }
+   {
+    components {
+     MeshObject "{56ACD1C4DC78C87B}" {
+      Materials {
+       MaterialAssignClass "{69C2B089491A595C}" {
+        SourceMaterial "WeightStation_01_platform"
+        AssignedMaterial "{20587DE3A21024DD}Assets/Props/Construction/ContainerMetal_01/data/MetalContainer_01_Green.emat"
+       }
+      }
+     }
+    }
+    coords 6.202 1.978 -0.896
+    angles -0.544 91.229 0
+    scale 0.256
+   }
+   {
+    coords 6.262 1.54 1.546
+    angles 0.544 -88.771 180
+    scale 0.256
+   }
+   {
+    coords 6.18 1.546 -0.92
+    angles 0.544 -88.771 180
+    scale 0.256
+   }
+   {
+    coords 6.297 1.556 0.288
+    angles 0.544 -88.771 180
+    scale 0.256
+   }
+  }
+  $grp GenericEntity : "{562156E7147026C9}Prefabs/Structures/Industrial/Houses/FactoryHallWIP_01/FactoryHallWIP_01_pillar.et" {
+   {
+    coords 4.697 1.446 -1.481
+    angles 0 -88.771 180
+    scale 0.15
+   }
+   {
+    coords 7.639 1.367 -1.568
+    angles 0 -88.771 180
+    scale 0.15
+   }
+   {
+    coords 7.662 1.386 0.052
+    angles 0 -88.771 180
+    scale 0.15
+   }
+   {
+    coords 4.719 1.465 0.139
+    angles 0 -88.771 180
+    scale 0.15
+   }
+  }
+  $grp GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/ConcretePipe_01_Large.et" {
+   {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      EnableDamage 0
+     }
+    }
+    coords 2.467 -5.304 -0.666
+    angles 0 91.229 -87.782
+    scale 0.99
+   }
+   {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+      EnableDamage 0
+     }
+    }
+    coords 10.024 -5.315 -0.72
+    angles 0 91.229 -87.782
+    scale 0.99
+   }
+   {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+      EnableDamage 0
+     }
+    }
+    coords 10.021 -3.08 -0.806
+    angles 0 91.229 -87.782
+    scale 0.99
+   }
+   {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+      EnableDamage 0
+     }
+    }
+    coords 2.464 -3.069 -0.752
+    angles 0 91.229 -87.782
+    scale 0.99
+   }
+   {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+      EnableDamage 0
+     }
+    }
+    coords 10.021 -0.937 -0.883
+    angles 0 91.229 -87.782
+    scale 0.99
+   }
+   {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+    coords 2.464 -0.926 -0.829
+    angles 0 91.229 -87.782
+    scale 0.99
+   }
+  }
+  $grp StaticModelEntity : "{6FB3D1DC0464CCA3}Prefabs/Structures/BuildingParts/Entry/ControlTowerMilitary_E_02_stairs.et" {
+   {
+    coords 7.381 2.021 -1.775
+    angles 0 91.229 0
+    scale 0.235
+   }
+   {
+    coords 8.159 1.263 -1.791
+    angles 0 91.229 0
+    scale 0.235
+   }
+  }
+  $grp SCR_DestructibleEntity : "{A533A4F9A7020219}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_01_4m_blue.et" {
+   {
+    components {
+     MeshObject "{56DE7C8DCD0F4E0A}" {
+      Materials {
+       MaterialAssignClass "{1DB2A7650236693B}" {
+        SourceMaterial "NetFence_Wire"
+        AssignedMaterial "{769D2549ED606578}Assets/Structures/Walls/Net/Data/NetFence_Wire_brown.emat"
+       }
+       MaterialAssignClass "{1DB2A76502366925}" {
+        SourceMaterial "NetFence_01"
+        AssignedMaterial "{71A4325BB429D6D4}Assets/Structures/Walls/Net/Data/NetFence_01_brown.emat"
+       }
+      }
+     }
+    }
+    coords 8.292 0.557 1.79
+    angles 0 0.546 0
+    scale 0.235
+   }
+   {
+    components {
+     MeshObject "{56DE7C8DCD0F4E0A}" {
+      Materials {
+       MaterialAssignClass "{1DB2A7650236693B}" {
+        SourceMaterial "NetFence_Wire"
+        AssignedMaterial "{769D2549ED606578}Assets/Structures/Walls/Net/Data/NetFence_Wire_brown.emat"
+       }
+       MaterialAssignClass "{1DB2A76502366925}" {
+        SourceMaterial "NetFence_01"
+        AssignedMaterial "{71A4325BB429D6D4}Assets/Structures/Walls/Net/Data/NetFence_01_brown.emat"
+       }
+      }
+     }
+    }
+    coords 9.46 0.553 1.78
+    angles 0 0.546 0
+    scale 0.235
+   }
+   {
+    components {
+     MeshObject "{56DE7C8DCD0F4E0A}" {
+      Materials {
+       MaterialAssignClass "{1DB2A7650236693B}" {
+        SourceMaterial "NetFence_Wire"
+        AssignedMaterial "{769D2549ED606578}Assets/Structures/Walls/Net/Data/NetFence_Wire_brown.emat"
+       }
+       MaterialAssignClass "{1DB2A76502366925}" {
+        SourceMaterial "NetFence_01"
+        AssignedMaterial "{71A4325BB429D6D4}Assets/Structures/Walls/Net/Data/NetFence_01_brown.emat"
+       }
+      }
+     }
+    }
+    coords 10.604 0.557 1.782
+    angles 0 91.89 0
+    scale 0.235
+   }
+   {
+    components {
+     MeshObject "{56DE7C8DCD0F4E0A}" {
+      Materials {
+       MaterialAssignClass "{1DB2A7650236693B}" {
+        SourceMaterial "NetFence_Wire"
+        AssignedMaterial "{769D2549ED606578}Assets/Structures/Walls/Net/Data/NetFence_Wire_brown.emat"
+       }
+       MaterialAssignClass "{1DB2A76502366925}" {
+        SourceMaterial "NetFence_01"
+        AssignedMaterial "{71A4325BB429D6D4}Assets/Structures/Walls/Net/Data/NetFence_01_brown.emat"
+       }
+      }
+     }
+    }
+    coords 10.562 0.557 0.612
+    angles 0 91.89 0
+    scale 0.235
+   }
+   {
+    components {
+     MeshObject "{56DE7C8DCD0F4E0A}" {
+      Materials {
+       MaterialAssignClass "{1DB2A7650236693B}" {
+        SourceMaterial "NetFence_Wire"
+        AssignedMaterial "{769D2549ED606578}Assets/Structures/Walls/Net/Data/NetFence_Wire_brown.emat"
+       }
+       MaterialAssignClass "{1DB2A76502366925}" {
+        SourceMaterial "NetFence_01"
+        AssignedMaterial "{71A4325BB429D6D4}Assets/Structures/Walls/Net/Data/NetFence_01_brown.emat"
+       }
+      }
+     }
+    }
+    coords 10.543 0.581 -0.534
+    angles 0 -178.11 0
+    scale 0.235
+   }
+  }
+  SCR_DestructibleBuildingEntity : "{AFB66B5D636927AD}PrefabLibrary/DefaultLibrary/Structures/Industrial/Workshop_02.et" {
+   coords 6.245 0.63 1.082
+   angles 0 -90.087 0
+   scale 0.235
+  }
+  GenericEntity : "{DB968E267E913B7A}Prefabs/Structures/Signs/Warnings/SignsWarning_Circle_01_base.et" {
+   components {
+    MeshObject "{54969A6AAAADA251}" {
+     Materials {
+      MaterialAssignClass "{69C2B0888F286D43}" {
+       SourceMaterial "Sign_Restrictive_NoEntryBothDir"
+       AssignedMaterial "{E476E9A20EAEBC61}Assets/Clutter/Rocks/Data/pebbledash6.emat"
+      }
+      MaterialAssignClass "{69C2B0888F286D63}" {
+       SourceMaterial "Sign_Restrictive_NoEntryBothDir_MLOD"
+       AssignedMaterial "{FCE12DF2D09A7C5A}Assets/Props/Industrial/CrawlerCraneWreck_01/Data/CrawlerCraneWreck_01_cabin_yellow_arm.emat"
+      }
+     }
+    }
+   }
+   coords 6.305 1.788 0.189
+   angles 89.831 91.228 -0.001
+   scale 5.055
+  }
+  StaticModelEntity : "{E95CB8F4C4B2C210}Prefabs/Decals/Markings/Runway/Decal_Helipad_01.et" {
+   coords 6.297 2.032 0.213
+   angles 0 91.229 0
+   scale 0.256
+  }
+  StaticModelEntity : "{F80AA4A51B6CDD31}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Narrow_8m.et" {
+   coords 7.383 1.973 -1.687
+   angles 0 -179.113 0
+   scale 0.235
+  }
+ }
+}
